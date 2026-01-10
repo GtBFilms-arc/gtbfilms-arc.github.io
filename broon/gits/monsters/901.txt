@@ -1,0 +1,7 @@
+KNIGHT-LORE
+	Knight-lores are believed to be fanatical followers of Sundonak who roam the land searching 
+for anyone, or anything, to do battle with. They are masters of combat, and appear as heavily armoured 
+knights who fight with great, two-handed swords. They live only to serve Sundonak by fighting all they 
+can. They strive to prove their superiority at combat, and fight honourably and fairly to this end. 
+Sundonak has shown his appreciation of these warriors by granting them an incredible resistance to 
+magic, forcing opponents to fight them in 'fair' melee combat. 

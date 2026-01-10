@@ -1,0 +1,6 @@
+MIST REAVER
+	Mist reavers are soul-less entities of the night. They appear at sundown and wander the lands 
+of Kharne in search of victims on which to feed. Mist reavers are powerful undead monsters, and as 
+such they require living beings from which they can drain precious life-energy, which often results in 
+the death of the victim. They are also drawn to the magical energy inherent in mages and priests alike, 
+and they have been known to attack adventuring parties, feeding on those killed by their lethal touch.

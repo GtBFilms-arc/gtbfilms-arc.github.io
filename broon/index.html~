@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>www.broon.co.uk</title>
+
+<link rel="icon" type="image/vmd.microsoft.icon" href="http://ww.gonadovision.homeip.net/photostory/favicon.ico" />
+
+<script language="javascript" src="progressbar.js">
+/*
+Preload Image (w/ progress bar) script II (By BGAudioDr@aol.com, http://www.bgaudiodr.iwarp.com/)
+Script featured on Dynamicdrive.com
+For full source, TOS, and 100's more DHTML scripts, visit http://www.dynamicdrive.com
+*/
+</script>
+
+
+<script type="text/javascript">
+if (document.images) {
+	a_1 = new Image;
+	a_1.src = "animation2.gif";
+	a_2 = new Image;
+	a_2.src = "oldtv_right_blur.gif";
+	a_3 = new Image;
+	a_3.src = "oldtv_left_blur.gif"
+	a_4 = new Image;
+	a_4.src = "oldtv_down_blur.gif"
+	a_5 = new Image;
+	a_5.src = "oldtv_angry_blur.gif"
+	a_6 = new Image;
+	a_6.src = "oldtv_up_blur.gif"
+
+
+	left_btn_1_off = new Image;
+	left_btn_1_off.src = "mini1_off.gif";
+	left_btn_1_on = new Image;
+	left_btn_1_on.src = "mini1_on.gif";
+
+	left_btn_2_off = new Image;
+	left_btn_2_off.src = "mini2_off.gif";
+	left_btn_2_on = new Image;
+	left_btn_2_on.src = "mini2_on.gif";
+
+	left_btn_3_off = new Image;
+	left_btn_3_off.src = "mini3_off.gif";
+	left_btn_3_on = new Image;
+	left_btn_3_on.src = "mini3_on.gif";
+
+	left_btn_4_off = new Image;
+	left_btn_4_off.src = "mini4_off.gif";
+	left_btn_4_on = new Image;
+	left_btn_4_on.src = "mini4_on.gif";
+
+	left_btn_5_off = new Image;
+	left_btn_5_off.src = "mini5_off.gif";
+	left_btn_5_on = new Image;
+	left_btn_5_on.src = "mini5_on.gif";
+
+	left_btn_6_off = new Image;
+	left_btn_6_off.src = "mini6_off.gif";
+	left_btn_6_on = new Image;
+	left_btn_6_on.src = "mini6_on.gif";
+
+	left_btn_7_off = new Image;
+	left_btn_7_off.src = "mini7_off.gif";
+	left_btn_7_on = new Image;
+	left_btn_7_on.src = "mini7_on.gif";
+
+	left_btn_8_off = new Image;
+	left_btn_8_off.src = "mini8_off.gif";
+	left_btn_8_on = new Image;
+	left_btn_8_on.src = "mini8_on.gif";
+
+	right_btn_1_off = new Image;
+	right_btn_1_off.src = "mini11_off.gif";
+	right_btn_1_on = new Image;
+	right_btn_1_on.src = "mini11_on.gif";
+
+	right_btn_2_off = new Image;
+	right_btn_2_off.src = "mini12_off.gif";
+	right_btn_2_on = new Image;
+	right_btn_2_on.src = "mini12_on.gif";
+
+	right_btn_3_off = new Image;
+	right_btn_3_off.src = "mini13_off.gif";
+	right_btn_3_on = new Image;
+	right_btn_3_on.src = "mini13_on.gif";
+
+	bottom_btn_off = new Image;
+	bottom_btn_off.src = "photostories_off.gif";
+	bottom_btn_on = new Image;
+	bottom_btn_on.src = "photostories_on.gif";
+}
+
+
+
+function showImg(imgname, rollname, btnimg, btnname)
+{
+	if (document.images) {
+		window.onerror = null;
+		document.getElementById(rollname).src=eval(imgname + ".src");
+		document.getElementById(btnname).src=eval(btnimg + ".src");
+	}
+}
+
+</script>
+
+<style type="text/css">
+body {background-color: #DFDFEF;
+font-family: Arial,Verdana, sans-serif;
+color: #666676;
+font-size: 80%;
+margin: 0pt;}
+h1 {
+   margin-top: 8px;
+   margin-bottom: 5px;
+   padding: 3px;
+   border: thin solid #9F9FAF;
+   background: #BFBFcF;
+   color: white;
+   clear: both;
+   }
+p {background-color: transparent}
+</style>
+
+<meta name="verify-v1" content="fBvPw9vVM9SmaN4X8yjaeArpT+jg48eoFlcQAb6msJY=" />
+</head>
+
+
+<!-- 29/08/2008 ALB
+This is legacy code, no longer required, as we can load the default (at rest) face image
+when we define the image on the page
+<body onload="showImg('a_1','roll_a')">
+-->
+
+<body>
+
+<center>
+<table width=70% border=0><tr>
+<td>
+<center>
+<H1>Welcome to www.broon.co.uk</H1>
+
+<table width=40% border=0>
+<tr><td>
+<center>
+<H4><a href="http://www.broon.co.uk" onmouseover="showImg('a_6','roll_a','a_6','roll_a') " 
+onmouseout="showImg('a_1','roll_a','a_1','roll_a') " >http://www.broon.co.uk</a></H4>
+</center>
+</td>
+<td>
+<center>
+<a href="http://www.apache.com" onmouseover="showImg('a_6','roll_a','a_6','roll_a') " 
+onmouseout="showImg('a_1','roll_a','a_1','roll_a') " ><img src="apache_pb.gif" alt="Apache Webserver" border=0></a>
+</center>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- 29/09/2008 ALB
+Now define big table to hold the main page content - it's one big table, 3 columns, 1 row. The left and right columns 
+consist of sub-tables, which hold all the buttons, these sub-tables are only one column, and as many rows as required -->
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="60%">
+		<tr>
+
+<!-- 29/09/2008 ALB
+Now to define the left hand column of the table (it contains a sub-table holding all the left buttons) -->
+
+			<td valign="top" width="150">
+<center>Mini Sites</center>
+				<table border="1" cellpadding="3" cellspacing="0" width="100%" id="rolllist">
+					<tr>
+						<td><center><a href="http://www.gonadovision.homeip.net/epat19/speccy/index.html" onmouseover="showImg('a_2','roll_a','left_btn_1_on','left_btn_1') " 
+onmouseout="showImg('a_1','roll_a','left_btn_1_off','left_btn_1') " ><img src="mini1_off.gif" width="60" height="40" border="0" id="left_btn_1"></a>
+<br><small>Brown Software</small></center></td>
+
+						<td><center><a href="dublin/index.html" onmouseover="showImg('a_2','roll_a','left_btn_2_on','left_btn_2') " 
+onmouseout="showImg('a_1','roll_a','left_btn_2_off','left_btn_2') " ><img src="mini2_off.gif" width="60" height="40" border="0" id="left_btn_2"></a>
+<br><small>Dublin Experience</small></center></td>
+					</tr>
+					<tr>
+						<td><center><a href="tortillazo/index.html" onmouseover="showImg('a_2','roll_a','left_btn_3_on','left_btn_3') " 
+onmouseout="showImg('a_1','roll_a','left_btn_3_off','left_btn_3') " ><img src="mini3_off.gif" width="60" height="40" border="0" id="left_btn_3"></a>
+<br><small>Tortillazo!</small></center></td>
+					
+						<td><center><a href="constellar/index.html" onmouseover="showImg('a_2','roll_a','left_btn_4_on','left_btn_4') " 
+onmouseout="showImg('a_1','roll_a','left_btn_4_off','left_btn_4') " ><img src="mini4_off.gif" width="60" height="40" border="0" id="left_btn_4"></a>
+<br><small>Constellar.co.uk</small></center></td>
+					</tr>
+					<tr>
+						<td><center><a href="http://www.gonadovision.homeip.net/epat19/gits/home.htm" onmouseover="showImg('a_2','roll_a','left_btn_7_on','left_btn_7') " 
+onmouseout="showImg('a_1','roll_a','left_btn_7_off','left_btn_7') " ><img src="mini7_off.gif" width="60" height="40" border="0" id="left_btn_7"></a>
+<br><small>Grand Illuminated Thunderbolt Syndicate</small></center></td>
+				
+						<td><center><a href="spam/index.html" onmouseover="showImg('a_2','roll_a','left_btn_5_on','left_btn_5') " 
+onmouseout="showImg('a_1','roll_a','left_btn_5_off','left_btn_5') " ><img src="mini5_off.gif" width="60" height="40" border="0" id="left_btn_5"></a>
+<br><small>Make Money Fast</small></center></td>
+					</tr>
+					<tr>
+						<td><center><a href="scotland/index.html" onmouseover="showImg('a_2','roll_a','left_btn_6_on','left_btn_6') " 
+onmouseout="showImg('a_1','roll_a','left_btn_6_off','left_btn_6') " ><img src="mini6_off.gif" width="60" height="40" border="0" id="left_btn_6"></a>
+<br><small>Guide to Scotland</small></center></td>
+					
+						<td><center><a href="artwork/index.html" onmouseover="showImg('a_2','roll_a','left_btn_8_on','left_btn_8') " 
+onmouseout="showImg('a_1','roll_a','left_btn_8_off','left_btn_8') " ><img src="mini8_off.gif" width="60" height="40" border="0" id="left_btn_8"></a>
+<br><small>Miscellaneous Artwork</small></center></td>
+					</tr>
+				</table>
+			</td>
+<!-- 29/09/2008 ALB
+Now to define the centre of the table (the face image), initially use 'at rest' graphic -->
+
+			<td align="center"  valign="center" align="center"><p>
+				<a href='javascript:onClick=alert("Hey! Click the side buttons, not my face!")' onmouseover="showImg('a_5','roll_a','a_5','roll_a') " 
+onmouseout="showImg('a_1','roll_a','a_1','roll_a') " ><img src="animation2.gif" id="roll_a" border=0></a>
+
+<a href="gallery-broon/index.php" onmouseover="showImg('a_4','roll_a','bottom_btn_on','bottom_btn') " 
+onmouseout="showImg('a_1','roll_a','bottom_btn_off','bottom_btn') " ><img src="photostories_off.gif" id="bottom_btn" border=0></a>
+			</td>
+
+<!-- 29/09/2008 ALB
+This code redundant, left in incase a secondary central image is required in the future.
+			<td valign="top" valign="center" align="left">
+				<br><img src="b_blank.gif" id="roll_b">
+			</td> 
+-->
+
+<!-- 29/09/2008 ALB
+Now to define the right hand column of the main table, again it holds a sub-table to hold all the buttons -->
+
+	<td valign="top" width="150">
+<center>Full Sites</center>
+				<table border="1" cellpadding="3" cellspacing="0" width="100%" id="rolllist">
+					<tr>
+						<td><center><a href="http://www.GtBFilms.co.uk" onmouseover="showImg('a_3','roll_a','right_btn_1_on','right_btn_1') " 
+onmouseout="showImg('a_1','roll_a','right_btn_1_off','right_btn_1') " ><img src="mini11_off.gif" width="120" height="80" border="0" id="right_btn_1"></a>
+<br><small>GtBFilms.co.uk</small></center></td>
+					</tr>
+					<tr>
+						<td><center><a href="http://www.JaneBushell.co.uk" onmouseover="showImg('a_3','roll_a','right_btn_2_on','right_btn_2') " 
+onmouseout="showImg('a_1','roll_a','right_btn_2_off','right_btn_2') " ><img src="mini12_off.gif" width="120" height="80" border="0" id="right_btn_2"></a>
+<br><small>JaneBushell.co.uk</small></center></td>
+					</tr>
+					<tr>
+						<td><center><a href="http://www.ECVS.co.uk" onmouseover="showImg('a_3','roll_a','right_btn_3_on','right_btn_3') " 
+onmouseout="showImg('a_1','roll_a','right_btn_3_off','right_btn_3') " ><img src="mini13_off.gif" width="120" height="80" border="0" id="right_btn_3"></a>
+<br><small>ECVS.co.uk</small></center></td>
+					</tr>
+				</table>
+
+		</tr>
+	</table>
+<p>
+<p>
+<!-- Now for people with no Javascript, text links -->
+
+<HR width="50%">
+| <a href="gallery-broon/index.php">Photostories</a> |
+| <a href="http://www.GtBFilms.co.uk">GtBFilms.co.uk</a> |
+| <a href="http://www.JaneBushell.co.uk">JaneBushell.co.uk</a> |
+| <a href="http://www.ECVS.co.uk">ECVS.co.uk</a> |
+
+<p>
+
+| <a href="http://www.gonadovision.homeip.net/epat19/speccy/index.html">Brown Software</a> |
+| <a href="dublin/index.html">Dublin Experience</a> |
+| <a href="tortillazo/index.html">Tortillazo!</a> |
+| <a href="constellar/index.html">Constellar.co.uk</a> |
+| <a href="http://www.gonadovision.homeip.net/epat19/gits/home.htm">GITS</a> |
+| <a href="spam/index.html">Make Money Fast</a> |
+| <a href="scotland/index.html">Guide to Scotland</a> |
+| <a href="artwork/index.html">Misc. Artwork</a> |
+
+
+
+
+
+<HR width="50%">
+
+</center>
+
+</body>
+</html>
+

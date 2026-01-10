@@ -1,0 +1,5 @@
+JACKAL
+	The jackal is a small doglike scavenger which feeds on the 
+corpses of creatures killed by other more powerful carnivores. They 
+are cowardly by nature and will never fight if it can be avoided. 
+They are found in most terrain types but are no threat to adventurers.

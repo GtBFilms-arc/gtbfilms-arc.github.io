@@ -1,0 +1,10 @@
+NIMROD
+	Nimrods are the supernatural revenants of an ancient race of warriors. Their mortal forms died 
+long ago during a quest to destroy all of Kharne's evil monsters. They are human in appearance but 
+they average nine feet in height and have six arms, each of which has a more than reasonable skill in a 
+different weapon. In life they were taught to believe that all other races were inferior to them, and their 
+centuries of unlife have filled them with bitterness and rage. They will attack anything that enters the 
+chamber where they died. If you are unlucky enough to discover a nimrod, you have two choices: kill it 
+or run. However, you should beware the curse of the nimrod, which enables it to follow you anywhere 
+in the dungeon. Leave the dungeon and you are safe, but stay there and it will attack until you or it are 
+destroyed.

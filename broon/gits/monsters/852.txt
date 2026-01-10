@@ -1,0 +1,8 @@
+GOLEM
+	Golems are an artificial life form constructed from dismembered
+ bodies and animated by an evil spirit. They are believed to have been
+ created by the sect of Ythcal many centuries ago but knowledge of the
+ secrets involved has now been lost. Golems are of about human size 
+but immensely strong and they must be literally hacked to pieces before
+ they will stop fighting. They have no mind and only act to obey the 
+instructions given to them by their creator.

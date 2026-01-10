@@ -1,0 +1,95 @@
+.mstheme
+{
+	separator-image: url(blrule.gif);
+	list-image-1: url(blbull1.gif);
+	list-image-2: url(blbull2.gif);
+	list-image-3: url(blbull3.gif);
+	navbutton-horiz-normal: url(blphb.gif);
+	navbutton-horiz-hovered: url(blphb.gif);
+	navbutton-horiz-pushed: url(blphbp.gif);
+	navbutton-vert-normal: url(blpvb.gif);
+	navbutton-vert-hovered: url(blpvb.gif);
+	navbutton-vert-pushed: url(blpvbp.gif);
+	navbutton-home-normal: url(blhome.gif);
+	navbutton-home-hovered: url(blhome.gif);
+	navbutton-home-pushed: url(blhome.gif);
+	navbutton-next-normal: url(blnext.gif);
+	navbutton-next-hovered: url(blnext.gif);
+	navbutton-next-pushed: url(blnext.gif);
+	navbutton-prev-normal: url(blprev.gif);
+	navbutton-prev-hovered: url(blprev.gif);
+	navbutton-prev-pushed: url(blprev.gif);
+	navbutton-up-normal: url(blup.gif);
+	navbutton-up-hovered: url(blup.gif);
+	navbutton-up-pushed: url(blup.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: Comic Sans MS;
+	color: rgb(0, 0, 0);
+	font-size: 7;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-vert-navtxt
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(51, 0, 153);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxthome
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtnext
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtprev
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtup
+{
+	font-family: Arial, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+ul
+{
+	list-style-image: url(blbull1.gif);
+}
+ul ul
+{
+	list-style-image: url(blbull2.gif);
+}
+ul ul ul
+{
+	list-style-image: url(blbull3.gif);
+}

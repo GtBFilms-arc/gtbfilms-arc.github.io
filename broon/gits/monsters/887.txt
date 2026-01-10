@@ -1,0 +1,7 @@
+STINGER PLANT
+	The stinger plant feeds upon the rotting bodies of the dead. To ensure that creatures die in 
+the right place the plant is equipped with numerous whip like stalks, each tipped with a poisoned 
+sting. As soon as a victim is close enough the stalks lash out to inject their poison. Although the 
+poison is not particularly strong sufficient stings can kill even large creatures such as a horse. To 
+prevent victims rolling away during their death throes the stalks will wrap around them and pull 
+them close. 

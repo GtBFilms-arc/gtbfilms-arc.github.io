@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My wonderful page</title>
+        <script src="jdataview.js"></script>
+        <script src="jsspeccy-core.min.js"></script>
+        
+        <script>
+            function go() {
+                var jsspeccy = JSSpeccy('speccy', {
+                    'autostart': false,
+                    'autoload': true,
+                    'scaleFactor': 1,
+                    'loadFile': 'http://jsspeccy.zxdemo.org/games/manic_miner.z80'
+                });
+            }
+        </script>
+    </head>
+    <body onload="go()">
+        <div id="speccy"></div>
+    </body>
+</html>
+

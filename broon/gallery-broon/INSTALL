@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------
+Yapig - Yet Another PHP image gallery INSTALLATION
+------------------------------------------------------------------------------
+Read README!
+
+Yapig installation is very simple. Just follow this steps:
+
+1) Edit config.php to customize your YAPIG.
+ --> At least modify user and password options.
+ --> Remove the STOP line at the end of this file.
+
+2) Upload/Copy all files to your web server directory.
+4) Upload your galleries to $BASE_DIR (default: photos/).
+
+ --> Give 777(drwxrwxrwx) permissions to all galleries
+     directories, including $BASE_DIR 
+ 
+
+5) Run index.php, it will do yapig's installation (**), login as admin 
+   and fill the "Add New Gallery" form.
+
+** SAFE_MODE installation **
+
+Some server admin set the php safe_mode which restricts some of the actions
+yapig can perform automatically. One of these limitations is the installation.
+Yapig creates a random name directory during install, but with safe mode it
+can not do it, so you have to make this directory manually using ftp or a 
+console, then give 777 permissions (for example: chmod 777 random_dir_name) 
+and finally complete the form of yapig the installation. 
+------------------------------------------------------------------------------
+SECURITY ADVICE
+After installing YaPiG, it is heavily recommended to remove install.php file.
+------------------------------------------------------------------------------
+
+For a more detailed information and problems during installation 
+read doc/en/install.html 
+
+You can also read README for more information.
+

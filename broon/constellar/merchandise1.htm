@@ -1,0 +1,72 @@
+<html><head><title>Constellar Merchandise!</title></head>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// the string that should scroll
+var scrlStr = "DON'T DO IT!           Welcome to Constellar.co.uk!       " +
+"Please try our Online game!."
+
+// the width of the scrolling area
+var width = 120;
+
+var strLen = scrlStr.length;
+var pos = 1 - width;                // start far enough to the left for only
+                                    // one letter to be showing
+
+function scroll(){
+    var scroll = "";                // initialize the string to be printed
+    pos++;                          // move to the right in the string
+    if (pos == strLen)              // start over if the string is done        
+        pos = 1 - width;            // scrolling
+
+    if (pos<0) {                    // add spaces to beginning if necessary
+        for (var i=1; i<=Math.abs(pos); i++)
+            scroll = scroll + " ";
+       scroll = scroll + scrlStr.substring(0, width - i + 1);
+    }
+    else
+        scroll = scroll + scrlStr.substring(pos, pos + width);
+
+    window.status = scroll;         // print the string
+    setTimeout("scroll()",70);     // recurse after 1/7 of a second
+}
+
+//-->
+</SCRIPT>
+<body onLoad = "scroll(); return true">
+
+
+<BODY BGCOLOR="Black" TEXT="White" ALINK="Yellow" VLINK="Yellow" LINK="Yellow">
+<center><image src="2mug.gif"><br><H4><FONT COLOR="Red">The Official Constellar.co.uk desk mug!</FONT></H4><H4>Amaze and impress your friends with this stylish Constellar Mug!<br>Email: <a href="mailto:sales@constellar.co.uk">sales@constellar.co.uk</a> for details!</H4>
+<p><p><H4>
+Yes indeed, you too can be the proud owner of a VERY limited edition*
+Constellar.co.uk desk mug - for less than the cost of a round of drinks!
+<p><p>
+Think of the hours of drinking pleasure you will get from this
+excellently crafted mug, perfect in every detail, the team of graphic
+designers have cut no corners in the delicate etching of the unique and
+interesting design. 
+<p><p>
+On one side the mug bears the "DON'T DO IT!" slogan as well as the constellar.co.uk
+OFFICIAL website address and our OFFICIAL catchphrase, while in stark
+contrast, emphasising the Ying and Yang of universal harmony, the other
+side bears a UNIQUE and SPECIALLY APPROVED image of arch criminal Internet Jim,
+resplendent in his 1970s style long collared shirt, 1970s tie, and
+bottle-green tank-top - An image which proudly exclaims to all your
+friends and associates that the owner of this mug has a discerning eye
+for quality.
+<p><p>
+An item to be passed down from generation to generation, your
+grandchildren will thank you again and again for bringing them this
+timeless gift. A gift you can share with the entire family, and which
+will bring many hours of simple pleasure.
+<p><p>
+Suitable as an ornament, a dining room talking point, a plant pot, a
+makeshift ashtray, or any number of other uses, the constellar.co.uk mug
+is an item that you will treasure forever.<p><p>
+</H4><H6>
+* Actual numbers of 'Limited Edition' desk mugs may be dictated by
+demand.</H6>
+<A HREF="index.html">Return to Homepage</A>
+</center>
+</body></html>

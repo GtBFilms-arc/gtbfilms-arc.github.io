@@ -1,0 +1,121 @@
+<html><head>
+<html><head>
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// the string that should scroll
+var scrlStr = "DON'T DO IT!           Welcome to Constellar.co.uk!       " +
+"Please try our Online games!."
+
+// the width of the scrolling area
+var width = 120;
+
+var strLen = scrlStr.length;
+var pos = 1 - width;                // start far enough to the left for only
+                                    // one letter to be showing
+
+function scroll(){
+    var scroll = "";                // initialize the string to be printed
+    pos++;                          // move to the right in the string
+    if (pos == strLen)              // start over if the string is done        
+        pos = 1 - width;            // scrolling
+
+    if (pos<0) {                    // add spaces to beginning if necessary
+        for (var i=1; i<=Math.abs(pos); i++)
+            scroll = scroll + " ";
+       scroll = scroll + scrlStr.substring(0, width - i + 1);
+    }
+    else
+        scroll = scroll + scrlStr.substring(pos, pos + width);
+
+    window.status = scroll;         // print the string
+    setTimeout("scroll()",70);     // recurse after 1/7 of a second
+}
+
+//-->
+</SCRIPT>
+<body onLoad = "scroll(); return true">
+
+
+<BODY BACKGROUND="spacebackground.gif" BGCOLOR="#C0C0C0" TEXT="White" ALINK="Yellow" VLINK="Yellow" LINK="Yellow">
+<title>Customer Feedback - Our Success Stories!</title>
+<center><H3>
+<TABLE WIDTH=80% BORDER=0><TR>
+<TD WIDTH=100%>
+<center><FONT COLOR="Red"><H2>
+Customer Feedback!
+</center></H2></FONT><FONT COLOR="Yellow"><H4><center>
+So many people have contacted us to say how much they enjoy the multimedia experience that only constellar.co.uk can offer, so we thought it was about time that we provided an area for customer feedback, both for the content on the site, and for our excellent and unique merchandise!
+</FONT></H4></center>
+</TD></TR>
+</TABLE>
+
+<p><FONT COLOR="Yellow"><H4><center>
+If you have some feedback on the content of the site, or our excellent merchandise, please send it to us here at:<p>
+<a href="mailto:feedback@constellar.co.uk">feedback@constellar.co.uk</a><p>
+If possible, please enclose a photo.<p>
+
+We look forward to receiving your comments, here are the ones we have received so far:<p>
+</FONT></H4>
+<TABLE WIDTH=80% BORDER=0><TR>
+<TD WIDTH=50%>
+<center>
+<image src="cust1.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"I was truly amazed to recieve my constellar.co.uk desk mug, it is almost too good to put coffee in. But it will have the pride of place on my office desk from now on!" Mr B. 
+</B></center>
+</TD></TR></TR>
+</TD></TR></TABLE>
+
+<TABLE WIDTH=80% BORDER=0><TR>
+<TD WIDTH=50%>
+<center>
+<image src="cust2.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"I thought it was Christmas all over again when my constellar.co.uk desk mug arrived! The quality is second to none, and now I refuse to drink from anything else!" Mr. BR
+</center></B>
+</TD></TR></TR><TD WIDTH=50%>
+<center>
+<image src="cust3.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"I am a man who can tell a quality item when I see it, and let me tell you, the constellar.co.uk desk mug is one of the best examples of quality that I have seen for a long time. I am a keen purchaser of collectible items out of the back pages of Sunday magazines, which often turn out to be disappointing, but this item has exceeded all my expectations, Thank you!" Mr K.
+</center></B>
+</TD></TR></TR><TD WIDTH=50%>
+<center>
+<image src="cust4.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"I used to have problems in pubs and clubs, as for some reason I always seemed to spill my drinks all down my shirt, the glasses and cups in public places were always a challenge for me - but now, armed with my constellar.co.uk desk mug, I can go out with confidence, and return with a completely dry shirt!" Mr J.
+</center></B>
+</TD></TR></TR><TD WIDTH=50%>
+<center>
+<image src="cust5p.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"I love the shape of the constellar.co.uk desk mug, it has to be one of the best designed mugs I have ever seen, and as a European, that is quite a recommendation, Thankyou so much constellar.co.uk!" Ms P.
+</center></B>
+</TD></TR></TR><TD WIDTH=50%>
+<center>
+<image src="cust6.jpg">
+</center>
+</TD><TD WIDTH=50%>
+<center><B>
+"Thanks for my constellar.co.uk desk mug - I JUST CAN'T PUT IT DOWN! I like to take it with me everywhere I go, as an item of this quality is never out of place. Rest assured I will be recommending constellar.co.uk merchandise to all my friends." Ms L.
+</center></B>
+</TD></TR></TABLE>
+<p>
+<H5>Customer names have been changed to protect the identities of those concerned. In addition customer comments may be ficticious, and are not necessarily attributable to customers of constellar.co.uk, or any person, living or dead. Positive comments do not imply an endorsement or awareness of any particular product. Individuals pictured may or may not be actual customers of constellar.co.uk.</H5>
+<A HREF="index.html">Return to Homepage</A>
+</center><p>
+<p>
+
+</H3>
+</body></html>

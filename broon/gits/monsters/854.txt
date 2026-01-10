@@ -1,0 +1,8 @@
+TROLL
+	Trolls are ghastly carnivores of humanoid form. They are tall 
+and scrawny but immensely powerful, capable of tearing small trees 
+from the ground to use as a club. They can also attack with their 
+sharp teeth and claws. Trolls are almost impossible to kill as they 
+can regenerate damaged flesh with incredible speed. Even severed limbs 
+can be regrown in a matter of minutes. Only fire or acid can slow this 
+healing.

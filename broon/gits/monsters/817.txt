@@ -1,0 +1,9 @@
+KOBOLD
+	Kobolds are small goblin like creatures. They are primitive 
+and brutal and not particularly intelligent. They live by raiding 
+farms and small groups of travellers for food and equipment. They are 
+nocturnal and are rarely seen during the day. They usually live in 
+caves or underground lairs close to centres of population. Without the 
+presence of farms nearby they would soon starve as they are poor 
+hunters. Most kobold tribes worship Molwanh and they will treat other 
+followers of Molwanh with respect.

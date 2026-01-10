@@ -1,0 +1,6 @@
+BANSHEE
+	The banshee is a deadly beast capable of causing death by the power of its voice. In combat 
+it emits a high pitched screech which shatters the eardrums and destroys the brain. The banshee 
+itself is practically deaf and therefore immune to these effects. Banshees look like bedraggled 
+witches with long stringy hair and tatty robes. Their deafness makes them easy to surprise and apart 
+from their screech they have no effective attacks. 

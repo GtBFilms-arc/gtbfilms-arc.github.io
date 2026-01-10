@@ -1,0 +1,7 @@
+SLEECH
+	The hideous sleech is a huge blood sucking slug. They are 
+fortunately rare. Mature specimens measure about forty feet in length.
+ They have thick rubbery skin and can soak up enormous amounts of 
+damage before suffering serious injury. They move slowly but can 
+easily keep up with a group struggling through swampy terrain. A 
+sleech will never retreat from combat.

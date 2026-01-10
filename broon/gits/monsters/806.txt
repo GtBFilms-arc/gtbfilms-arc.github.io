@@ -1,0 +1,8 @@
+GARGOYLE
+	The Gargoyle has the appearance of a humanoid figure with large
+wings. The gargoyle's flesh is stonelike making it difficult to harm 
+and very heavy. Its great weight makes it slow and clumsy in flight. 
+In combat a gargoyle emits an eerie screech and this combined with its 
+demonic appearance will often cause panic and flight amongst its 
+enemies. They usually live underground but a few live in old temples 
+or graveyards.

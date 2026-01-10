@@ -1,0 +1,7 @@
+GOBLIN
+	Goblins are a primitive humanoid race found throughout the 
+wilderness of Kharne. They have dark skin, and sharp claws and teeth. 
+By human reckoning they are extremely ugly. Goblins are cruel, greedy 
+and usually evil but seldom stupid. All but a few worship the evil gods
+, mainly Fleyshur. Goblins are nocturnal creatures and are seldom seen
+during daylight.

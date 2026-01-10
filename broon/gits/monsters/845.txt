@@ -1,0 +1,8 @@
+GREEN FUNGI
+	Most fungi are fairly harmless to adventurers but green fungi 
+is one of the exceptions. In appearance they look like large mushrooms
+with a pale green colouration. If the fungi is struck or detects sudden
+ noises nearby it will explode releasing a cloud of dark green spores. 
+The spores are poisonous and cause wound rot if they land on an injured
+ character. Infected wounds will not heal (even with magical assistance
+) unless the wound rot is cured first.

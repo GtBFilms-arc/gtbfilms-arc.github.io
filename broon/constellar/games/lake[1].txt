@@ -1,0 +1,347 @@
+<html>
+        <head>
+                <title>Netpedia --&gt; Java --&gt; Applets --&gt; Lake</title>
+                <link rel="stylesheet" type="text/css" href="../../../../linkstyle.css">
+        </head>
+<body bgcolor="#FFFFFF" background="../../../../images/bg.gif" leftmargin=10 marginwidth=10 link="#ff6600" vlink="#FF6600" alink="#0099ff">
+<table border=0 cellpadding=0 cellspacing=0 width=609>
+        <tr>
+                <td width=10 valign="top">
+                        <img src="../../../../images/spacer.gif" width=10 height=1>
+                </td>
+                <td width=103 valign="top">
+                        	<a href="http://www.netpedia.com/">
+			<img src="/images/logo.gif" border=0 width=100 height=90 alt="Welcome to Netpedia">
+			</a>
+			<br>
+
+<A HREF="http://www.newsrelay.com">  <img
+src="http://www.newsrelay.com/images/buttons/news.gif" width=100
+height=22 alt="News" border=0></A>
+                        <table width=103 border=0 cellpadding=0
+cellspacing=0>
+                                <tr>
+                                        <td width=5 valign="top">
+                                        <img
+src="http://www.newsrelay.com/images/spacer.gif" width=5 height=1>
+                                        </td>
+<!-- category link stuff starts here -->
+<td width=95 valign="top" class="right"><font size=1
+face="verdana,arial">
+<a
+href="http://www.newsrelay.com/category.ephtml?Business">Business</a><br>
+
+<a
+href="http://www.newsrelay.com/category.ephtml?Hardware">Hardware</a><br>
+
+<a
+href="http://www.newsrelay.com/category.ephtml?Internet">Internet</a><br>
+
+<a
+href="http://www.newsrelay.com/category.ephtml?Operating_Systems">Operating
+Systems</a><br>
+
+<a
+href="http://www.newsrelay.com/category.ephtml?Software">Software</a><br>
+<br>
+                                        </font>
+                                        </td>
+                                        <td width=8 valign="top">
+                                        <img
+src="http://www.newsrelay.com/images/spacer.gif" width=8 height=1>
+                                        </td>
+                                </tr>
+                        </table>
+ 
+<img src="/images/buttons/np.gif" width=100 height=22
+alt="Netpedia">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=95 valign="top" class="right"><font size=1 face="verdana,arial">
+<!--					<a
+href="http://ad.doubleclick.net/clk;432391;3359914;l?http://shop.infospace.com/default.htm?qvcid=516"
+class="sl">Shopping</a><br> -->
+					<a href="http://www.jsworld.com/forums/js/">Forums</a><br>
+					<a
+href="/search.html">Search</a><br>
+					<a href="/">Front Door</a><br>
+					<a href="/about/contact/">Contact Us</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/articles.gif" width=100 height=22 alt="Articles">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=95 valign="top" class="right"><font size=1 face="verdana,arial">
+					<a href="/features/" class="sl">Features</a><br>
+					<a href="/opinions/">Opinions</a><br>
+					<a href="/books/">Books</a><br>
+					<a href="/software/">Software</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/html.gif" width=100 height=22 alt="HTML">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=90 valign="top" class="right"><font size=1 face="verdana,arial">
+					<a href="/html/reference/" class="sl">Reference</a><br>
+					<a href="/html/tutorials/">Tutorials</a><br>
+					 
+					<a href="/html/css/">CSS</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/coding.gif" width=100 height=22 alt="Coding">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=90 valign="top" class="right"><font size=1 face="verdana,arial">
+					<a href="/coding/cgi/">CGI</a><br>
+					<a href="/coding/cgi/archive/">CGI Archive</a><br>
+					<a href="/coding/asp/">ASP</a><br>
+					<a href="http://www.jsworld.com/">JavaScript</a><br>
+					<a href="http://www.jsworld.com/">dHTML</a><br>
+					<a href="/coding/java/">Java</a><br>
+					<a href="/coding/" class="sl">More...</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/applets.gif" width=100 height=22 alt="Applets">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=90 valign="top" class="right"><font size=1 face="verdana,arial">
+					<a href="/coding/java/games/">Games</a><br>
+					<a href="/coding/java/graphicsEffects/">Graphics Effects</a><br>
+					<a href="/coding/java/textEffects/">Text Effects</a><br>
+					<a href="/coding/java/imageEffects/">Image Effects</a><br>
+					<a
+href="/coding/java/utilities/">Utilities</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/graphics.gif" width=100 height=22 alt="Graphics">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=90 valign="top" class="right"><font size=1 face="verdana,arial">
+					<a href="/graphics/archive/">Archive</a><br>	
+					<a href="/graphics/tips/" class="sl">Photoshop Tips</a><br>
+					<a href="/graphics/fonts/">Fonts</a><br>
+					 <br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			<img src="/images/buttons/website.gif" width=100 height=22 alt="Website">
+			<table width=103 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=5 valign="top">
+					<img src="/images/spacer.gif" width=5 height=1>
+					</td>
+					<td width=90 valign="top" class="right"><font size=1 face="verdana,arial">
+					 
+					<a href="http://www.sintillate.com/">Design</a><br> 
+					<a href="/website/promoting/">Promoting</a><br>
+					 <a href="/website/hosting/">Web Hosting</a><br>
+				<a href="/website/frontpage/">Frontpage</a><br><br>
+					</font>
+					</td>
+					<td width=8 valign="top">
+					<img src="/images/spacer.gif" width=8 height=1>
+					</td>
+				</tr>
+			</table>
+			
+
+                </td>
+                <td width=496 valign="top" align="center">
+                        <!-- BEGIN RICH-MEDIA BURST! CODE --> 
+<script language="JavaScript"> 
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/ 
+var TheAdcode = 'ad7580a'; 
+var bN = navigator.appName; 
+var bV = parseInt(navigator.appVersion); 
+var base='http://www.burstnet.com/'; 
+var Tv=''; 
+var agt=navigator.userAgent.toLowerCase(); 
+if (bV>=4) 
+  {ts=window.location.pathname+window.location.search; 
+   i=0; Tv=0; while (i< ts.length) 
+      { Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;} 
+  else   {Tv=escape(window.location.pathname); 
+   if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+          else if (Tv.charAt(1)=="/")
+Tv=""; 
+  if( Tv.charAt(Tv.length-1) == "/") 
+    Tv = Tv + "_";} 
+if (bN=='Netscape'){ 
+     if ((bV>=4)&&(agt.indexOf("mac")==-1))
+{  document.write('<s'+'cript src="'+ 
+      base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS' 
+      +Tv+'">'); 
+     document.write('</'+'script>');    
+} 
+     else if (bV>=3) {document.write('<'+'a href="'+base+'ads/'+ 
+        TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+        document.write('<img src="' + base + 'cgi-bin/ads/' + 
+        TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + 
+        ' border="0" alt="Click Here"></a>');} 
+ } 
+if (bN=='Microsoft Internet Explorer') 
+ document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/'
++ 
+  TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+  'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+  'frameborder="0" scrolling="no"></ifr'+'ame>'); 
+// --> 
+</script> <noscript><a href="http://www.burstnet.com/ads/ad7580a-map.cgi" target="_top"> 
+<img src="http://www.burstnet.com/cgi-bin/ads/ad7580a.cgi" 
+ width="468" height="60" border="0" alt="Click Here"></a> 
+</noscript> 
+<!-- END BURST CODE -->
+<br><br>
+
+
+<br>
+                        
+                        <table border=0 cellpadding=0 cellspacing=0 width=496>
+                        <tr>
+                        <td width=5>
+                                <img src="../../../../images/spacer.gif" width=5 height=1>
+                        </td>
+                        <td width=491 valign="top"><img src="../../../../images/spacer.gif" width=1 height=5><br>
+                        <table width=100% cellpadding=0 cellspacing=0 border=0>
+                        <tr>
+                        <td width=486>
+
+<font size=3 face="verdana,arial"><u><b>Java --&gt; Applets --&gt; Lake</b></u></font>
+                        <p>
+                        <font size=2 face="arial,helvetica">
+
+<table bgcolor="#000000" border=0 cellpadding=3 width=100% cellspacing=1>
+	<tr>
+		<td bgcolor="#CCCCCC" valign="top"><b>Name</a></b></td>
+		<td bgcolor="#EEEEEE">Lake</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor="#000088" valign="top"><b><font color="#ffffff">Description</font></b></td>
+		<td bgcolor="#EEEEEE">Creates a "lake" reflection of your applet.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor="#CCCCCC" valign="top"><b>Example</b></td>
+		<td bgcolor="#EEEEEE" align="center"><APPLET CODE="Lake.class" width="100" height="180">
+<param name="image" value="logo.gif">
+</applet> </td>
+	</tr>
+	
+<tr>
+		<td bgcolor="#000088" valign="top"><b><font color="#ffffff">Customization</font></b></td>
+		<td bgcolor="#EEEEEE">
+			<table border=0 cellpadding=0 cellspacing=4 width=100%>
+				<tr>
+				<th bgcolor="#FFFFFF" align="left">Name</th>
+				<th bgcolor="#FFFFFF" align="left">Value</th>
+				<th bgcolor="#FFFFFF" align="left">Description</th>
+				</tr>
+				
+				<tr>
+				<td>image</td>
+				<td>File</td>
+				<td>Image to use for applet</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+	
+	<tr>
+		<td bgcolor="#CCCCCC" valign="top"><b>Download</b></td>
+		<td bgcolor="#EEEEEE">
+
+		<b>Archived:</b><br>
+
+		<li><a href="lake.zip" class="blue">lake.zip</a>
+		</td>
+	</tr>
+		
+	
+</table>
+</center>
+<p>
+                        </center>
+                        <center>
+                        <table bgcolor="#000000" border=0 cellpadding=1 cellspacing=0 hspace=2 vspace=2><tr><td>
+<table border=0 cellpadding=3 cellspacing=0><tr><td bgcolor="#EEEEEE" align="center">
+<font size=1 face="verdana,arial">
+Copyright &#169; 1997-2000 <a href="/info/copyright.html">Ambient Technologies</a>.<br>
+All rights reserved.
+<a href="http://www.netpedia.com/statement.html">Privacy Statement</a>.
+</font></td></tr></table></td></tr></table>
+
+
+
+
+                        </center>
+                        </td>
+                        <td width=5>
+                        <img src="../../../../images/spacer.gif" width=5 height=1>
+                        </td>
+                        </tr>
+                        </table>
+                </td>
+        </tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- REFERER WAS http://216.32.208.252:81/coding/java/imageEffects/lake/ -->
+<!-- IN NETPEDIA SECTION -->
+<layer clip="468,60"
+src="http://ad.doubleclick.net/adl/www.netpedia.com/other;cat=tech;ord=45665991"
+        visibility=hide
+        onload="moveToAbsolute(ph1.pageX, ph1.pageY);
+visibility='show';">
+</layer>
+
+</body></html>

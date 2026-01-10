@@ -1,0 +1,9 @@
+GIANT CROCODILE
+	This huge reptile presents a very real threat to any 
+adventurer travelling through jungle or swamp terrain. They move 
+swiftly and silently through water and with only their nostrils above
+the surface they are often not sighted until too late. Larger 
+specimens can cut a man in two with a single chomp of their tooth 
+filled jaws or break backs with a swipe of their tail. If all else 
+fails a favoured tactic is to grab hold and submerge, thereby drowning
+their victim.

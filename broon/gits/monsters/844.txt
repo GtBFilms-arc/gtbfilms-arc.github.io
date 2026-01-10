@@ -1,0 +1,9 @@
+SLIME MOLD
+	A mindless but deadly creature of the underworld. Scholars are 
+unable to agree whether this strange being is a plant or an animal. It 
+moves slowly across stone surfaces devouring any organic material in 
+its path. It can climb up walls and across ceilings without difficulty 
+and will sometimes drop onto a living creature from above. The slime 
+is very persistent. Once it has infected living flesh it is almost 
+impossible to remove. The unfortunate victim will slowly be transformed
+into slime.

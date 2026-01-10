@@ -1,0 +1,6 @@
+GNOLL
+	Gnolls are a race of dog faced humanoids. Their hands are 
+pawlike but can hold weapons effectively. They are a short-lived and 
+morbid race and most tribes worship Ythcal, Lord of Death. Gnolls tend 
+to be quite small and scrawny and are not known for their great 
+courage. They will seldom initiate combat without good reason. 

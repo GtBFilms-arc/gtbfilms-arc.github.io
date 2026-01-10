@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+<TITLE>Rocket Launcher</TITLE>
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+// the string that should scroll
+var scrlStr = "DON'T DO IT!           Welcome to Constellar.co.uk!       " +
+"Please try our other Online game - KENDO NAGASAKI shootout!."
+
+// the width of the scrolling area
+var width = 120;
+
+var strLen = scrlStr.length;
+var pos = 1 - width;                // start far enough to the left for only
+                                    // one letter to be showing
+
+function scroll(){
+    var scroll = "";                // initialize the string to be printed
+    pos++;                          // move to the right in the string
+    if (pos == strLen)              // start over if the string is done        
+        pos = 1 - width;            // scrolling
+
+    if (pos<0) {                    // add spaces to beginning if necessary
+        for (var i=1; i<=Math.abs(pos); i++)
+            scroll = scroll + " ";
+       scroll = scroll + scrlStr.substring(0, width - i + 1);
+    }
+    else
+        scroll = scroll + scrlStr.substring(pos, pos + width);
+
+    window.status = scroll;         // print the string
+    setTimeout("scroll()",70);     // recurse after 1/7 of a second
+}
+
+//-->
+</SCRIPT>
+<body onLoad = "scroll(); return true">
+
+<BODY BGCOLOR=000000 TEXT=FFFFFF LINK=FF0000 VLINK=00FF00>
+
+<center>
+<TABLE WIDTH=100%><TR><TD WIDTH=15%><FONT COLOR="White"><img src="../2sm3.jpg"></FONT></TD><TD WIDTH=85%>
+<H2><FONT COLOR="Gold">Interstellar Convict JAASD HASDNI has launched an attack on the Earth! Take out his attack force one-by-one with your rocket launcher - but he is jamming your rocket guidance systems, so you will have to guide them manually!</H2></FONT></TD></TR></TABLE>
+<p>
+<H5><FONT COLOR="Yellow">This game uses JAVA, please give it a moment to load.. </FONT></H5>
+
+<CENTER><table cellspacing=1 cellpadding=0 border=1 bordercolor=00FF00>
+      <tr><td bgcolor="#000000" bordercolor=FF0000><applet code="UFO_Attack.class" 
+                                        width=200 height=300> 
+	                        </applet></td></tr>
+    </table><P><FONT COLOR=FFFFCC>Left-Click to Launch the Missles.<br>Guide them to the Targets with the "cross hairs" !</FONT></CENTER>
+<p><p>
+
+<CENTER><A HREF="../index.html">Return to Homepage</A></CENTER>
+
+</BODY> 
+</HTML>

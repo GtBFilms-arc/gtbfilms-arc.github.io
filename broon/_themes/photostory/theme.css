@@ -1,0 +1,33 @@
+.mstheme     { navbutton-background-color: rgb(255,255,255); top-bar-button: url(blglb.gif) }
+.mstheme-topbar-font { color: rgb(0,0,0); font-family: Arial, Arial, Helvetica; font-size: 8pt }
+body         { vertical-align: none; background-image: url('back.jpg'); text-align: none; 
+               font-family: Comic Sans MS; font-style: normal; font-weight: 
+               normal }
+button       { font-size: 8pt; font-style: normal; font-family: Arial, Arial, Helvetica; 
+               border-style: solid; border-width: 1pt }
+caption      { font-size: 14pt; font-style: normal; font-family: Arial, Arial, Helvetica }
+fieldset     { font-family: Arial, Arial, Helvetica; font-size: 8pt; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+h1           { vertical-align: none; font-size: 24pt; font-family: Comic Sans MS; 
+               text-align: none; font-weight: normal; font-style: normal }
+h2           { font-family: Comic Sans MS; font-style: normal; font-size: 18pt; font-weight: 
+               normal; vertical-align: none; text-align: none }
+h3           { font-family: Comic Sans MS; text-align: none; font-size: 14pt; 
+               vertical-align: none; font-weight: normal; font-style: normal }
+h4           { font-weight: normal; font-size: 12pt; font-style: normal; text-align: none; 
+               font-family: Comic Sans MS; vertical-align: none }
+h5           { font-size: 10pt; font-style: normal; font-weight: normal; font-family: 
+               Comic Sans MS; vertical-align: none; text-align: none }
+h6           { text-align: none; vertical-align: none; font-family: Comic Sans MS; 
+               font-size: 8pt; font-style: normal; font-weight: normal }
+label        { font-size: 8pt; font-style: normal; font-family: Arial, Arial, Helvetica }
+label, .mstheme-label { font-size: 8pt; font-family: Arial, Arial, Helvetica; font-style: normal }
+legend       { font-style: normal; font-size: 8pt; font-family: Arial, Arial, Helvetica }
+marquee      { font-family: Arial, Arial, Helvetica; font-size: 14pt }
+select       { font-style: normal; font-family: Arial, Arial, Helvetica; font-size: 8pt; 
+               border-style: solid; border-width: 1pt }
+table        { font-family: Comic Sans MS; font-style: normal; font-weight: normal; 
+               text-align: none; vertical-align: none }
+textarea     { font-style: normal; font-size: 8pt; font-family: Arial, Arial, Helvetica; 
+               border-style: solid; border-width: 1pt }
+th           { font-family: Arial, Arial, Helvetica; font-style: normal }

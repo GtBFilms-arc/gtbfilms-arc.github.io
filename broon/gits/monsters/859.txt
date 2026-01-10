@@ -1,0 +1,9 @@
+WEREWOLF
+	The werewolf is a man infected with the disease of lycanthropy. 
+When the moon is full and at times of stress the man transforms into 
+a wolflike monster with sharp claws, bristly fur and powerful jaws. It 
+is immensely strong and fast and seems to be unharmed by ordinary 
+weapons. Humans or half-bloods bitten by a werewolf will sometimes 
+become infected with the disease themselves. Many victims are unaware 
+of their illness for several months as they retain no memory of events 
+which occur while they are in wolf form.

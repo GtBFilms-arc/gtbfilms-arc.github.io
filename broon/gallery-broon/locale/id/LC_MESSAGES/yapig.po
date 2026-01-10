@@ -1,0 +1,824 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-23 00:00+0100\n"
+"PO-Revision-Date: 2004-03-20 18:18 +0100 (CET)\n"
+"Last-Translator: gbernouli <gbernouli@yahoo.de>\n"
+"Language-Team: gbernouli <gbernouli@yahoo.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:72
+msgid "Incorrect add comment form"
+msgstr "Formulir komentar tidak benar"
+
+#: ../add_comment.php:78
+msgid "Title field required"
+msgstr "Field Judul diperlukan!"
+
+#: ../add_comment.php:82
+msgid "Author field required"
+msgstr "Field Pengarang diperlukan!"
+
+#: ../add_comment.php:86
+msgid "e-mail field required"
+msgstr "Field Email diperlukan!"
+
+#: ../add_comment.php:90
+msgid "Web field required"
+msgstr "Field Homepage diperlukan!"
+
+#: ../add_comment.php:94
+msgid "Comment field required"
+msgstr "Field Komentar diperlukan!"
+
+#: ../add_comment.php:99
+msgid "Sorry, you did not fill some required fields."
+msgstr "Maaf, anda tidak mengisi semua field yang diperlukan"
+
+#: ../add_comment.php:157
+msgid "Thank you for your comment"
+msgstr "Terima kasih atas komentar anda"
+
+#: ../add_comment.php:158
+msgid "Added this Comment"
+msgstr "Berikan Komentar"
+
+#: ../add_comment.php:159 ../admin_func.php:481 ../functions.php:477
+msgid "Title"
+msgstr "Judul"
+
+#: ../add_comment.php:160 ../admin_func.php:123 ../admin_func.php:482 ../functions.php:478 ../view_func.php:68
+msgid "Author"
+msgstr "Pengarang"
+
+#: ../add_comment.php:161
+msgid "e-mail"
+msgstr "Email"
+
+#: ../add_comment.php:162 ../view_func.php:70
+msgid "Web"
+msgstr "Homepage"
+
+#: ../add_comment.php:163 ../view_func.php:71 ../view_func.php:95
+msgid "Comment"
+msgstr "Komentar"
+
+#: ../add_comment.php:164
+msgid "If the page is not automatically refreshed."
+msgstr "Jika Halaman ini tidak direfresh automatis"
+
+#: ../add_comment.php:165
+msgid "Please, press here"
+msgstr "Silahkan klik disini"
+
+#: ../add_gallery.php:51
+msgid "Adding new gallery: "
+msgstr "Gallery baru sedand ditambah"
+
+#: ../add_gallery.php:58 ../admin_func.php:229
+msgid "GD library not loaded. Please read install documentation"
+msgstr "Library GD tidak didapat diload. Silahkan baca dokumentasi instalasi"
+
+#. Check arguments
+#: ../add_gallery.php:64
+msgid "Directory where images are stored required!"
+msgstr "Direktori untuk penyimpanan foto-foto diperlukan!"
+
+#: ../add_gallery.php:69 ../modify_gallery.php:140
+msgid "Title, author and description are required!"
+msgstr "Judul, Pengarang dan Keterangan diperlukan!"
+
+#: ../add_gallery.php:80
+msgid "Location directory DOES NOT EXIST."
+msgstr "Lokasi Direktori TIDAK EKSIS"
+
+#: ../add_gallery.php:82
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Direktori yang dipilih telah dipakai oleh Gallery yang lain. Hapus Gallery itu terlebih dahulu"
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:86
+msgid "Creating index.html for avoiding server listing."
+msgstr "index.html untuk menghindari server listing sedang dicipta"
+
+#: ../add_gallery.php:89
+msgid "Permissions. I will try chmod 2777 "
+msgstr "Permissions. Saya akan mencoba chmod 2777"
+
+#: ../add_gallery.php:91 ../add_gallery.php:94
+msgid "Permissions. Read FAQ documentation."
+msgstr "Permissions. Silahkan baca FAQ dokumentasi"
+
+#. Load all imagenames
+#: ../add_gallery.php:103
+msgid "Loading image Names of: "
+msgstr "Loading nama Foto:"
+
+#: ../add_gallery.php:107
+msgid "Failed to read image names."
+msgstr "Gagal membaca nama Foto"
+
+#. Make phid-filenames;
+#: ../add_gallery.php:112
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Korespondensi filename Foto <-> identifikasi foto (phid) sedang dicipta""
+
+#: ../add_gallery.php:114
+msgid "Creating phid correspondence."
+msgstr "Korespondensi phid sedang dicipta"
+
+#. Create Info File
+#: ../add_gallery.php:117 ../modify_gallery.php:143
+msgid "Creating gallery information file with:"
+msgstr "Cipta file informasi Gallery dengan:"
+
+#: ../add_gallery.php:133
+msgid "Error creating gallery information file."
+msgstr "Gagal mencipta file informasi Gallery"
+
+#. Make thumbnails
+#: ../add_gallery.php:137
+msgid "Creating thumbnails"
+msgstr "Thumbnails sedang dicipta"
+
+#: ../add_gallery.php:139
+msgid "Could not create all thumbnails."
+msgstr "Gagal mencipta semua thumbnails"
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:142
+msgid "Adding this gallery to gallery index"
+msgstr "Gallery ini sedang ditambahkan ke Gallery index"
+
+#: ../add_gallery.php:144
+msgid "Adding gallery to file: "
+msgstr "Gallery sedang ditambahkan ke file:"
+
+#: ../add_gallery.php:145
+msgid "Gallery <b>successfully</b> created"
+msgstr "Gallery <b>berhasil</b> dicipta"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:148
+msgid "Gallery Index"
+msgstr "Gallery index"
+
+#: ../add_gallery.php:149
+msgid "Back to admin page"
+msgstr "Kembali ke Homepage Admin"
+
+#: ../admin_func.php:25
+msgid "GD library not loaded. Will try to load it."
+msgstr "Library GD tidak dapat diload. Sedang dicoba kembali"
+
+#: ../admin_func.php:29
+msgid "Function for dynamic extension load not available."
+msgstr "Fungsi untuk load extensi dinamis tidak tersedia"
+
+#: ../admin_func.php:38
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so berhasil diloaded"
+
+#: ../admin_func.php:42
+msgid "php_gd2.dll sucessfully loaded."
+msgstr "php_gd2.dll berhasil diload"
+
+#: ../admin_func.php:48
+msgid "Function getimagesize does not exist"
+msgstr "Fungsi getimagesize tidak tersedia"
+
+#: ../admin_func.php:52
+msgid "Function imagecreatetruecolor does not exist"
+msgstr "Fungsi imagecreatetruecolor tidak tersedia"
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Fungsi imacreatefromjpeg tidak tersedia"
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr "Libray GD telah diloaded"
+
+#. Admin login form internationalization.
+#: ../admin_func.php:77
+msgid "Please login as admin"
+msgstr "Silahkan login sebagai admin"
+
+#: ../admin_func.php:78
+msgid "User"
+msgstr "User"
+
+#: ../admin_func.php:79 ../admin_func.php:125
+msgid "Password"
+msgstr "Password"
+
+#: ../admin_func.php:80
+msgid "Submit"
+msgstr "Kirim"
+
+#. I18n
+#: ../admin_func.php:94
+msgid "Administration tasks"
+msgstr "Tugas Administrasi"
+
+#: ../admin_func.php:95
+msgid "Add gallery"
+msgstr "Tambah Gallery"
+
+#: ../admin_func.php:96
+msgid "Modify gallery"
+msgstr "Modifikasi Gallery"
+
+#: ../admin_func.php:97 ../admin_func.php:478 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Hapus Gallery"
+
+#: ../admin_func.php:98
+msgid "Change main config"
+msgstr "Ubah main Konfigurasi"
+
+#: ../admin_func.php:99
+msgid "Logout"
+msgstr "Keluar"
+
+#: ../admin_func.php:122
+msgid "Gallery title"
+msgstr "Judul Gallery"
+
+#: ../admin_func.php:124
+msgid "Location"
+msgstr "Lokasi"
+
+#: ../admin_func.php:126
+msgid "set this field if you want private access to this gallery"
+msgstr "Isi Field ini jika anda ingin menyembunyikan galeri ini dari publik"
+
+#: ../admin_func.php:127 ../admin_func.php:488 ../functions.php:484
+msgid "Description"
+msgstr "Keterangan"
+
+#: ../admin_func.php:128 ../view_func.php:73
+msgid "Send"
+msgstr "Kirim"
+
+#: ../admin_func.php:183
+msgid "PNG files not supported in this version"
+msgstr "File PNG tidak disupport dalam versi ini"
+
+#: ../admin_func.php:379 ../admin_func.php:386
+msgid "Opening gid counter file: "
+msgstr "file gid counter sedang dibuka"
+
+#: ../admin_func.php:475
+msgid "Modify gallery info"
+msgstr "Modifikasi informasi Gallery"
+
+#: ../admin_func.php:476
+msgid "Select thumbnail"
+msgstr "Pilih Thumbnail"
+
+#: ../admin_func.php:477
+msgid "Modify image list"
+msgstr "Modifikasi list Foto"
+
+#: ../admin_func.php:480 ../functions.php:476
+msgid "Number of images"
+msgstr "Jumlah Foto"
+
+#: ../admin_func.php:483 ../functions.php:479
+msgid "View this gallery"
+msgstr "Lihat Gallery ini"
+
+#: ../admin_func.php:484 ../functions.php:480
+msgid "Gallery"
+msgstr "Gallery"
+
+#: ../admin_func.php:485 ../functions.php:481 ../modify_phid.php:41 ../view_func.php:31
+msgid "Visits"
+msgstr "Dilihat"
+
+#: ../admin_func.php:486 ../functions.php:482 ../functions.php:544 ../modify_phid.php:40
+msgid "Comments"
+msgstr "Komentar"
+
+#: ../admin_func.php:487 ../functions.php:483 ../view_func.php:94
+msgid "Date"
+msgstr "Tanggal"
+
+#: ../admin_func.php:507
+msgid "Select deletion options:"
+msgstr "Pilih option penghapusan"
+
+#: ../admin_func.php:508
+msgid "Do not list gallery in gallery index any more."
+msgstr "Jangan memperlihatkan list Gallery di Gallery lagi"
+
+#: ../admin_func.php:509
+msgid "Clear all image comments."
+msgstr "Hapus semua komentar Foto"
+
+#: ../admin_func.php:510
+msgid "Clear all image visit counters."
+msgstr "Hapus semua counter kunjungan foto"
+
+#: ../admin_func.php:511
+msgid "Clear gallery visit counters."
+msgstr "Hapus counter gallery yang telah dikunjungi"
+
+#: ../admin_func.php:512
+msgid "Delete gallery thumbnails."
+msgstr "Hapus thumbnails Gallery"
+
+#: ../admin_func.php:513
+msgid "Delete all files in directory."
+msgstr "Hapus semua file di dalam direktori"
+
+#: ../admin_func.php:514
+msgid "send"
+msgstr "kirim"
+
+#: ../admin.php:76 ../admin.php:87
+msgid "<strong>YaPiG</strong> Admin"
+msgstr "<strong>YaPiG</strong> Admin"
+
+#: ../admin.php:102
+msgid "Not available."
+msgstr "Tidak tersedia"
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:108
+msgid "Add a new gallery"
+msgstr "Tambah Gallery baru"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:102 ../modify_phid.php:108
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Gallery tidak exist atau argument gid belum ditentukan"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Status Gallery tidak exist atau tidak dapat dihapus"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Status Gallery telah dihapus"
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Status Foto terhadap Gallery ini tidak exist atau tidak dapat dihapus"
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Status Foto Gallery ini telah dihapus"
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Counter Komentar terhadap Gallery ini tidak eksis atau tidak dapat dihapus"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Counter Komentar terhadap Gallery ini telah dihapus"
+
+#: ../delete_gallery.php:69
+msgid "Could not be loaded this file: "
+msgstr "File berikut tidak dapat diload: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:105 ../delete_gallery.php:120
+msgid "Could not delete: "
+msgstr "Tidak dapat dihapus: "
+
+#: ../delete_gallery.php:77
+msgid "Deleted: "
+msgstr "Dihapus: "
+
+#: ../delete_gallery.php:87
+msgid "Could not get image list from file: "
+msgstr "Liste Foto tidak dapat didapatkan dari file: "
+
+#: ../delete_gallery.php:92
+msgid "Could not delete thumbnail image: "
+msgstr "Thumbnail foto tidak dapat dihapus: "
+
+#: ../delete_gallery.php:93
+msgid "Deleted thumbnail: "
+msgstr "Thumnails yang terhapus: "
+
+#: ../delete_gallery.php:101
+msgid "Gallery could not be removed from index"
+msgstr "Gallery tidak dapat dihapus dari index"
+
+#: ../delete_gallery.php:103
+msgid "Gallery will not be shown anymore in the index of galeries"
+msgstr "Gallery tidak akan ditampilkan lagi di Gallery index"
+
+#: ../delete_gallery.php:112
+msgid " is not a valid directory"
+msgstr " bukan direktori yang benar"
+
+#: ../delete_gallery.php:115
+msgid " could not be opened"
+msgstr " tidak dapat dibuka"
+
+#: ../delete_gallery.php:122
+msgid "Deleted file: "
+msgstr "File yang terhapus: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:127
+msgid "Gallery successfully deleted."
+msgstr "Gallery berhasil dihapus"
+
+#. Show some useful links
+#: ../delete_gallery.php:130
+msgid "Admin index"
+msgstr "Index Admin"
+
+#: ../delete_gallery.php:131
+msgid "Delete more galleries"
+msgstr "Hapus Gallery yang lain"
+
+#: ../functions.php:82
+msgid "Error"
+msgstr "Error"
+
+#: ../functions.php:100
+msgid "Warning"
+msgstr "Warning"
+
+#: ../functions.php:144
+msgid "main menu"
+msgstr "Menu utama"
+
+#: ../functions.php:145
+msgid "Gallery index"
+msgstr "Index Gallery"
+
+#: ../functions.php:146
+msgid "Home page"
+msgstr "Home"
+
+#: ../functions.php:148
+msgid "Admin"
+msgstr "Admin"
+
+#. Logout links
+#: ../functions.php:151
+msgid "Admin logout"
+msgstr "Admin keluar"
+
+#: ../functions.php:152
+msgid "Gallery logout"
+msgstr "Keluar dari Gallery"
+
+#: ../functions.php:456
+msgid "Gallery does not exist: "
+msgstr "Gallery tidak exist"
+
+#: ../functions.php:494
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Gallery ini membutuhkan password. Silahkan isi password dan klick validate. Terima kasih"
+
+#: ../functions.php:496
+msgid "Validate"
+msgstr "Validate"
+
+#: ../functions.php:497
+msgid "Gallery password"
+msgstr "Password Gallery"
+
+#. I18n -
+#: ../functions.php:541
+msgid "View image bigger"
+msgstr "Perbesar Gambar"
+
+#: ../functions.php:542
+msgid "Image"
+msgstr "Foto"
+
+#: ../functions.php:543
+msgid "Hits"
+msgstr "Hits"
+
+#: ../gallery.php:36
+msgid "Congratulations YAPIG is working!"
+msgstr "Selamat! YAPIG bekerja"
+
+#. welcome message
+#: ../gallery.php:39
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\n"
+"   <p>If this is the first time you run YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Selamat datang di <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Belum ada <strong>NO</strong> Gallery.<p>\n"
+"   <p>Apabila ini bukan yang pertama kali anda jalankan YaPig:</p>\n"
+"   <ol>\n"
+"   <li>Ubah  <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login sebagai admin</a> dan tambahkan Gallery baru</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:59
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Tidak ada Gallery. Login sebagai admin untuk cipta Gallery baru"
+
+#: ../install.php:30
+msgid "YaPiG Installation"
+msgstr "Installasi YaPiG"
+
+#: ../install.php:41
+msgid "Could not be loaded GD library witch is required by YapiG or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "Library GD yang diperlukan YaPiG tidak dapat ditemukan atau versi GD anda terlalu tua. Silahkan baca dokumentasi doc/install.html untuk informasi lebih lanjut"
+
+#: ../install.php:44
+msgid "Nice! Your server has GD version 2 or above. You can run YaPiG!"
+msgstr "Hebat! Server anda memiliki versi GD 2 atau ke atas. Anda dapat menjalankan YaPiG"
+
+#: ../install.php:54
+msgid "Change YaPiG's root directory permissions to allow creating new files."
+msgstr "Ubah permission root direktory untuk YaPiG supaya dapat meciptakan file baru"
+
+#: ../install.php:55
+msgid "Installation aborted. Could not create config file."
+msgstr "Installasi dibatalkan. Config file tidak dapat dicetak"
+
+#: ../install.php:94
+msgid "YaPiG successfully installed."
+msgstr "YaPiG telah sukses diinstall"
+
+#: ../modify_gallery.php:34
+msgid "Could not get image list. Gallery might have not images"
+msgstr "Liste Foto Gallery tidak dapat ditemukan. Gallery mungkin tidak berisi foto"
+
+#: ../modify_gallery.php:38
+msgid "Current images at gallery are:"
+msgstr "Foto-foto yang tersedia di Galeri:"
+
+#: ../modify_gallery.php:55
+msgid "Could not read gallery directory filenames"
+msgstr "Filename direktory Gallery tidak dapat dibaca"
+
+#: ../modify_gallery.php:57
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "Foto-foto yang ada di direktory tetapi tidak ada di Gallery:"
+
+#: ../modify_gallery.php:108 ../modify_phid.php:114
+msgid "Modify gallery: "
+msgstr "Modifikasi Gallery:"
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:118
+msgid "Modify gallery information:"
+msgstr "Modifikasi Informasi Gallery:"
+
+#: ../modify_gallery.php:135
+msgid "Directory location with images required!"
+msgstr "Direktori Foto-Foto dibutuhkan!"
+
+#: ../modify_gallery.php:155
+msgid "Creating gallery information file."
+msgstr "File Informasi Gallery sedang dicetak"
+
+#: ../modify_gallery.php:156
+msgid "Gallery info successfully updated."
+msgstr "Info Gallery telah sukses diupdate"
+
+#: ../modify_gallery.php:168
+msgid "Could not update thumbnail"
+msgstr "Thumbnail tidak dapat diupdate"
+
+#: ../modify_gallery.php:169
+msgid "Thumbnail updated. (Do not worry if the upper thumb is the old one)"
+msgstr "Thumbnail telah diupdate (Jangan khawatir apabila thumbnail yang ditampilkan adalah thumbnail yang lama)"
+
+#. List all phids.
+#: ../modify_gallery.php:174
+msgid "Select thumbnail: "
+msgstr "Silahkan pilih Thumbnail:"
+
+#: ../modify_gallery.php:176
+msgid "Could not get all image list."
+msgstr "Tidak semua Liste Image bisa ditampilkan"
+
+#. Construct Form.
+#: ../modify_gallery.php:179
+msgid "Update gallery thumbnail"
+msgstr "Update Thumbnail Gallery"
+
+#: ../modify_gallery.php:180
+msgid "default password protected galleries thumbnail"
+msgstr "Password untuk Gallery thumbnails seperti biasa"
+
+#: ../modify_gallery.php:217
+msgid "Creating thumbs for images that do not have it."
+msgstr "Thumbnails untuk Foto yang tidak mempunyainya sedang dicetak"
+
+#: ../modify_gallery.php:222
+msgid "Creating all thumbs"
+msgstr "Semua thumbnails sedang dicetak"
+
+#: ../modify_gallery.php:227
+msgid "Could not update gallery image list"
+msgstr "Liste Foto Gallery tidak dapat diupdate"
+
+#: ../modify_gallery.php:228
+msgid "Image list successfully updated"
+msgstr "Liste Foto sukses diupload"
+
+#: ../modify_gallery.php:231
+msgid "Number of images not updated"
+msgstr "Jumlah Foto yang tidak diupload"
+
+#: ../modify_gallery.php:233
+msgid "Number of images updated"
+msgstr "Jumlah Foto yang telah diupload"
+
+#. Default action is view galleries.
+#: ../modify_gallery.php:241
+msgid "<p>Please, select a gallery:</p>"
+msgstr "Silahkan pilih Gallery"
+
+#: ../modify_gallery.php:244
+msgid "There are no galleries."
+msgstr "Gallery kosong"
+
+#: ../modify_gallery.php:255
+msgid "View this Gallery"
+msgstr "Lihat Gallery ini"
+
+#: ../modify_gallery.php:256
+msgid "Modify Gallery Index"
+msgstr "Modifikasi Index Gallery"
+
+#: ../modify_phid.php:24
+msgid "Image identificator (phid) not found."
+msgstr "Identifikasi Foto (phid) tidak ketemu"
+
+#. I18n
+#: ../modify_phid.php:39
+msgid "Image name"
+msgstr "Nama Foto"
+
+#: ../modify_phid.php:42
+msgid "Remove image"
+msgstr "Hapus Foto"
+
+#: ../modify_phid.php:43
+msgid "Clear"
+msgstr "Hapus"
+
+#: ../modify_phid.php:44
+msgid "Image id"
+msgstr "Foto ID"
+
+#: ../modify_phid.php:45
+msgid "Modify Image"
+msgstr "Moifikasi Foto"
+
+#: ../modify_phid.php:46
+msgid "Set as gallery thumbnail"
+msgstr "Tampilkan sebagai thumbnail"
+
+#: ../modify_phid.php:57
+msgid "Could not remove image from gallery image list"
+msgstr "Foto tidak dapat dihilangkan dari liste"
+
+#: ../modify_phid.php:58
+msgid "Image will not be shown in list."
+msgstr "Foto tidak akan ditampilkan di liste"
+
+#: ../modify_phid.php:67
+msgid "Could not delete image comments file: "
+msgstr "File Kommentar terhadap Foto tidak dapat dihapus"
+
+#: ../modify_phid.php:68
+msgid "Image comments deleted"
+msgstr "Komentar terhadap Foto telah dihapus"
+
+#: ../modify_phid.php:71
+msgid "Could not delete image comments counter: "
+msgstr "Counter Komentar terhadap Foto tidak dapat dihapus"
+
+#: ../modify_phid.php:72
+msgid "Image comments counter deleted"
+msgstr "Counter Komentar terhadap Foto telah dihapus"
+
+#: ../modify_phid.php:80
+msgid "Image visits counter not found or could not be removed."
+msgstr "Counter terhadap Foto yang dikunjungi tidak ketemu atau tidak dapat dipindah"
+
+#: ../modify_phid.php:81
+msgid "Image visits counter deleted"
+msgstr "Counter Foto yg dikunjungi telah dihapus"
+
+#: ../view_func.php:28
+msgid "Filename"
+msgstr "Filename"
+
+#: ../view_func.php:29
+msgid "File size"
+msgstr "File size"
+
+#: ../view_func.php:30
+msgid "Image size"
+msgstr "Foto size"
+
+#: ../view_func.php:66
+msgid "Add yout comment!"
+msgstr "Berikan Komentar anda!"
+
+#: ../view_func.php:67
+msgid "Comment title"
+msgstr "Judul Komentar"
+
+#: ../view_func.php:69
+msgid "E-mail"
+msgstr "Email"
+
+#: ../view_func.php:72
+msgid "Fields with * are required"
+msgstr "* Fields yang wajib diisi"
+
+#: ../view_func.php:105
+msgid "Image comments"
+msgstr "Kommentar terhadap Foto"
+
+#: ../view_func.php:107
+msgid "There are no messages! Give us your opinion!"
+msgstr "Belum ada komentar yang masuk. Silahkan berikan komentar anda!"
+
+#: ../view_func.php:112
+msgid "Opening comments file"
+msgstr "Tampilkan file Komentar"
+
+#: ../view_func.php:138
+msgid "Previous Gallery"
+msgstr "Gallery sebelum"
+
+#: ../view_func.php:139
+msgid "Next Gallery"
+msgstr "Gallery berikut"
+
+#: ../view_func.php:140
+msgid "Index of Galleries"
+msgstr "Index Gallery"
+
+#: ../view_func.php:143 ../view_func.php:178
+msgid "could not show gallery navigation bar"
+msgstr "Navigasi Gallery tidak dapat ditampilkan"
+
+#: ../view_func.php:172
+msgid "Previous Image"
+msgstr "Foto sebelum"
+
+#: ../view_func.php:173
+msgid "Next Image"
+msgstr "Foto berikut"
+
+#: ../view_func.php:174
+msgid "Up"
+msgstr "Index"
+
+#: ../view_func.php:207
+msgid "Previous page"
+msgstr "Halaman sebelum"
+
+#: ../view_func.php:208
+msgid "Next page"
+msgstr "Halaman berikut"
+
+#. 0 -> View gallery identified with "gid"
+#: ../view.php:38
+msgid "GID not set"
+msgstr "GID belum ditentukan"
+
+#: ../view.php:46
+msgid "Getting gallery directory"
+msgstr "Lihat direktori Gallery"
+
+#: ../view.php:61
+msgid "Password incorrect."
+msgstr "Salah Password"
+
+#: ../view.php:82
+msgid "Gallery data not found. Please create again this gallery"
+msgstr "Data Gallery tidak ketemu. Ulangi pembuatan Gallery ini"

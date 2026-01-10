@@ -1,0 +1,61 @@
+<html><head>
+<html><head>
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// the string that should scroll
+var scrlStr = "DON'T DO IT!           Welcome to Constellar.co.uk!       " +
+"Please try our Online game!."
+
+// the width of the scrolling area
+var width = 120;
+
+var strLen = scrlStr.length;
+var pos = 1 - width;                // start far enough to the left for only
+                                    // one letter to be showing
+
+function scroll(){
+    var scroll = "";                // initialize the string to be printed
+    pos++;                          // move to the right in the string
+    if (pos == strLen)              // start over if the string is done        
+        pos = 1 - width;            // scrolling
+
+    if (pos<0) {                    // add spaces to beginning if necessary
+        for (var i=1; i<=Math.abs(pos); i++)
+            scroll = scroll + " ";
+       scroll = scroll + scrlStr.substring(0, width - i + 1);
+    }
+    else
+        scroll = scroll + scrlStr.substring(pos, pos + width);
+
+    window.status = scroll;         // print the string
+    setTimeout("scroll()",70);     // recurse after 1/7 of a second
+}
+
+//-->
+</SCRIPT>
+<body onLoad = "scroll(); return true">
+
+
+<BODY BACKGROUND="spacebackground.gif" BGCOLOR="#C0C0C0" TEXT="White" ALINK="Yellow" VLINK="Yellow" LINK="Yellow">
+<title>Internet Jim</title>
+<center><H3>
+<TABLE WIDTH=80% BORDER=0><TR>
+<TD WIDTH=30%>
+<image src="2sm1.jpg">
+</TD><TD WIDTH=70%>
+<center><FONT COLOR="Red"><H3>
+Internet Jim
+</center></H3></FONT><FONT COLOR="Yellow"><H4><center>
+Internet Jim, probably one of the worst feared criminal masterminds in the galaxy, looks, to all intents and purposes, like an ordinary Joe. But behind that bespectacled exterior lies a criminal mastermind, carrying out atrocities of galactic proportions.</H4></center>
+</TD></TR>
+</TABLE>
+
+</TD></TR></TABLE>
+<p>
+<A HREF="merchandise1.htm">Check out the 'Internet Jim' constellar.co.uk OFFICIAL Merchandise!</A>
+<p>
+<A HREF="index.html">Return to Homepage</A>
+</center>
+</H3>
+</body></html>

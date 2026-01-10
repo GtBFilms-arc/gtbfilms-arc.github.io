@@ -1,0 +1,8 @@
+OGRE
+	Ogres are large humanoid creatures with ugly features, swarthy 
+skin and big muscles. Although fearsome to look upon they are generally
+ good natured. Unfortunately they enjoy a 'friendly' punch up from 
+time to time, and being a bit dim witted they tend to forget their own 
+strength. The end result is often a bloody mess on one side and an 
+embarrassed ogre on the other. Ogres can usually be found in hilly or 
+mountainous terrain, or underground.

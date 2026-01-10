@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<TITLE>Shockwave</TITLE>
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// the string that should scroll
+var scrlStr = "DON'T DO IT!           Welcome to Constellar.co.uk!       " +
+"Please try our other Online game - Rocket Launcher!."
+
+// the width of the scrolling area
+var width = 120;
+
+var strLen = scrlStr.length;
+var pos = 1 - width;                // start far enough to the left for only
+                                    // one letter to be showing
+
+function scroll(){
+    var scroll = "";                // initialize the string to be printed
+    pos++;                          // move to the right in the string
+    if (pos == strLen)              // start over if the string is done        
+        pos = 1 - width;            // scrolling
+
+    if (pos<0) {                    // add spaces to beginning if necessary
+        for (var i=1; i<=Math.abs(pos); i++)
+            scroll = scroll + " ";
+       scroll = scroll + scrlStr.substring(0, width - i + 1);
+    }
+    else
+        scroll = scroll + scrlStr.substring(pos, pos + width);
+
+    window.status = scroll;         // print the string
+    setTimeout("scroll()",70);     // recurse after 1/7 of a second
+}
+
+//-->
+</SCRIPT>
+<body onLoad = "scroll(); return true">
+
+
+<BODY bgcolor="#000000">
+<center>
+<TABLE WIDTH=100%><TR><TD WIDTH=15%><FONT COLOR="White"><img src="kendo.jpg"></FONT></TD><TD WIDTH=85%>
+<H2><FONT COLOR="Gold">Interstellar Convict KENDO NAGASAKI has created a clone army of himself! Can you rid the cosmos of this horrific threat by using your mouse to shoot KENDO'S army of clones in the head - and so end his reign of terror?</H2></FONT></TD></TR></TABLE>
+<p>
+<H5><FONT COLOR="Yellow">This game uses SHOCKWAVE FLASH, please give it a moment to load.. Scroll down to play.</FONT></H5>
+
+<!-- Aftershock shooting_gallery.swf 3=100 4=100 2=1 5 18 24=3 38 40 -->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0"
+ ID=shooting_gallery WIDTH=100% HEIGHT=100%>
+  <PARAM NAME=movie VALUE="shooting_gallery.swf"> 
+  <PARAM NAME=loop VALUE=false> 
+  <PARAM NAME=quality VALUE=high> 
+  <PARAM NAME=bgcolor VALUE=#000000> 
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+function checkForShockwave()
+{
+	navigator.plugins.refresh();
+	if ( navigator.plugins["Shockwave Flash"] ){ 
+		parent.location.reload();
+	} else {
+		setTimeout( "checkForShockwave()", 1000 );
+	}
+}
+var ShockMode = 0;
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"] && navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+	if (navigator.plugins && navigator.plugins["Shockwave Flash"])
+		ShockMode = 1;
+}
+if (!ShockMode && navigator.appName && navigator.appName.indexOf("Netscape") != - 1 && navigator.appVersion.indexOf("4.") != - 1
+&& navigator.javaEnabled() && netscape.softupdate.Trigger.UpdateEnabled() && document.cookie.indexOf("StartedShockwaveInstall") == -1) {
+	var jarPath = new String("");
+	if (navigator.platform.indexOf("Win32") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflash32.jar"
+	else if (navigator.platform.indexOf("Win16") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflash16.jar"
+	else if (navigator.platform.indexOf("MacPPC") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflashppc.jar"
+	if (jarPath.length) {
+		netscape.softupdate.Trigger.StartSoftwareUpdate (jarPath, netscape.softupdate.Trigger.FORCE_MODE);
+		document.cookie='StartedShockwaveInstall;path=/;'
+		setTimeout("checkForShockwave()", 1000);
+	}
+}
+//-->
+</SCRIPT><EMBED SRC="shooting_gallery.swf"
+ swLiveConnect=FALSE WIDTH=100% HEIGHT=100%
+ LOOP=false QUALITY=high BGCOLOR=#000000
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+</EMBED></OBJECT><!-- EndAftershock shooting_gallery.swf -->
+</center>
+</BODY>
+</HTML>

@@ -1,0 +1,6 @@
+BANDIT
+	Kharne's wilderness is populated by monsters, adventurers, and bandits. These groups of 
+society's outcasts include humans, dwarves, elves and half-bloods. These brigands have found lives 
+raiding small communities and ambushing travellers and adventurers. They steal and kill to survive, 
+but are cowardly and will run if faced with a serious threat. Most bandits are poor, unskilled warriors, 
+relying on their numbers in combat, and are no threat to most parties.

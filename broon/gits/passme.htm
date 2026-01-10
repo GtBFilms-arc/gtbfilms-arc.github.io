@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>STOP!! Enter Your Password!!</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--- Hide from old browsers
+function goForit() {
+  var location;
+  var password;
+  password=this.document.testform.inputbox.value
+  location=password + ".htm"
+  fetch(location)
+  theKeeper=window.close()
+}
+function fetch(location) {
+  var root;
+  if (opener.closed) {root=window.open('','toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,copyhistory=no');
+    root.location.href = location;
+  } else {
+    opener.location.href = location;
+  }
+}
+// End hiding --->
+</SCRIPT>
+</HEAD>
+<body text="Black" LINK="Blue" VLINK="Green" ALINK="Green">
+<body background="parch.jpg">
+<CENTER>
+<FONT SIZE=+2>Enter GITS member password to proceed to the <EM><font color="purple">Mage's Spellbook</font></EM> page!!
+<FORM NAME="testform">
+<INPUT TYPE="text" NAME="inputbox" VALUE="" size=20>
+<INPUT TYPE="button" NAME="button" Value="Submit Password" onClick="goForit(this.form)"></FORM>
+</FONT>
+(<EM>You must click the button, don't press Enter.</EM>)
+</CENTER>
+</BODY>
+</HTML>

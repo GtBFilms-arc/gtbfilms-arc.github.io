@@ -1,0 +1,6 @@
+FARMER
+	Farmers are often found in the fields of Kharne, tending their crops or looking after their 
+livestock. They frequently get angry with adventuring parties who stroll through their land, destroying 
+the crops and startling the herds. Such irate farmers have been known to chase parties through the 
+countryside for several miles, hurling abuse and threats, such as 'Get off my land!' and 'Stop interfering 
+with my sheep!'.

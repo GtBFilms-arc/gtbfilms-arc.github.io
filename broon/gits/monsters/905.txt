@@ -1,0 +1,13 @@
+MONK
+	A monk is a human follower of one of the eight gods of Kharne,
+who is on some religious pilgrimage or quest. Monks are often found
+travelling on roads, journeying from temple to temple. All the monks
+in a group encountered by a party will be aligned to the same god. 
+A monk's behaviour depends on his alignment. Monks of Garthrana, 
+Sundonak or Fleyshur are usually hostile, while monks of Phyloqure 
+are peaceful and might even be communicative. As a reward for their 
+devotion, monks are given considerable protection by their patron 
+god, making them dangerous in combat. It is rumoured that monks of 
+Sundonak are among the best warriors in the land. Monks are often 
+targets of assassination attempts by followers of opposing religions, 
+since this is known to please the opposing god.
