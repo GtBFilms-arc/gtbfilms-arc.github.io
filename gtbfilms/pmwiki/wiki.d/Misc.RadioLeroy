@@ -1,0 +1,12 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1
+author=gonad
+host=192.168.0.59
+name=Misc.RadioLeroy
+rev=1
+targets=
+text=This will be a page about Radio Leroy.
+time=1141099506
+author:1141099506=gonad
+diff:1141099506:1141099506:=1d0%0a%3c This will be a page about Radio Leroy.%0a\ No newline at end of file%0a
+host:1141099506=192.168.0.59

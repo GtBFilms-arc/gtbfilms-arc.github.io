@@ -1,0 +1,64 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-lavender.css
+# 
+# part of the Gemini skin for Pmwiki
+#=============================================================================*/
+
+/*===============  lavender theme ================*/
+body { background-color:#f0e3ff;}
+
+#wrapper { background-image:  url(images/lavender-128top.jpg);
+	   background-repeat:repeat-x; }
+	   
+a:link { color:#00f; }
+a:visited { color:#00f; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+#titlebarbox { margin-bottom:0.3em  }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#033EC6; }
+
+#content { border:1px solid #999;  /* textarea borders */
+		background-color:#FCFAFF;
+		}
+.quickref {background:#f0e3ff }
+/*#sidebar { background-color:#FAE3FF; 
+		border:1px solid #999; }*/
+#sidebar p, h1, h2, h3, h4, h5, h6, .sidehead { color:#00f; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#00f; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+p.sidehead a:hover, p.sidehead a:active 
+		{ color:#f00; background: #ffffb0;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#00f; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #f00; background: #ffffb0; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#033EC6; 
+			background: #f0e3ff; 
+			border:1px solid #aaa;}
+.inputbox:hover, .inputbox:focus { color:#000; background:#ffffb0; }			
+/* comment next three lines to get a standard button */
+.inputbutton {color:#033EC6; 
+			background: #e4d1fe; 
+			border:1px solid #aaa;}
+.inputbutton:hover { color:#f00; background:#ffffb0 }
+
+#topnav li a:hover, #topnav li a:active { background:#ffffb0 }
+
+#footnavbox { margin-top:0.3em }
+#footnav { background:#f0e3ff; }
+#footnav li a { background:#e4d1fe;
+			border:1px solid #ccc; }
+#footnav li a:hover, #footnav li a:active { background:#ffffb0 }
+
+#footer { border-top:1px solid #aaa; }
+
+#rightbar { background:#f0e3ff; 
+	    border:1px solid #999 }  
+		

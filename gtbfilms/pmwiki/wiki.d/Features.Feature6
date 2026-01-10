@@ -1,0 +1,12 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0
+author=gonad
+host=81.179.87.203
+name=Features.Feature6
+rev=1
+targets=Films.CharliesCap
+text=[[Films/CharliesCap | %25black%25'''[++"Charlie's Cap"++]''']] \\%0a[[Films/CharliesCap | http://www.gonadovision.homeip.net/video/charlies_cap.jpg]]\\%0a%25%25''Charlie from Edinburgh Cine and Video Society recalls the story of his school cap.''
+time=1139354506
+author:1139354506=gonad
+diff:1139354506:1139354506:=1,3d0%0a%3c [[Films/CharliesCap | %25black%25'''[++"Charlie's Cap"++]''']] \\%0a%3c [[Films/CharliesCap | http://www.gonadovision.homeip.net/video/charlies_cap.jpg]]\\%0a%3c %25%25''Charlie from Edinburgh Cine and Video Society recalls the story of his school cap.''%0a\ No newline at end of file%0a
+host:1139354506=81.179.87.203

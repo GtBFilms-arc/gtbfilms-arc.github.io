@@ -1,0 +1,19 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2
+author=gonad
+host=192.168.0.126
+name=Actors.BushellJane
+rev=3
+targets=Films.PIF,Characters.Narrator,Main.Actors
+text=(:title Jane Bushell:)%0a%0a|| border=0 width=90%25 align=center%0a||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of not using a shredder! || || || http://www.gonadovision.homeip.net/video/photos/aaaargh.jpg ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/PIF | Identify Theft]] ||[[Characters/Narrator |Narrator]] ||%0a%0a'''Personal Webpage:'''\\%0ahttp://www.janebushell.co.uk%0a%0a[[Main/Actors | Other Actors]]
+time=1146108763
+title=Jane Bushell
+author:1146108763=gonad
+diff:1146108763:1141098215:minor=4,5c4,5%0a%3c ||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of not using a shredder! || || || http://www.gonadovision.homeip.net/video/photos/aaaargh.jpg ||%0a%3c %0a---%0a> ||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of not using a shredder! || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1146108763=192.168.0.126
+author:1141098215=gonad
+diff:1141098215:1141098195:=4,5c4,5%0a%3c ||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of not using a shredder! || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a---%0a> ||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of Identity Theft! || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1141098215=192.168.0.59
+author:1141098195=gonad
+diff:1141098195:1141098195:=1,15d0%0a%3c (:title Jane Bushell:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Jane was the narrator in [[Films/PIF | Identity Theft]], warning viewers of the consequences of Identity Theft! || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/PIF | Identify Theft]] ||[[Characters/Narrator |Narrator]] ||%0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c http://www.janebushell.co.uk%0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1141098195=192.168.0.59

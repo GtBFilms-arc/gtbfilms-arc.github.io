@@ -1,0 +1,15 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)
+author=gonad
+csum=
+ctime=1270941099
+host=188.221.67.230
+name=Restricted.Prediction
+rev=1
+targets=
+text=(:title Prediction:)%0a%0a'Prediction' is the working title for a proposed new short film from GtBFilms. It's expected that this film will be extremely short, due to consisting of pretty much one joke. Probably about 1 or 2 minute running time only.\\\%0a%0aThe script is currently in draft form and can be viewed/edited below:\\\%0a%0aScript Version 0.01 'Prediction' (working title)\\\%0a%0aOverview:\\%0aA character has premonitions of his own demise.\\\%0a%0aEventually he decides to visit a fortune teller, to get some idea of how to avoid his fate.\\\%0a%0aThe fortune teller tells him he has nothing to worry about, all she can see in his future is long life.\\\%0a%0aReassured he leaves the fortune teller, and decides to stop worrying and enjoy life.\\\%0a%0aAs he walks away, a case of UHT milk is accidentally dropped from a height onto his head and kills him. Or he could trip over it.\\\%0a%0aThe person with the case of milk appears throughout this short film, unexplained, but trying to deliver the milk or something. It's only at the end that their paths cross.\\\
+time=1270941099
+title=Prediction
+author:1270941099=gonad
+diff:1270941099:1270941099:=1,20d0%0a%3c (:title Prediction:)%0a%3c %0a%3c 'Prediction' is the working title for a proposed new short film from GtBFilms. It's expected that this film will be extremely short, due to consisting of pretty much one joke. Probably about 1 or 2 minute running time only.\\\%0a%3c %0a%3c The script is currently in draft form and can be viewed/edited below:\\\%0a%3c %0a%3c Script Version 0.01 'Prediction' (working title)\\\%0a%3c %0a%3c Overview:\\%0a%3c A character has premonitions of his own demise.\\\%0a%3c %0a%3c Eventually he decides to visit a fortune teller, to get some idea of how to avoid his fate.\\\%0a%3c %0a%3c The fortune teller tells him he has nothing to worry about, all she can see in his future is long life.\\\%0a%3c %0a%3c Reassured he leaves the fortune teller, and decides to stop worrying and enjoy life.\\\%0a%3c %0a%3c As he walks away, a case of UHT milk is accidentally dropped from a height onto his head and kills him. Or he could trip over it.\\\%0a%3c %0a%3c The person with the case of milk appears throughout this short film, unexplained, but trying to deliver the milk or something. It's only at the end that their paths cross.\\\%0a\ No newline at end of file%0a
+host:1270941099=188.221.67.230

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>$WikiTitle - $Group - $Title</title>
+ <style type="text/css" media="all">
+ 		@import "$SkinDirUrl/layout-main.css";
+		@import "$SkinDirUrl/$LayoutCss";
+		@import "$SkinDirUrl/$RightbarCss";
+ </style>
+  <link rel='stylesheet' href='$SkinDirUrl/$FontCss' type='text/css' media='screen' />
+  <link rel='stylesheet' href='$SkinDirUrl/$ColorCss' type='text/css' media='screen' />
+  <!--HeaderText-->
+<script language="JavaScript" type="text/javascript">
+<!--
+function changeDivHeight() {
+	// scroll height:
+	var test1 = document.body.scrollHeight;
+	var test2 = document.body.offsetHeight;
+	if (test1 > test2) // all but Explorer Mac
+		{ var sy = document.body.scrollHeight }
+	else // Explorer Mac; would also work in Explorer 6 Strict, Mozilla and Safari
+		{ var sy = document.body.offsetHeight };
+	// window inner height:
+	if (self.innerHeight) // all except Explorer
+		{ var iy = self.innerHeight }
+	else if (document.body) // other Explorers
+		{ iy = document.body.clientHeight };
+	var maxy = sy;
+	//header and footer height:
+	var hdr = document.getElementById('header').offsetHeight;
+	var ftr = document.getElementById('footer').offsetHeight;
+	if (iy>sy) { maxy = iy };
+	if (hdr==maxy) { hdr = 0 };
+	var sbr = maxy - hdr - ftr - 12;
+  //testing://	window.alert ("maxy: "+maxy+"; hdr: "+hdr+"; ftr: "+ftr+"; sidebar:"+sbr);
+	if (self.innerHeight) {
+	document.getElementById('sidebar').style.height =  sbr + "px"; }
+	else document.getElementById('sidebar').style.height = sbr -7 + "px";
+}
+onresize = changeDivHeight;
+onload = changeDivHeight;
+
+-->
+</script>
+<link href="$SkinDirUrl/layout-print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+<body >
+<div id='wrapper'>
+<div id='header'>
+<!--PageTopMenuFmt-->
+	<div id='topnav'>
+		<!--wiki:$Group.PageTopMenu $SiteGroup.PageTopMenu-->
+		<div class='clearer'><!-- a clearer division --></div>
+	</div>
+<!--/PageTopMenuFmt-->
+<!--PageHeaderFmt-->
+	<div id='topheader' class='pageheader'> $LogoFmt
+		<!--wiki:$Group.PageHeader $SiteGroup.PageHeader-->
+	</div>
+<!--/PageHeaderFmt-->
+</div>
+	<div class='clearer'><!-- a clearer division --></div>
+
+	  <table id='midtbl' width='100%' cellspacing='0' cellpadding='0'>
+		<tr>
+<!--PageLeftFmt-->
+		<td id='sidebarbox' valign='top'>
+			<div id='sidebar'>
+				<div id='sideheader' class='pageheader'> $LogoFmt
+					<!--wiki:$Group.PageHeader $SiteGroup.PageHeader-->
+				</div>
+				<div id='sidebarsearch'>$SearchTagFmt</div>
+				<!--wiki:$Group.SideBar $SiteGroup.SideBar-->
+				<div id="sidebarfooter">
+					<p><a href='$ScriptUrl/PmWiki.GeminiTwo'>GeminiTwo</a> 10b<br />
+				  	Powered by <a href='$ScriptUrl/PmWiki.PmWiki'>PmWiki</a></p>
+			</div>
+		</div> </td>
+<!--/PageLeftFmt-->
+
+    <td id='main' valign='top' align='left'>
+<!--PageTitleFmt-->
+		<div id='titlebarbox'>
+			<div id='titlebar'>
+				<div id='pagegroup'><a href='$ScriptUrl/$PageGroup'>$PageGroup</a></div>
+				<div id='pagetitle'>
+				<!--wiki:$FullName-TitleBar--><h1><a class='titlelink' href='$PageUrl'>$Titlespaced</a></h1>
+				</div>
+			</div>
+		 </div>
+<!--/PageTitleFmt-->
+		<div class='clearer'><!--end of page--></div>
+		<div id='content'>
+<!--PageRightFmt-->
+			<div id='rightbar'><!--wiki:$FullName-RightBar $Group.RightBar $SiteGroup.RightBar--></div>
+<!--/PageRightFmt-->
+<!--PageText-->
+			<div class='clearer'><!-- a clearer division --></div>
+		</div>
+<!--PageFootMenuFmt-->
+		<div id='footnavbox'>
+			<div id='footnav'><!--wiki:$Group.PageFootMenu $SiteGroup.PageFootMenu--></div>
+		</div>
+<!--/PageFootMenuFmt-->
+		</td></tr>
+	</table>
+<!--PageFooterFmt-->
+	<div id='footer'><!--wiki:$Group.PageFooter $SiteGroup.PageFooter--></div>
+<!--/PageFooterFmt-->
+</div>
+</body>
+</html>

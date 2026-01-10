@@ -1,0 +1,17 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0
+author=gonad
+csum=
+ctime=1303070748
+host=188.221.67.230
+name=Restricted.CharityHome2
+rev=2
+targets=
+text=Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female; Toby Flinders, Carol Palmer, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".[[%3c%3c]][[%3c%3c]]%0a%0aSomeone who is mean and always saying "Charity begins at home" - pings the underside of blind mans cup etc. Later gets his comeuppance, Two people decide to teach him a lesson, send him on a wild goose chase with road atlas, they watch on binoculars to see what happens He's got a note on the back of a betting slip, to buried treasure maybe? They set a trap for his selfish behaviour - is it supposed to do that? Maybe vanishing ink pen, on betting slip. He puts all the money he would have donated to charity on a sure fire bet, it comes in ( he says "Charity begins at home!") but the ink has vanished in the meantime!%0aOr somehow he has to make a massive charity donation to get out of his predicament? Or he's got to ask for help from some of the people that he's snubbed?
+time=1303070998
+author:1303070998=gonad
+diff:1303070998:1303070748:=1,2c1,2%0a%3c Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female; Toby Flinders, Carol Palmer, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".[[%3c%3c]][[%3c%3c]]%0a%3c %0a---%0a> Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".%0a> %0a
+host:1303070998=188.221.67.230
+author:1303070748=gonad
+diff:1303070748:1303070748:=1,4d0%0a%3c Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".%0a%3c %0a%3c Someone who is mean and always saying "Charity begins at home" - pings the underside of blind mans cup etc. Later gets his comeuppance, Two people decide to teach him a lesson, send him on a wild goose chase with road atlas, they watch on binoculars to see what happens He's got a note on the back of a betting slip, to buried treasure maybe? They set a trap for his selfish behaviour - is it supposed to do that? Maybe vanishing ink pen, on betting slip. He puts all the money he would have donated to charity on a sure fire bet, it comes in ( he says "Charity begins at home!") but the ink has vanished in the meantime!%0a%3c Or somehow he has to make a massive charity donation to get out of his predicament? Or he's got to ask for help from some of the people that he's snubbed?%0a\ No newline at end of file%0a
+host:1303070748=188.221.67.230

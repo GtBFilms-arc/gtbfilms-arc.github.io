@@ -1,0 +1,12 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Scripts.TheWishSw
+rev=1
+targets=
+text=Star Wars script%0a%0ageeky guy - joe sponge, star wars fan, makes lightsabre, playing with star wars memoribilia,%0a%0afriend, also geeky, but not star wars fan, fan of star trek or something, klingons, makes blaster%0a%0aSome girl, flirtyy, likes guy with big gun blah blah.%0a%0aI'll show them, if only I had a chance to prove myself.%0a%0aDream?%0a%0aSpacecraft lands, Sith lord in long cloak comes out.%0a%0akidnaps girl maybe.%0a%0aGuy with blaster shoots at him, but he uses light sabre and deflects beams, cuts off the arm of the blaster guy - cso effect with blue sheet of arm lying on the ground, twitching.%0a%0aJoe SPonge lights up his sabre, big battle - in front of forth bridges.%0a%0adefeats sith lord.%0a%0awakes up.%0a%0athe end.%0a
+time=1163785532
+author:1163785532=gonad
+diff:1163785532:1163785532:=1,25d0%0a%3c Star Wars script%0a%3c %0a%3c geeky guy - joe sponge, star wars fan, makes lightsabre, playing with star wars memoribilia,%0a%3c %0a%3c friend, also geeky, but not star wars fan, fan of star trek or something, klingons, makes blaster%0a%3c %0a%3c Some girl, flirtyy, likes guy with big gun blah blah.%0a%3c %0a%3c I'll show them, if only I had a chance to prove myself.%0a%3c %0a%3c Dream?%0a%3c %0a%3c Spacecraft lands, Sith lord in long cloak comes out.%0a%3c %0a%3c kidnaps girl maybe.%0a%3c %0a%3c Guy with blaster shoots at him, but he uses light sabre and deflects beams, cuts off the arm of the blaster guy - cso effect with blue sheet of arm lying on the ground, twitching.%0a%3c %0a%3c Joe SPonge lights up his sabre, big battle - in front of forth bridges.%0a%3c %0a%3c defeats sith lord.%0a%3c %0a%3c wakes up.%0a%3c %0a%3c the end.%0a
+host:1163785532=195.92.40.49

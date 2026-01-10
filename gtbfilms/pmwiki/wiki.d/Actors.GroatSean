@@ -1,0 +1,18 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+author=gonad
+csum=
+ctime=1272248673
+host=62.25.109.195
+name=Actors.GroatSean
+rev=2
+targets=Films.SouperSnips,Main.Actors
+text=(:title Sean Groat:)%0a%0a|| border=0 width=90%25 align=center%0a||Information coming soon.. || || || Image coming soon... ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/SouperSnips | SouperSnips]] ||Other Diner ||%0a%0a'''Personal Webpage:'''\\%0ahttp://www.luxvideo.co.uk/%0a%0a[[Main/Actors | Other Actors]]
+time=1272292214
+title=Sean Groat
+author:1272292214=gonad
+diff:1272292214:1272248673:=10,11c10,11%0a%3c ||[[Films/SouperSnips | SouperSnips]] ||Other Diner ||%0a%3c %0a---%0a> ||[[Films/SouperSnips | SouperSnips]] ||Other Customer ||%0a> %0a
+host:1272292214=62.25.109.195
+author:1272248673=gonad
+diff:1272248673:1272248673:=1,15d0%0a%3c (:title Sean Groat:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Information coming soon.. || || || Image coming soon... ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/SouperSnips | SouperSnips]] ||Other Customer ||%0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c http://www.luxvideo.co.uk/%0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1272248673=188.221.67.230

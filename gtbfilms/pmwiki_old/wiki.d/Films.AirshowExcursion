@@ -1,0 +1,18 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+author=gonad
+host=192.168.0.5
+name=Films.AirshowExcursion
+rev=3
+targets=
+text=This page will contain information/file downloads for "Airshow Excursion", it is currently under construction!%0a%0aAirshow Excursion (9:07)%0aRecorded on the 13th July 2002, the Airshow Excursion is an exciting trip to the Museum of Flight Annual Airshow.%0a%0aRecorded on Digital8 and 8mm cameras.%0a%0a[[http://www.gonadovision.homeip.net/video/airshow_hi.ram | High Speed connection version (29MB RealVideo)]]%0a%0a[[http://www.gonadovision.homeip.net/video/airshow_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a%0a(:html:)%0a%3ccenter>%0a%3cscript type="text/javascript">%3c!--%0agoogle_ad_client = "pub-5767714101223561";%0agoogle_ad_width = 728;%0agoogle_ad_height = 90;%0agoogle_ad_format = "728x90_as";%0agoogle_ad_type = "text_image";%0a//2007-09-12: GtBFilms%0agoogle_ad_channel = "8003625449";%0agoogle_ui_features = "rc:10";%0a//-->%0a%3c/script>%0a%3cscript type="text/javascript"%0a  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c/script>%0a%3c/center>%0a(:htmlend:)
+time=1189633977
+author:1189633977=gonad
+diff:1189633977:1142878708:=11,29d10%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a
+host:1189633977=192.168.0.5
+author:1142878708=gonad
+diff:1142878708:1139355467:=1,10c1%0a%3c This page will contain information/file downloads for "Airshow Excursion", it is currently under construction!%0a%3c %0a%3c Airshow Excursion (9:07)%0a%3c Recorded on the 13th July 2002, the Airshow Excursion is an exciting trip to the Museum of Flight Annual Airshow.%0a%3c %0a%3c Recorded on Digital8 and 8mm cameras.%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/airshow_hi.ram | High Speed connection version (29MB RealVideo)]]%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/airshow_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a---%0a> This page will contain information/file downloads for "Airshow Excursion"%0a\ No newline at end of file%0a
+host:1142878708=195.92.40.49
+author:1139355467=gonad
+diff:1139355467:1139355467:=1d0%0a%3c This page will contain information/file downloads for "Airshow Excursion"%0a\ No newline at end of file%0a
+host:1139355467=81.179.87.203

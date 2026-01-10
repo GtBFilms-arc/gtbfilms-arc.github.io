@@ -1,0 +1,21 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12
+author=gonad
+csum=
+ctime=1296178404
+host=188.221.67.230
+name=Actors.PlatztiseenClyde
+rev=3
+targets=Films.TheDuel,Actors.ClaymanRufus,Actors.PlatztiseenClyde,Main.Actors
+text=(:title Clyde Platztiseen:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/theduel02.jpg || || || Clyde Platztiseen is a keen guitarist and appears in the animated film  [[Films/TheDuel | The Duel]]. He has a love/hate relationship with his sometimes-friend [[Actors/ClaymanRufus | Rufus Clayman]]. || %0a%0a'''Interesting Fact'''\\%0aNone Yet!%0a\\\%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/TheDuel | The Duel]] ||%0a||'''Played By''' ||[[Actors/PlatztiseenClyde | Himself]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 2 ||%0a||'''Charisma''' || 9 ||%0a||'''Believability''' || 1 ||%0a||'''Age''' || 1 ||%0a||'''Luck''' || 8 ||%0a||'''Intelligence''' || 4 ||%0a||'''Scariness''' || 0 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1296178478
+title=Clyde Platztiseen
+author:1296178478=gonad
+diff:1296178478:1296178426:=7c7%0a%3c None Yet!%0a---%0a> None.%0a18,23c18,23%0a%3c ||'''Believability''' || 1 ||%0a%3c ||'''Age''' || 1 ||%0a%3c ||'''Luck''' || 8 ||%0a%3c ||'''Intelligence''' || 4 ||%0a%3c ||'''Scariness''' || 0 || %0a%3c %0a---%0a> ||'''Believability''' || 8 ||%0a> ||'''Age''' || 29 ||%0a> ||'''Luck''' || 6 ||%0a> ||'''Intelligence''' || 6 ||%0a> ||'''Scariness''' || 1 || %0a> %0a
+host:1296178478=188.221.67.230
+author:1296178426=gonad
+diff:1296178426:1296178404:=11c11%0a%3c ||'''Film''' ||[[Films/TheDuel | The Duel]] ||%0a---%0a> ||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a
+host:1296178426=188.221.67.230
+author:1296178404=gonad
+diff:1296178404:1296178404:=1,25d0%0a%3c (:title Clyde Platztiseen:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/photos/theduel02.jpg || || || Clyde Platztiseen is a keen guitarist and appears in the animated film  [[Films/TheDuel | The Duel]]. He has a love/hate relationship with his sometimes-friend [[Actors/ClaymanRufus | Rufus Clayman]]. || %0a%3c %0a%3c '''Interesting Fact'''\\%0a%3c None.%0a%3c \\\%0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a%3c ||'''Played By''' ||[[Actors/PlatztiseenClyde | Himself]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 2 ||%0a%3c ||'''Charisma''' || 9 ||%0a%3c ||'''Believability''' || 8 ||%0a%3c ||'''Age''' || 29 ||%0a%3c ||'''Luck''' || 6 ||%0a%3c ||'''Intelligence''' || 6 ||%0a%3c ||'''Scariness''' || 1 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1296178404=188.221.67.230

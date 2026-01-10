@@ -1,0 +1,16 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+author=gonad
+csum=overview added
+ctime=1267722897
+host=62.25.109.195
+name=Restricted.Paradox
+rev=1
+targets=
+text=(:title Paradox:)%0a%0a'Paradox' is the working title for a proposed new short film from GtBFilms.\\\%0a%0aThe script is currently in draft form and can be viewed/edited below:\\\%0a%0aScript Version 0.01 'Paradox' (working title)\\\%0a%0aOverview:\\%0aA scientist, Prof. Tim Chronotis, is working on an invention which will change the world. His invention is a microwave-like box that can manipulate time within itself - placing an egg inside the box and activating it will advance time in that small area, so that the egg grows into a chicken in a matter of seconds. Also a seed can be grown into a plant.%0a%0aWith his invention, the Professor hopes to end world hunger, and provide a plentiful supply of food for all.%0a%0aHowever, unbeknown to the Professor, activation of the box has initially unseen side-effects, each use destabilises the time matrix causing random time-slips somewhere in the vicinity.%0a%0aInitially these time-slips appear trivial, but when the Professor and his assistant try to investigate, they become embroiled in a complicated criss-cross of timestreams, where their actions influence earlier and later events. They accidentally create a situation where they have changed the future, they only solution is to go back to before the Professor invents the box, and prevent him from doing so.%0a
+time=1267722897
+title=Paradox
+author:1267722897=gonad
+csum:1267722897=overview added
+diff:1267722897:1267722897:=1,16d0%0a%3c (:title Paradox:)%0a%3c %0a%3c 'Paradox' is the working title for a proposed new short film from GtBFilms.\\\%0a%3c %0a%3c The script is currently in draft form and can be viewed/edited below:\\\%0a%3c %0a%3c Script Version 0.01 'Paradox' (working title)\\\%0a%3c %0a%3c Overview:\\%0a%3c A scientist, Prof. Tim Chronotis, is working on an invention which will change the world. His invention is a microwave-like box that can manipulate time within itself - placing an egg inside the box and activating it will advance time in that small area, so that the egg grows into a chicken in a matter of seconds. Also a seed can be grown into a plant.%0a%3c %0a%3c With his invention, the Professor hopes to end world hunger, and provide a plentiful supply of food for all.%0a%3c %0a%3c However, unbeknown to the Professor, activation of the box has initially unseen side-effects, each use destabilises the time matrix causing random time-slips somewhere in the vicinity.%0a%3c %0a%3c Initially these time-slips appear trivial, but when the Professor and his assistant try to investigate, they become embroiled in a complicated criss-cross of timestreams, where their actions influence earlier and later events. They accidentally create a situation where they have changed the future, they only solution is to go back to before the Professor invents the box, and prevent him from doing so.%0a
+host:1267722897=62.25.109.195

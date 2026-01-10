@@ -1,0 +1,18 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+author=gonad
+csum=
+ctime=1313506392
+host=62.6.161.131
+name=Scripts.Vampire
+rev=2
+targets=Characters.ClubMember1,Actors.BrownAlan,Characters.ClubMember2,Actors.BawnAndrew
+text=(:title Vampire Script:)%0a%0aVampire Script (working title)\\%0aScript version 0.1 (draft)\\\%0a%0aCAST:\\\%0a[[Characters/ClubMember1 | Character 1]] - [[Actors/BrownAlan | Alan Brown]]\\%0a[[Characters/ClubMember2 | Character 2]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a%0a\\%0aPROPS:\\\%0a%0a%0a\\\%0a%0a!!!Scene 1 - A hillside\\\%0a%0aTwo guys are on hiking expedition, one gets bitten by a bat, we don't see that at the start though, just later in flashback. The other guy gets killed on the trip, and they subsequently decide that this was an attack of a wolf or something. %0a%0aThe story then follows the remaining guy coming to terms with the death of his friend, but there are loads of SFX clues, such as no reflection, and sun sensitivity and adversion to garlic etc.%0a%0aEventually, he discovers the truth via flashback that he was bitten by a vampire bat and that all the weird stuff going on is due to him, when he transforms into a vampire during blackouts which he doesn't remember. He has to find a cure.
+time=1313506404
+title=Vampire Script
+author:1313506404=gonad
+diff:1313506404:1313506392:=16,17c16,17%0a%3c !!!Scene 1 - A hillside\\\%0a%3c %0a---%0a> !!!Scene 1 - An open-plan office\\\%0a> %0a
+host:1313506404=62.6.161.131
+author:1313506392=gonad
+diff:1313506392:1313506392:=1,22d0%0a%3c (:title Vampire Script:)%0a%3c %0a%3c Vampire Script (working title)\\%0a%3c Script version 0.1 (draft)\\\%0a%3c %0a%3c CAST:\\\%0a%3c [[Characters/ClubMember1 | Character 1]] - [[Actors/BrownAlan | Alan Brown]]\\%0a%3c [[Characters/ClubMember2 | Character 2]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a%3c %0a%3c \\%0a%3c PROPS:\\\%0a%3c %0a%3c %0a%3c \\\%0a%3c %0a%3c !!!Scene 1 - An open-plan office\\\%0a%3c %0a%3c Two guys are on hiking expedition, one gets bitten by a bat, we don't see that at the start though, just later in flashback. The other guy gets killed on the trip, and they subsequently decide that this was an attack of a wolf or something. %0a%3c %0a%3c The story then follows the remaining guy coming to terms with the death of his friend, but there are loads of SFX clues, such as no reflection, and sun sensitivity and adversion to garlic etc.%0a%3c %0a%3c Eventually, he discovers the truth via flashback that he was bitten by a vampire bat and that all the weird stuff going on is due to him, when he transforms into a vampire during blackouts which he doesn't remember. He has to find a cure.%0a\ No newline at end of file%0a
+host:1313506392=62.6.161.131

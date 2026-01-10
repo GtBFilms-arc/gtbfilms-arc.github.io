@@ -1,0 +1,21 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10
+author=gonad
+csum=
+ctime=1285499550
+host=188.221.67.230
+name=Restricted.ChangingTimesDirectorscut
+rev=3
+targets=
+text=(:title Changing Times - The Directors Cut (Now and Then):)%0a%0aFor the North vs South competition 2010, we have decided to re-edit the original Changing Times. This involves the re-filming of the original intro and final scenes, as they were considered quite weak. The original 'Juicy Apple' section will be tweaked and re-edited from the original footage.%0a%0a'''New Intro'''%0a%0aThe lards are all round at my house, getting ready to do some film making. Magnox is reading 'Video Maker magazine and eating an%0aapple".%0a%0aBaldas is getting ready and says "Do you still have those radio mics? We could do with those for this film."%0a%0aBroon says "I think I gave them back, hold on, I'll take a look in the attic for them."%0a%0aNext shot is in attic, Broon is rummaging through a cupboard and stumbles across an old dusty film tin, he looks at the label and it says "Juicy Apple 1903". %0a%0aHe hurries downstairs and tells the other lards "Hey, look what I found! It's an old cine film! And it's 100 years old!"%0a%0aBaldas "100 years? That could have been made by our great-great grandfathers! I wonder what sort of film they would have made%0aif they had know each other in those days?"%0a%0aMagnox, who has stoppped reading the magazine now, looks up and to the side, as if in a daydream, and we do the wobbly screen out to... 'Juicy Apple'%0a%0a''Juicy Apple plays''%0a%0a'''New Final Scene'''%0a%0aAfter the film has finished we return to  the original scene, Magnox is waking up, he stretches and yawns, the half-eaten apple is lying beside him, as in the Juicy Apple film, he looks around and realises everyone has just walked off and left him, shaking his head, he gets up and exits the shot.%0a
+time=1285499725
+title=Changing Times - The Directors Cut (Now and Then)
+author:1285499725=gonad
+diff:1285499725:1285499706:=0a1%0a> %0a23,24c24,25%0a%3c ''Juicy Apple plays''%0a%3c %0a---%0a> Juicy Apple plays.%0a> %0a
+host:1285499725=188.221.67.230
+author:1285499706=gonad
+diff:1285499706:1285499550:=1,7c1,4%0a%3c %0a%3c (:title Changing Times - The Directors Cut (Now and Then):)%0a%3c %0a%3c For the North vs South competition 2010, we have decided to re-edit the original Changing Times. This involves the re-filming of the original intro and final scenes, as they were considered quite weak. The original 'Juicy Apple' section will be tweaked and re-edited from the original footage.%0a%3c %0a%3c '''New Intro'''%0a%3c %0a---%0a> Now and Then%0a> %0a> Intro%0a> %0a26,27d22%0a%3c '''New Final Scene'''%0a%3c %0a
+host:1285499706=188.221.67.230
+author:1285499550=gonad
+diff:1285499550:1285499550:=1,23d0%0a%3c Now and Then%0a%3c %0a%3c Intro%0a%3c %0a%3c The lards are all round at my house, getting ready to do some film making. Magnox is reading 'Video Maker magazine and eating an%0a%3c apple".%0a%3c %0a%3c Baldas is getting ready and says "Do you still have those radio mics? We could do with those for this film."%0a%3c %0a%3c Broon says "I think I gave them back, hold on, I'll take a look in the attic for them."%0a%3c %0a%3c Next shot is in attic, Broon is rummaging through a cupboard and stumbles across an old dusty film tin, he looks at the label and it says "Juicy Apple 1903". %0a%3c %0a%3c He hurries downstairs and tells the other lards "Hey, look what I found! It's an old cine film! And it's 100 years old!"%0a%3c %0a%3c Baldas "100 years? That could have been made by our great-great grandfathers! I wonder what sort of film they would have made%0a%3c if they had know each other in those days?"%0a%3c %0a%3c Magnox, who has stoppped reading the magazine now, looks up and to the side, as if in a daydream, and we do the wobbly screen out to... 'Juicy Apple'%0a%3c %0a%3c Juicy Apple plays.%0a%3c %0a%3c After the film has finished we return to  the original scene, Magnox is waking up, he stretches and yawns, the half-eaten apple is lying beside him, as in the Juicy Apple film, he looks around and realises everyone has just walked off and left him, shaking his head, he gets up and exits the shot.%0a
+host:1285499550=188.221.67.230

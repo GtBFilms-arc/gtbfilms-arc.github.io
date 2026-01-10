@@ -1,0 +1,20 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9) Gecko/2008061015 Firefox/3.0
+author=gonad
+csum=
+host=192.168.0.1
+name=Characters.EverybodyBrian
+rev=3
+targets=Films.PIF,Characters.Thief,Actors.BawnAndrew,Actors.BrownAlan,Main.Actors
+text=(:title Brian Everybody:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/everybodybrian.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a%0a'''Interesting Fact'''\\%0aThis role was originally going to be played by [[Actors/BawnAndrew | Andrew Bawn]] but the roles were switched on the day, as he had lost his voice, and so took the non-speaking part of the [[Characters/Thief | Thief]] instead.%0a\\\%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/PIF | Identity Theft]] ||%0a||'''Played By''' ||[[Actors/BrownAlan | Alan Brown]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 4 ||%0a||'''Charisma''' || 7 ||%0a||'''Believability''' || 9 ||%0a||'''Age''' || 38 ||%0a||'''Luck''' || 2 ||%0a||'''Intelligence''' || 7 ||%0a||'''Scariness''' || 1 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1216664090
+title=Brian Everybody
+author:1216664090=gonad
+diff:1216664090:1141097950:=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/everybodybrian.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/photos/EverybodyBrian.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a> %0a
+host:1216664090=192.168.0.1
+author:1141097950=gonad
+diff:1141097950:1140612498:minor=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/EverybodyBrian.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a> %0a
+host:1141097950=192.168.0.59
+author:1140612498=gonad
+diff:1140612498:1140612498:=1,25d0%0a%3c (:title Brian Everybody:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Brian Everybody is careless with his bank statements and utility bills in [[Films/PIF | Identity Theft]] and predictably has his identity stolen by the [[Characters/Thief | Thief]]. || %0a%3c %0a%3c '''Interesting Fact'''\\%0a%3c This role was originally going to be played by [[Actors/BawnAndrew | Andrew Bawn]] but the roles were switched on the day, as he had lost his voice, and so took the non-speaking part of the [[Characters/Thief | Thief]] instead.%0a%3c \\\%0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/PIF | Identity Theft]] ||%0a%3c ||'''Played By''' ||[[Actors/BrownAlan | Alan Brown]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 4 ||%0a%3c ||'''Charisma''' || 7 ||%0a%3c ||'''Believability''' || 9 ||%0a%3c ||'''Age''' || 38 ||%0a%3c ||'''Luck''' || 2 ||%0a%3c ||'''Intelligence''' || 7 ||%0a%3c ||'''Scariness''' || 1 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1140612498=195.92.40.49

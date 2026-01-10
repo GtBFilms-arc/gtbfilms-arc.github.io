@@ -1,0 +1,16 @@
+version=pmwiki-2.0.beta22
+newline=²
+time=1109925657
+text=* %accesskey=$[ak_recentchanges]%[[RecentChanges| $[Recent Changes] ]]²* %accesskey=$[ak_history]%[[{$Name}?action=diff | $[Page History] ]]²* %accesskey=$[ak_edit]%[[{$Name}?action=edit | $[Edit Page] ]]
+targets=Site.PageTopMenu,Site.RecentChanges
+author=Hans
+author:1109618182=Hans
+host:1109618182=84.64.34.212
+diff:1109618182:1109618182:=1,2d0²< *[[{$Name}?action=edit | Edit]]²< *%newwin%[[{$Name}?action=source | Source]]²
+name=Main.PageTopMenu
+host=84.68.57.207
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.2; .NET CLR 1.0.3705)
+rev=2
+author:1109925657=Hans
+host:1109925657=84.68.57.207
+diff:1109925657:1109618182:=2,4c2²< *[[{$Name}?action=diff | History]]²< *[[{$Name}?action=print | Print&nbsp;View]]²< *[[RecentChanges]]²\ No newline at end of file²---²> *%newwin%[[{$Name}?action=source | Source]]²

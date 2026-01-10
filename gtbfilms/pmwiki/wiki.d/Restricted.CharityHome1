@@ -1,0 +1,17 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0
+author=gonad
+csum=
+ctime=1303070342
+host=188.221.67.230
+name=Restricted.CharityHome1
+rev=2
+targets=
+text=Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female; Toby Flinders, Carol Palmer, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".[[%3c%3c]][[%3c%3c]]%0a%0a%0aWhat about an alien encounter subject? - a wee spaceship crash lands (special effects,%0aparticle illusion or I could try my new EffectsLab Pro software I got%0afor Christmas) a couple of people (amateur alien spotters with%0abinoculars) discover it and a dead/injured alien, and decide to%0aexploit it/get it to somewhere that it can be rescued (road atlas).%0aThe alien can have bizarre habits "is it supposed to do that?".%0aSomeone scribbles a note on the back of a betting slip at some point.%0a%0aNot sure how that fits with "Charity begins at home" unless they%0asomehow make money out of it and try to justify keeping it.%0a%0aThat could go either way - drama or comedy. Could even be a sort of%0acomedy road-trip movie with a series of problems to overcome on the%0ajourney. We'd be stuffed if the weather was bad though.%0a%0aI was thinking live rubber puppet alien rather than cgi though.
+time=1303071037
+author:1303071037=gonad
+diff:1303071037:1303070342:=1,3d0%0a%3c Requirement for SAM weekend May 2011, a film titled 'Charity Begins At Home' must use two named characters, one male, one female; Toby Flinders, Carol Palmer, must use props: binoculars, betting slip, road atlas, and include the line "Is it supposed to do that?".[[%3c%3c]][[%3c%3c]]%0a%3c %0a%3c %0a
+host:1303071037=188.221.67.230
+author:1303070342=gonad
+diff:1303070342:1303070342:=1,16d0%0a%3c What about an alien encounter subject? - a wee spaceship crash lands (special effects,%0a%3c particle illusion or I could try my new EffectsLab Pro software I got%0a%3c for Christmas) a couple of people (amateur alien spotters with%0a%3c binoculars) discover it and a dead/injured alien, and decide to%0a%3c exploit it/get it to somewhere that it can be rescued (road atlas).%0a%3c The alien can have bizarre habits "is it supposed to do that?".%0a%3c Someone scribbles a note on the back of a betting slip at some point.%0a%3c %0a%3c Not sure how that fits with "Charity begins at home" unless they%0a%3c somehow make money out of it and try to justify keeping it.%0a%3c %0a%3c That could go either way - drama or comedy. Could even be a sort of%0a%3c comedy road-trip movie with a series of problems to overcome on the%0a%3c journey. We'd be stuffed if the weather was bad though.%0a%3c %0a%3c I was thinking live rubber puppet alien rather than cgi though.%0a\ No newline at end of file%0a
+host:1303070342=188.221.67.230

@@ -1,0 +1,82 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# sand-colors.css
+# 
+# part of the gemini skin for Pmwiki
+#=============================================================================*/
+
+/*=============== sand theme =================*/
+
+body { background:#ddb url(images/sand-bg.jpg); }
+
+a:link { color:#305F5D; }
+a:visited { color:#305F5D; }
+a:hover { color:#f60; }
+a:active { color:#f60; }
+
+#titlebarbox { margin-bottom:0.3em;  }
+#titlebar a { color:#666633; }
+#titlebar a:hover { color:#f60; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#5F5F30; }
+
+#content { 
+		border-top:1px solid #ACA899; 
+		border-left:1px solid #ACA899;
+		border-right:2px solid #ACA899;
+		border-bottom:2px solid #ACA899;
+		background:#fff;
+		background-image:url(images/sand-li.jpg);
+		 }
+.quickref { background:#eeeedd }	 
+#sidebar p, h1, h2, h3, h4, h5, h6, .sidehead { color:#5F5F30; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#5F5F30; }
+#sidebar h1 a:hover, #sidebar h1 a:active, 
+p.sidehead a:hover, p.sidehead a:active { color:#f60; background: #ffe;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#5F5F30; }
+#sidebar a:hover, #sidebar a:active { color:#f60;  }
+#sidebar li a:hover, #sidebar li a:active  { color:#f60; background:#ffe; } /* hover colors */
+
+#sidebar li, #sidebar h1, p.sidehead { border-bottom: 1px solid #ACA899; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #ACA899; border-bottom:0;} 
+
+.inputbox { color:#5F5F30; background: #EEEEDD;
+			border-top:1px solid #ACA899; 
+			border-left:1px solid #ACA899;
+			border-right:1px solid #EEEEDD;
+			border-bottom:1px solid #EEEEDD; }
+.inputbox:hover, .inputbox:focus { color:#000; background:#fff; }
+/* comment next six lines to get a standard button */
+.inputbutton {color:#5F5F30; background:#EEDA93; 
+			border-top:1px solid #EEEEDD; 
+			border-left:1px solid #EEEEDD;
+			border-right:1px solid #ACA899;
+			border-bottom:1px solid #ACA899;}
+.inputbutton:hover { color:#ff6600; background:#ffe }
+
+#topnav li a:link, #topnav li a:visited { color:#5F5F30}
+#topnav li a:hover, #topnav li a:active {  color:#f60; background:#ffe }
+
+#footnavbox { margin-top:0.5em  }
+#footnav li a { background:#EEDA93; }
+#footnav li a:hover, #footaction li a:active { background:#ffe }
+#footnav li a { 
+			border-top:1px solid #EEEEDD; 
+			border-left:1px solid #EEEEDD;
+			border-right:1px solid #ACA899;
+			border-bottom:1px solid #ACA899;}
+			
+#footer { border-top:1px solid #ACA899; }
+
+#rightbar { background:#F5E9BD; 
+	    border:1px solid #999} 
+
+/* only works for IE5.5+ */
+#main, body {
+		scrollbar-face-color:#eed; /* #F4E7B8; #F1E1A7; */ 
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#ACA899 ; 
+		scrollbar-arrow-color:#000; 
+		} 

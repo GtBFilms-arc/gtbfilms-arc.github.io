@@ -1,0 +1,37 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Actors.KnightMagnus
+rev=9
+targets=Films.ChangingTimes,Characters.KnightCornelius,Films.WhatAMess,Characters.Melvin,Films.Peaceful,Characters.Peaceseeker,Films.AirshowExcursion,Main.Actors
+text=(:title Magnus Knight:)%0a%0a|| border=0 width=90%25 align=center%0a||Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit. || || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/ChangingTimes | Changing Times]] ||Himself / [[Characters/KnightCornelius | Cornelius Knight]] ||%0a||[[Films/WhatAMess | What A Mess!]] ||[[Characters/Melvin | Melvin]] ||%0a||[[Films/Peaceful | Peaceful]] ||[[Characters/Peaceseeker | Peace Seeker]]  || %0a||[[Films/AirshowExcursion | Airshow Excursion]] ||Himself  || %0a%0a'''Personal Webpage:'''\\%0ahttp://www.magnusknight.com%0a%0a[[Main/Actors | Other Actors]]
+time=1141659579
+title=Magnus Knight
+author:1141659579=gonad
+diff:1141659579:1141659555:minor=4,5c4,5%0a%3c ||Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit. || || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a%3c %0a---%0a> || Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit.|| || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a> %0a
+host:1141659579=195.92.40.49
+author:1141659555=gonad
+diff:1141659555:1141659458:minor=4,5c4,5%0a%3c || Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit.|| || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a%3c %0a---%0a> || Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit. || || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a> %0a
+host:1141659555=195.92.40.49
+author:1141659458=gonad
+diff:1141659458:1141058527:minor=10c10%0a%3c ||[[Films/ChangingTimes | Changing Times]] ||Himself / [[Characters/KnightCornelius | Cornelius Knight]] ||%0a---%0a> ||[[Films/ChangingTimes | Changing Times]] ||[[Characters/KnightCornelius | Cornelius Knight]] ||%0a
+host:1141659458=195.92.40.49
+author:1141058527=baldas
+diff:1141058527:1141058458:=16,17c16,17%0a%3c http://www.magnusknight.com%0a%3c %0a---%0a> http://www.magnusknight.co.uk%0a> %0a
+host:1141058527=194.72.54.34
+author:1141058458=baldas
+diff:1141058458:1140685130:=4,5c4,5%0a%3c || Occasionally brilliant, occasionally absent, Magnus Knight is the Marlon Brando of GtB Films. Except that's he's much thinner. And not quite as good. Actually he's not much like Marlon Brando at all, he's more like Charlie Chaplin. In one of our films. A bit. || || || http://www.awn.com/tooninstitute/sketchbook/images/knight.gif ||%0a%3c %0a---%0a> ||Blah Blah about Magnox || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1141058458=194.72.54.34
+author:1140685130=gonad
+diff:1140685130:1140538126:=10c10%0a%3c ||[[Films/ChangingTimes | Changing Times]] ||[[Characters/KnightCornelius | Cornelius Knight]] ||%0a---%0a> ||[[Films/ChangingTimes | Changing Times]] ||[[Characters/OurHero | Hero]] ||%0a
+host:1140685130=192.168.0.3
+author:1140538126=gonad
+diff:1140538126:1140538099:=13,14c13,14%0a%3c ||[[Films/AirshowExcursion | Airshow Excursion]] ||Himself  || %0a%3c %0a---%0a> ||[[Films/AirshowExcursion | Airshow Excursion]] ||||Himself  || %0a> %0a
+host:1140538126=195.92.40.49
+author:1140538099=gonad
+diff:1140538099:1140538033:=12c12%0a%3c ||[[Films/Peaceful | Peaceful]] ||[[Characters/Peaceseeker | Peace Seeker]]  || %0a---%0a> ||[[Films/Peaceful | Peaceful]] ||||[[Characters/Peaceseeker | Peace Seeker]]  || %0a
+host:1140538099=195.92.40.49
+author:1140538033=gonad
+diff:1140538033:1140538033:=1,18d0%0a%3c (:title Magnus Knight:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Blah Blah about Magnox || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/ChangingTimes | Changing Times]] ||[[Characters/OurHero | Hero]] ||%0a%3c ||[[Films/WhatAMess | What A Mess!]] ||[[Characters/Melvin | Melvin]] ||%0a%3c ||[[Films/Peaceful | Peaceful]] ||||[[Characters/Peaceseeker | Peace Seeker]]  || %0a%3c ||[[Films/AirshowExcursion | Airshow Excursion]] ||||Himself  || %0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c http://www.magnusknight.co.uk%0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1140538033=195.92.40.49

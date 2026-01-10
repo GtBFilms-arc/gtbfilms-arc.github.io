@@ -1,0 +1,20 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7
+author=gonad
+csum=
+ctime=1266776463
+host=188.221.67.230
+name=Films.Recollections
+rev=3
+targets=
+text=
+time=1266776728
+author:1266776728=gonad
+diff:1266776728:1266776590:=0a1,43%0a> (:title Recollections:)%0a> %0a> 'Recollections' is the working title for a proposed new short film from GtBFilms.\\\%0a> %0a> The script is currently in draft form and can be viewed/edited below:\\\%0a> %0a> Script Version 0.01 'Recollections' (working title)\\\%0a> %0a> '''SCENE 1'''\\\%0a> %0a> %0a> %0a> '''Production:'''%0a> ||border=1 width=60%25 align=left%0a> ||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a> ||Cameras ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a> %0a> [[%3c%3c]]%0a> %0a> %0a> [[#Downloads]]%0a> '''Downloads'''\\\%0a> %0a> %0a> %0a> (:html:)%0a> %3ccenter>%0a> %3cscript type="text/javascript">%3c!--%0a> google_ad_client = "pub-5767714101223561";%0a> google_ad_width = 728;%0a> google_ad_height = 90;%0a> google_ad_format = "728x90_as";%0a> google_ad_type = "text_image";%0a> //2007-09-12: GtBFilms%0a> google_ad_channel = "8003625449";%0a> google_ui_features = "rc:10";%0a> //-->%0a> %3c/script>%0a> %3cscript type="text/javascript"%0a>   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a> %3c/script>%0a> %3c/center>%0a> (:htmlend:)%0a\ No newline at end of file%0a
+host:1266776728=188.221.67.230
+author:1266776590=gonad
+diff:1266776590:1266776463:=1,12c1,2%0a%3c (:title Recollections:)%0a%3c %0a%3c 'Recollections' is the working title for a proposed new short film from GtBFilms.\\\%0a%3c %0a%3c The script is currently in draft form and can be viewed/edited below:\\\%0a%3c %0a%3c Script Version 0.01 'Recollections' (working title)\\\%0a%3c %0a%3c '''SCENE 1'''\\\%0a%3c %0a%3c %0a%3c %0a---%0a> (:title Scotland's Secret Bunker:)%0a> %0a24,25c14,16%0a%3c %0a%3c %0a---%0a> [[http://www.gonadovision.homeip.net/video/shorts/secret_bunker.wmv | Click here for "Scotland's Secret Bunker" (26.3 MB WMV)]]%0a> \\\%0a> %0a
+host:1266776590=188.221.67.230
+author:1266776463=gonad
+diff:1266776463:1266776463:=1,34d0%0a%3c (:title Scotland's Secret Bunker:)%0a%3c %0a%3c '''Production:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c ||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a%3c ||Cameras ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a%3c %0a%3c [[%3c%3c]]%0a%3c %0a%3c %0a%3c [[#Downloads]]%0a%3c '''Downloads'''\\\%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/shorts/secret_bunker.wmv | Click here for "Scotland's Secret Bunker" (26.3 MB WMV)]]%0a%3c \\\%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a
+host:1266776463=188.221.67.230

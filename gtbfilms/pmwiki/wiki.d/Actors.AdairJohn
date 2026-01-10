@@ -1,0 +1,19 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1
+author=gonad
+host=192.168.0.59
+name=Actors.AdairJohn
+rev=3
+targets=Films.TheWish,Main.Actors
+text=(:title John Adair:)%0a%0a|| border=0 width=90%25 align=center%0a||John was the main camera operator during filming of [[Films/TheWish | 'The Wish']]. Sadly he has now emigrated and so will no longer be able to take part in further productions. || || || http://www.gonadovision.homeip.net/video/photos/AdairJohn.jpg ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a%0a'''Personal Webpage:'''\\%0a\\\%0a[[Main/Actors | Other Actors]]%0a%0a
+time=1140746749
+title=John Adair
+author:1140746749=gonad
+diff:1140746749:1140539740:minor=4,5c4,5%0a%3c ||John was the main camera operator during filming of [[Films/TheWish | 'The Wish']]. Sadly he has now emigrated and so will no longer be able to take part in further productions. || || || http://www.gonadovision.homeip.net/video/photos/AdairJohn.jpg ||%0a%3c %0a---%0a> ||John was the main camera operator during filming of [[Films/TheWish | 'The Wish']]. Sadly he has now emigrated and so will no longer be able to take part in further productions. || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1140746749=192.168.0.59
+author:1140539740=gonad
+diff:1140539740:1140539584:=4,5c4,5%0a%3c ||John was the main camera operator during filming of [[Films/TheWish | 'The Wish']]. Sadly he has now emigrated and so will no longer be able to take part in further productions. || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a---%0a> ||Blah Blah || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a12c12%0a%3c \\\%0a---%0a> %0a
+host:1140539740=195.92.40.49
+author:1140539584=gonad
+diff:1140539584:1140539584:=1,14d0%0a%3c (:title John Adair:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Blah Blah || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a%3c %0a
+host:1140539584=195.92.40.49

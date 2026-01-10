@@ -1,0 +1,6 @@
+version=pmwiki-2.0.0 ordered=1 urlencoded=1
+author=Hans
+name=PmWiki.GeminiTwo
+targets=PmWiki.GeminiTwo,PmWiki.PmWiki,Site.StyleOptions
+text=GeminiTwo is a "skin" created for PmWiki by Hans Bracker. Maybe "face" would be a better name, since it is what you are facing here: the appearance in form of colours, fonts and borders used, the specific layout of the page and its navigational aids, and the functionality of buttons and links employed therein.%0a%0a`GeminiTwo can show many different faces, and it is highly customisable and changable in its looks and functions. If [[Site/Style Options]] are enabled you can choose from a number of styles for colours, fonts and layouts, for your own use, without affecting others.%0a%0a`GeminiTwo is under constant development. You can find detailed information on the Pmwiki website at [[Cookbook:GeminiSkin]] or the author's website at [[http://softflow.co.uk/design|softflow.co.uk]].
+time=1125645957

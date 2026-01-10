@@ -1,0 +1,21 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0
+author=gonad
+csum=
+ctime=1302212831
+host=188.221.67.230
+name=Restricted.Cashback
+rev=3
+targets=
+text=(:title Cashback!:)%0a%0aDocumentary film about the history of UK bank notes. With examples of them, and maybe some background from Doug's museum.[[%3c%3c]]%0a%0aSee BBC Horizon documentary from 1990 - Making an Honest Fiver
+time=1303071106
+title=Cashback!
+author:1303071106=gonad
+diff:1303071106:1302300836:=3,5c3%0a%3c Documentary film about the history of UK bank notes. With examples of them, and maybe some background from Doug's museum.[[%3c%3c]]%0a%3c %0a%3c See BBC Horizon documentary from 1990 - Making an Honest Fiver%0a\ No newline at end of file%0a---%0a> Documentary film about the history of UK bank notes. With examples of them, and maybe some background from Doug's museum.%0a\ No newline at end of file%0a
+host:1303071106=188.221.67.230
+author:1302300836=gonad
+diff:1302300836:1302212831:=1,2d0%0a%3c (:title Cashback!:)%0a%3c %0a
+host:1302300836=188.221.67.230
+author:1302212831=gonad
+diff:1302212831:1302212831:=1d0%0a%3c Documentary film about the history of UK bank notes. With examples of them, and maybe some background from Doug's museum.%0a\ No newline at end of file%0a
+host:1302212831=188.221.67.230

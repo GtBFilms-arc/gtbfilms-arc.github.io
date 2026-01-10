@@ -1,0 +1,25 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Films.Chroma2
+rev=5
+targets=
+text=(:title Chromakey Experimental Film:)%0a%0aOn the 6th April 2006, members of [[http://www.ecvs.co.uk | Edinburgh Cine and Video Society]] made use of their new blue room to produce an experimental film using a chromakey (blue screen) technique.%0a%0aThe film is available here:%0a%0a[[http://www.gonadovision.homeip.net/video/ecvs/chroma2.wmv | ECVS Chromakey Experiment]] (14.5MB - 3 mins)
+time=1146133211
+title=Chromakey Experimental Film
+author:1146133211=gonad
+diff:1146133211:1146133158:minor=1,2d0%0a%3c (:title Chromakey Experimental Film:)%0a%3c %0a
+host:1146133211=195.92.40.49
+author:1146133158=gonad
+diff:1146133158:1146109173:=1,4d0%0a%3c On the 6th April 2006, members of [[http://www.ecvs.co.uk | Edinburgh Cine and Video Society]] made use of their new blue room to produce an experimental film using a chromakey (blue screen) technique.%0a%3c %0a%3c The film is available here:%0a%3c %0a
+host:1146133158=195.92.40.49
+author:1146109173=gonad
+diff:1146109173:1146109114:=1c1%0a%3c [[http://www.gonadovision.homeip.net/video/ecvs/chroma2.wmv | ECVS Chromakey Experiment]] (14.5MB - 3 mins)%0a\ No newline at end of file%0a---%0a> [[http://www.gonadovision.homeip.net/video/ecvs/chroma2.wmv | ECVS Chromakey Experiment]]%0a\ No newline at end of file%0a
+host:1146109173=192.168.0.126
+author:1146109114=gonad
+diff:1146109114:1146109081:=1c1%0a%3c [[http://www.gonadovision.homeip.net/video/ecvs/chroma2.wmv | ECVS Chromakey Experiment]]%0a\ No newline at end of file%0a---%0a> [[http://www.gtbfilms.co.uk/ecvs/chroma2.wmv | ECVS Chromakey Experiment]]%0a\ No newline at end of file%0a
+host:1146109114=192.168.0.126
+author:1146109081=gonad
+diff:1146109081:1146109081:=1d0%0a%3c [[http://www.gtbfilms.co.uk/ecvs/chroma2.wmv | ECVS Chromakey Experiment]]%0a\ No newline at end of file%0a
+host:1146109081=192.168.0.126

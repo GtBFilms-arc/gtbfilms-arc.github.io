@@ -1,0 +1,33 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0
+author=gonad
+csum=
+ctime=1265771256
+host=188.221.67.230
+name=Films.Galapagos
+rev=7
+targets=Actors.BrownAlan
+text=(:title Glimpse of the Galapagos Islands:)%0a%0a|| border=0 width=90%25 align=center%0a||||||%0a||%25blue%25''Musical Travelogue on a trip to the Galapagos Islands''%25%25|| ||%25green%25[--Duration: 3 mins 30 secs--][[%3c%3c]][--Filming: July 2009 using HDV format--]%25%25 ||||%0a%0a%0ahttp://www.gonadovision.homeip.net/video/photos/galapagos.png%0a[[%3c%3c]]%0a[[%3c%3c]]%0a%0a'''Production:'''%0a||border=1 width=60%25 align=left%0a||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a||Cameras ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a%0a[[%3c%3c]]%0a%0a%0a[[#Downloads]]%0a'''Downloads'''\\\%0a[[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for "Glimpse of the Galapagos" (14.3 MB WMV)]][[%3c%3c]]%0a%0a%0a(:html:)%0a%3ccenter>%0a%3cscript type="text/javascript">%3c!--%0agoogle_ad_client = "pub-5767714101223561";%0agoogle_ad_width = 728;%0agoogle_ad_height = 90;%0agoogle_ad_format = "728x90_as";%0agoogle_ad_type = "text_image";%0a//2007-09-12: GtBFilms%0agoogle_ad_channel = "8003625449";%0agoogle_ui_features = "rc:10";%0a//-->%0a%3c/script>%0a%3cscript type="text/javascript"%0a  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c/script>%0a%3c/center>%0a(:htmlend:)
+time=1314303992
+title=Glimpse of the Galapagos Islands
+author:1314303992=gonad
+diff:1314303992:1287349552:=22,24c22,24%0a%3c [[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for "Glimpse of the Galapagos" (14.3 MB WMV)]][[%3c%3c]]%0a%3c %0a%3c %0a---%0a> %0a> %0a> %0a
+host:1314303992=188.221.67.230
+author:1287349552=admin
+diff:1287349552:1272978058:=3,7d2%0a%3c || border=0 width=90%25 align=center%0a%3c ||||||%0a%3c ||%25blue%25''Musical Travelogue on a trip to the Galapagos Islands''%25%25|| ||%25green%25[--Duration: 3 mins 30 secs--][[%3c%3c]][--Filming: July 2009 using HDV format--]%25%25 ||||%0a%3c %0a%3c %0a
+host:1287349552=188.221.67.230
+author:1272978058=admin
+diff:1272978058:1272500086:=18,19c18,20%0a%3c %0a%3c %0a---%0a> [[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (14.7 MB WMV)]]%0a> \\\%0a> %0a
+host:1272978058=62.25.109.195
+author:1272500086=gonad
+diff:1272500086:1265774965:=3,6d2%0a%3c http://www.gonadovision.homeip.net/video/photos/galapagos.png%0a%3c [[%3c%3c]]%0a%3c [[%3c%3c]]%0a%3c %0a
+host:1272500086=188.221.67.230
+author:1265774965=admin
+diff:1265774965:1265771738:=14c14%0a%3c [[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (14.7 MB WMV)]]%0a---%0a> [[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (5 MB WMV)]]%0a
+host:1265774965=188.221.67.230
+author:1265771738=admin
+diff:1265771738:1265771256:=14c14%0a%3c [[http://www.gonadovision.homeip.net/video/shorts/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (5 MB WMV)]]%0a---%0a> [[http://www.gonadovision.homeip.net/video/galapagos/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (5 MB WMV)]]%0a
+host:1265771738=188.221.67.230
+author:1265771256=admin
+diff:1265771256:1265771256:=1,34d0%0a%3c (:title Glimpse of the Galapagos Islands:)%0a%3c %0a%3c '''Production:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c ||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a%3c ||Cameras ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a%3c %0a%3c [[%3c%3c]]%0a%3c %0a%3c %0a%3c [[#Downloads]]%0a%3c '''Downloads'''\\\%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/galapagos/galapagos.wmv | Click here for 'Glimpse of the Galapagos Islands' (5 MB WMV)]]%0a%3c \\\%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a
+host:1265771256=188.221.67.230

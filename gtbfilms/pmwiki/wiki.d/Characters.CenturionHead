@@ -1,0 +1,18 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12
+author=admin
+csum=
+ctime=1301964625
+host=188.221.67.230
+name=Characters.CenturionHead
+rev=2
+targets=Films.TalkingHedge,Characters.CenturionHead,Main.Actors
+text=(:title Centurion Head:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Centuruan Head is a hedge fashioned in the shape of a Roman Centurion. || %0a%0a'''Interesting Fact'''\\%0aNone Yet!%0a\\\%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/TalkingHedge | Talking Hedge]] ||%0a||'''Played By''' ||[[Characters/CenturionHead | Himself]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 6 ||%0a||'''Charisma''' || 6 ||%0a||'''Believability''' || 1 ||%0a||'''Age''' || 27 ||%0a||'''Luck''' || 9 ||%0a||'''Intelligence''' || 3 ||%0a||'''Scariness''' || 7 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1301964634
+title=Centurion Head
+author:1301964634=admin
+diff:1301964634:1301964625:=11c11%0a%3c ||'''Film''' ||[[Films/TalkingHedge | Talking Hedge]] ||%0a---%0a> ||'''Film''' ||[[Shorts/TalkingHedge | Talking Hedge]] ||%0a
+host:1301964634=188.221.67.230
+author:1301964625=admin
+diff:1301964625:1301964625:=1,25d0%0a%3c (:title Centurion Head:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Centuruan Head is a hedge fashioned in the shape of a Roman Centurion. || %0a%3c %0a%3c '''Interesting Fact'''\\%0a%3c None Yet!%0a%3c \\\%0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Shorts/TalkingHedge | Talking Hedge]] ||%0a%3c ||'''Played By''' ||[[Characters/CenturionHead | Himself]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 6 ||%0a%3c ||'''Charisma''' || 6 ||%0a%3c ||'''Believability''' || 1 ||%0a%3c ||'''Age''' || 27 ||%0a%3c ||'''Luck''' || 9 ||%0a%3c ||'''Intelligence''' || 3 ||%0a%3c ||'''Scariness''' || 7 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1301964625=188.221.67.230

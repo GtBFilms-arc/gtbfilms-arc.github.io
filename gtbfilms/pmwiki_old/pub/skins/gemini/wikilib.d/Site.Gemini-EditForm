@@ -1,0 +1,7 @@
+version=pmwiki-2.0.beta52 ordered=1
+newline=²
+author=Hans
+name=Site.Gemini-EditForm
+targets=Site.Gemini-EditForm
+text=(:noleft:)(:notitle:)(:noright:)!$[Editing] [[{$Name}?action=browse|{$FullName}]] %block class=wikiaction%²(:messages:)²(:div id='wikiedit':)²(:input e_form:)[[#top]]²(:input e_savebutton class='inputbutton':) (:input e_saveeditbutton class='inputbutton':) (:input e_previewbutton class='inputbutton':) (:input e_cancelbutton class='inputbutton':) $[Author]: (:input e_author class='inputbox':)[[<<]]²(:e_guibuttons:)[[<<]]²(:input e_textarea :)\\²$[Summary]: (:input e_changesummary:)\\²(:input e_minorcheckbox:) $[This is a minor edit]\\²(:input e_savebutton class='inputbutton':) (:input e_saveeditbutton class='inputbutton':) (:input e_previewbutton class='inputbutton':) (:input e_cancelbutton class='inputbutton':)²(:input end:)²(:divend:)[[<<]]²(:include Site.EditQuickReference:)²(:if e_preview:)²!!$[Preview] [[{$Name}?action=browse|{$FullName}]]²'''$[Page is unsaved]'''²(:div id='editpreview':)²(:e_preview:)²(:divend:)²'''$[End of preview -- remember to save]'''\\²[[#top | $[Top] ]]²(:if:)²
+time=1124984939

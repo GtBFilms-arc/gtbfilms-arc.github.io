@@ -1,0 +1,103 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-night-blue.css
+# 
+# part of the gemini skin for Pmwiki
+#=============================================================================*/
+
+/*=============== night-blue theme =================*/
+
+body { color:#A0A0CF;
+	background:#224 url(images/night-blue2.jpg); }
+		
+hr { color:#ccc}
+
+a:link { color:#9cf; }
+a:visited { color:#99c; }
+a:hover { color:#6f9; }
+a:active { color:#0f9; }
+
+#titlebar a { color:#fff; }
+#titlebar a:visited { color:#fff; }
+#titlebar a:hover { color:#fc6; }
+#titlebar a:active { color:#fc6; }
+
+#titlebarbox { margin-bottom:0.4em }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#fc6; }
+
+#content { color:#ccc;
+		border-top:1px solid #535766; 
+		border-left:1px solid #535766;
+		border-right:2px solid #535766;
+		border-bottom:2px solid #535766;
+		background:#293556 url(images/night-blue1.jpg);}
+		 
+/*#sidebar {  background-color:#F5E9BD; } */
+#sidebar { color: #A0A0CF; }
+
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#A0A0CF }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#A0A0CF; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+.sidehead a:hover, .sidehead a:active {
+		color:#0f9; background: #293556;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#A0A0CF; }
+#sidebar a:hover, #sidebar a:active { color:#0f9;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #0f9; background: #293556; } /* hover colors */
+#sidebar li a:hover.selflink {background:none; color:#A0A0CF}
+
+#sidebar li, #sidebar h1, .sidehead, #sidebarfootnav { border-bottom: 0px solid #535766; } /* menu lines */
+/* #sidebar ul ul li  { border-bottom:0} removes horizontal lines for second level list elements */
+/*#sidebar { xxborder-right:1px solid #535766} */
+
+#rightbar h1, h2, h3, h4 { color:#D2D5F6 }
+
+.inputbox { color:#A0A0CF; background: #293556;
+			border-top:1px solid #535766; 
+			border-left:1px solid #535766;
+			border-right:1px solid #ACA899;
+			border-bottom:1px solid #ACA899;
+			}
+.inputbox:hover, .inputbox:focus { color:#000; background:#dbeefd; }
+/* comment next six lines to get a standard button */
+.inputbutton {color:#B5CFE0; background:#293556; 
+			border-top:1px solid #535766; 
+			border-left:1px solid #535766;
+			border-right:1px solid #ACA899;
+			border-bottom:1px solid #ACA899;}
+.inputbutton:hover { color:#6f9; background:#224 }
+
+#topnav li a:link, #topnav li a:visited { color:#A0A0CF}
+#topnav li a:hover, #topnav li a:active {  color:#6f9; }
+
+#footnavbox { margin-top:0.4em }
+#footnav { color:#A0A0CF; }
+#footnav li a {color:#A0A0CF; background:#293556; }
+#footnav li a:hover, #footaction li a:active {color: #6f9; background:#224 }
+#footnav li a { 
+			border-top:1px solid #535766; 
+			border-left:1px solid #535766;
+			border-right:1px solid #ACA899;
+			border-bottom:1px solid #ACA899;}
+			
+#footer { border-top:1px solid #535766; }
+
+#rightbar { background:#224 url(images/night-blue2.jpg); 
+	    border:1px solid #535766;} 
+   
+/* only works for IE5.5+ */
+html, body {
+		scrollbar-face-color:#224; /* #F4E7B8; #F1E1A7; */ 
+		scrollbar-highlight-color:#535766;
+		scrollbar-shadow-color:#000 ; 
+		scrollbar-arrow-color:#A0A0CF; 
+		} 
+		
+#wikiedit textarea { color:#eee; 
+		     background:#113355; 
+		     font-size:1.3em; }
+
+#wikiedit input { color:#eee; background:#224466 }
+
+.diffauthor, .difftime {color:black }

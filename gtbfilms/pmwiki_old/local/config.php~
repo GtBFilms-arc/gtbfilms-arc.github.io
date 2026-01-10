@@ -1,0 +1,294 @@
+<?php if (!defined('PmWiki')) exit();
+
+##  This is a sample config.php file.  To use this file, copy it to
+##  local/config.php, then edit it for whatever customizations you want.
+##  Also, be sure to take a look at http://www.pmichaud.com/wiki/Cookbook
+##  for more details on the types of customizations that can be added
+##  to PmWiki.
+
+##  $WikiTitle is the name that appears in the browser's title bar.
+$WikiTitle = 'GtBFilms Wiki';
+
+$TableRowIndexMax = 1;
+
+
+##Set the time format
+$TimeFmt='%d-%m-%Y %H:%M';     # dd-mm-yy hh:mm
+
+#Setting up rotating markup section
+Markup('randpage','<include',
+         "/\\(:randpage\\s*(.*?):\\)/e",
+         "randomPage('$1')");
+
+    function randomPage($opts) {
+         $args = ParseArgs($opts);
+         srand((float) microtime() * 10000000);
+         $randPageIndex = array_rand($args['']);
+         return "(:include " . $args[''][$randPageIndex] . ":)";
+    }
+
+# Markup to insert the TinyWebGallery
+Markup('twg', '<block', '/\\(:twg\\s?(.*?):\\)/ei',"Keep('<iframe src=\'/twg/index.php?twg_album=$1\' frameborder=0 width=100% height=722></iframe>')");
+
+//long google block markup
+Markup('Google1', 'block',
+        '/\\(:Google1:\\)/',
+        Keep("<script type='text/javascript'><!--
+google_ad_client = 'pub-5767714101223561';
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = '120x600_as';
+google_ad_type = 'text_image';
+google_ad_channel ='';
+//--></script>
+<script type='text/javascript'
+ src='http://pagead2.googlesyndication.com/pagead/show_ads.js'>
+</script>"));
+
+
+#Markup to allow embedded HTML
+Markup(
+ 'html',
+ 'fulltext',
+ '/\\(:html:\\)(.*?)\\(:htmlend:\\)/esi',
+ "'<:block>'.Keep(str_replace(array('&gt;', '&lt;', '&amp;'),
+ array('>', '<', '&'), PSS('$1')))");
+
+# Security to strip HTML from pages not updated by user 'gonad'
+#array_unshift($EditFunctions, 'MaybeDisableEmbedhtml');
+#function MaybeDisableEmbedhtml($pagename,&$page,&$new)
+#{ if (!CondAuth($pagename,"gonad"))
+# { $ROSPatterns["/\\(:html:\\)/i"] = "[:html:]";
+#   $ROSPatterns["/\\(:htmlend:\\)/i"] = "[:htmlend:]";
+# }
+#}
+
+#Markup to enable Paypal Buttons for Store Items
+#Paypal Button for The Wish DVD
+Markup('TheWishButton', 'inline', '/\\(:TheWishButton:\\)/e', "Keep(\"
+<form action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+<input type='hidden' name='cmd' value='_s-xclick'>
+<input type='image' src='https://www.paypal.com/en_US/i/btn/x-click-but01.gif' border='0' name='submit' alt='Make payments with PayPal - it\'s fast, free and secure!'>
+<img alt='' border='0' src='https://www.paypal.com/en_GB/i/scr/pixel.gif' width='1' height='1'>
+<input type='hidden' name='encrypted' value='-----BEGIN PKCS7-----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-----END PKCS7-----
+'>
+</form>
+\")"); 
+
+#Paypal Button for Changing Times DVD
+Markup('ChangingTimesButton', 'inline', '/\\(:ChangingTimesButton:\\)/e', "Keep(\"
+<form action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+<input type='hidden' name='cmd' value='_s-xclick'>
+<input type='image' src='https://www.paypal.com/en_US/i/btn/x-click-but01.gif' border='0' name='submit' alt='Make payments with PayPal - it\'s fast, free and secure!'>
+<img alt='' border='0' src='https://www.paypal.com/en_GB/i/scr/pixel.gif' width='1' height='1'>
+<input type='hidden' name='encrypted' value='-----BEGIN PKCS7-----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-----END PKCS7-----
+'>
+</form>
+\")"); 
+
+
+#Setup mailform function
+include_once('cookbook/mailform.php');
+$MailFormAddresses['Pm'] = 'enquiry@gtbfilms.co.uk';
+$MailFormDefaultSender = 'default@anon.com';
+
+##Set the Default group for startup
+$DefaultGroup = 'GtBFilms';
+$DefaultTitle = 'GTBFilmsWiki';
+$DefaultPage = 'GtBFilms/GTBFilmsWiki';
+#$DefaultName = 'Welcome to the GtBFilms Wiki';
+#$Name ='Welcome to the GtBFilms Wiki';
+
+# require authors to provide a name
+#$EnablePostAuthorRequired = 1; 
+
+# Add anti-swearing blocker
+#if ($action=='edit') include_once('cookbook/blocklist2.php');
+#$EnableWhyBlocked = "1"
+
+##  $ScriptUrl is your preferred URL for accessing wiki pages
+##  $PubDirUrl is the URL for the pub directory.
+#$ScriptUrl = 'http://www.gtbfilms.co.uk/pmwiki/pmwiki.php';
+#$PubDirUrl = 'http://www.gtbfilms.co.uk/pmwiki/pub';
+
+##  If you want to use URLs of the form .../pmwiki.php/Group/PageName
+##  instead of .../pmwiki.php?p=Group.PageName, try setting
+##  $EnablePathInfo below.  Note that this doesn't work in all environments,
+##  it depends on your webserver and PHP configuration.  You might also 
+##  want to check http://www.pmwiki.org/wiki/Cookbook/CleanUrls more
+##  details about this setting and other ways to create nicer-looking urls.
+#$EnablePathInfo = 1;
+
+## $PageLogoUrl is the URL for a logo image -- you can change this
+## to your own logo if you wish.
+$PageLogoUrl = "$PubDirUrl/skins/pmwiki/globe.gif";
+
+## If you want to have a custom skin, then set $Skin to the name
+## of the directory (in pub/skins/) that contains your skin files.
+## See PmWiki.Skins and Cookbook.Skins.
+# $Skin = 'pmwiki';
+
+ # Specifies the name of the template file
+ # to be used to generate pages.
+ $Skin = 'monobook';
+
+## You'll probably want to set an administrative password that you
+## can use to get into password-protected pages.  Also, by default 
+## the "attr" passwords for the PmWiki and Main groups are locked, so
+## an admin password is a good way to unlock those.  See PmWiki.Passwords
+## and PmWiki.PasswordsAdmin.
+$DefaultPasswords['admin'] = crypt('danog');
+#$DefaultPasswords['edit'] = crypt('attic');
+#$DefaultPasswords['read'] = crypt('attic');
+    ## Define usernames and passwords.
+    $AuthUser['gonad'] = crypt('danog');
+    $AuthUser['baldas'] = crypt('sadlab');
+    $AuthUser['splodge'] = crypt('egdolps');
+    $AuthUser['magnox'] = crypt('xongam');
+    $AuthUser['jane'] = crypt('enaj');
+    $AuthUser['htpasswd'] = 'local/.htpasswd'; # A passwd-formatted file
+
+$AuthUserHtPasswd = 'local/.htpasswd'; # A passwd-formatted file
+
+    ## Enable authentication based on username.
+    include_once('scripts/authuser.php');
+
+#$DefaultPasswords['read'] = 'id:*';
+$DefaultPasswords['edit'] = 'id:*';
+$DefaultPasswords['upload'] = 'id:*';
+
+##Ok lets set the author automatically to who they signed in as:
+## If there's no Author yet, use the verified identity.
+if (@$_SESSION['authid'] && !$_COOKIE['author']) {
+  $Author = $_SESSION['authid'];
+  setcookie('author',$Author,0,'/');
+}
+
+## Enforce Author tracking based on the authenticated user.
+ if ($action == 'edit') @session_start();
+ if (@$_SESSION['authid']) $Author=$_SESSION['authid'];
+
+##  PmWiki comes with graphical user interface buttons for editing;
+##  to enable these buttons, set $EnableGUIButtons to 1.  
+$EnableGUIButtons = 1;
+
+##  If you want uploads enabled on your system, set $EnableUpload=1.
+##  You'll also need to set a default upload password, or else set
+##  passwords on individual groups and pages.  For more information
+##  see PmWiki.UploadsAdmin.
+$EnableUpload = 1;
+$EnableUploadOverwrite = 0;
+$UploadMaxSize = 500000;                       
+# Following edited out due to being redundant - named user access only
+# $DefaultPasswords['upload'] = crypt('attic');
+
+##  Set $LinkWikiWords to zero if you don't want WikiWord links (i.e.,
+##  all links are made using [[...]].
+$LinkWikiWords = 0;                      # disable WikiWord links
+
+##  Setting $EnableDiag turns on the ?action=diag and ?action=phpinfo
+##  actions, which often helps the PmWiki authors to troubleshoot 
+##  various configuration and execution problems.
+# $EnableDiag = 1;                         # enable remote diagnostics
+
+##  By default, PmWiki doesn't allow browsers to cache pages.  Setting
+##  $EnableIMSCaching=1; will re-enable browser caches in a somewhat
+##  smart manner.  Note that you may want to have caching disabled while
+##  adjusting configuration files or layout templates.
+# $EnableIMSCaching = 1;                   # allow browser caching
+
+##  Set $SpaceWikiWords if you want WikiWords to automatically 
+##  have spaces before each sequence of capital letters.
+$SpaceWikiWords = 1;                     # turn on WikiWord spacing
+
+##  If you want only the first occurrence of a WikiWord to be converted
+##  to a link, set $WikiWordCountMax=1.
+# $WikiWordCountMax = 1;                   # converts only first WikiWord
+# $WikiWordCountMax = 0;                   # another way to disable WikiWords
+
+##  The $WikiWordCount array can be used to control the number of times
+##  a WikiWord is converted to a link.  This is useful for disabling
+##  or limiting specific WikiWords.
+# $WikiWordCount['PhD'] = 0;               # disables 'PhD'
+# $WikiWordCount['PmWiki'] = 1;            # convert only first 'PmWiki'
+
+##  By default, PmWiki is configured such that only the first occurrence
+##  of 'PmWiki' in a page is treated as a WikiWord.  If you want to 
+##  restore 'PmWiki' to be treated like other WikiWords, uncomment the
+##  line below.
+# unset($WikiWordCount['PmWiki']);
+
+##  If you want to disable WikiWords matching a pattern, you can use 
+##  something like the following.  Note that the first argument has to 
+##  be different for each call to Markup().  The example below disables
+##  WikiWord links like COM1, COM2, COM1234, etc.
+# Markup('COM\d+', '<wikilink', '/\\bCOM\\d+/', "Keep('$0')");
+
+##  $DiffKeepDays specifies the minimum number of days to keep a page's
+##  revision history.  The default is 3650 (approximately 10 years).
+# $DiffKeepDays=30;                        # keep page history at least 30 days
+
+## By default, viewers are able to see the names (but not the
+## contents) of read-protected pages in search results and
+## page listings.  Set $EnablePageListProtect to keep read-protected
+## pages from appearing in search results.
+# $EnablePageListProtect = 1;
+
+##  The refcount.php script enables ?action=refcount, which helps to
+##  find missing and orphaned pages.  See PmWiki.RefCount.
+# if ($action == 'refcount') include_once('scripts/refcount.php');
+
+##  The rss.php script enables ?action=rss and ?action=rdf, which
+##  provides RSS feeds for a site based on WikiTrails.  See PmWiki.RSS.
+# if ($action == 'rss' || $action == 'rdf') include_once('scripts/rss.php');
+
+##  PmWiki allows a great deal of flexibility for creating custom markup.
+##  To add support for '*bold*' and '~italic~' markup (the single quotes
+##  are part of the markup), uncomment the following lines. 
+##  (See PmWiki.CustomMarkup and the Cookbook for details and examples.)
+# Markup("'~", "inline", "/'~(.*?)~'/", "<i>$1</i>");        # '~italic~'
+# Markup("'*", "inline", "/'\\*(.*?)\\*'/", "<b>$1</b>");    # '*bold*'
+
+##  If you want to have to approve links to external sites before they
+##  are turned into links, uncomment the line below.  See PmWiki.UrlApprovals.
+##  Also, setting $UnapprovedLinkCountMax limits the number of unapproved
+##  links that are allowed in a page (useful to control wikispam).
+# include_once('scripts/urlapprove.php');
+# $UnapprovedLinkCountMax = 10;
+
+## Fortune Cookies
+$FortunesDir = "cookbook/fortune/";
+include_once("cookbook/fortune.php");
+
+##  The following lines make additional editing buttons appear in the
+##  edit page for subheadings, lists, tables, etc.
+# $GUIButtons['h2'] = array(400, '\\n!! ', '\\n', '$[Heading]',
+#                     '$GUIButtonDirUrlFmt/h2.gif"$[Heading]"');
+# $GUIButtons['h3'] = array(402, '\\n!!! ', '\\n', '$[Subheading]',
+#                     '$GUIButtonDirUrlFmt/h3.gif"$[Subheading]"');
+# $GUIButtons['indent'] = array(500, '\\n->', '\\n', '$[Indented text]',
+#                     '$GUIButtonDirUrlFmt/indent.gif"$[Indented text]"');
+# $GUIButtons['outdent'] = array(510, '\\n-<', '\\n', '$[Hanging indent]',
+#                     '$GUIButtonDirUrlFmt/outdent.gif"$[Hanging indent]"');
+# $GUIButtons['ol'] = array(520, '\\n# ', '\\n', '$[Ordered list]',
+#                     '$GUIButtonDirUrlFmt/ol.gif"$[Ordered (numbered) list]"');
+# $GUIButtons['ul'] = array(530, '\\n* ', '\\n', '$[Unordered list]',
+#                     '$GUIButtonDirUrlFmt/ul.gif"$[Unordered (bullet) list]"');
+# $GUIButtons['hr'] = array(540, '\\n----\\n', '', '',
+#                     '$GUIButtonDirUrlFmt/hr.gif"$[Horizontal rule]"');
+# $GUIButtons['table'] = array(600,
+#                       '||border=1 width=80%\\n||!Hdr ||!Hdr ||!Hdr ||\\n||     ||     ||     ||\\n||     ||     ||     ||\\n', '', '', 
+#                     '$GUIButtonDirUrlFmt/table.gif"$[Table]"');
+
+Markup('googlesearch', 'directives', '/\\(:googlesearch:\\)/e',"Keep(\"
+<FORM method=GET action='http://www.google.de/search'>
+<TABLE><tr><td>
+<A HREF='http://www.google.de'>
+<IMG SRC='http://www.google.de/logos/Logo_40wht.gif' border='0'
+ALT='Google' align='absmiddle'></A>
+<INPUT TYPE=text name=q size=20 maxlength=255 value=''>
+<INPUT TYPE=hidden name=hl value=de>
+<INPUT type=submit name=btnG VALUE='Google Search'>
+</td></tr></TABLE>
+</FORM>
+\")");

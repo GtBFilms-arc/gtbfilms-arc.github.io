@@ -1,0 +1,12 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=PmWiki.OldSidebar
+rev=1
+targets=GtBFilms.GTBFilmsWiki,Main.WikiSandbox,PmWiki.PmWiki,PmWiki.BasicEditing,PmWiki.DocumentationIndex,PmWiki.FAQ,PmWiki.PmWikiPhilosophy,PmWiki.ReleaseNotes,PmWiki.ChangeLog,PmWiki.MailingLists,Site.SideBar
+text=* [[GtBFilms/GTBFilmsWiki | Main Page]]%0a* [[Main/WikiSandbox]]%0a%0a%25sidehead%25 [[PmWiki/PmWiki]]%0a* [[PmWiki/Basic Editing]]%0a* [[PmWiki/Documentation Index]]%0a* [[PmWiki/FAQ | PmWiki FAQ ]]%0a* [[PmWiki/PmWikiPhilosophy]]%0a* [[PmWiki/Release Notes]]%0a* [[PmWiki/ChangeLog]]%0a%0a%25sidehead%25 [[http://www.pmwiki.org | Other sites ]]%0a* [[Cookbook:CookbookBasics | Cookbook (addons) ]]%0a* [[Cookbook:Skins | Skins (themes) ]]%0a* [[PITS:PITS | PITS (issue tracking) ]]%0a* [[PmWiki/Mailing Lists]]%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1140521709
+author:1140521709=gonad
+diff:1140521709:1140521709:=1,18d0%0a%3c * [[GtBFilms/GTBFilmsWiki | Main Page]]%0a%3c * [[Main/WikiSandbox]]%0a%3c %0a%3c %25sidehead%25 [[PmWiki/PmWiki]]%0a%3c * [[PmWiki/Basic Editing]]%0a%3c * [[PmWiki/Documentation Index]]%0a%3c * [[PmWiki/FAQ | PmWiki FAQ ]]%0a%3c * [[PmWiki/PmWikiPhilosophy]]%0a%3c * [[PmWiki/Release Notes]]%0a%3c * [[PmWiki/ChangeLog]]%0a%3c %0a%3c %25sidehead%25 [[http://www.pmwiki.org | Other sites ]]%0a%3c * [[Cookbook:CookbookBasics | Cookbook (addons) ]]%0a%3c * [[Cookbook:Skins | Skins (themes) ]]%0a%3c * [[PITS:PITS | PITS (issue tracking) ]]%0a%3c * [[PmWiki/Mailing Lists]]%0a%3c %0a%3c %25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]%0a\ No newline at end of file%0a
+host:1140521709=195.92.40.49

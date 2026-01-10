@@ -1,0 +1,46 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.10) Gecko/2009042513 Ubuntu/8.04 (hardy) Firefox/3.0.10
+author=gonad
+csum=
+host=192.168.0.1
+name=Films.MyFavouriteHaunt
+rev=12
+targets=Characters.GreatAunt,Characters.ScoobyVelma,Actors.KnightMagnus,Characters.ScoobyJoseph,Actors.BawnAndrew,Actors.McMurrayAnn,Characters.Jeeves,Actors.BrownAlan,Characters.Ghost,Characters.CupboardDweller,Actors.RussellClaire,Scripts.Scooby
+text=My Favourite Haunt (8.29)%0aOur first drama! %0a%0aJoseph and Velma visit their great aunt, but soon discover things are not going well in the great house. The plucky youngsters soon become embroiled in a spooky mystery tale!%0a%0aRecorded on Digital8 and 8mm, 9th November 2002.%0a%0a[[http://www.gonadovision.homeip.net/video/my_favourite_haunt.wmv | Recommended Version (41.5MB WMV)]]%0a%0a[[http://www.gonadovision.homeip.net/video/scooby_hi.ram | High Speed connection version (28MB RealVideo)]]%0a%0a[[http://www.gonadovision.homeip.net/video/scooby_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a%0a'''Interesting Facts:'''\\%0aFor the shots in which the [[Characters/GreatAunt | Great Aunt]] is seen from the back, talking to her niece [[Characters/ScoobyVelma | Velma]], [[Actors/KnightMagnus | Magnus Knight ]] donned the Great Aunt's grey wig to become a head-double!%0a%0a'''Cast:'''%0a||border=1 width=60%25 align=left%0a|| '''Character''' || '''Actor''' ||%0a||[[Characters/ScoobyJoseph | Joseph Scooby ]] ||[[Actors/BawnAndrew | Andrew Bawn ]] ||%0a||[[Characters/ScoobyVelma | Velma Scooby ]] ||[[Actors/McMurrayAnn | Ann McMurray ]] ||%0a||[[Characters/GreatAunt | Great Aunt ]] ||[[Actors/McMurrayAnn | Ann McMurray ]] ||%0a||[[Characters/Jeeves | Jeeves ]] ||[[Actors/BrownAlan | Alan Brown ]] ||%0a||[[Characters/Ghost | The Ghost ]] ||[[Actors/KnightMagnus | Magnus Knight ]] ||%0a||[[Characters/CupboardDweller | Cupboard Dweller ]] ||[[Actors/RussellClaire | Claire Russell ]] ||||%0a%0a[[%3c%3c]]%0a[[%3c%3c]]%0a'''Production:'''%0a||border=1 width=60%25 align=left%0a||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a||Cameras ||[[Actors/KnightMagnus | Magnus Knight ]] / [[Actors/BrownAlan | Alan Brown]] ||||%0a%0a[[%3c%3c]]%0a%0a[[Scripts/Scooby | My Favourite Haunt Script]]%0a%0a(:html:)%0a%3ccenter>%0a%3cscript type="text/javascript">%3c!--%0agoogle_ad_client = "pub-5767714101223561";%0agoogle_ad_width = 728;%0agoogle_ad_height = 90;%0agoogle_ad_format = "728x90_as";%0agoogle_ad_type = "text_image";%0a//2007-09-12: GtBFilms%0agoogle_ad_channel = "8003625449";%0agoogle_ui_features = "rc:10";%0a//-->%0a%3c/script>%0a%3cscript type="text/javascript"%0a  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c/script>%0a%3c/center>%0a(:htmlend:)
+time=1243291756
+author:1243291756=gonad
+diff:1243291756:1243291741:=8,9c8,9%0a%3c [[http://www.gonadovision.homeip.net/video/my_favourite_haunt.wmv | Recommended Version (41.5MB WMV)]]%0a%3c %0a---%0a> [[http://www.gonadovision.homeip.net/video/my_favourite_hant.wmv | Recommended Version (41.5MB WMV)]]%0a> %0a
+host:1243291756=192.168.0.1
+author:1243291741=gonad
+diff:1243291741:1243116128:=8,9d7%0a%3c [[http://www.gonadovision.homeip.net/video/my_favourite_hant.wmv | Recommended Version (41.5MB WMV)]]%0a%3c %0a
+host:1243291741=192.168.0.1
+author:1243116128=admin
+diff:1243116128:1243116111:=0a1,2%0a> This page will contain information/file downloads for "My Favourite Haunt", it is currently under construction!%0a> %0a
+host:1243116128=192.168.0.1
+author:1243116111=admin
+diff:1243116111:1216136346:=4,7c4,5%0a%3c Our first drama! %0a%3c %0a%3c Joseph and Velma visit their great aunt, but soon discover things are not going well in the great house. The plucky youngsters soon become embroiled in a spooky mystery tale!%0a%3c %0a---%0a> Our first drama! Joseph and Velma visit their great aunt, but soon discover things are not going well in the great house. The plucky youngsters soon become embroiled in a spooky mystery tale!%0a> %0a
+host:1243116111=192.168.0.1
+author:1216136346=gonad
+diff:1216136346:1216136326:=12c12%0a%3c '''Interesting Facts:'''\\%0a---%0a> '''Interesting Facts:'''%0a
+host:1216136346=194.176.105.44
+author:1216136326=gonad
+diff:1216136326:1216135992:=12,14d11%0a%3c '''Interesting Facts:'''%0a%3c For the shots in which the [[Characters/GreatAunt | Great Aunt]] is seen from the back, talking to her niece [[Characters/ScoobyVelma | Velma]], [[Actors/KnightMagnus | Magnus Knight ]] donned the Great Aunt's grey wig to become a head-double!%0a%3c %0a
+host:1216136326=194.176.105.44
+author:1216135992=gonad
+diff:1216135992:1189633940:=12,30d11%0a%3c '''Cast:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c || '''Character''' || '''Actor''' ||%0a%3c ||[[Characters/ScoobyJoseph | Joseph Scooby ]] ||[[Actors/BawnAndrew | Andrew Bawn ]] ||%0a%3c ||[[Characters/ScoobyVelma | Velma Scooby ]] ||[[Actors/McMurrayAnn | Ann McMurray ]] ||%0a%3c ||[[Characters/GreatAunt | Great Aunt ]] ||[[Actors/McMurrayAnn | Ann McMurray ]] ||%0a%3c ||[[Characters/Jeeves | Jeeves ]] ||[[Actors/BrownAlan | Alan Brown ]] ||%0a%3c ||[[Characters/Ghost | The Ghost ]] ||[[Actors/KnightMagnus | Magnus Knight ]] ||%0a%3c ||[[Characters/CupboardDweller | Cupboard Dweller ]] ||[[Actors/RussellClaire | Claire Russell ]] ||||%0a%3c %0a%3c [[%3c%3c]]%0a%3c [[%3c%3c]]%0a%3c '''Production:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c ||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a%3c ||Cameras ||[[Actors/KnightMagnus | Magnus Knight ]] / [[Actors/BrownAlan | Alan Brown]] ||||%0a%3c %0a%3c [[%3c%3c]]%0a%3c %0a
+host:1216135992=194.176.105.44
+author:1189633940=gonad
+diff:1189633940:1163786620:=13,31c13%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a---%0a> .%0a\ No newline at end of file%0a
+host:1189633940=192.168.0.5
+author:1163786620=gonad
+diff:1163786620:1143051042:=12d11%0a%3c [[Scripts/Scooby | My Favourite Haunt Script]]%0a
+host:1163786620=195.92.40.49
+author:1143051042=gonad
+diff:1143051042:1142878649:minor=11,12d10%0a%3c %0a%3c .%0a\ No newline at end of file%0a
+host:1143051042=195.92.40.49
+author:1142878649=gonad
+diff:1142878649:1139355385:=1,10c1%0a%3c This page will contain information/file downloads for "My Favourite Haunt", it is currently under construction!%0a%3c %0a%3c My Favourite Haunt (8.29)%0a%3c Our first drama! Joseph and Velma visit their great aunt, but soon discover things are not going well in the great house. The plucky youngsters soon become embroiled in a spooky mystery tale!%0a%3c %0a%3c Recorded on Digital8 and 8mm, 9th November 2002.%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/scooby_hi.ram | High Speed connection version (28MB RealVideo)]]%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/scooby_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a---%0a> This page will contain information/file downloads for "My Favourite Haunt"%0a\ No newline at end of file%0a
+host:1142878649=195.92.40.49
+author:1139355385=gonad
+diff:1139355385:1139355385:=1d0%0a%3c This page will contain information/file downloads for "My Favourite Haunt"%0a\ No newline at end of file%0a
+host:1139355385=81.179.87.203

@@ -1,0 +1,24 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12
+author=admin
+csum=
+ctime=1301964503
+host=188.221.67.230
+name=Characters.BigRapaHead
+rev=4
+targets=Films.TalkingHedge,Characters.BigRapaHead,Main.Actors
+text=(:title Big Rapa Head:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of one of the famous 'Easter Island' Heads.[[%3c%3c]]Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a%0a'''Interesting Fact'''\\%0aNone Yet!%0a\\\%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/TalkingHedge | Talking Hedge]] ||%0a||'''Played By''' ||[[Characters/BigRapaHead | Himself]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 8 ||%0a||'''Charisma''' || 3 ||%0a||'''Believability''' || 1 ||%0a||'''Age''' || 32 ||%0a||'''Luck''' || 8 ||%0a||'''Intelligence''' || 1 ||%0a||'''Scariness''' || 8 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1301964555
+title=Big Rapa Head
+author:1301964555=admin
+diff:1301964555:1301964539:=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of one of the famous 'Easter Island' Heads.[[%3c%3c]]Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of one of the famous 'Easter Island' Heads. Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a> %0a
+host:1301964555=188.221.67.230
+author:1301964539=admin
+diff:1301964539:1301964520:=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of one of the famous 'Easter Island' Heads. Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of the famous 'Easter Island' Heads. Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a> %0a
+host:1301964539=188.221.67.230
+author:1301964520=admin
+diff:1301964520:1301964503:=11c11%0a%3c ||'''Film''' ||[[Films/TalkingHedge | Talking Hedge]] ||%0a---%0a> ||'''Film''' ||[[Shorts/TalkingHedge | Talking Hedge]] ||%0a
+host:1301964520=188.221.67.230
+author:1301964503=admin
+diff:1301964503:1301964503:=1,25d0%0a%3c (:title Big Rapa Head:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/photos/talkinghedge.jpg || || || Big Rapa Head is a hedge fashioned in the shape of the famous 'Easter Island' Heads. Easter Island is known by it's inhabitants as 'Big Rapa'. || %0a%3c %0a%3c '''Interesting Fact'''\\%0a%3c None Yet!%0a%3c \\\%0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Shorts/TalkingHedge | Talking Hedge]] ||%0a%3c ||'''Played By''' ||[[Characters/BigRapaHead | Himself]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 8 ||%0a%3c ||'''Charisma''' || 3 ||%0a%3c ||'''Believability''' || 1 ||%0a%3c ||'''Age''' || 32 ||%0a%3c ||'''Luck''' || 8 ||%0a%3c ||'''Intelligence''' || 1 ||%0a%3c ||'''Scariness''' || 8 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1301964503=188.221.67.230

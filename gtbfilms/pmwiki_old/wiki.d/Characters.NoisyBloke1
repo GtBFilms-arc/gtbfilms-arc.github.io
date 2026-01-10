@@ -1,0 +1,16 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+author=gonad
+host=192.168.0.2
+name=Characters.NoisyBloke1
+rev=2
+targets=Characters.PeaceSeeker,Characters.NoisyBloke2,Films.Peaceful,Actors.HodgeAlasdair,Main.Actors
+text=(:title Noisy Bloke 1:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/noisybloke1.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a||'''Played By''' ||[[Actors/HodgeAlasdair | Alasdair Hodge]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 4 ||%0a||'''Charisma''' || 2 ||%0a||'''Believability''' || 9 ||%0a||'''Age''' || 26 ||%0a||'''Luck''' || 5 ||%0a||'''Intelligence''' || 2 ||%0a||'''Scariness''' || 3 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1182217788
+title=Noisy Bloke 1
+author:1182217788=gonad
+diff:1182217788:1140629964:=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/noisybloke1.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a> %0a
+host:1182217788=192.168.0.2
+author:1140629964=gonad
+diff:1140629964:1140629964:=1,22d0%0a%3c (:title Noisy Bloke 1:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a%3c %0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a%3c ||'''Played By''' ||[[Actors/HodgeAlasdair | Alasdair Hodge]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 4 ||%0a%3c ||'''Charisma''' || 2 ||%0a%3c ||'''Believability''' || 9 ||%0a%3c ||'''Age''' || 26 ||%0a%3c ||'''Luck''' || 5 ||%0a%3c ||'''Intelligence''' || 2 ||%0a%3c ||'''Scariness''' || 3 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1140629964=195.92.40.49

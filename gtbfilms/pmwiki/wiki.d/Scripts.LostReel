@@ -1,0 +1,24 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+author=gonad
+csum=
+ctime=1243894954
+host=194.176.105.47
+name=Scripts.LostReel
+rev=4
+targets=Characters.ClubMember1,Actors.BrownAlan,Characters.ClubMember2,Actors.BawnAndrew
+text=(:title The Lost Reel:)%0a%0aThe Lost Reel (working title)\\%0aScript version 0.1 (draft)\\\%0a%0aCAST:\\\%0a[[Characters/ClubMember1 | Club Member 1]] - [[Actors/BrownAlan | Alan Brown]]\\%0a[[Characters/ClubMember2 | Club Member 2]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a%0a\\%0aPROPS:\\\%0a%0a%0a\\\%0a%0a!!!Scene 1 - An open-plan office\\\%0a%0aFilm idea, like The Ring, but old film in film can, contains spooky images, regarding something that happened years before, possible haunting, the film changes on subsequent vewings like in Torchwood.
+time=1244041934
+title=The Lost Reel
+author:1244041934=gonad
+diff:1244041934:1243895133:=16,18c16%0a%3c !!!Scene 1 - An open-plan office\\\%0a%3c %0a%3c Film idea, like The Ring, but old film in film can, contains spooky images, regarding something that happened years before, possible haunting, the film changes on subsequent vewings like in Torchwood.%0a\ No newline at end of file%0a---%0a> !!!Scene 1 - An open-plan office\\\%0a\ No newline at end of file%0a
+host:1244041934=194.176.105.47
+author:1243895133=gonad
+diff:1243895133:1243895020:=7,9c7,9%0a%3c [[Characters/ClubMember1 | Club Member 1]] - [[Actors/BrownAlan | Alan Brown]]\\%0a%3c [[Characters/ClubMember2 | Club Member 2]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a%3c %0a---%0a> [[Characters/Manager | Manager]] - [[Actors/BrownAlan | Alan Brown]]\\%0a> [[Characters/Geek | Geek]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a> %0a
+host:1243895133=192.168.0.1
+author:1243895020=gonad
+diff:1243895020:1243894954:=1,2d0%0a%3c (:title The Lost Reel:)%0a%3c %0a
+host:1243895020=192.168.0.1
+author:1243894954=gonad
+diff:1243894954:1243894954:=1,14d0%0a%3c The Lost Reel (working title)\\%0a%3c Script version 0.1 (draft)\\\%0a%3c %0a%3c CAST:\\\%0a%3c [[Characters/Manager | Manager]] - [[Actors/BrownAlan | Alan Brown]]\\%0a%3c [[Characters/Geek | Geek]] - [[Actors/BawnAndrew | Andrew Bawn]]\\%0a%3c %0a%3c \\%0a%3c PROPS:\\\%0a%3c %0a%3c %0a%3c \\\%0a%3c %0a%3c !!!Scene 1 - An open-plan office\\\%0a\ No newline at end of file%0a
+host:1243894954=192.168.0.1

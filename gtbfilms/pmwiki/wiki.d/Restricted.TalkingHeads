@@ -1,0 +1,17 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 5.1; rv:2.0) Gecko/20100101 Firefox/4.0
+author=gonad
+csum=
+ctime=1299197102
+host=62.6.161.131
+name=Restricted.TalkingHeads
+rev=2
+targets=
+text=A documentary film crew follow someone in a difficult job around for a few days, interviewing him and recording his daily routine. Done like The Office. Comedy.%0a%0a25/3/2011%0aOkay, so he's a tour guide. He does walking tours round places, but also bus tours perhaps. Maybe he also works in a museum or something. The comedy comes from the fact that he's totally unsuitable for the job. He doesn't know anything about the subject matter and makes it up as he goes along, frequently being caught out by the tourists who are supposed to know less than him. He finds this very annoying. He is also rude to the tourists and doesn't like them asking questions etc.%0a%0aSee the funny bits in Jim's Jaunts for examples. Esp. the age of walls of an old ruin - he spontaneously decides to talk about something on the tour, which he has obviously not prepared for, and gets halfway into his explanation before realising he doesn't know the answer to the question, and has to make something up.%0a%0aInterspersed with talking head to camera bits, which have been filmed seperately, and where he is saying stuff which obviously contradicts what is shown on screen previously/just after. Like The Office.%0a%0aAlso consider the Apprentice bus tour guide task, where they made up confused 'facts' about London landmarks.%0a%0a
+time=1301053129
+author:1301053129=gonad
+diff:1301053129:1299197102:=1,11c1%0a%3c A documentary film crew follow someone in a difficult job around for a few days, interviewing him and recording his daily routine. Done like The Office. Comedy.%0a%3c %0a%3c 25/3/2011%0a%3c Okay, so he's a tour guide. He does walking tours round places, but also bus tours perhaps. Maybe he also works in a museum or something. The comedy comes from the fact that he's totally unsuitable for the job. He doesn't know anything about the subject matter and makes it up as he goes along, frequently being caught out by the tourists who are supposed to know less than him. He finds this very annoying. He is also rude to the tourists and doesn't like them asking questions etc.%0a%3c %0a%3c See the funny bits in Jim's Jaunts for examples. Esp. the age of walls of an old ruin - he spontaneously decides to talk about something on the tour, which he has obviously not prepared for, and gets halfway into his explanation before realising he doesn't know the answer to the question, and has to make something up.%0a%3c %0a%3c Interspersed with talking head to camera bits, which have been filmed seperately, and where he is saying stuff which obviously contradicts what is shown on screen previously/just after. Like The Office.%0a%3c %0a%3c Also consider the Apprentice bus tour guide task, where they made up confused 'facts' about London landmarks.%0a%3c %0a---%0a> A documentary film crew follow someone in a difficult job around for a few days, interviewing him and recording his daily routine. Done like The Office. Comedy.%0a\ No newline at end of file%0a
+host:1301053129=62.6.161.131
+author:1299197102=gonad
+diff:1299197102:1299197102:=1d0%0a%3c A documentary film crew follow someone in a difficult job around for a few days, interviewing him and recording his daily routine. Done like The Office. Comedy.%0a\ No newline at end of file%0a
+host:1299197102=188.221.67.230

@@ -1,0 +1,10 @@
+version=pmwiki-2.0.beta53 ordered=1
+newline=²
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.7.8) Gecko/20050511 Firefox/1.0.4
+author=hb
+host=127.0.0.1
+name=Site.Gemini-Configuration
+rev=9
+targets=Site.SideBar,Site.PageTopMenu,Site.PageFootMenu,Site.PageHeader,Site.PageFooter,Site.Gemini-EditForm,Site.RightBar,Site.StyleOptions,PmWiki.AccessKeys
+text='''Side Menu'''²*[[Site/SideBar?action=edit | Edit Site Sidebar]]²²'''Configurations'''²*[[Site/PageTopMenu?action=edit| Edit Site Page Top Menu]]²*[[Site/PageFootMenu?action=edit| Edit Site Page Foot Menu]]²*[[Site/PageHeader?action=edit| Edit Site Page Header]]²*[[Site/PageFooter?action=edit| Edit Site Page Footer]]²*[[Site.Gemini-EditForm]]²²'''`RightBar Page'''²*[[Site/RightBar?action=edit| Edit Site Right Bar]]²²'''Style Options'''²*[[Site/StyleOptions]]²²²Various default site preferences, including [[PmWiki/access keys]] and component sizes:²²  [=²  # Access keys²  'ak_edit'          => 'e',     # edit page²  'ak_history'       => 'h',     # page history²  'ak_recentchanges' => 'c',     # Recent Changes²  'ak_save'          => 's',     # save page²  'ak_saveedit'      => 'u',     # save and keep editing²  'ak_preview'       => 'p',     # preview page²  'ak_em'            => 'i',     # emphasized text (italic)²  'ak_strong'        => 'b',     # strong text (bold)²²  # Editing components²  'Site.EditForm' => 'Site.Gemini-EditForm',²  'e_rows' => '20',              # rows in edit textarea²  'e_cols' => '90',              # columns in edit textarea²  =]²²
+time=1123174096

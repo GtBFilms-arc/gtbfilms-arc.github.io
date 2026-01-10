@@ -1,0 +1,26 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9) Gecko/2008061015 Firefox/3.0
+author=gonad
+csum=
+host=192.168.0.1
+name=Actors.SpiersRoy
+rev=5
+targets=Films.TheWish,Characters.Hologram,Films.WhatAMess,Characters.Newsreader,Films.Peaceful,Characters.RadioDJ,Main.Actors
+text=(:title Roy Spiers:)%0a%0a|| border=0 width=90%25 align=center%0a||Blah Blah about Leroy|| || || http://www.gonadovision.homeip.net/video/photos/radiodj.jpg ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/TheWish | The Wish]] ||[[Characters/Hologram | Hologram Commander]] ||%0a||[[Films/WhatAMess | What A Mess!]] ||[[Characters/Newsreader | Newsreader]] ||%0a||[[Films/Peaceful | Peaceful]] ||[[Characters/RadioDJ | Radio DJ]] || %0a%0a'''Personal Webpage:'''\\%0a%0a%0a[[Main/Actors | Other Actors]]
+time=1216664971
+title=Roy Spiers
+author:1216664971=gonad
+diff:1216664971:1161351187:=4,5c4,5%0a%3c ||Blah Blah about Leroy|| || || http://www.gonadovision.homeip.net/video/photos/radiodj.jpg ||%0a%3c %0a---%0a> ||Blah Blah about Leroy|| || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1216664971=192.168.0.1
+author:1161351187=gonad
+diff:1161351187:1161349771:=12,13c12,13%0a%3c ||[[Films/Peaceful | Peaceful]] ||[[Characters/RadioDJ | Radio DJ]] || %0a%3c %0a---%0a> ||[[Films/Peaceful | Peaceful]] ||||[[Characters/RadioDJ |Radio DJ || %0a> %0a
+host:1161351187=195.92.40.49
+author:1161349771=gonad
+diff:1161349771:1161349656:=12,13c12,13%0a%3c ||[[Films/Peaceful | Peaceful]] ||||[[Characters/RadioDJ |Radio DJ || %0a%3c %0a---%0a> ||[[Films/Peaceful | Peaceful]] ||Radio DJ || %0a> %0a
+host:1161349771=195.92.40.49
+author:1161349656=gonad
+diff:1161349656:1140538272:=10c10%0a%3c ||[[Films/TheWish | The Wish]] ||[[Characters/Hologram | Hologram Commander]] ||%0a---%0a> ||[[Films/TheWish | The Wish]] ||[[Characters/HologramCommander | Hologram Commander]] ||%0a
+host:1161349656=195.92.40.49
+author:1140538272=gonad
+diff:1140538272:1140538272:=1,17d0%0a%3c (:title Roy Spiers:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Blah Blah about Leroy|| || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/TheWish | The Wish]] ||[[Characters/HologramCommander | Hologram Commander]] ||%0a%3c ||[[Films/WhatAMess | What A Mess!]] ||[[Characters/Newsreader | Newsreader]] ||%0a%3c ||[[Films/Peaceful | Peaceful]] ||Radio DJ || %0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c %0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1140538272=195.92.40.49

@@ -1,0 +1,74 @@
+/* CSS Document */
+/*
+#===============================================================================
+# layout-standard.css  for GeminiTwo
+#===============================================================================
+# Copyright (c) 2004 Hans Bracker. All rights reserved.
+#
+# Defines the CSS for gemini.tmpl
+#
+# This file is part of the PmWiki gemini skin; you can redistribute it 
+# and/or modify it under the terms of the GNU General Public License as 
+# published by the Free Software Foundation; either version 2 of the License, 
+# or (at your option) any later version.
+#===============================================================================*/
+/*=== wireframe design aid ====  
+#main { border:2px dashed green}
+#logo {border dotted black}
+#titlebarbox { border:1px dotted red}
+#leftside { border:1px dotted purple}
+#sidebar { border:1px solid red}
+#content { border:1px solid blue}
+#wikitext { border:1px dotted blue}
+#footnav { border:1px solid green}      */ 
+
+/*=============== Main Layout ================================================*/
+
+body { 	margin:0; padding:0;  }
+* html body {width:100%}
+
+.clearer {height:1px; clear:both; margin-top:-1px;} 
+
+#header { width:100%; }
+
+#main {  width:100%; }
+
+#topnav { position: absolute;
+		top:0;
+		right:0;
+		float:right; 
+		width: 75%; }
+
+#titlebarbox { margin:0.45em 5px 0px 10px; }
+
+#content { margin: 0 5px 0 10px; 
+		   padding: 1em 2em; 
+		}
+/* hides rule from IE5-Mac \*/
+* html #content { height:1%; } 
+/* End IE5-Mac hack */
+html>body #content { width:auto }
+		
+#wikitext {  } /* do not style */
+
+#sidebar { width:14em;   /* change SideBar width here*/
+		xxmargin-top:0; 
+		padding-top:5px } 
+		
+#footnavbox { margin:0 5px 0.5em 10px; }
+
+/*============= Group & Title ========================*/
+/* hides rule from IE5-Mac \*/
+* html #titlebar { height:0.01%; } 
+/* End IE5-Mac hack */
+
+#pagegroup { float:left;
+		vertical-align:top;
+		margin:0;		 
+		padding:1.3em 0.5em 0.5em 1em; }		
+#pagetitle h1 {
+		text-align:center;
+		margin:0;
+		padding:0px 0.5em 0.1em 0px; }
+#pagegroup a, #pagetitle a { text-decoration:none; }
+			

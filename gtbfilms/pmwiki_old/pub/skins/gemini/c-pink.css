@@ -1,0 +1,78 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-pink.css
+# 
+# part of the Gemini skin for Pmwiki
+#=============================================================================*/
+
+/*===============  pink theme ================*/
+body { background-color:#f0e3ff; }
+		
+#wrapper { background: url(lavender-128top.jpg) repeat-x; }
+
+a:link { color:#00f; }
+a:visited { color:#00f; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#033EC6; }
+
+#content { border:1px solid #999;  /* textarea borders */
+		background-color:#FCFAFF;
+		}
+#titlebarbox { margin-bottom:0.3em  }
+#titlebar { background-color:#FAE3FF;
+			border:1px solid #999; 
+			padding: 0.2em }
+
+.quickref { background:#f0e3ff; }		
+#sidebarbox { padding:5px 0 5px 5px; margin:0 } 
+#sidebar { background-color:#FAE3FF;
+		border:1px solid #999; }
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#00f; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#00f; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+.sidehead a:hover, .sidehead a:active {
+		color:#f00; background-color: #ffffb0;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#00f; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #f00; background-color: #ffffb0; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#033EC6; 
+			background: #FAE3FF; 
+			border:1px solid #aaa;}
+.inputbox:hover, .inputbox:focus { color:#000; background:#ffffb0; }			
+/* comment next three lines to get a standard button */
+.inputbutton {color:#033EC6; 
+			background: #FAE3FF; 
+			border:1px solid #aaa;}
+.inputbutton:hover { color:#f00; background:#ffffb0 }
+
+#topnav li a:hover, #topnav li a:active { background:#ffffb0 }
+
+#footnavbox { margin-top:0.2em }
+#footnav { background-color:#f0e3ff; }
+#footnav li a { background:#FAE3FF;
+			border:1px solid #ccc; }
+#footnav li a:hover, #footnav li a:active { background:#ffffb0 }
+
+#footer { border-top:1px solid #aaa; }
+
+#rightbar { background:#fae3ff; 
+	    border:1px solid #999 }  
+
+
+/* only works for IE5.5+ */
+html, body {
+		scrollbar-face-color:#FAE3FF;  
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#999 ; 
+		scrollbar-arrow-color:#00f; 
+		}
+
+
+		

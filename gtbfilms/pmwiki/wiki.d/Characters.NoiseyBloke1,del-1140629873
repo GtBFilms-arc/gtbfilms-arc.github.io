@@ -1,0 +1,13 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Characters.NoiseyBloke1
+rev=1
+targets=Characters.PeaceSeeker,Characters.NoisyBloke2,Films.Peaceful,Actors.HodgeAlasdair,Main.Actors
+text=(:title Noisy Bloke 1:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a||'''Played By''' ||[[Actors/HodgeAlasdair | Alasdair Hodge]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 4 ||%0a||'''Charisma''' || 2 ||%0a||'''Believability''' || 9 ||%0a||'''Age''' || 26 ||%0a||'''Luck''' || 5 ||%0a||'''Intelligence''' || 2 ||%0a||'''Scariness''' || 3 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1140629714
+title=Noisy Bloke 1
+author:1140629714=gonad
+diff:1140629714:1140629714:=1,22d0%0a%3c (:title Noisy Bloke 1:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Noisy Bloke 1 is a constant annoyance to the [[Characters/PeaceSeeker | Peace Seeker]]. Every where he goes, Noisy Bloke 1, and his cohort [[Characters/NoisyBloke2 | Noisy Bloke 2]] seem to be hanging around, making a noise and generally being annoying. || %0a%3c %0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/Peaceful | Peaceful]] ||%0a%3c ||'''Played By''' ||[[Actors/HodgeAlasdair | Alasdair Hodge]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 4 ||%0a%3c ||'''Charisma''' || 2 ||%0a%3c ||'''Believability''' || 9 ||%0a%3c ||'''Age''' || 26 ||%0a%3c ||'''Luck''' || 5 ||%0a%3c ||'''Intelligence''' || 2 ||%0a%3c ||'''Scariness''' || 3 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1140629714=195.92.40.49

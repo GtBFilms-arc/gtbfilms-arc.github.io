@@ -1,0 +1,44 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9) Gecko/2008061015 Firefox/3.0
+author=admin
+csum=
+host=192.168.0.1
+name=Misc.OtherFilms
+rev=11
+targets=
+text=(:title ECVS Films:)%0a%0a|| border=0 width=80%25 align=center%0a|| GtBFilms is affiliated with [[http://www.ecvs.co.uk | Edinburgh Cine and Video Society]], and we have therefore been involved to varying degrees in a number of club films. ||%0a|| We have here a collection of such ECVS club films, and club members films, in which we were involved in some way. ||%0a|| ''Please note: All films are in Windows Media Player format (.wmv), you will need Windows MediaPlayer or a similarly capable mediaplayer in order to view them'' ||%0a%0a|| border=1 width=90%25 align=center%0a|| [++A New Hope++] ||||%0a|| '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/newhope.wmv | newhope.wmv]] (6.8MB) ||%0a%0a|| border=1 width=90%25 align=center%0a|| [++Link to the Past++] ||||%0a|| '''Link to the Past''' [[%3c%3c]] A competition entry created by ECVS for the Strathclyde Competition 2007 || [[http://www.gonadovision.homeip.net/video/tests/link2thepast.wmv | link2thepast.wmv]] (39.4MB) ||%0a%0a|| border=1 width=90%25 align=center%0a|| [++The Spell Chequer++] ||||%0a|| '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || [[http://www.gonadovision.homeip.net/video/tests/spellchequer.wmv | spellchequer.wmv]] (1.3MB) ||
+time=1216688189
+title=ECVS Films
+author:1216688189=admin
+diff:1216688189:1216688171:=10,11c10,11%0a%3c || '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/newhope.wmv | newhope.wmv]] (6.8MB) ||%0a%3c %0a---%0a> || '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/anewhope.wmv | newhope.wmv]] (6.8MB) ||%0a> %0a
+host:1216688189=192.168.0.1
+author:1216688171=admin
+diff:1216688171:1216687821:=18c18%0a%3c || '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || [[http://www.gonadovision.homeip.net/video/tests/spellchequer.wmv | spellchequer.wmv]] (1.3MB) ||%0a\ No newline at end of file%0a---%0a> || '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || [[http://www.gonadovision.homeip.net/video/tests/spellchequer.wmv | link2thepast.wmv]] (1.3MB) ||%0a\ No newline at end of file%0a
+host:1216688171=192.168.0.1
+author:1216687821=admin
+diff:1216687821:1216687285:=10,11c10,11%0a%3c || '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/anewhope.wmv | newhope.wmv]] (6.8MB) ||%0a%3c %0a---%0a> || '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/anewhope.wmv | anewhope.wmv]] (6MB) ||%0a> %0a18c18%0a%3c || '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || [[http://www.gonadovision.homeip.net/video/tests/spellchequer.wmv | link2thepast.wmv]] (1.3MB) ||%0a\ No newline at end of file%0a---%0a> || '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || Not yet available for download ||%0a\ No newline at end of file%0a
+host:1216687821=192.168.0.1
+author:1216687285=admin
+diff:1216687285:1216137312:=5c5%0a%3c || We have here a collection of such ECVS club films, and club members films, in which we were involved in some way. ||%0a---%0a> || We have here a collection of such ECVS club films, in which we were involved in some way. ||%0a9,12d8%0a%3c || [++A New Hope++] ||||%0a%3c || '''A New Hope''' [[%3c%3c]] A special-effects rich sci-fi short, produced by Sean Groat, filmed entirely using blue-screen techniques || [[http://www.gonadovision.homeip.net/video/tests/anewhope.wmv | anewhope.wmv]] (6MB) ||%0a%3c %0a%3c || border=1 width=90%25 align=center%0a
+host:1216687285=192.168.0.1
+author:1216137312=gonad
+diff:1216137312:1216137262:=4c4%0a%3c || GtBFilms is affiliated with [[http://www.ecvs.co.uk | Edinburgh Cine and Video Society]], and we have therefore been involved to varying degrees in a number of club films. ||%0a---%0a> || GtBFilms is affiliated with Edinburgh Cine and Video Society, and we have therefore been involved to varying degrees in a number of club films. ||%0a
+host:1216137312=194.176.105.44
+author:1216137262=gonad
+diff:1216137262:1194004994:=12,14d11%0a%3c || border=1 width=90%25 align=center%0a%3c || [++The Spell Chequer++] ||||%0a%3c || '''The Spell Chequer''' [[%3c%3c]] The product of a club short film-making evening || Not yet available for download ||%0a\ No newline at end of file%0a
+host:1216137262=194.176.105.44
+author:1194004994=gonad
+diff:1194004994:1192834488:=1,2c1,2%0a%3c (:title ECVS Films:)%0a%3c %0a---%0a> (:title Other Films:)%0a> %0a5c5%0a%3c || We have here a collection of such ECVS club films, in which we were involved in some way. ||%0a---%0a> || We have here a collection of such independent films, in which we were involved in some way. ||%0a10,11c10,11%0a%3c || '''Link to the Past''' [[%3c%3c]] A competition entry created by ECVS for the Strathclyde Competition 2007 || [[http://www.gonadovision.homeip.net/video/tests/link2thepast.wmv | link2thepast.wmv]] (39.4MB) ||%0a%3c %0a---%0a> || '''Link to the Past''' [[%3c%3c]] A competition entry created by ECVS || [[http://www.gonadovision.homeip.net/video/tests/link2thepast.wmv | link2thepast.wmv]] (39.4MB) ||%0a> %0a
+host:1194004994=194.176.105.40
+author:1192834488=gonad
+diff:1192834488:1192834447:=5c5%0a%3c || We have here a collection of such independent films, in which we were involved in some way. ||%0a---%0a> || We have here a collection of such independent films, in which we were involved in come way. ||%0a
+host:1192834488=192.168.0.2
+author:1192834447=gonad
+diff:1192834447:1192834042:=9a10%0a> ||Link to the Past ||||%0a
+host:1192834447=192.168.0.2
+author:1192834042=gonad
+diff:1192834042:1192834013:=12a13%0a> \\\%0a\ No newline at end of file%0a
+host:1192834042=192.168.0.2
+author:1192834013=gonad
+diff:1192834013:1192834013:=1,13d0%0a%3c (:title Other Films:)%0a%3c %0a%3c || border=0 width=80%25 align=center%0a%3c || GtBFilms is affiliated with Edinburgh Cine and Video Society, and we have therefore been involved to varying degrees in a number of club films. ||%0a%3c || We have here a collection of such independent films, in which we were involved in come way. ||%0a%3c || ''Please note: All films are in Windows Media Player format (.wmv), you will need Windows MediaPlayer or a similarly capable mediaplayer in order to view them'' ||%0a%3c %0a%3c || border=1 width=90%25 align=center%0a%3c || [++Link to the Past++] ||||%0a%3c ||Link to the Past ||||%0a%3c || '''Link to the Past''' [[%3c%3c]] A competition entry created by ECVS || [[http://www.gonadovision.homeip.net/video/tests/link2thepast.wmv | link2thepast.wmv]] (39.4MB) ||%0a%3c %0a%3c \\\%0a\ No newline at end of file%0a
+host:1192834013=192.168.0.2

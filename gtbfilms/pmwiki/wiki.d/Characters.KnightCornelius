@@ -1,0 +1,22 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1
+author=gonad
+host=192.168.0.59
+name=Characters.KnightCornelius
+rev=4
+targets=Films.ChangingTimes,Actors.KnightMagnus,Main.Actors
+text=(:title Cornelius Knight:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/knightcornelius.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... Whether Cornelius actually existed or not is a matter of some conjecture, as he appears as part of [[Actors/KnightMagnus | Magnus']] dream of what a film made by GtBFilms in 1903 might have looked like. || %0a%0a\\\%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/ChangingTimes | Changing Times]] ||%0a||'''Played By''' ||[[Actors/KnightMagnus | Magnus Knight]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 5 ||%0a||'''Charisma''' || 9 ||%0a||'''Believability''' || 6 ||%0a||'''Age''' || 36 ||%0a||'''Luck''' || 1 ||%0a||'''Intelligence''' || 3 ||%0a||'''Scariness''' || 2 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1140748829
+title=Cornelius Knight
+author:1140748829=gonad
+diff:1140748829:1140695232:minor=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/knightcornelius.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... Whether Cornelius actually existed or not is a matter of some conjecture, as he appears as part of [[Actors/KnightMagnus | Magnus']] dream of what a film made by GtBFilms in 1903 might have looked like. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... Whether Cornelius actually existed or not is a matter of some conjecture, as he appears as part of [[Actors/KnightMagnus | Magnus']] dream of what a film made by GtBFilms in 1903 might have looked like. || %0a> %0a
+host:1140748829=192.168.0.59
+author:1140695232=gonad
+diff:1140695232:1140685367:minor=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... Whether Cornelius actually existed or not is a matter of some conjecture, as he appears as part of [[Actors/KnightMagnus | Magnus']] dream of what a film made by GtBFilms in 1903 might have looked like. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... || %0a> %0a
+host:1140695232=195.92.40.49
+author:1140685367=gonad
+diff:1140685367:1140685341:minor=1,2c1,2%0a%3c (:title Cornelius Knight:)%0a%3c %0a---%0a> (:title Rich Gentleman:)%0a> %0a
+host:1140685367=192.168.0.3
+author:1140685341=gonad
+diff:1140685341:1140685341:=1,23d0%0a%3c (:title Rich Gentleman:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || Cornelius Knight is the hero character of [[Films/ChangingTimes | Changing Times]]. He finds himself hungry and penniless, if only he could reach that giant apple... || %0a%3c %0a%3c \\\%0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/ChangingTimes | Changing Times]] ||%0a%3c ||'''Played By''' ||[[Actors/KnightMagnus | Magnus Knight]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 5 ||%0a%3c ||'''Charisma''' || 9 ||%0a%3c ||'''Believability''' || 6 ||%0a%3c ||'''Age''' || 36 ||%0a%3c ||'''Luck''' || 1 ||%0a%3c ||'''Intelligence''' || 3 ||%0a%3c ||'''Scariness''' || 2 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1140685341=192.168.0.3

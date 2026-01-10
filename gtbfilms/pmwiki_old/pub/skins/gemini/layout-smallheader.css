@@ -1,0 +1,72 @@
+/* CSS Document */
+/*
+#===============================================================================
+# layout-smallheader.css  for GeminiTwo
+#===============================================================================
+# Copyright (c) 2004 Hans Bracker. All rights reserved.
+#
+# Defines the CSS for gemini.tmpl
+#
+# This file is part of the PmWiki gemini skin; you can redistribute it 
+# and/or modify it under the terms of the GNU General Public License as 
+# published by the Free Software Foundation; either version 2 of the License, 
+# or (at your option) any later version.
+#===============================================================================*/
+/*=== wireframe design aid ==== 
+#main { border:2px dashed green}
+#header {border dotted black}
+#titlebar { border:1px dotted red}
+#leftside { border:1px dotted purple}
+#sidebar { border:1px solid red}
+#content { border:1px solid blue}
+#footnav { border:1px solid green}  */   
+   
+/*=============== Main Layout ================================================*/
+
+body { 	margin:0; padding:0;  }
+* html body {width:100%}
+
+.clearer {height:1px; clear:both; margin-top:-1px;} 
+
+#header { width:100%;}
+ 
+#main {  width:100%; }
+
+#topnav { position: absolute;
+		top:0;
+		right:0;
+		float:right; 
+		width: 100%; }
+
+#titlebarbox { margin:0 5px 0 10px; }
+#titlebar { margin-top:1.2em;} /* height between titlebar and top */
+
+#content { margin: 0 5px 0 10px; 
+		   padding: 1em 2em; 
+		}
+/* hides rule from IE5-Mac \*/
+* html #content { height:1%; } 
+/* End IE5-Mac hack */
+html>body #content { width:auto }
+
+#wikitext {  } /* do not style */
+
+#sidebar { width:14em;  }   /* change SideBar width here*/
+		  
+#footnavbox { margin:0 5px 0.5em 10px; }
+
+/*============= Group & Title ================*/
+
+/* hides rule from IE5-Mac \*/
+* html #titlebar { height:0.01%; } 
+/* End IE5-Mac hack */
+
+#pagegroup { float:left; 
+		margin:0;		 
+		padding:1.3em 0.5em 0 1em; }		
+#pagetitle h1 {
+		text-align:center;
+		margin:0;
+		padding:0 0.5em 0.1em 0; }
+#pagegroup a, #pagetitle a { text-decoration:none; }
+				

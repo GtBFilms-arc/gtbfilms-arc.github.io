@@ -1,0 +1,12 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0
+author=gonad
+host=81.179.87.203
+name=Main.Blocklist
+rev=1
+targets=
+text=block:arse%0a
+time=1139175817
+author:1139175817=gonad
+diff:1139175817:1139175817:=1d0%0a%3c block:arse%0a
+host:1139175817=81.179.87.203

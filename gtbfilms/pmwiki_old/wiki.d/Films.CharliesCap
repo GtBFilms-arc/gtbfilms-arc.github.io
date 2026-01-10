@@ -1,0 +1,18 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6
+author=gonad
+host=192.168.0.5
+name=Films.CharliesCap
+rev=3
+targets=
+text=This page will contain information/file downloads for "Charlie's Cap", it is currently under construction!%0a%0aCharlie's Cap (4.49)%0aCharlie from Edinburgh Cine and Video Society recalls the story of his school cap.%0a%0aOne camera, one actor, one hour of filming. This is the result of a Group Video Making project at ECVS.%0a%0aRecorded on MiniDV, 30th October 2003.%0a%0a[[http://www.gonadovision.homeip.net/video/charlies_cap_hi.ram | High Speed connection version (22.5MB RealVideo)]]%0a%0a[[http://www.gonadovision.homeip.net/video/charlies_cap_lo.ram | Low Speed connection version (3.7MB RealVideo)]]%0a%0a(:html:)%0a%3ccenter>%0a%3cscript type="text/javascript">%3c!--%0agoogle_ad_client = "pub-5767714101223561";%0agoogle_ad_width = 728;%0agoogle_ad_height = 90;%0agoogle_ad_format = "728x90_as";%0agoogle_ad_type = "text_image";%0a//2007-09-12: GtBFilms%0agoogle_ad_channel = "8003625449";%0agoogle_ui_features = "rc:10";%0a//-->%0a%3c/script>%0a%3cscript type="text/javascript"%0a  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c/script>%0a%3c/center>%0a(:htmlend:)
+time=1189633959
+author:1189633959=gonad
+diff:1189633959:1142878098:=13,31d12%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a
+host:1189633959=192.168.0.5
+author:1142878098=gonad
+diff:1142878098:1139355500:=1,12c1%0a%3c This page will contain information/file downloads for "Charlie's Cap", it is currently under construction!%0a%3c %0a%3c Charlie's Cap (4.49)%0a%3c Charlie from Edinburgh Cine and Video Society recalls the story of his school cap.%0a%3c %0a%3c One camera, one actor, one hour of filming. This is the result of a Group Video Making project at ECVS.%0a%3c %0a%3c Recorded on MiniDV, 30th October 2003.%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/charlies_cap_hi.ram | High Speed connection version (22.5MB RealVideo)]]%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/charlies_cap_lo.ram | Low Speed connection version (3.7MB RealVideo)]]%0a---%0a> This page will contain information/file downloads for "Charlie's Cap"%0a\ No newline at end of file%0a
+host:1142878098=195.92.40.49
+author:1139355500=gonad
+diff:1139355500:1139355500:=1d0%0a%3c This page will contain information/file downloads for "Charlie's Cap"%0a\ No newline at end of file%0a
+host:1139355500=81.179.87.203

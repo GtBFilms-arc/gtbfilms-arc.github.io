@@ -1,0 +1,98 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-silver.css
+# 
+# part of the gemini skin for Pmwiki
+#=============================================================================*/
+
+/*=============== silver theme =================*/
+
+body { background:#f6f6f6; }
+
+#wrapper { background: url(images/silver100-top.jpg) repeat-x; }
+	   
+a { text-decoration:none; }
+a:link   { color:#009;}
+a:visited{ color:#009;}
+a:active { color:#009;}
+a:hover  {color:#900; text-decoration:underline;}
+
+
+#titlebarbox { margin-bottom:0.3em  }
+#titlebar a { color:#900; }
+#titlebar a:hover { text-decoration:none; color:#009; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#900; }
+
+#content { 
+		border-top:1px solid #999; 
+		border-left:1px solid #999;
+		border-right:2px solid #999;
+		border-bottom:2px solid #999;
+		background:#fff;
+		
+		 }
+.quickref { background:#eef }	 
+/*#sidebarbox { padding:5px 0 5px 5px; margin:0 } 
+#sidebar { border:1px solid #999;   
+	   background:#fff; } */
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#009 } /*#5F5F30*/
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#009; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+.sidehead a:hover, .sidehead a:active {
+		text-decoration:underline;
+		color:#900; background: #fff; } /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#009; }
+#sidebar a:hover, #sidebar a:active { color:#6666cc; text-decoration:underline; }
+#sidebar li a:hover, #sidebar li a:active  { 
+		color: #900; background: #fff; } /* hover colors */
+
+/*#sidebar li, #sidebar h1 { border-bottom: 1px solid #999; }  menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0;} 
+#sidebarfooter { border-top:1px solid #999; }
+
+.inputbox, .inputtext { color:#6666cc; background: #eef;
+			border-top:1px solid #99c; 
+			border-left:1px solid #99c;
+			border-right:1px solid #eee;
+			border-bottom:1px solid #eee; }
+.inputbox:hover, .inputbox:focus { color:#000; background:#fff; }
+/* comment next six lines to get a standard button */
+.inputbutton {color:#000066; background:#eee; 
+			border-top:1px solid #eef; 
+			border-left:1px solid #eef;
+			border-right:1px solid #99c;
+			border-bottom:1px solid #99c;}
+.inputbutton:hover { color:#900; background:#ffe }
+
+#topnav li a:link, #topnav li a:visited { color:#009}
+#topnav li a:hover, #topnav li a:active {  color:#900; background:#efefef }
+
+#footnavbox { margin-top:0.5em  }
+#footnav li a { background:#eee;color:#006; }
+#footnav li a:hover, #footaction li a:active { color:#900; background:#fff }
+#footnav li a { 
+			border-top:1px solid #eee; 
+			border-left:1px solid #eee;
+			border-right:1px solid #99c;
+			border-bottom:1px solid #99c;}
+			
+#footer { border-top:1px solid #aca899; 
+	  background:#eee}
+
+#rightbar { background:#f6f6f6;  
+	    border:1px solid #003B62;}  
+
+ul { list-style-image: url(images/bullet7.gif); }
+
+/* only works for IE5.5+ */
+#main, body {
+		scrollbar-face-color:#eed; /* #F4E7B8; #F1E1A7; */ 
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#aca899 ; 
+		scrollbar-arrow-color:#000; 
+		}
+
+ 

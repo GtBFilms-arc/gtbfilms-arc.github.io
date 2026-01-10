@@ -1,0 +1,13 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Actors.HodgeKirsty
+rev=1
+targets=Films.Peaceful,Characters.NaggingWife,Main.Actors
+text=(:title Kirsty Hodge:)%0a%0a|| border=0 width=90%25 align=center%0a||Blah Blah about Krusty|| || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/Peaceful | Peaceful]] ||[[Characters/NaggingWife | Nagging Wife]] || %0a%0a%0a'''Personal Webpage:'''\\%0a%0a%0a[[Main/Actors | Other Actors]]
+time=1140537651
+title=Kirsty Hodge
+author:1140537651=gonad
+diff:1140537651:1140537651:=1,16d0%0a%3c (:title Kirsty Hodge:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Blah Blah about Krusty|| || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/Peaceful | Peaceful]] ||[[Characters/NaggingWife | Nagging Wife]] || %0a%3c %0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c %0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1140537651=195.92.40.49

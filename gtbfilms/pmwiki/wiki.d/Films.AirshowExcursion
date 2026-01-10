@@ -1,0 +1,25 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.10) Gecko/2009042513 Ubuntu/8.04 (hardy) Firefox/3.0.10
+author=gonad
+csum=
+host=192.168.0.1
+name=Films.AirshowExcursion
+rev=5
+targets=Actors.BawnAndrew,Actors.KnightMagnus,Actors.BrownAlan
+text=This page will contain information/file downloads for "Airshow Excursion", it is currently under construction!%0a%0aAirshow Excursion (9:07)%0aRecorded on the 13th July 2002, the Airshow Excursion is an exciting trip to the Museum of Flight Annual Airshow.%0a%0aRecorded on Digital8 and 8mm cameras.%0a%0a[[http://www.gonadovision.homeip.net/video/airshow_excursion.wmv | Recommended Version (43.3MB WMV)]]%0a%0a[[http://www.gonadovision.homeip.net/video/airshow_hi.ram | High Speed connection version (29MB RealVideo)]]%0a%0a[[http://www.gonadovision.homeip.net/video/airshow_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a%0a'''Cast:'''%0a||border=1 width=60%25 align=left%0a|| '''Character''' || '''Actor''' ||%0a||[[Actors/BawnAndrew | Himself ]] ||[[Actors/BawnAndrew | Andrew Bawn ]] ||%0a||[[Actors/KnightMagnus | Himself ]] ||[[Actors/KnightMagnus | Magnus Knight ]] ||%0a||[[Actors/BrownAlan | Himself ]] ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a%0a%0a[[%3c%3c]]%0a[[%3c%3c]]%0a'''Production:'''%0a||border=1 width=60%25 align=left%0a||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a||Cameras ||[[Actors/BrownAlan | Alan Brown]] / [[Actors/BawnAndrew | Andrew Bawn ]] ||||%0a%0a[[%3c%3c]]%0a%0a(:html:)%0a%3ccenter>%0a%3cscript type="text/javascript">%3c!--%0agoogle_ad_client = "pub-5767714101223561";%0agoogle_ad_width = 728;%0agoogle_ad_height = 90;%0agoogle_ad_format = "728x90_as";%0agoogle_ad_type = "text_image";%0a//2007-09-12: GtBFilms%0agoogle_ad_channel = "8003625449";%0agoogle_ui_features = "rc:10";%0a//-->%0a%3c/script>%0a%3cscript type="text/javascript"%0a  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c/script>%0a%3c/center>%0a(:htmlend:)
+time=1243291845
+author:1243291845=gonad
+diff:1243291845:1216137103:=8,9d7%0a%3c [[http://www.gonadovision.homeip.net/video/airshow_excursion.wmv | Recommended Version (43.3MB WMV)]]%0a%3c %0a
+host:1243291845=192.168.0.1
+author:1216137103=gonad
+diff:1216137103:1189633977:=12,28d11%0a%3c '''Cast:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c || '''Character''' || '''Actor''' ||%0a%3c ||[[Actors/BawnAndrew | Himself ]] ||[[Actors/BawnAndrew | Andrew Bawn ]] ||%0a%3c ||[[Actors/KnightMagnus | Himself ]] ||[[Actors/KnightMagnus | Magnus Knight ]] ||%0a%3c ||[[Actors/BrownAlan | Himself ]] ||[[Actors/BrownAlan | Alan Brown ]] ||||%0a%3c %0a%3c %0a%3c [[%3c%3c]]%0a%3c [[%3c%3c]]%0a%3c '''Production:'''%0a%3c ||border=1 width=60%25 align=left%0a%3c ||Director ||[[Actors/BrownAlan | Alan Brown]] ||%0a%3c ||Cameras ||[[Actors/BrownAlan | Alan Brown]] / [[Actors/BawnAndrew | Andrew Bawn ]] ||||%0a%3c %0a%3c [[%3c%3c]]%0a%3c %0a
+host:1216137103=194.176.105.44
+author:1189633977=gonad
+diff:1189633977:1142878708:=11,29d10%0a%3c %0a%3c (:html:)%0a%3c %3ccenter>%0a%3c %3cscript type="text/javascript">%3c!--%0a%3c google_ad_client = "pub-5767714101223561";%0a%3c google_ad_width = 728;%0a%3c google_ad_height = 90;%0a%3c google_ad_format = "728x90_as";%0a%3c google_ad_type = "text_image";%0a%3c //2007-09-12: GtBFilms%0a%3c google_ad_channel = "8003625449";%0a%3c google_ui_features = "rc:10";%0a%3c //-->%0a%3c %3c/script>%0a%3c %3cscript type="text/javascript"%0a%3c   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">%0a%3c %3c/script>%0a%3c %3c/center>%0a%3c (:htmlend:)%0a\ No newline at end of file%0a
+host:1189633977=192.168.0.5
+author:1142878708=gonad
+diff:1142878708:1139355467:=1,10c1%0a%3c This page will contain information/file downloads for "Airshow Excursion", it is currently under construction!%0a%3c %0a%3c Airshow Excursion (9:07)%0a%3c Recorded on the 13th July 2002, the Airshow Excursion is an exciting trip to the Museum of Flight Annual Airshow.%0a%3c %0a%3c Recorded on Digital8 and 8mm cameras.%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/airshow_hi.ram | High Speed connection version (29MB RealVideo)]]%0a%3c %0a%3c [[http://www.gonadovision.homeip.net/video/airshow_lo.ram | Low Speed connection version (7MB RealVideo)]]%0a---%0a> This page will contain information/file downloads for "Airshow Excursion"%0a\ No newline at end of file%0a
+host:1142878708=195.92.40.49
+author:1139355467=gonad
+diff:1139355467:1139355467:=1d0%0a%3c This page will contain information/file downloads for "Airshow Excursion"%0a\ No newline at end of file%0a
+host:1139355467=81.179.87.203

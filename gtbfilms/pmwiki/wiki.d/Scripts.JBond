@@ -1,0 +1,15 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+author=gonad
+host=195.92.40.49
+name=Scripts.JBond
+rev=2
+targets=
+text=This is a page for development of the Joseph Bond Script:\\\%0a%0a'''Idea:'''\\\%0aThere was a thing on Virgin Radio this morning about James Bond, which is currently being filmed. They were getting folk to text them things that you never see James Bond doing. It was quite funny, like you never see him coming out of the gents with a small circle of damp on his trousers, or struggling to get served in a bar and then getting the wrong drink (stirred instead of shaken), or not really knowing what to do next, or being all nervous while his girlfriend takes a pregnancy test, or phoning his mum from a foreign country to let her know that he's okay and he got there safely. So I thought, maybe there SHOULD be a James Bond film where the hero (or anti-hero) does things like these, and maybe WE SHOULD MAKE IT! He would still have a bad guy to catch of course. What else do you never see James Bond doing??? %0a%0aHmmm, I like the idea of a bit of a spongol James Bond - Joseph Bond perhaps? He would have to look very sophisticated and all that, but act in a non suave and sophisticated manner - maybe a bit too madcap though, I dunno. Presumably he could beat the villain more through luck than good judgement, or alternatively he has a sidekick who is effective - in the grand tradition of Hong Kong Phooey, Dangermouse etc.%0a%0a'''Script:'''\\\%0a
+time=1140101786
+author:1140101786=gonad
+diff:1140101786:1140101721:=4,7c4,5%0a%3c There was a thing on Virgin Radio this morning about James Bond, which is currently being filmed. They were getting folk to text them things that you never see James Bond doing. It was quite funny, like you never see him coming out of the gents with a small circle of damp on his trousers, or struggling to get served in a bar and then getting the wrong drink (stirred instead of shaken), or not really knowing what to do next, or being all nervous while his girlfriend takes a pregnancy test, or phoning his mum from a foreign country to let her know that he's okay and he got there safely. So I thought, maybe there SHOULD be a James Bond film where the hero (or anti-hero) does things like these, and maybe WE SHOULD MAKE IT! He would still have a bad guy to catch of course. What else do you never see James Bond doing??? %0a%3c %0a%3c Hmmm, I like the idea of a bit of a spongol James Bond - Joseph Bond perhaps? He would have to look very sophisticated and all that, but act in a non suave and sophisticated manner - maybe a bit too madcap though, I dunno. Presumably he could beat the villain more through luck than good judgement, or alternatively he has a sidekick who is effective - in the grand tradition of Hong Kong Phooey, Dangermouse etc.%0a%3c %0a---%0a> %0a> %0a
+host:1140101786=195.92.40.49
+author:1140101721=gonad
+diff:1140101721:1140101721:=1,6d0%0a%3c This is a page for development of the Joseph Bond Script:\\\%0a%3c %0a%3c '''Idea:'''\\\%0a%3c %0a%3c %0a%3c '''Script:'''\\\%0a
+host:1140101721=195.92.40.49

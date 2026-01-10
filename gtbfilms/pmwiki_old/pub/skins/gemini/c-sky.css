@@ -1,0 +1,62 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-sky.css
+#=============================================================================*/
+
+/*===============  sky theme =================*/
+body { background:#dfefff;}
+		
+#wrapper { background: url(images/sky-128top.jpg) repeat-x;  }
+
+a:link { color:#033EC6; }
+a:visited { color:#033EC6; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+#titlebarbox { margin-bottom:0.3em  }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6  { color:#033EC6; }
+#content { background-color:#FAFDFF;
+		border:1px solid #999;  /* text area borders  */
+		}
+		
+/*#sidebar { background:#B1D8FF; } */
+.quickref { background:#dfefff }
+#sidebar p, h1, h2, h3, h4, h5, h6, .sidehead { color:#033EC6; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#033EC6; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+p.sidehead a:hover, p.sidehead a:active { 
+		color:#f00; background-color: #ffc;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#033EC6; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #f00; background-color: #ffc; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#033EC6; 
+					background: #dfefff; 
+					border:1px solid #aaa;}
+.inputbox:hover, .inputbox:focus { color:#000; background:#ffc; }
+/* comment next three lines to get a standard button */
+.inputbutton {color:#033EC6; 
+					background: #dfefff; 
+					border:1px solid #aaa; }
+.inputbutton:hove { color:#f00; background:#ffc }
+
+#topnav li a:hover, #topnav li a:active { background:#ffc }
+
+#footnavbox { margin-top:0.2em }
+#footnav { background-color:#dfefff; }
+#footnav li a { background:#dfefff; 
+		border-right:1px solid #aaa; 
+		margin:0; padding:0.3em 1em}
+#footnav li a:hover, #footnav li a:active { background:#ffc }
+
+#footer { border-top:1px solid #aaa; }
+
+#rightbar { background:#dfefff; 
+	    border:1px solid #999; }  
+
+ul { list-style-image: url(images/bullet7.gif); }			

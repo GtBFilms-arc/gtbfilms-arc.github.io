@@ -1,0 +1,80 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-red-gold.css
+# 
+# part of the Gemini skin for Pmwiki
+#=============================================================================*/
+
+/*===============  red-gold theme ================*/
+body { background:#ff9; }
+	   
+a:link { color:#00f; }
+a:visited { color:#009; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+#titlebar { background-color:#c30; 
+			padding:0.2em 0;}
+
+#titlebar a:link { color:#fff; }
+#titlebar a:visited { color:#fff; }
+#titlebar a:hover { color:#fc3; }
+#titlebar a:active { color:#fc3; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#033EC6; }
+
+#content { border:1px solid #999;  /* textarea borders */
+		background-color:#FCFAFF;
+		}
+#sidebarbox { padding:5px 0 5px 5px; margin:0 }  
+#sidebar { background-color:#fc3; 
+		border:1px solid #999; }/**/
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#009; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#009; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+.sidehead a:hover, .sidehead a:active {
+		color:#f00; background-color: #ff9;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#009; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #f00; background-color: #ff9; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#009; 
+			background: #fc6; 
+			border:1px solid #009;}
+.inputbox:hover, .inputbox:focus { color:#f00; background:#ff9; }			
+/* comment next three lines to get a standard button */
+.inputbutton {color:#009; 
+			background: #fc6; 
+			border:1px solid #009;}
+.inputbutton:hover { color:#f00; background:#ff9 }
+
+#topnav li a:hover, #topnav li a:active { background:#ff9 }
+
+#footnavbox { margin-top:0em  } 
+#footnav  { padding:0.6em 0 ;
+			color:#fff;
+			background-color:#c30;  }
+#footnav a { color: yellow }
+#footnav li a { color: #00f;
+		background:#fc6;
+		border:1px solid #009; }
+#footnav li a:hover, #footnav li a:active { background:#ff9 }
+
+#footer { }
+
+#rightbar { background:#fc3; 
+	    border:1px solid #999;}  
+							
+/* only works for IE5.5+ */
+html, body {
+		scrollbar-face-color:#ff6;  
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#999 ; 
+		scrollbar-arrow-color:#00f; 
+		}
+.quickref { background-color:#ff9 }
+		

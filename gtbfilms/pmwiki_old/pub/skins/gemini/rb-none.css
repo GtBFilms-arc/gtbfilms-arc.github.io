@@ -1,0 +1,22 @@
+/* CSS Document */
+/*================ Right Bar ==========================
+# rightbar-none.css
+# 
+# part of the Gemini Two skin for Pmwiki
+#======================================================*/
+		
+#rightbar { visibility:hidden;
+		width:0; /* change RightBar width here*/
+	/*	margin:-1em -2.5em 0.25em 0.5em;  first value for vertical position, second for right side (not IE) */
+	/*	padding:0.5em; */
+		float:right;
+		line-height:0em;
+		} 
+* html #rightbar { width: 0; /* for IE: width + margins */
+	 /*	margin:-1em -1.2em 0.25em 0.5em; } for IE: increase first value to lower box */
+		}
+#rightbar ul { margin:0.3em 0; padding:0; list-style:none }
+#rightbar li a { margin:0 0 0 0.5em; }
+#rightbar ul ul li a { margin:0 0 0 1.5em; }
+
+

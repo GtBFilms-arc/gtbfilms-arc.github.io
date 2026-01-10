@@ -1,0 +1,89 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-parch-blue.css
+# 
+# part of the Gemini skin for Pmwiki
+#=============================================================================*/
+
+/*===============  parch-blue theme ================*/
+body { background: #e0e9f8 url(images/parch-blue1.jpg); }
+
+#wrapper { }
+
+a:link { color:#00f; }
+a:visited { color:#009; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+
+
+#titlebarbox { margin-bottom:0.5em }
+#titlebar { background: #D2D5F6 url(images/parch-blue.jpg);
+	    border:1px solid #999; 
+		}
+#titlebar a:link, #titlebar a:visited { color:#033EC6; }
+#titlebar a:hover, #titlebar a:active { color:#f33; }
+
+/*comment next 2 lines to remove second title border */
+#pagegroup { margin:5px }
+#pagetitle { margin:5px; border:1px solid #bbb; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#033EC6; }
+
+#content { border:1px solid #999;  /* textarea borders */
+	   background:#FCFAFF url(images/parch-blue0.jpg); }
+		
+#sidebarbox { padding:5px 0 5px 5px; margin:0 } 
+#sidebar, .quickref { background:#D2D5F6 url(images/parch-blue.jpg);
+		border:1px solid #999; }
+		
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#00f; }
+#sidebar h1 a:link, #sidebar h1 a:visited { color:#00f; }
+#sidebar h1 a:hover, #sidebar h1 a:active,
+p.sidehead a:hover, p.sidehead a:active {
+		color:#f00; background: #ffc;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#00f; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #f00; background: #ffc; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#033EC6; 
+			background: #E0E9F8; 
+			border:1px solid #999;}
+.inputbox:hover, .inputbox:focus { color:#000; background:#ffc; }			
+/* comment next three lines to get a standard button */
+.inputbutton {color:#033EC6; 
+			background: #E0E9F8; 
+			border:1px solid #999;}
+.inputbutton:hover { color:#f00; background:#ffc }
+
+#topnav li a:hover, #topnav li a:active { background:#ffc }
+
+#footnavbox { margin-top:0.5em  } 
+#footnav  {  
+			padding: 0.6em 0;
+			border:1px solid #999;
+			background:#D2D5F6 url(images/parch-blue.jpg); 
+			}
+#footnav li a { color:#009;
+			background:#E0E9F8;
+			border:1px solid #999; 
+			}
+#footnav li a:hover, #footnav li a:active { background:#ffc }
+
+#footer {  }
+
+#rightbar { background:#d2d5f6 url(images/parch-blue.jpg); 
+	    border:1px solid #999 }
+	    
+
+/* only works for IE5.5+ */
+html, body {
+		scrollbar-face-color:#D2D5F6;  
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#999 ; 
+		scrollbar-arrow-color:#00f; 
+		}

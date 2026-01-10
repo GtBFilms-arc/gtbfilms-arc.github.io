@@ -1,0 +1,18 @@
+version=pmwiki-2.1.27 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)
+author=gonad
+csum=
+ctime=1267723161
+host=62.25.109.195
+name=Restricted.TheBanned
+rev=2
+targets=
+text=(:title The Banned:)%0a%0a'The Banned' is the working title for a proposed new short film from GtBFilms.\\\%0a%0aThe script is currently in draft form and can be viewed/edited below:\\\%0a%0aScript Version 0.01 'The Banned' (working title)\\\%0a%0aOverview:\\%0a"The Banned" are a heavy metal group that had a top 75 hit, back in 1982. Years later, a couple of the band members decide it's time for a comeback, and try to recreate the glory years.\\\%0a%0aTracing down the other original band members, they convince them to reform the group, and with the help of their roadie, set out to conquer the charts once again.\\\%0a%0a%0aThis film is a behind-the-scenes Rockumentary of their journey.%0a
+time=1267723192
+title=The Banned
+author:1267723192=gonad
+diff:1267723192:1267723161:=14,15d13%0a%3c %0a%3c This film is a behind-the-scenes Rockumentary of their journey.%0a
+host:1267723192=62.25.109.195
+author:1267723161=gonad
+diff:1267723161:1267723161:=1,13d0%0a%3c (:title The Banned:)%0a%3c %0a%3c 'The Banned' is the working title for a proposed new short film from GtBFilms.\\\%0a%3c %0a%3c The script is currently in draft form and can be viewed/edited below:\\\%0a%3c %0a%3c Script Version 0.01 'The Banned' (working title)\\\%0a%3c %0a%3c Overview:\\%0a%3c "The Banned" are a heavy metal group that had a top 75 hit, back in 1982. Years later, a couple of the band members decide it's time for a comeback, and try to recreate the glory years.\\\%0a%3c %0a%3c Tracing down the other original band members, they convince them to reform the group, and with the help of their roadie, set out to conquer the charts once again.\\\%0a%3c %0a
+host:1267723161=62.25.109.195

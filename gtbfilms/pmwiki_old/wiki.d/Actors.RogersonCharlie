@@ -1,0 +1,19 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+author=gonad
+host=192.168.0.2
+name=Actors.RogersonCharlie
+rev=3
+targets=Films.CharliesCap,Main.Actors
+text=(:title Charlie Rogerson:)%0a%0a|| border=0 width=90%25 align=center%0a||Charlie is a former member and President of Edinburgh Cine and Video Society. He was interviewed for the short-film '[[Films/CharliesCap | Charlies Cap]]' where he recounts a story from his schooldays. || || || http://www.gonadovision.homeip.net/video/photos/charlierogerson.jpg ||%0a%0a\\\%0a'''Roles:'''%0a|| border=1 width=60%25 %0a||'''Film''' ||'''Character Played''' ||%0a||[[Films/CharliesCap | Charlies Cap]] ||Himself || %0a%0a'''Personal Webpage:'''\\%0a%0a%0a[[Main/Actors | Other Actors]]
+time=1182217453
+title=Charlie Rogerson
+author:1182217453=gonad
+diff:1182217453:1161352253:=4,5c4,5%0a%3c ||Charlie is a former member and President of Edinburgh Cine and Video Society. He was interviewed for the short-film '[[Films/CharliesCap | Charlies Cap]]' where he recounts a story from his schooldays. || || || http://www.gonadovision.homeip.net/video/photos/charlierogerson.jpg ||%0a%3c %0a---%0a> ||Charlie is a former member and President of Edinburgh Cine and Video Society. He was interviewed for the short-film '[[Films/CharliesCap | Charlies Cap]]' where he recounts a story from his schooldays. || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1182217453=192.168.0.2
+author:1161352253=gonad
+diff:1161352253:1140538500:=4,5c4,5%0a%3c ||Charlie is a former member and President of Edinburgh Cine and Video Society. He was interviewed for the short-film '[[Films/CharliesCap | Charlies Cap]]' where he recounts a story from his schooldays. || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a---%0a> ||Blah Blah || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a> %0a
+host:1161352253=195.92.40.49
+author:1140538500=gonad
+diff:1140538500:1140538500:=1,15d0%0a%3c (:title Charlie Rogerson:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||Blah Blah || || || http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg ||%0a%3c %0a%3c \\\%0a%3c '''Roles:'''%0a%3c || border=1 width=60%25 %0a%3c ||'''Film''' ||'''Character Played''' ||%0a%3c ||[[Films/CharliesCap | Charlies Cap]] ||Himself || %0a%3c %0a%3c '''Personal Webpage:'''\\%0a%3c %0a%3c %0a%3c [[Main/Actors | Other Actors]]%0a\ No newline at end of file%0a
+host:1140538500=195.92.40.49

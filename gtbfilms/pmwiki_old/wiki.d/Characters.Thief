@@ -1,0 +1,19 @@
+version=pmwiki-2.0.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1
+author=gonad
+host=192.168.0.59
+name=Characters.Thief
+rev=3
+targets=Films.PIF,Characters.EverybodyBrian,Actors.BawnAndrew,Main.Actors
+text=(:title The Thief:)%0a%0a|| border=0 width=90%25 align=center%0a||http://www.gonadovision.homeip.net/video/photos/Thief.jpg || || || The Thief is a low-down good-for-nothing who rakes through peoples' rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Identity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a%0a'''Information'''%0a|| border=1 width=50%25 %0a||'''Film''' ||[[Films/PIF | Identity Theft]] ||%0a||'''Played By''' ||[[Actors/BawnAndrew | Andrew Bawn]] ||%0a%0a'''Top Trumps Stats'''%0a|| border=1 width=30%25 %0a||'''Strength''' || 6 ||%0a||'''Charisma''' || 1 ||%0a||'''Believability''' || 9 ||%0a||'''Age''' || 36 ||%0a||'''Luck''' || 8 ||%0a||'''Intelligence''' || 3 ||%0a||'''Scariness''' || 6 || %0a%0a[[Main/Actors | Other Characters]]%0a%0a
+time=1141097818
+title=The Thief
+author:1141097818=gonad
+diff:1141097818:1141061195:minor=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/photos/Thief.jpg || || || The Thief is a low-down good-for-nothing who rakes through peoples' rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Identity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || The Thief is a low-down good-for-nothing who rakes through peoples' rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Identity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a> %0a
+host:1141097818=192.168.0.59
+author:1141061195=baldas
+diff:1141061195:1140613339:=4,5c4,5%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || The Thief is a low-down good-for-nothing who rakes through peoples' rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Identity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a%3c %0a---%0a> ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || The Thief is a low-down god for nothing who rakes through peoples rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Idetity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a> %0a
+host:1141061195=194.72.54.34
+author:1140613339=gonad
+diff:1140613339:1140613339:=1,22d0%0a%3c (:title The Thief:)%0a%3c %0a%3c || border=0 width=90%25 align=center%0a%3c ||http://www.gonadovision.homeip.net/video/identity/gtbfilms.jpg || || || The Thief is a low-down god for nothing who rakes through peoples rubbish looking for discarded utility bills and bank statements in [[Films/PIF | Idetity Theft]]. He picks on [[Characters/EverybodyBrian | Brian Everybody]] and having stolen his identity, goes on a spending spree. || %0a%3c %0a%3c '''Information'''%0a%3c || border=1 width=50%25 %0a%3c ||'''Film''' ||[[Films/PIF | Identity Theft]] ||%0a%3c ||'''Played By''' ||[[Actors/BawnAndrew | Andrew Bawn]] ||%0a%3c %0a%3c '''Top Trumps Stats'''%0a%3c || border=1 width=30%25 %0a%3c ||'''Strength''' || 6 ||%0a%3c ||'''Charisma''' || 1 ||%0a%3c ||'''Believability''' || 9 ||%0a%3c ||'''Age''' || 36 ||%0a%3c ||'''Luck''' || 8 ||%0a%3c ||'''Intelligence''' || 3 ||%0a%3c ||'''Scariness''' || 6 || %0a%3c %0a%3c [[Main/Actors | Other Characters]]%0a%3c %0a
+host:1140613339=195.92.40.49

@@ -1,0 +1,19 @@
+* [[Main/HomePage]]
+* [[Main/WikiSandbox]]
+
+%sidehead% [[PmWiki/PmWiki]]
+* [[PmWiki/Initial Setup Tasks]]  
+* [[PmWiki/Basic Editing]]
+* [[PmWiki/Documentation Index]]
+* [[PmWiki/FAQ | PmWiki FAQ ]]
+* [[PmWiki/PmWikiPhilosophy]]
+* [[PmWiki/Release Notes]]
+* [[PmWiki/ChangeLog]]
+
+%sidehead% [[http://www.pmwiki.org | pmwiki.org ]]
+* [[Cookbook:CookbookBasics | Cookbook (addons) ]]
+* [[Cookbook:Skins | Skins (themes) ]]
+* [[PITS:PITS | PITS (issue tracking) ]]
+* [[PmWiki/Mailing Lists]]
+
+%right% [-[[Site.SideBar?action=edit | edit SideBar]]-]

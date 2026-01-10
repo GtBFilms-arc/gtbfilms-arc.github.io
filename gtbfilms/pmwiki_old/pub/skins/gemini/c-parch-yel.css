@@ -1,0 +1,82 @@
+/* CSS Document */
+/*===================  COLORS  =================================================
+# c-parch-yel.css
+# 
+# part of the Gemini skin for Pmwiki
+#=============================================================================*/
+
+/*===============  parch-yellow theme ================*/
+body { background: #fdf0d0 url(images/parch-org1.jpg); }
+
+a:link { color:#009; }
+a:visited { color:#009; }
+a:hover { color:#f00; }
+a:active { color:#f00; }
+
+#titlebarbox { margin-bottom:0.5em }
+#titlebar { background: #fdfab5 url(images/parch-yel.jpg);
+	    border:1px solid #999; 
+		}
+#titlebar a:link, #titlebar a:visited { color:#009; }
+#titlebar a:hover, #titlebar a:active { color:#f33; }
+
+/*comment next 2 lines to remove second title border */
+#pagegroup { margin:5px }
+#pagetitle { margin:5px; border:1px solid #bbb; }
+
+#content h1, #content h2, #content h3, 
+#content h4, #content h5, #content h6 { color:#009; }
+
+#content { border:1px solid #999;  /* textarea borders */
+	   background: #fff url(images/parch-org0.jpg); }
+		
+#sidebarbox { padding:5px 0 5px 5px; margin:0 } 
+#sidebar, .quickref { background: #fdfab5 url(images/parch-yel.jpg); 
+	   border:1px solid #999; }
+	   
+#sidebar p, h1, h2, h3, h4, .sidehead { color:#009; }
+#sidebar h1 a:link, #sidebar h1 a:visited, .sidehead { color:#009; }
+#sidebar h1 a:hover, #sidebar h1 a:active, 
+.sidehead a:hover, .sidehead a:active { color:#c00; background: #FFE6B3;} /* hover colors */
+#sidebar a:link, #sidebar a:visited { color:#009; }
+#sidebar a:hover, #sidebar a:active { color:#f00;  }
+#sidebar li a:hover, #sidebar li a:active  { color: #c00; background: #FFE6B3; } /* hover colors */
+#sidebar li, #sidebar h1, .sidehead { border-bottom: 1px solid #999; } /* menu lines */
+/* border-top:1px adds horizontal lines for second level list elements: */
+#sidebar ul ul li  { border-top:0px solid #999; border-bottom:0} 
+
+.inputbox { color:#009; 
+			background: #FDF0D0; 
+			border:1px solid #aaa;}
+.inputbox:hover, .inputbox:focus { color:#000; background:#fff; }			
+/* comment next three lines to get a standard button */
+.inputbutton {color:#009; 
+			background: #FFE6B3; 
+			border:1px solid #aaa;}
+.inputbutton:hover { color:#f00; background:#fff }
+
+#topnav li a:hover, #topnav li a:active {color:#c00;  background:#FFE6B3 }
+
+#footnavbox { margin-top:0.5em  }  
+
+#footnav  { padding: 0.6em 0;
+			border:1px solid #999; 
+			background:#FDFAB5 url(images/parch-yel.jpg); 
+			}
+#footnav li a {color:#009; background:#FFE6B3;
+			border:1px solid #ccc; }
+#footnav li a:hover, #footnav li a:active { color:#f00; background:#fff }
+
+#footer { }
+
+#rightbar { background:#f7fac5 url(images/parch-yel.jpg); 
+	    border:1px solid #999 }  					 
+  
+
+/* only works for IE5.5+ */
+html, body {
+		scrollbar-face-color:#FDFAB5;  
+		scrollbar-highlight-color:#fff;
+		scrollbar-shadow-color:#999 ; 
+		scrollbar-arrow-color:#009; 
+		}
