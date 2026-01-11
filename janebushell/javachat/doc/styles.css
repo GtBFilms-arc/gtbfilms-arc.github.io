@@ -1,0 +1,12 @@
+body {font-family:Verdana,Arial,Helvetica,sans-serif; FONT-SIZE: 13px;}
+td {font-family:Verdana,Arial,Helvetica,sans-serif; FONT-SIZE: 13px;}
+A{color:#000080;text-decoration:none;}
+A:hover{color:#000080;text-decoration:underline;}
+
+.err {color:#ff0000; font-family:Verdana,Arial,Helvetica,sans-serif; FONT-SIZE: 13px;}
+.c1 {FONT-FAMILY:serif;font-weight:500; FONT-SIZE:18px;}
+.c2 {FONT-FAMILY: sans-serif; FONT-SIZE: 11px;}
+
+h2{font-size:16px;}
+h3{font-size:13px;}
+code{color:#006600}

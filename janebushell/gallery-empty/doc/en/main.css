@@ -1,0 +1,206 @@
+/* ***************************
+  Merlos Network V6.0
+  Modified for YaPiG Home Page
+  by NaTaSaB
+
+****************************** */
+
+/*############### ELEMENTOS HTML  ########################### */
+
+p:first-letter {
+	       font-size: 110%;
+}
+
+
+code {
+	color:#444455;
+	background:white;
+}
+
+samp{
+	color: #4444CC;
+	background: inherit;
+}
+
+pre {
+	color: #465488;
+	background:white;
+}
+
+ul { list-style-type: circle;     
+     background: auto;	
+}
+
+h1 {
+   margin-top: 0px;
+   margin-bottom: 5px;
+   background: #EEEEFF;
+   border-top: thin solid #CCCCDD;
+   border-bottom: thin solid #CCCCDD;
+   padding: 5px;
+   font-size:150%;   
+   }	 
+
+h2 {
+   border: thin solid #CCCCDD;
+   padding: 5px;
+  } 
+
+h3 {
+   border-bottom: thin solid #CCCCDD;
+}
+
+body {
+	margin: 0%;
+	background-color: white;
+	color: #000099;
+	font-family: Arial,Verdana,Helvetica,sans-serif;	
+}
+
+input,textarea {
+	background: white;
+	color: black;
+	border: thin solid #CCCCEE;
+	margin: 3px;
+}
+
+/* ############## merlos.biz  ###############*/
+.roseline {
+
+   margin-top: 0px;
+   margin-bottom: 5px;
+   background: #EEEEFF;
+   border-top: thin solid #CCCCDD;
+   border-bottom: thin solid #CCCCDD;
+   padding: 5px;
+}
+
+/*Quitar borde a imágenes con enlace.*/
+.imagen{
+	  border: 0px;	  
+}
+
+.rojo {
+      color: red;
+      background: auto;
+      
+      }
+
+/* ############### INTERFAZ General ############## */
+
+a:link { 
+	text-decoration:none; 
+
+}
+a:hover{ background: #BBBBFF;
+}
+a:visited{
+	text-decoration: none;
+}
+
+.right {
+      text-align: right;
+}
+.top {
+     margin: 5px;
+     border: thin solid #AAAABB;
+     padding: 0px;
+}
+.toptit1 {
+	 background: #DDDDEE;
+	 color: white;
+	 font-weight: bolder;
+	 font-size: 56px;
+}
+.toptit2 {
+	 background: white; 
+	 color: #CCCCDD;
+	 font-weight: bolder;
+	 font-size: 56px;
+}
+
+#topmenu{
+	text-align:center;
+	background-color:#EEEEFF;
+	border-top: thin solid #CCCCDD;
+	border-bottom: thin solid #CCCCDD;
+}
+
+.menu {
+	/*display: none; */
+	position: absolute;
+	top: 110px;
+	left: 1px;
+	margin: 5px;
+	width: 135px;
+	font-size:100%;
+	background-repeat: no-repeat;
+}
+
+.msec { /*Secciones Menu*/
+	padding-left: 5px;
+	font-weight: bolder;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: thin solid #CCCCDD;
+	/*border: thin outset #EEEEEE;*/
+	background:  #EEEEFF;
+}
+
+.msub {
+	padding-left: 5px;
+	border: thin solid #CCCCDD;
+	/*background: #EEEEFF;*/
+}
+
+
+.contents {
+      display: block;
+      margin: 5px;
+      left: 145px;
+      top: 110px;
+      position: absolute;
+}
+
+
+.text{
+      display: block;
+      border: thin dotted #DDDDEE;			 
+      padding: 5px;	    
+      margin: 5px;
+      
+}
+
+.bottom {
+	text-align: right;
+	bottom: 0px;
+	width: 100%;
+	background: transparent;
+	color: #AAAABB;
+}
+
+.formbutton { 
+	 text-size: 10px; 
+	 border: thin outset #CCCCDD;
+	 background: white;
+}
+
+
+
+/* ################ NOTICIAS ######################*/
+
+
+.noticia{
+	 border: thin solid #CCCCDD;
+	 background: #EEEEFF;
+	 margin: 5px;
+	 padding: 5px;
+}
+
+.date{
+ border-bottom: thin dotted #CCCCEE;
+}
+
+
+
+

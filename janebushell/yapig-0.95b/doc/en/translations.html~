@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+ <title>Yapig - English Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="NaTaSaB" />
+<meta name="description" content="Yapig is a simple but powerful image gallery written in php. It has web admin tool,user comments and visit stats.">
+<meta name="keywords" content="yapig, yet another,php,image gallery, photo album, photo, php album, php gallery">
+<meta name="Copyright" content="&copy; 2003 NaTaSaB" />
+
+<!-- Metadatos Dublin Core -->
+<meta name="DC.Title" content="Documentation" />
+<meta name="DC.Creator" content="NaTaSaB" />
+<meta name="DC.Subject" content="Documentation of the YaPiG PHP Script" />
+<meta name="DC.Description" content="Yapig is a simple but powerful image gallery written in php. It has web admin tool,user comments and visit stats." />
+<meta name="DC.Publisher" content="yapig.sf.net" />
+<meta name="DC.Date" content="2003-07-01" />
+<meta name="DC.Relation.isPartOf" content="http://yapig.sourceforge.net" />
+<meta name="DC.Identifier" content="http://yapig.sourceforge.net" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Rights" content="(c) 2003 NaTaSaB" />
+<link rel="Start" href="http://yapig.sourceforge.net" />
+
+<link rel="icon" href="img/mini.png" type="image/png" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+<script type="text/javascript">
+<!--
+function openWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+<body>
+<!-- TOP ZONE -->
+<div class="top"><img src="../img/top.jpg" alt="Yapig Documentation" style="margin:0px; padding:0px" /></div>
+<!--
+<div class="top">
+<span class="toptit1"> .::YaPiG </span>
+      <span class="toptit2">&nbsp;Documentation </span>
+     <small style="color: #AAAABB">yapig.sourceforge.net</small>
+</div>
+-->
+
+<div id="topmenu">
+ YaPiG Home Page: 
+        <a href="http://yapig.sourceforge.net/index.php" title="Index - Home - Start">home</a> |
+   <a href="http://yapig.sourceforge.net/doc/" title="YaPiG User Manual">Online- Docs</a> |
+ <a href="http://yapig.sourceforge.net/download.php" title="Download YaPiG and CVS info">Download</a> 
+
+</div>
+
+ <div class="contents">
+      <div class="text">
+      
+      
+      
+
+
+<h2>YaPiG Multilingual Support</h2>
+
+<p>YaPiG has multilingual support, that is, it can be translated into any
+language without needing to modify the source code. So, if YaPiG is not
+translated into your language you can do it yourself.
+</p>
+
+<h2>Setting YaPiG's Language</h2>
+
+<p>As default, YaPiG interface is configured to show all messages in English
+but them can be shown in these supported languages:</p>
+<ul>
+<li>br = Brazilian Portuguese (0.92b). Thanks to Megajoy.</li>
+<li>ca = Catalan Language (0.92b) Thanks to Antoni Hortal(0.83) and Cai
+Roigé Roca(0.92)</li>
+<li>cn = Chinese Language (0.91b). Thanks to attimmee.</li>
+<li>cz = Czech Language (0.92b) Thanks to  Jiri Cincura and Frettie.</li>
+<li>de = German (0.80b) Thanks to docviper.</li>
+<li>en = English (Original Source Code Language).</li>
+<li>es = Spanish (0.92b) Thanks to me (NaTaSaB)</li>
+<li>fi = Finnish (0.92b) Thanks to Miikka Mättölä (mixxu)</li>
+<li>fr = French (0.81b) Thanks to Thomas Oireaux and David Foucher.</li>
+<li>gl = Galician (0.92b) Thanks to Rashgaroc.</li>
+<li>hu = Hungarian (0.92b) Thanks to Greg J. (greggood)</li>
+<li>id = Indonesian (0.8x) Thanks to Bernouli.</li>
+<li>it = Italian (0.82b) Thanks to Andrea Baldon. </li>
+<li>ja = Japanese (0.92). Thanks to Tadashi Jokagi (elf2000)</li>
+<li>no = Norwegiam (0.92).  Thanks to Bernt Egil Berntzen (zenmed)</li>
+<li>nl = Dutch (0.83b). Thanks to Theo Beers.</li>
+<li>ro = Romanian (0.92b). Thanks to  Mat (kamikadzee)</li>
+<li>ru = Russian (0.83b) Thanks to Arseny Vesnin.</li>
+<li>sk = Slovak translation (0.92). Thanks to Andrej Zatko</li>
+<li>sv = Swedish (0.92b) Thanks to Daniel Ek and updated to
+0.92b by Jasmin Z.</li>
+</ul>
+
+<p><small>Note: Some of this translations might not be up to date so some of
+the messages can appear in English. If you want to change this please read 
+<a href="#howto">How can I translate YaPiG into my language</a>.
+</small></p>
+
+<p>To set your language just edit <samp>config.php</samp> file modifying the
+<code>LANG</code> variable in the Interface Config area. For example,
+to set Spanish language as default:
+</p>
+<pre><samp>
+  $LANG="es";
+</samp>
+</pre>
+
+<a name="howto"></a><h2>¿How can I translate YaPiG into my language?</h2>
+
+<p>First step is know what is your country language identifier 
+(from now, lang_id). You can find your language identifier in 
+<a href="http://www.mpi-sb.mpg.de/~pesca/locales.html">this web</a>
+</p>
+
+<ol><li><h4>New Translation</h4>
+
+<p>Once you know your lang_id you must create a subfolder of the 
+YaPiGs root folder with this format: 
+<samp>./locale/lang_id/LC_MESSAGES/</samp>.For example,the Spanish 
+language (lang_id=es):</p>
+<pre><samp>
+ locale/es/LC_MESSAGES/
+</samp></pre>
+<p>Next step is copying the file  <samp>./locale/<b>yapig.pot</b></samp> into
+<samp>./locale/lang_id/LC_MESSAGES/<b>yapig.po</b></samp>. For example:
+<pre><samp>
+    $ cp ./locale/yapig.po ./locale/es/LC_MESSAGES/
+</samp></pre>
+</li>
+
+<li><h4>Update translation</h4>
+<p>If YaPiG is already translated into your language, this translation might
+be old so some messages appear in English. What you have to do is:  in your
+lang_id/LC_MESSAGES/ directory edit yapig-latest.po, add/modify missing
+translations messages and copy yapig-latest.po into yapig.po. Then check in
+yapig that all is correct.</p>
+
+<p><b>Note:</b> Take care about messages with the comment <i>#'fuzzy</i>. 
+This means that it is possible to be an incorrect translation. Gettext
+tools, used to generate this file have some kind of inteligence, but
+sometimes it makes mistakes, and it warns using the fuzzy message. 
+</p>
+</li>
+</ol>
+
+<p>Next step is edit <samp>yapig.po</samp> file. It has a this format:
+<pre>
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR EMAIL@ADDRESS, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-11-06 17:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;\n"
+"Language-Team: LANGUAGE &lt;LL@li.org&gt;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. end log
+#. ############################ MAIN PROGRAM #################
+#: ../add_comment.php:44
+msgid "English text"
+msgstr ""
+
+#: ../add_comment.php:47
+msgid "This text has to be translated"
+msgstr ""
+</pre>
+
+<p>First of all, set the proper charset encoding. For Latin languages such
+as Spanish, French, Italian the charset encoding is iso-8859-1. </p>
+
+
+
+<p>
+What you have to translate are msgid strings. This way:
+</p>
+<pre>
+msgid "English text"
+msgstr "Texto en Inglés"
+
+msgid "This text has to be translated"
+msgstr "Este texto tiene que ser traducido"
+
+</pre>
+<p>That is, you only have to fill <samp>msgstr</samp> string with
+the equivalent in your language of the <samp>msgid</samp> string. 
+</p>
+
+</p>Finally, once you have the translated file, it would be great if you
+send to YaPiG developers this file. That way, you will be helping people
+that uses your same language because it will added to
+the YaPiG supported languages in next released version. You can upload the
+file in the
+<a href="http://sourceforge.net/tracker/?group_id=93674&atid=605078">YaPiG's Patch page</a> (preferred) or mail it to me, the address is
+<b>natasab@users.sourceforge.net</b>. Thank you!</p>
+</div> <!-- Fin div Text -->
+
+<div class="bottom">
+  <address>&copy <b>YaPIG</b> ::
+    <a href="http://yapig.sourceforge.net">http://yapig.sourceforge.net</a> # 
+      <a href="http://natasab.merlos.biz">natasab</a>@users.sourceforge.net
+</address>
+ </div><!-- Fin div bottom -->
+
+</div><!-- Fin div contents-->
+
+<!-- MENU LATERAL -->
+
+ <div class="menu"><!-- Div Contenedor Menu -->
+     	<div class="msec"><b><a href="index.html" title="YaPiG's Documentation">Documentation</a></b></div>
+	<div class="msub">
+	     &bull;<a href="features.html" >Features</a><br />
+	      &bull;<a href="install.html">Install</a><br />
+	      &bull;<a href="FAQ.html">FAQ</a><br />
+              &bull;<a href="templates.html">Templates</a><br />
+              &bull;<a href="translations.html">Multilingual Support</a><br />
+              &bull;<a href="bugs.html">How to report Bugs</a><br />
+              &bull;<a href="credits.html">Credits</a><br />
+	</div>
+  <div class="msec"><b><a href="http://yapig.sourceforge.net/index.php">YaPiG Home</a></b></div>
+	<div class="msec"><b><a href="http://yapig.sourceforge.net/download.php" title="Download Page">Downloads</a></b></div>
+
+      <div class="msec">User Feedback</div>
+      <div class="msub">
+      &bull;<a href="http://yapig.sourceforge.net/list.php" title="Information about YaPiGs Mailing lists">Mailing Lists</a><br />
+      &bull;<a href="http://sourceforge.net/forum/?group_id=93674" title="YaPiG SF.net -  Project Forums">Forums</a><br />
+      &bull;<a href="http://sourceforge.net/tracker/?group_id=93674&atid=605076" title="YaPiG SF.net Bug Tracker">Report Bugs</a><br />
+      &bull;<a href="http://sourceforge.net/tracker/?atid=605079&group_id=93674&func=browse" title="YaPiG SF.net Feature Request Tracker">Feature Request</a>
+      </div>
+     
+ </div>
+     
+</body>
+</html>

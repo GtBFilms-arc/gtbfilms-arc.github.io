@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<TITLE>Java Chat</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from none JavaScript Browsers
+Image1= new Image(100,30)
+Image1.src = "../button_home.jpg"
+Image2 = new Image(100,30)
+Image2.src = "../button_home_on.jpg"
+
+
+
+function SwapOut1() {
+document.imageflip1.src = Image2.src; 
+document.home.src = Image2.src;
+return true;
+}
+
+function SwapBack1() {
+document.imageflip1.src = Image1.src; 
+document.home.src = Image1.src;
+return true;
+}
+// - stop hiding -->
+</SCRIPT>
+
+<style type="text/css">
+body {background-color: #DFDFEF;
+font-family: Arial,Verdana, sans-serif;
+color: #666676;
+font-size: 80%;
+margin: 0pt;}
+h1 {
+   margin-top: 8px;
+   margin-bottom: 5px;
+   padding: 3px;
+   border: thin solid #9F9FAF;
+   background: #BFBFcF;
+   color: white;
+   clear: both;
+   }
+p {background-color: transparent}
+</style>
+
+</HEAD>
+
+<BODY>
+<H1>
+Java Chat</H1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<APPLET codebase="." archive="chat.jar" code="Chat.class" width=85% height=80%> 
+
+<param name="fgColor" value="#333333"> 
+<param name="bgColor" value="#CCCCCC"> 
+
+<!-- 
+By editing of following parameters set labels and messages in any language 
+--> 
+<param name="come" value="has entered the chat room"> 
+<param name="left" value="has left the chat room "> 
+<param name="login" value="Login"> 
+<param name="logout" value="Logout"> 
+<param name="nick" value="Nickname : "> 
+<param name="password" value="Password (optionally) : "> 
+<param name="nick_used" value="Nickname is used"> 
+<param name="bad_password" value="Incorrect Password"> 
+<param name="enter_passw" value="Please, enter your nickname"> 
+Your browser is NOT Java enabled 
+
+</APPLET> 
+<BR>
+<BR>
+<BR>
+<DIV align=center>
+<a href="http://www.janebushell.co.uk" target="_top" onFocus="if(this.blur)this.blur()" onMouseOver="SwapOut1()" onMouseOut="SwapBack1()"><img NAME="imageflip1" SRC="../button_home.jpg" border=0></a>
+</DIV>
+</BODY>
+</HTML>

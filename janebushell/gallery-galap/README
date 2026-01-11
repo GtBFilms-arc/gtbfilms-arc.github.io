@@ -1,0 +1,85 @@
+
+YAPIG - Yet Another PHP Image Gallery (Distributed under GPL)
+-------------------------------------------------------------
+YAPIG is a simple PHP script that allows you to publish your favourite
+images and photos ordered in galleries.  It counts visitors of each gallery
+and each image. Visitors can make comments of each picture. It is great
+to publish your digital photos of events like parties, trips, crazy nights, 
+etc.
+
+Requirements
+------------
+    * Webserver with PHP 4 with GD library
+    * Nice pictures
+
+Stable or Unstable Version
+--------------------------
+Stable: This version has less features but the probability to have bugs
+        is minor.
+	
+Unstable: This version has the latest features, but they can be still being
+          developed or released for users to test them and report bugs.
+	  
+¿What version should I use?
+      Well, if you want to publish a gallery you should use the stable one,
+but if you want to help the project or see what will be in future stable
+releases you can check the unstable version. 
+
+The biggest difference between them is that the unstable version has been 
+tested only by me and only in my system. When an unstable
+version has been tested and the bugs seem to be repaired it is changed to
+stable. Althought, when it is stable then appear more bugs because it is
+more widely used.
+         
+Installation
+------------
+Please read INSTALL and doc/install.html files. 
+If you still have problesm try reading doc/FAQ.html. Finally you can ask on
+YaPiG's Forums: http://sourceforge.net/forum/?group_id=93674
+or yapig users mailing lists:
+  http://lists.sourceforge.net/lists/listinfo/yapig-users
+  	     
+(Please do not send me emails requesting help, use the forum. Thank you!)
+
+Patches
+-------
+If you modify YaPiG's source code adding new features and want to share it
+with people you can uses YaPiG's sourceforge page for submitting it. That
+way they can be added to the "official" project.
+
+http://sourceforge.net/tracker/?group_id=93674&atid=605078
+
+Bug report
+----------
+Please read doc/bugs.html 
+
+New Features
+------------
+If you want to have new features on yapig you can subbmit them freely on this
+URL: http://sourceforge.net/tracker/?group_id=93674&atid=605079
+
+There you can see new features that will have yapig in the future. 
+
+
+Credits
+-------
+    * Coded by NaTaSaB <natasab@users.sourceforge.net>
+      Personal web: http://natasab.merlos.biz  (Spanish Only)
+      (This software has been Made In Spain)
+    
+    * People who made YaPig transaltions 
+      (listed in doc/translations.html)
+    
+    * People who help me with bugs and patches 
+      (view CHANGELOG and doc/credits.html)
+    
+
+    YaPiG Home Page:  http://yapig.sf.net
+    YaPiG Sourceforge Project: http://sourceforge.net/projects/yapig/
+
+
+Thank you for using YaPiG!
+
+---
+I apologise if there is any gramatical or ortographic mistake in my English.
+Corrections will be welcome. Thank you!

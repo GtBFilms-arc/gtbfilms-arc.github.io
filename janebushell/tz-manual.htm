@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head> <meta name="HTTP-equiv" content="text/html;charset=iso-8859-1"> <meta name="generator" content="HTML Tidy, see www.w3.org"><title>Manual for the clock applet</title> 
+	  <meta name="GENERATOR" content="amaya V2.1"> <link type="text/css" rel="stylesheet" href="tz-manual_files/i18n.css"></head>
+
+ 
+  <body> 
+	 <h2><img alt="W3C" src="tz-manual_files/w3c_home.png" align="middle" border="0"> <a href="http://www.w3.org/International/"><img alt="International" src="tz-manual_files/i18n-alt.png" align="middle" border="0" height="48" width="72"></a> Internationalization</h2> 
+	 <p><img alt="home" src="tz-manual_files/home.gif" border="0" height="23" width="20"> <a href="http://www.w3.org/International/resources.html#hints"> Hints &amp; tips</a>
+		<img alt="parent" src="tz-manual_files/parent.gif" border="0" height="23" width="20"><a href="http://www.w3.org/International/O-time-clocks.html">i18n/Time/clocks</a></p> 
+	 <h3>Manual for the clock applet</h3> 
+	 <p>This manual describes how to install and configure the clock applet.</p> 
+	 <h4>Copying and license</h4> 
+	 <p>You
+are free to download and use the clock applet, without charge, provided
+you keep the copyright statements intact and with the code. The clock
+applet consists of two parts: a <a href="http://www.w3.org/Protocols/Time/tz.class">tz.class</a> file (source code: <a href="http://www.w3.org/International/tz.java">tz.java</a>) and a
+		<a href="http://www.w3.org/Protocols/Time/Clock.class">Clock.class</a> file (source code: <a href="http://www.w3.org/International/Clock.java">Clock.java</a>). The former is
+		<a href="http://www.w3.org/Consortium/Legal/copyright-software">copyright W3C</a>. The latter is an adaptation of code provided by Sun and is
+		therefore copyright Sun Microsystems (see inside <a href="http://www.w3.org/International/Clock.java">Clock.java</a> for the full copyright and license statement).</p> 
+	 <h4>Using the clock in a Web page</h4> 
+	 <p>First
+you must decide if you want to download the clock and install it on
+your own site, or if you simply want to link to it. Let's assume for
+the moment that you just link to them. In that case the only thing you
+need to add a piece of HTML similar to the one below to your own HTML
+page:</p> 
+	 <pre>&lt;APPLET CODE="tz.class"
+    CODEBASE="http://www.w3.org/Protocols/Time/"
+    WIDTH="81" HEIGHT="115"&gt;
+  &lt;PARAM NAME="tz" VALUE="CST"&gt;
+  &lt;PARAM NAME="country" VALUE="GB"&gt;
+  &lt;PARAM NAME="language" VALUE="en"&gt;
+  &lt;PARAM NAME="color" VALUE="0000ff"&gt;
+  &lt;PARAM NAME="textcolor" VALUE="000000"&gt;
+  &lt;PARAM NAME="bgcolor" VALUE="fbfbff"&gt;
+  &lt;PARAM NAME="daycolor" VALUE="fff030"&gt;
+  &lt;PARAM NAME="nightcolor" VALUE="6040a0"&gt;
+  &lt;PARAM NAME="seconds" VALUE="off"&gt;
+  Your browser is not configured to show
+  Java applets. This would show a clock with
+  the US Central Time.
+&lt;/APPLET&gt;
+</pre> 
+	 <p>I'll explain the meaning of the parameters further down.</p> 
+	 <p>If
+you decide to download the clock to your own site (so that it starts
+faster, or to safeguard against somebody at W3C changing it), then you
+need to download <strong>two</strong> files:</p> 
+	 <ul> 
+		<li><a href="http://www.w3.org/Protocols/Time/tz.class">tz.class</a></li> 
+		<li><a href="http://www.w3.org/Protocols/Time/Clock.class">Clock.class</a></li> 
+	 </ul> 
+	 <p>(Right-click
+on them to download, or whatever command your browser provides.) When
+you put these two files in the same directory as the HTML file, you can
+remove the CODEBASE attribute from the code fragment above. If you put
+them somewhere else, you have to adapt the CODEBASE accordingly.</p> 
+	 <p>You may optionally also download the source code (just to have a look at it, or if you want to modify the way the clock works):</p> 
+	 <ul> 
+		<li><a href="http://www.w3.org/International/tz.java">tz.java</a></li> 
+		<li><a href="http://www.w3.org/International/Clock.java">Clock.java</a></li> 
+	 </ul> 
+	 <p>That's all! It should work now, but let's look at the parameters you can set.</p> 
+	 <h4>Configuring the clock</h4> 
+	 <p>The
+clock has a large set of parameters to specify how it looks and what
+time it displays. Refer to the HTML fragment above for an example of
+the syntax.</p> 
+	 <dl> 
+		<dt>WIDTH</dt> 
+		<dd>The WIDTH
+attribute gives the width of the clock in pixels. The size of the
+digits also depend on this: the larger you make the clock, the larger
+the digits will be as well.</dd> 
+		<dt>HEIGHT</dt> 
+		<dd>The
+HEIGHT attribute gives the height of the clock in pixels. If you make
+the HEIGHT equal to the WIDTH, you will see just the dial. If you make
+the HEIGHT larger than the WIDTH you will see the date displayed below
+the dial as well.</dd> 
+		<dt>CODEBASE</dt> 
+		<dd>CODEBASE
+was explained in the previous section. If the two .class files are in
+the same directory as the HTML file, you can omit this attribute.</dd> 
+		<dt>tz</dt> 
+		<dd>"tz" is the timezone
+parameter. It determines which timezone the clock shows the time of.
+The values are 3-letter codes, such as CST for US Central Time, or
+pairs of the form "continent/city". See below for a list.</dd> 
+		<dt>language</dt> 
+		<dd>"language"
+determines the language of the date display below the dial. It is a
+2-letter code such as "en" for English, "fr" for French, etc.</dd> 
+		<dt>country</dt> 
+		<dd>"country" is a further
+modifier on "language" in the case the language is spoken in several
+countries. E.g., if you set "language" to "en" and "country" to "gb"
+(as in the example above) you will get a slightly different-looking
+date than when you set "country" to "us". The differences are usually
+minor, though.</dd> 
+		<dt>color</dt> 
+		<dd>"color"
+is the color of the hands during daytime. (The color may automatically
+change in nighttime, if the contrast with the dial is not high enough.)
+It must be an HTML-style 6-digit color in hexadecimal. E.g., <code>0000ff</code> is blue, <code>00ff00</code> is green,
+		  <code>ff0000</code> is red, <code>000000</code> is black and <code>ffffff</code> is white.</dd> 
+		<dt>textcolor</dt> 
+		<dd>"textcolor" is the color of the text, both the digits and the date. It, too, is a 6-digit hexadecimal color.</dd> 
+		<dt>bgcolor</dt> 
+		<dd>"bgcolor"
+is the color of the area outside the dial. Typically you would choose
+that to be the same as the color of the HTML page, but any color is
+fine.</dd> 
+		<dt>daycolor</dt> 
+		<dd>"daycolor" is
+the color of the dial at noon. if it is different from "nightcolor",
+the dial will change colors slowly in the course of the day, from
+daycolor to nightcolor and back again.</dd> 
+		<dt>nightcolor</dt> 
+		<dd>"nightcolor"
+is the color of the dial at midnight. In the example above, the color
+at noon is yellowish and the color at midnight is purple, which causes
+the clock to pass through several brownish colors. Since the purple is
+quite close to the color of the hands (blue at noon), the hands will
+switch to yellow sometime in the evening, and back again in the
+morning, to keep them visible against the background.</dd> 
+		<dt>seconds</dt> 
+		<dd>"seconds"
+can be either "on" or "off". If you omit the parameter, it will be
+"off". This determines whether there is a seconds hand visible or not.</dd> 
+		<dt>style</dt> 
+		<dd>"style" is not shown in
+the example, but it can be set to either "0", "1", "2", or "3" to
+determine how long the date will be. "3" is shortest and makes the date
+look something like "12/7/99". "2" is medium length and looks something
+like "25-Oct-99". "1" is long format and looks like "25 October 1999",
+"0" is full format and is probably too wide to be useful. It looks like
+"Monday, October 25th, 1999". The default is "2".</dd> 
+	 </dl> 
+	 <h4>Time zones</h4> 
+	 <p>Time zones are indicated by 3-letter codes. Going eastwards round the globe (roughly), the known time zones are the following:</p> 
+	 <ul> 
+		<li>UTC - Universal Time Coordinated, a.k.a. Greenwich Mean Time</li> 
+		<li>BST - British Standard Time. Example: London. (+0, +1 in Mar-Oct)</li> 
+		<li>ECT - Central European Time. Example: Paris (+1, +2 in Mar-Oct)</li> 
+		<li>EET - Eastern European Time. Example: Athens (+2, +3 in Mar-Oct)</li> 
+		<li>ART - Cairo (+2, +3 in Apr-Sep)</li> 
+		<li>EAT - Eastern Africa Time. Example: Nairobi (+3)</li> 
+		<li>MET - Middle-East Time. Example: Baghdad (+3, +4 in Apr-Sep)</li> 
+		<li>NET - Yemen (+4)</li> 
+		<li>PLT - Pakistan Time. Example: Karachi (+5)</li> 
+		<li>IST - Indian Standard Time. Example: New Delhi (+5:30)</li> 
+		<li>BST - Bangladesh Standard Time. Example: Dacca (+6)</li> 
+		<li>VST - Vietnam Standard Time. Example: Hanoi (+7)</li> 
+		<li>CTT - Taiwan Time. Example: Taipei (+8)</li> 
+		<li>JST - Japan Standard Time. Example: Tokyo (+9)</li> 
+		<li>ACT - Central Australia Time. Example: Darwin (+9:30)</li> 
+		<li>AET - East Australia Time. Example: Sydney (+10, +11 in Oct-Mar)</li> 
+		<li>SST - Solomon Islands Time (+11)</li> 
+		<li>NST - New-Zealand. Example: Wellington (+12, +13 in Oct-Mar)</li> 
+		<li>MIT - Midway Islands</li> 
+		<li>HST - Hawaii (-10)</li> 
+		<li>AST - Alaska Time. Example: Anchorage (-9, -8 in Apr-Oct)</li> 
+		<li>PST - Pacific Time: Los Angeles (-8, -7 in Mar-Oct)</li> 
+		<li>PNT - Phoenix (-7)</li> 
+		<li>MST - Mountain Time. Example: Denver (-7, -6 in Apr-Oct)</li> 
+		<li>CST - Central Time. Example: Chicago (-6, -5 inApr-Oct)</li> 
+		<li>EST - Eastern Time. Example: New York (-5, -4 in Apr-Oct)</li> 
+		<li>IET - Indiana (-5)</li> 
+		<li>PRT - Puerto Rico (-4)</li> 
+		<li>CNT - Newfoundland. Example: St. Johns (-3:30, -2:30 in Apr-Oct)</li> 
+		<li>AGT - Argentina. Example: Buenos Aires (-3)</li> 
+		<li>BET - Brazil East. Example: Sao Paulo (-2, -3 in Feb-Sep)</li> 
+		<li>CAT - (?) (-1)</li> 
+	 </ul> 
+	 <p><a href="mailto:bepp@bepp.8m.com">Branko Dimitrijevic</a> made an applet that lists
+		<a href="http://bepp.8m.com/english/java_applets/time_zone_java_applet.htm">all the time zones available in your browser</a>.
+Netscape 4 is restricted to the above list, but newer Java
+implementations should support more, such as "Australia/Brisbane" or
+"Africa/Algiers".</p> 
+	 <h4>Feedback</h4> 
+	 <p>Please let me know if you find any errors in the clock itself or in this manual.</p> 
+	 <p>But
+be aware that an error in the time shown by the clock may also be
+caused by a misconfiguration of your computer, so first check that your
+computer's clock is correct and that the computer is correctly
+configured for the actual time zone that you are in.</p> <hr> 
+	 <address><a href="http://www.w3.org/"><img alt="W3C" src="tz-manual_files/w3c_home.png" align="left" border="0"></a> <a href="http://www.w3.org/People/Bos">Bert Bos</a>,<br>
+		<a href="http://www.w3.org/Help/Webmaster.html">Webmaster</a><br> Last updated $Date: 2002/08/30 15:46:39 $</address> </body></html>

@@ -1,0 +1,387 @@
+/*
+--------------------------
+Simple PHP Blog CSS Styles
+--------------------------
+
+Name: Slick Theme
+Author: Bill Bateman
+Version: 0.4.6
+
+/* Special header graphic - resizeable */
+/* Logo Area */
+
+#HeaderArea {
+  margin: 0;
+  background-position: top;
+  /*width: 640px;*/
+  height: 41px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+#HeaderLeft {
+  background-image:  url(../slick/images/logo_area_side.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 41px;
+  width: 1px;
+  position: absolute;
+  left: 0px;
+}
+
+#HeaderRight {
+  background-image:  url(../slick/images/logo_area_side.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 41px;
+  width: 1px;
+  position: absolute;
+  right: 0px;
+}
+
+#HeaderCenter {
+  background-image: url(../slick/images/logo_area.gif);
+  background-repeat: repeat-x;
+  height: 41px;
+  width: 100%;
+  position: absolute;
+  left: 1px;
+  padding: 20px 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* END logo area */
+
+
+/* Images */
+img {
+  border: 0;
+}
+
+hr  
+{
+  color: #9A9A8C;
+  background-color: #9A9A8C;
+  height: 1px;
+  border: 0px;
+}
+
+#img_float_left
+{
+  /* Used in the [img] tag when float=left */
+  float: left;
+  margin: 2px 8px 4px 2px;
+}
+
+#img_float_right
+{
+  /* Used in the [img] tag when float=right */
+  float: right;
+  margin: 2px 2px 4px 8px;
+}
+
+/* General Layout */
+
+body
+{
+  color: #000;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  background-color: #CC9;
+  font-family: Georgia, serif;
+  letter-spacing: 1.5px;  /*font-family: Book Antiqua, Palatino, serif; 
+  
+  /* Modern. Kind of Funky */
+  /* font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif; */
+  
+  /* Monospace */
+  /* font-family: Lucida Console, Monaco, monospace; */
+}
+
+/* NEW */
+form {
+  margin: 0px;
+  padding: 0px
+}
+
+/* NEW */
+code, pre {
+  font-family: 'Courier New', Courier, Fixed;
+}
+
+/* NEW */
+pre {
+  overflow: auto;
+  width: 430px;
+  border: 1px dotted #777;
+  padding: 5px
+}
+
+/* NEW */
+#archive_tree_menu ul 
+{
+  list-style: none inside;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+}
+
+/* NEW */
+#archive_tree_menu li 
+{
+  margin: 0px;
+  padding: 4px 0px 0px 0px;
+  /* border: 1px #F00 solid; */
+}
+
+input, select, option, textarea
+{
+  font-size: 11px;
+  text-align: left;
+}
+
+#footer
+{
+  border: 0;
+  border-top: 1px solid #ccc;
+  color: #666;
+  background: #eee;
+  padding: 10px;
+  text-align: left;
+  clear: both;
+}
+
+#maincontent
+{
+  margin: 0;
+  padding: 12px;
+  top: 0px;
+  /*border-left-width: 1px;
+  border-left-style: solid;*/
+}
+
+#maincontent .blog_title
+{
+  color: #663;
+  background-color: #FFF;
+  font-size: 20px;
+  padding: 0px 6px 0px 0px; 
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+}
+
+#maincontent .blog_title img
+{
+  /* padding: top right bottom left */
+  padding: 0px 10px 0px 0px;
+}
+
+#maincontent .blog_body
+{
+  padding: 0px; /* Used to be 10px */
+  margin: 0px;
+  line-height: 16px; /* This is new */
+  border-width: 1px;
+  border-style: none;
+  color: #663;
+  background-color: #000000;
+  border-color: #A6A6A6;
+}
+
+#maincontent .blog_body_clear
+{
+  padding: 0px;
+  border-color: #FFF;
+  border-width: 0px;
+  border-style: solid;
+}
+
+#maincontent .blog_body_solid
+{
+  padding: 20px 0px 0px 0px;
+  border-color: #660;
+  background: #fff;
+  border-width: 0px;
+  border-style: solid;
+}
+
+#maincontent .blog_date
+{
+  font-weight: normal;
+  color: #999;
+  font-size: 10px;
+  margin-bottom: 4px;
+  top: 0px;
+}
+
+#maincontent .blog_comment
+{
+  padding: 6px 10px 0px 0px;
+  font-size: 10px;
+  font-weight: bold;  
+  color: #663;
+  background-color: #FFF;
+}
+
+#sidebar
+{
+  background-image: url(../slick/images/menu_bg.gif);
+  background-repeat: repeat-x repeat-y;
+  height: 100%;
+  width: 195px;
+  padding: 0px 0px 0px 12px;
+  font-size: 11px;
+  font-weight: normal;  
+}
+
+#sidebar-top
+{
+  background-image: url(../slick/images/menu_bg-top.gif);
+  background-repeat: repeat-x;
+  background-position: top;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar .menu_title
+{
+  font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFF;
+  padding: 0px 5px 3px 7px;
+  /*background-color: #B2B286;*/
+  margin: 0px;
+}
+
+#sidebar .menu_body
+{
+  padding: 5px;
+  clear: both;
+  /*background-color: #FFF;*/
+  margin: 0px;
+}
+
+#sidebar .calendar
+{
+  font-size: 10px;
+}
+
+#sidebar .calendar a
+{
+font-size: 11px;
+font-weight: bold;
+text-decoration: none;
+}
+
+#sidebar .calendar td
+{
+  padding: 2px;
+}
+
+/* Links */
+
+a
+{
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:link, a:visited
+{
+  color: #933;
+}
+
+a:hover
+{
+  color: #F33;
+}
+
+a:active {
+  color: #33F;
+}
+
+#sidebar .menu_body a
+{
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#sidebar .menu_body a:link
+{
+  color: #933;
+}
+
+#sidebar .menu_body a:visited
+{
+  color: #933;
+}
+
+
+#sidebar .menu_body a:hover
+{
+  color: #F33;
+}
+
+#sidebar .menu_body a:active {
+  color: #33F;
+}
+
+/* Typeography */
+
+blockquote {
+  margin: 15px 30px 0 45px;
+  padding: 0 0 0 45px;
+  background: url(../slick/images/blockquote.gif) no-repeat left top;
+  font-style:italic;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
+  font-weight: bold;
+  
+  margin: 2px 0px 2px 0px;
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h3
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h4
+{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5
+{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h6
+{
+  font-size: 10px;
+  font-weight: bold;
+}

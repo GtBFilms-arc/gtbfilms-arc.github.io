@@ -1,0 +1,55 @@
+- YaPiG Intenationalization Module - 
+
+YaPiG internationalization is based on phplasmonges.sf.net idea but
+the code has been rebuild from scratch.
+
+Sample of use of YaPiG's internationalization module.
+-------------------------------------------------------------------------
+<?php
+include('locale.php');
+echo _y("I want to translate this text");
+?>
+
+Language is set in locale.php main program.
+
+
+Getting Translation files
+--------------------------------------------------------------------------
+These are the steps to get from source code gettext files 
+(this work is done automatically by "update.sh" script)
+
+1) Get template of the translation file:
+
+  $ xgettext --output=yapig.pot --default-domain=yapig -L php  --add-comments --keyword=_y --files-from=po.in
+ 
+   Where po.in contains PHP source files.
+   Output file: yapig.pot
+   
+2) go to language directory. Directory structure is like follows:
+  
+ 	-locale
+ 	|
+ 	|-en
+        | |-LC_MESSAGES - domain.po 
+        |
+	|-de
+        | |-LC_MESSAGES - domain.po
+        |
+ 	|-es
+        | |-LC_MESSAGES - domain.po
+        |
+ 	|-ru
+          |-LC_MESSAGES - domain.po
+
+ 
+3) Update yapig.po files with new strings to translate.
+
+	 msgmerge yapig.po ../../yapig.pot
+
+--
+Notes:
+
+    Default charset iso-8859-1
+
+
+

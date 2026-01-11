@@ -1,0 +1,1 @@
+plugin|Avatar|enabled|1|url|

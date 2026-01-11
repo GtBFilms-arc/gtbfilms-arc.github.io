@@ -1,0 +1,14 @@
+<a href="http://www.janebushell.co.uk" target="_top" onFocus="if(this.blur)this.blur()" onMouseOver="SwapOut1()" onMouseOut="SwapBack1()"><img NAME="imageflip1" SRC="button_home.jpg" border=0></a>
+
+<hr width="95%">
+<!--
+Changing the \"Powered by\" credit sentence without purchasing a licence is illegal!
+Please visit http://www.phpjunkyard.com/copyright-removal.php for more information.
+-->
+<p align="center">
+Powered by
+<a href="http://www.phpjunkyard.com/php-message-board.php" target="_blank">Free
+PHP message board</a> from
+<a href="http://www.phpjunkyard.com\" target="_blank">PHPJunkYard
+- Free PHP scripts</a></font></p>
+</body></html>

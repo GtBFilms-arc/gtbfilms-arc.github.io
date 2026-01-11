@@ -1,0 +1,1098 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <rgoelden@rgoelden.net>, 2005.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-04 15:57+0100\n"
+"PO-Revision-Date: 2005-03-07 18:06+01\n"
+"Last-Translator: Sven Schäfer <pointer@linux-blog.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:73
+msgid "Incorrect add comment form"
+msgstr "Fehler beim hinzufügen des Kommentars"
+
+#: ../add_comment.php:80
+msgid "Title field required"
+msgstr "Der Titel ist erforderlich!"
+
+#: ../add_comment.php:85
+msgid "Author field required"
+msgstr "Autor (Name) ist erforderlich!"
+
+#: ../add_comment.php:90
+msgid "Email field required"
+msgstr "Deine Emailadresse ist erforderlich!"
+
+#: ../add_comment.php:95
+msgid "Website field required"
+msgstr "Deine Homepage ist erforderlich!"
+
+#: ../add_comment.php:100
+msgid "Comment field required"
+msgstr "Dein Kommentar ist erforderlich!"
+
+#: ../add_comment.php:105
+msgid "Some required fields were not filled in."
+msgstr "Es wurden nicht alle Pflichtfelder ausgefüllt."
+
+#: ../add_comment.php:148
+msgid "Thank you for your contribution"
+msgstr "Danke für deinen Kommentar"
+
+#: ../add_comment.php:149
+msgid "Added this comment"
+msgstr "Kommentar hinzugefügt"
+
+#: ../add_comment.php:150 ../admin_func.php:503 ../view_func.php:78
+msgid "Title"
+msgstr "Titel"
+
+#: ../add_comment.php:151 ../admin_func.php:133 ../admin_func.php:504 ../view_func.php:79 ../view_func.php:313
+msgid "Author"
+msgstr "Autor"
+
+#: ../add_comment.php:152 ../view_func.php:314
+msgid "Email"
+msgstr "Email"
+
+#: ../add_comment.php:153 ../view_func.php:315
+msgid "Website"
+msgstr "Homepage"
+
+#: ../add_comment.php:154 ../view_func.php:316 ../view_func.php:342
+msgid "Comment"
+msgstr "Kommentar"
+
+#. Interface variables
+#: ../add_comment.php:155 ../admin_func.php:603
+msgid "If the page is not automatically refreshed."
+msgstr "Wenn die Seite nicht aktualisiert wird"
+
+#: ../add_comment.php:156 ../admin_func.php:604
+msgid "Press here"
+msgstr "Hier Klicken"
+
+#: ../add_comment.php:163 ../admin_func.php:506 ../view_func.php:81
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../add_comment.php:172
+msgid "[Yapig comment] "
+msgstr "[Yapig Kommentar] "
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "Neue Galerie wird hinzugefügt"
+
+#: ../add_gallery.php:60
+msgid "GD library not loaded. Please, read installation documentation"
+msgstr "GD-Bibliothek nicht geladen. Bitte lesen Sie die Installationsanleitung"
+
+#. Check arguments
+#: ../add_gallery.php:66
+msgid "Image storage directory required!"
+msgstr "Speicherverzeichins für Bilder wird benötigt!"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:158
+msgid "Title, author and description are required!"
+msgstr "Titel, Autor und Beschreibung notwendig!"
+
+#: ../add_gallery.php:82
+msgid "Location directory does not exist:"
+msgstr "Galerie fehlt: "
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Gewähltes Verzeichnis wir schon verwendet. Anderes wählen ! "
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Erstelle index.html"
+
+#: ../add_gallery.php:91
+msgid "Permissions. Read FAQ documentation."
+msgstr "Zugriffsverweigerung, Bitte lesen Sie die FAQ für weitere Informationen"
+
+#. Load all imagenames
+#: ../add_gallery.php:95
+msgid "Loading image names of: "
+msgstr "Lade Namen der Bilder von: "
+
+#: ../add_gallery.php:99
+msgid "Failed to read image names."
+msgstr "Fehler: Bildernamen konnten nicht gelesen werden."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:103
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Erstelle Zusammenhang Dateinamen <-> Bild ID "
+
+#: ../add_gallery.php:105
+msgid "Creating phid correspondence."
+msgstr "Erstelle Bild ID"
+
+#. Create Info File
+#: ../add_gallery.php:111 ../modify_gallery.php:167
+msgid "Creating gallery information file with:"
+msgstr "Erstelle Galerie Information mit: "
+
+#: ../add_gallery.php:128
+msgid "Error creating gallery information file."
+msgstr "Fehler beim erstellen der Galerie Information"
+
+#. Make thumbnails
+#: ../add_gallery.php:132
+msgid "Creating thumbnails"
+msgstr "Erstelle Thumbnails"
+
+#: ../add_gallery.php:134
+msgid "Could not create all thumbnails."
+msgstr "Konnte nicht alle Thumbnails erstellen "
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:137
+msgid "Adding this gallery to gallery index"
+msgstr "Galerie wir hinzugefügt"
+
+#: ../add_gallery.php:139
+msgid "Adding gallery to file: "
+msgstr "Hinzufügen der Galerie zur Datei: "
+
+#: ../add_gallery.php:140
+msgid "Gallery <b>successfully</b> created"
+msgstr "Gallery <b>erfolgreich</b> erstellt"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:143 ../functions.php:202 ../view_func.php:387
+msgid "Gallery index"
+msgstr "Übersicht"
+
+#: ../add_gallery.php:144
+msgid "Back to admin page"
+msgstr "Zurück zur Admin-Seite"
+
+#: ../admin_func.php:26
+msgid "GD library not loaded. Trying to load it."
+msgstr "GD-Bibliothek nicht geladen. Versuche Sie zuladen"
+
+#: ../admin_func.php:29
+msgid "Function dynamic extension load not available."
+msgstr "Dynamische Funktion nicht vorhanden"
+
+#: ../admin_func.php:34
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll erfolgreich geladen."
+
+#: ../admin_func.php:38
+msgid "GD library not available"
+msgstr "GD-Bibliothek nicht verfügbar."
+
+#: ../admin_func.php:41
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so erfolgreich geladen."
+
+#: ../admin_func.php:47
+msgid "Function getimagesize does not exist"
+msgstr "Funktion getimagesize nicht vorhanden"
+
+#: ../admin_func.php:52
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Funktion imagecreate(truecolor) nicht vorhanden"
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Funktion imacreatefromjpeg nicht vorhanden"
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr "GD-Bibliothek ist geladen"
+
+#. Admin login form internationalization.
+#: ../admin_func.php:77
+msgid "Please login as administrator"
+msgstr "Bitte als Admin einloggen"
+
+#: ../admin_func.php:78
+msgid "User"
+msgstr "Benutzer"
+
+#: ../admin_func.php:79 ../admin_func.php:137
+msgid "Password"
+msgstr "Passwort"
+
+#: ../admin_func.php:80
+msgid "Submit"
+msgstr "Senden"
+
+#. I18n
+#: ../admin_func.php:94
+msgid "Administrative tasks"
+msgstr "Admin Aufgaben"
+
+#: ../admin_func.php:95 ../upload.php:100
+msgid "Upload files"
+msgstr "Dateien hochladen"
+
+#: ../admin_func.php:96
+msgid "Add gallery"
+msgstr "Galerie hinzufügen"
+
+#: ../admin_func.php:97
+msgid "Modify gallery"
+msgstr "Galerie ändern"
+
+#: ../admin_func.php:98 ../admin_func.php:500 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Galerie löschen"
+
+#: ../admin_func.php:99
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: ../admin_func.php:100
+msgid "Logout"
+msgstr "Abmelden"
+
+#: ../admin_func.php:132
+msgid "Gallery title"
+msgstr "Galerie Titel"
+
+#: ../admin_func.php:134 ../admin_func.php:509 ../view_func.php:84 ../view_func.php:341
+msgid "Date"
+msgstr "Datum"
+
+#: ../admin_func.php:135
+msgid "Leave it blank for today's date."
+msgstr "Freies Format. Bitte leer lassen, um das heutige Datum zu setzen"
+
+#: ../admin_func.php:136
+msgid "Location"
+msgstr "Speicherort"
+
+#: ../admin_func.php:138
+msgid "set this option for restricted access to gallery"
+msgstr "Eingabe für private Galerie"
+
+#: ../admin_func.php:139 ../admin_func.php:510 ../view_func.php:85 ../view_func.php:244
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../admin_func.php:140
+msgid "Hide comments"
+msgstr "Kommentare abstellen"
+
+#: ../admin_func.php:141 ../install.php:44 ../view_func.php:318
+msgid "Send"
+msgstr "Senden"
+
+#: ../admin_func.php:181
+msgid "  is a huge image, it might cause memory issues."
+msgstr " ist ein sehr großes Bild! Es kann zu Speicherproblemen führen"
+
+#: ../admin_func.php:264
+msgid "GD library not loaded. Please read installation documentation"
+msgstr "GD-Bibliothek ist nicht geladen. Bitte lesen Sie die Installationsanleitung"
+
+#: ../admin_func.php:400 ../admin_func.php:407
+msgid "Opening gid counter file: "
+msgstr "Öffne gid Zähler: "
+
+#: ../admin_func.php:497
+msgid "Modify gallery info"
+msgstr "Galerie Beschreibung ändern"
+
+#: ../admin_func.php:498
+msgid "Select thumbnail"
+msgstr "Thumbnail wählen"
+
+#: ../admin_func.php:499
+msgid "Modify imagelist"
+msgstr "Bildliste ändern"
+
+#: ../admin_func.php:502 ../view_func.php:77
+msgid "Number of images"
+msgstr "Anzahl der Bilder"
+
+#: ../admin_func.php:505 ../view_func.php:80
+msgid "View this gallery"
+msgstr "Zeige Galerie"
+
+#: ../admin_func.php:507 ../modify_phid.php:119 ../view_func.php:82 ../view_func.php:243
+msgid "Visits"
+msgstr "Besucher"
+
+#: ../admin_func.php:508 ../modify_phid.php:118 ../view_func.php:83 ../view_func.php:155
+msgid "Comments"
+msgstr "Kommentar"
+
+#: ../admin_func.php:511 ../view_func.php:439
+msgid "Up"
+msgstr "Hoch"
+
+#: ../admin_func.php:512
+msgid "Down"
+msgstr "Runter"
+
+#: ../admin_func.php:513
+msgid "Move up this gallery on index"
+msgstr "Nach oben verschieben"
+
+#: ../admin_func.php:514
+msgid "Move down this gallery on index"
+msgstr "Nach unten verschieben"
+
+#: ../admin_func.php:536
+msgid "Select deletion options:"
+msgstr "Wähle Löschoptionen:"
+
+#: ../admin_func.php:537
+msgid "Do not list gallery in gallery index any more."
+msgstr "Galerie nicht mehr in der Übersicht anzeigen"
+
+#: ../admin_func.php:538
+msgid "Clear all image comments."
+msgstr "Alle Kommentare löschen"
+
+#: ../admin_func.php:539
+msgid "Clear all image visit counters."
+msgstr "Besucherzähler (Bilder) zurücksetzen"
+
+#: ../admin_func.php:540
+msgid "Clear gallery visit counters."
+msgstr "Besucherzähler (Galerie) zurücksetzen"
+
+#: ../admin_func.php:541
+msgid "Delete gallery thumbnails."
+msgstr "Thumbnails löschen"
+
+#: ../admin_func.php:542
+msgid "Delete all files in directory."
+msgstr "Alle Dateien in Galerie löschen"
+
+#: ../admin_func.php:543
+msgid "Delete all image captions."
+msgstr "Alle Kommentare löschen"
+
+#: ../admin_func.php:544
+msgid "send"
+msgstr "Senden"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+msgid "<strong>Yapig</strong> administration"
+msgstr "<strong>YaPiG</strong> Administrator "
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Nicht verfügbar."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Neue Galerie hinzufügen"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:120
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galerie fehlt oder das gid Argument ist nicht eingestellt"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Galerie Statistik fehlt oder kann nicht gelöscht werden"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Galerie Statistik gelöscht"
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Statistik fehlt oder kann nicht gelöscht werden."
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Bilder Statistik gelöscht"
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Kommentarzähler kann nicht gelöscht werden oder fehlt"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Kommentarzähler der Galerie gelöscht"
+
+#: ../delete_gallery.php:69
+msgid "Could load this file: "
+msgstr "Fehler beim Laden der Datei: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:86 ../delete_gallery.php:111 ../delete_gallery.php:126
+msgid "Could not delete: "
+msgstr "Fehler beim Löschen von: "
+
+#: ../delete_gallery.php:77 ../delete_gallery.php:87
+msgid "Deleted: "
+msgstr "Gelöscht: "
+
+#: ../delete_gallery.php:93
+msgid "Could not get image list from file: "
+msgstr "Bildliste konnte nicht erstellt werden aus: "
+
+#: ../delete_gallery.php:98
+msgid "Could not delete thumbnail image: "
+msgstr "Fehler beim Löschen des Thumbnails: "
+
+#: ../delete_gallery.php:99
+msgid "Deleted thumbnail: "
+msgstr "Thumbnail gelöscht: "
+
+#: ../delete_gallery.php:107
+msgid "Gallery could not be removed from index"
+msgstr "Galerie kann nicht aus der Übersicht gelöscht werden"
+
+#: ../delete_gallery.php:109
+msgid "Gallery will not be displayed anymore in the galery index"
+msgstr "Galerie wird nicht mehr in der Übersicht angezeigt."
+
+#: ../delete_gallery.php:118
+msgid " is not a valid directory"
+msgstr " ist kein gültiges Verzeichnis"
+
+#: ../delete_gallery.php:121
+msgid " could not be opened"
+msgstr " kann nicht geöffnet werden"
+
+#: ../delete_gallery.php:128
+msgid "Deleted file: "
+msgstr "Gelöschte Dateien: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:133
+msgid "Gallery successfully deleted."
+msgstr "Galerie erfolgreich gelöscht."
+
+#. Show some useful links
+#: ../delete_gallery.php:136
+msgid "Admin index"
+msgstr "Admin-Index"
+
+#: ../delete_gallery.php:137
+msgid "Delete additional galleries"
+msgstr "Lösche mehrere Galerien"
+
+#: ../functions.php:139
+msgid "Error"
+msgstr "Fehler"
+
+#: ../functions.php:157
+msgid "Warning"
+msgstr "Achtung"
+
+#: ../functions.php:201
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+#: ../functions.php:203
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ../functions.php:205
+msgid "Admin"
+msgstr "Admin"
+
+#. Logout links
+#: ../functions.php:208
+msgid "Admin logout"
+msgstr "Admin abmelden"
+
+#: ../functions.php:209
+msgid "Gallery logout"
+msgstr "Galerie abmelden"
+
+#: ../gallery.php:46
+msgid "Congratulations Yapig is up and running!"
+msgstr "Glückwunsch, YAPIG ist installiert und arbeitet!"
+
+#. welcome message
+#: ../gallery.php:49
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\n"
+"   <p>If this is the first time you run:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Willkommen bei <a href=\"http://yapig.sf.net\">YaPiG.</a></p>\n"
+"   <p>Es existieren <strong>keine</strong> Galerien.<p>\n"
+"   <p>Wenn dies die erste Nutzung ist:</p>\n"
+"   <ol>\n"
+"   <li>ändere die <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login als Admin</a> und füge eine neue Galerie hinzu</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:69
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Keine Galerie vorhanden. Bitte als Admin einloggen um neue Galerien zuerstellen"
+
+#: ../install.php:61
+msgid "Yapig installation"
+msgstr "YaPiG Installation"
+
+#: ../install.php:66
+msgid "YaPiG already installed"
+msgstr "YaPiG ist bereits installiert."
+
+#: ../install.php:80
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "Kann SECURE_DIR nicht estellen. Bitte ändern Sie in der Datei config.php die Rechte von BASE_DIR auf 777."
+
+#: ../install.php:85
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory yourself with any random name on $BASE_DIR (photos/) and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create an empty file called index.html to both BASE_DIR and\r\n"
+"\t  SECURE_DIR directories. These are for avoiding server listing.</li>\r\n"
+"\t  <li>After you haveve created the directory and set its permissions, \r\n"
+"\t  please enter its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:107
+msgid "SECURE_DIR does not exist! Please enter the correct directory name:"
+msgstr "SECURE_DIR ist nicht vorhanden! Bitte einen gültigen Ordnernamen eingeben:"
+
+#: ../install.php:116
+msgid "Could not create index.html in SECURE_DIR. Read FAQ documentation."
+msgstr "Konnte index.html nicht in SECURE_DIR erstellen. Bitte lesen Sie die FAQ für weitere Informationen"
+
+#: ../install.php:119
+msgid "Could not create index.html in BASE_DIR. Read FAQ documentation"
+msgstr "Konnte index.html nicht in BASE_DIR erstellen. Bitte lesen Sie die FAQ für weitere Informationen"
+
+#: ../install.php:124
+msgid "Could load GD library which is required by Yapig or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "GD-Bibliothek konnte nicht geladen werden oder ist veraltet. Bitte lesen Sie die (doc/install.html) Dokumentation für weitere Informationen"
+
+#: ../install.php:127
+msgid "Good! Your server has GD library. You can run Yapig!"
+msgstr "GD-Bibliothek auf dem Server gefunden. Sie können YaPiG verwenden"
+
+#: ../install.php:133
+msgid "Could not get GD version. Please read doc/en/install.html documentation for more information."
+msgstr "GD Version wurde nicht erkannt. Bitte lesen Sie die (doc/install.html) Dokumentation für weitere Informationen"
+
+#: ../install.php:139
+msgid "Change Yapig's root directory permissions to allow creating new files."
+msgstr "Um YaPiG das Erstellen neuer Dateien im Basisverzeichnisses zu erlauben, müssen die Rechte mit chmod auf 777 geändert werden."
+
+#: ../install.php:140
+msgid "Installation aborted. Could not create config file."
+msgstr "Installation abgebrochen. Die config.php kann nicht beschrieben werden."
+
+#: ../install.php:197
+msgid "Yapig successfully installed."
+msgstr "YaPiG wurde erfolgreich installiert."
+
+#: ../install.php:200
+msgid "Congratulations Yapig is up and runnig!"
+msgstr "Glückwunsch, YAPIG ist installiert und arbeitet!"
+
+#: ../install.php:204
+msgid "Security Advice: After you have configured all, delete install.php"
+msgstr "HINWEIS: Löschen Sie bitte die <b>install.php</b>!"
+
+#. welcome message    
+#: ../install.php:209
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\r\n"
+"   <p>If this is the first time you run:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Willkommen bei <a href=\"http://yapig.sf.net\">YaPiG.</a></p>\n"
+"   <p>Es existieren <strong>keine</strong> Galerien.<p>\n"
+"   <p>Wenn dies die erste Nutzung ist:</p>\n"
+"   <ol>\n"
+"   <li>ändere die <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login als Admin</a> und füge eine neue Galerie hinzu</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../modify_gallery.php:22
+msgid "<p>Select a gallery:</p>"
+msgstr "<p>Wählen Sie eine Galerie:</p>"
+
+#: ../modify_gallery.php:25
+msgid "There are no available galleries."
+msgstr "Es sind keine Galerien vorhanden."
+
+#: ../modify_gallery.php:42
+msgid "Update gallery imagelist"
+msgstr "Fehler bei der Aktualisierung der Bildliste"
+
+#: ../modify_gallery.php:43
+msgid "Overwrite existing thumbnails"
+msgstr "Vorhandene Thumbnails überschreiben"
+
+#: ../modify_gallery.php:44
+msgid "Only create new thumbnails"
+msgstr "Nur neue Thumbnails erstellen"
+
+#: ../modify_gallery.php:45
+msgid "view/edit"
+msgstr "ansehen/ändern"
+
+#: ../modify_gallery.php:48
+msgid "Could not get imagelist. Gallery probably does not have images"
+msgstr "Bildliste nicht verfügbar. Vielleicht sind noch keine Bilder vorhanden"
+
+#: ../modify_gallery.php:52
+msgid "Current images in gallery are:"
+msgstr "Anzahl der Bilder:"
+
+#: ../modify_gallery.php:58
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr "<span class=\"red\">keine Bildbeschreibung eingetragen</span>"
+
+#: ../modify_gallery.php:73
+msgid "Could not read gallery directory filenames"
+msgstr "Fehler beim Lesen des Verzeichnisnamens"
+
+#: ../modify_gallery.php:75
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Billder in Verzeichnis aber nicht in Galerie:</p></ul>"
+
+#: ../modify_gallery.php:126 ../modify_phid.php:233
+msgid "Modify gallery: "
+msgstr "Galerie ändern: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:137
+msgid "Modify gallery information:"
+msgstr "Galerie Infos ändern:"
+
+#: ../modify_gallery.php:153
+msgid "Directory location with images required!"
+msgstr "Bitte Verzeichnis mit Bildern angeben "
+
+#: ../modify_gallery.php:181
+msgid "Creating gallery information file."
+msgstr "Erstelle Info Datei. "
+
+#: ../modify_gallery.php:182
+msgid "Gallery info successfully updated."
+msgstr "Galerieinfo erfolgreich aktualisiert."
+
+#: ../modify_gallery.php:193
+msgid "Sorry, password protected galeries cannot change the thumbnail"
+msgstr "Bei einer Passwort geschützten Galerie kann kein Thumbnail gewechselt werden"
+
+#: ../modify_gallery.php:199
+msgid "Could not update thumbnail"
+msgstr "Konnte Thumbnail nicht aktualisieren"
+
+#: ../modify_gallery.php:200
+msgid "Thumbnail updated. (Do not worry if the upper thumbnail is the previous one)"
+msgstr "Thumbnail erfolgreich aktualisiert. (keine Sorge, wenn das ober Bild das alte sein sollte)"
+
+#. List all phids.
+#: ../modify_gallery.php:205
+msgid "Select thumbnail: "
+msgstr "Wähle: "
+
+#: ../modify_gallery.php:207
+msgid "Could not get all imagelist."
+msgstr "Fehler beim Laden der Bildliste"
+
+#. Construct Form.
+#: ../modify_gallery.php:210
+msgid "Update gallery thumbnail"
+msgstr "Thumbnails aktualisieren"
+
+#: ../modify_gallery.php:211
+msgid "default password protected galleries thumbnail"
+msgstr "Passwort geschützte Galerie"
+
+#: ../modify_gallery.php:212
+msgid "view info"
+msgstr "Info anzeigen"
+
+#: ../modify_gallery.php:247
+msgid "Selected imagelist:"
+msgstr "Bildliste ändern"
+
+#: ../modify_gallery.php:250
+msgid "Creating thumbnail for images that do not have one."
+msgstr "Erstelle fehlende Thumbnails."
+
+#: ../modify_gallery.php:255
+msgid "Creating all thumbs"
+msgstr "Erstelle Thumbsnails"
+
+#: ../modify_gallery.php:260
+msgid "Could not update gallery imagelist"
+msgstr "Fehler bei Aktualisierung der Bildliste"
+
+#: ../modify_gallery.php:261
+msgid "Imagelist successfully updated"
+msgstr "Bildliste erfolgreich aktualisiert."
+
+#: ../modify_gallery.php:264
+msgid "Number of images not updated"
+msgstr "Fehler bei der Aktualisierung des Bildzählers"
+
+#: ../modify_gallery.php:266
+msgid "Number of images updated"
+msgstr "Bildzähler aktualisiert"
+
+#: ../modify_gallery.php:273 ../modify_gallery.php:279
+msgid "Operation could not be done"
+msgstr " kann nicht geöffnet werden"
+
+#: ../modify_gallery.php:291
+msgid "Display this gallery"
+msgstr "Zeige Galerie"
+
+#: ../modify_gallery.php:292
+msgid "Modify gallery index"
+msgstr "Ändere Galerie"
+
+#: ../modify_phid.php:54 ../modify_phid.php:58 ../modify_phid.php:292
+msgid "Image has no comments"
+msgstr "Bisher ohne Kommentare"
+
+#: ../modify_phid.php:61
+msgid "Modify"
+msgstr "Ändere Bild"
+
+#: ../modify_phid.php:62
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../modify_phid.php:63
+msgid "Image Comments"
+msgstr "Kommentare"
+
+#: ../modify_phid.php:93
+msgid "Image identificator (phid) not found."
+msgstr "Bild ID nicht gefunden."
+
+#. I18n
+#: ../modify_phid.php:117
+msgid "Image name"
+msgstr "Bild Name"
+
+#: ../modify_phid.php:120
+msgid "Remove from gallery"
+msgstr "Bild entfernen"
+
+#: ../modify_phid.php:121
+msgid "Clear"
+msgstr "Löschen"
+
+#: ../modify_phid.php:122
+msgid "Delete All"
+msgstr "Galerie löschen"
+
+#: ../modify_phid.php:123
+msgid "Image id"
+msgstr "Bild ID"
+
+#: ../modify_phid.php:124
+msgid "Modify Image"
+msgstr "Ändere Bild"
+
+#: ../modify_phid.php:125
+msgid "Set as gallery thumbnail"
+msgstr "Als Titelbild verwenden"
+
+#: ../modify_phid.php:126
+msgid "Image caption"
+msgstr "Bild Kommentar"
+
+#: ../modify_phid.php:127
+msgid "Change caption"
+msgstr "Kommentar ändern"
+
+#: ../modify_phid.php:128
+msgid "Rotate image"
+msgstr "Bild drehen"
+
+#: ../modify_phid.php:144
+msgid "Could not remove image from gallery imagelist"
+msgstr "Fehler beim Entfernen des Bildes"
+
+#: ../modify_phid.php:145
+msgid "Image will not be displayed in list."
+msgstr "Bild wird nicht in der Bildliste dargestellt."
+
+#: ../modify_phid.php:168
+msgid "Could not delete image comments file: "
+msgstr "Fehler beim Löschen des Kommentars: "
+
+#: ../modify_phid.php:169
+msgid "Image comments deleted"
+msgstr "Bildkommentare gelöscht"
+
+#: ../modify_phid.php:177
+msgid "Could not delete image comments counter: "
+msgstr "Bildzähler kann nicht gelöscht werden: "
+
+#: ../modify_phid.php:178
+msgid "Image comments counter deleted"
+msgstr "Bildkommentar gelöscht"
+
+#: ../modify_phid.php:186
+msgid "Image visits counter not found or could not be removed."
+msgstr "Besucherzähler nicht gefunden oder kann nicht gelöscht werden."
+
+#: ../modify_phid.php:187
+msgid "Image visits counter deleted"
+msgstr "Besucherzähler zurückgestellt"
+
+#: ../modify_phid.php:277
+msgid "Set new caption to: "
+msgstr "Bildkommentar ändern zu: "
+
+#: ../modify_phid.php:279
+msgid "Could not update caption."
+msgstr "Änderung fehlgeschlagen."
+
+#: ../modify_phid.php:288
+msgid "Comment not selected"
+msgstr "Kommentar nicht ausgewählt"
+
+#: ../modify_phid.php:294
+msgid "Coul not open comments file"
+msgstr "Kann Kommentar-Datei nicht öffnen"
+
+#: ../modify_phid.php:302
+msgid "Comment successfully deleted"
+msgstr "Kommentar erfolgreich gelöscht."
+
+#: ../modify_phid.php:315
+msgid "Could not read comments file"
+msgstr "Kann Kommentar-Datei nicht lesen"
+
+#: ../modify_phid.php:319
+msgid "Opening comments file."
+msgstr "Öffne Kommentar-Datei"
+
+#: ../modify_phid.php:328
+msgid "Comment successfully updated"
+msgstr "Kommentar erfolgreich aktualisiert."
+
+#: ../modify_phid.php:352
+msgid "Image not found."
+msgstr "Bild nicht gefunden"
+
+#: ../modify_phid.php:361 ../modify_phid.php:365
+msgid "Could not rotate the image or the thumbnail"
+msgstr "Fehler bei der Erstellung der Thumbnails "
+
+#. header("Location: modify_phid?action=view_phid&gid=$gid&phid=$phid");
+#: ../modify_phid.php:369
+msgid "Image has successfully been rotated, althought your browser might be displaying the old one because it is on cache."
+msgstr "Bild wurde erfolgreich gedreht, falls es bei Ihnen nicht angezeigt wird, löschen Sie bitten den Zwischenspeicher des Browsers."
+
+#: ../upload.php:25
+msgid "Upload Files"
+msgstr "Datei Upload"
+
+#: ../upload.php:46
+msgid "Created directory: "
+msgstr "Erstellter Ordner: "
+
+#: ../upload.php:49
+msgid "Could not create directory: "
+msgstr "Fehler beim Erstellen des Ordners: "
+
+#: ../upload.php:55
+msgid "Successfully removed directory: "
+msgstr "Ordner erfolgreich gelöscht: "
+
+#: ../upload.php:57
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "Kann Ordner nicht löschen (nicht leer oder keine berechtigung)"
+
+#: ../upload.php:67
+msgid "Files will be uploaded to following directory: "
+msgstr "Dateien werden in folgenden Ordner übertragen: "
+
+#: ../upload.php:69
+msgid "Create directory"
+msgstr "Ordner erstellen"
+
+#. i18n
+#: ../upload.php:98
+msgid "Select only <b>one</b> directory"
+msgstr "Wählen Sie <b>EINEN</b> Ordner"
+
+#: ../upload.php:99
+msgid "Files to upload"
+msgstr "Dateien zum Upload"
+
+#: ../upload.php:135
+msgid "Successfully uploaded file: "
+msgstr "Hochgeladene Datei: "
+
+#: ../upload.php:138
+msgid "Could not copy file: "
+msgstr "Fehler beim Laden der Datei: "
+
+#: ../view_func.php:56
+msgid "Gallery does not exist: "
+msgstr "Galerie existiert nicht: "
+
+#: ../view_func.php:86
+msgid "View slideshow"
+msgstr "Slideshow starten"
+
+#: ../view_func.php:96
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Dies ist eine private Galerie. Zum Ansehen wird ein Passwort benötigt."
+
+#: ../view_func.php:98
+msgid "Validate"
+msgstr "Weiter"
+
+#: ../view_func.php:99
+msgid "Gallery password"
+msgstr "Passwort"
+
+#. I18n -
+#: ../view_func.php:152
+msgid "Enlarge image"
+msgstr "Bild vergrössern"
+
+#: ../view_func.php:153
+msgid "Image"
+msgstr "Bild"
+
+#: ../view_func.php:154
+msgid "Hits"
+msgstr "Zugriffe"
+
+#: ../view_func.php:238
+msgid "Image caption not set"
+msgstr "Bild Kommentar"
+
+#: ../view_func.php:240
+msgid "Filename"
+msgstr "Dateiname"
+
+#: ../view_func.php:241
+msgid "File size"
+msgstr "Dateigrösse"
+
+#: ../view_func.php:242
+msgid "Image size"
+msgstr "Bildgröße"
+
+#: ../view_func.php:311
+msgid "Add your comment!"
+msgstr "Kommentar hinzufügen!"
+
+#: ../view_func.php:312
+msgid "Comment title"
+msgstr "Titel"
+
+#: ../view_func.php:317
+msgid "* = required fields"
+msgstr "* = Pflichtfeld"
+
+#: ../view_func.php:352
+msgid "Image comments"
+msgstr "Kommentare"
+
+#: ../view_func.php:354
+msgid "There are no messages! Give us your opinion!"
+msgstr "Sag uns deine Meinung! "
+
+#: ../view_func.php:359
+msgid "Opening comments file"
+msgstr "Öffne Kommentar"
+
+#: ../view_func.php:385
+msgid "Previous gallery"
+msgstr "Vorherige Galerie"
+
+#: ../view_func.php:386
+msgid "Next gallery"
+msgstr "Nächste Galerie"
+
+#: ../view_func.php:393 ../view_func.php:442
+msgid "could not display gallery navigation bar"
+msgstr "Navigationsleiste kann nicht dargestellt werden"
+
+#: ../view_func.php:402 ../view_func.php:440
+msgid "[Slideshow]"
+msgstr "[Slideshow]"
+
+#: ../view_func.php:423
+msgid "Previous image"
+msgstr "Bild zurück"
+
+#: ../view_func.php:424
+msgid "Next image"
+msgstr "Bild vor"
+
+#: ../view_func.php:474
+msgid "Previous page"
+msgstr "Seite zurück"
+
+#: ../view_func.php:475
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: ../view_func.php:479
+msgid "Page"
+msgstr "Bild"
+
+#: ../view_func.php:505
+msgid "Zoom in"
+msgstr "Vergrößern"
+
+#: ../view_func.php:506
+msgid "Zoom out"
+msgstr "Verkleinern"
+
+#: ../view_func.php:507
+msgid "Original size"
+msgstr "Grösse"
+
+#: ../view.php:49
+msgid "Retrieving gallery directory"
+msgstr "Pfad der Galerie anzeigen"
+
+#: ../view.php:64
+msgid "Password incorrect."
+msgstr "Falsches Passwort"
+
+#: ../view.php:85
+msgid "Gallery data not found. Please re-create this gallery"
+msgstr "Galerie-Daten nicht gefunden. Bitte Galerie noch einmal erstellen"

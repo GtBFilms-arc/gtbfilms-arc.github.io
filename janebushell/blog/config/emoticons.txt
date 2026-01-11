@@ -1,0 +1,1 @@
+PATH=interface/emoticons/happy.png=TAGS=:-)|PATH=interface/emoticons/raspberry.png=TAGS=:-P|PATH=interface/emoticons/sad.png=TAGS=:-(|PATH=interface/emoticons/surprised.png=TAGS=:-O|PATH=interface/emoticons/vacant.png=TAGS=:-&#124;|PATH=interface/emoticons/wink_happy.png=TAGS=;-)|PATH=interface/emoticons/yawn.png=TAGS=:-o

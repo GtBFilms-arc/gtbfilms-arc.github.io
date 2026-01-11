@@ -1,0 +1,437 @@
+/*
+--------------------
+Simple PHP Blog CSS Styles
+--------------------
+
+Name: GLight Theme
+Author: Bill Bateman
+
+Description:
+This the is the css theme for the Classic theme.
+You can use this as a template for your own themes.
+
+Also refer to user_style.php...
+*/
+
+/* General */
+
+body
+{
+  color: #666633; /* txt_color */
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  background-color: #FFFFFF; /* bg_color */
+
+  /* Standard. Readable */
+  font-family: Arial, Helvetica, Sans-Serif;
+  /* font-family:  'Lucida Grande', Geneva, sans-serif; */
+  /* font-family: Tahoma, Geneva, sans-serif; */
+  /* font-family: Geneva, Verdana, sans-serif; */
+
+  /* Nice. Classic Looking */
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: Georgia, serif; */
+  /* font-family: Book Antiqua, Palatino, serif; */
+
+  /* Modern. Kind of Funky */
+  /* font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif; */
+
+  /* Monospace */
+  /* font-family: Lucida Console, Monaco, monospace; */
+}
+
+/* Typeography */
+
+p
+{
+  margin: 8px 0px 8px 0px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  color: #666633; /* headline_txt_color */
+  text-shadow: #bbb 2px 2px 1px;
+  margin: 2px 0px 2px 0px;
+}
+
+h1
+{
+  font-size: 20px;
+}
+
+h2
+{
+  font-size: 18px;
+}
+
+h3
+{
+  font-size: 16px;
+}
+
+h4
+{
+  font-size: 14px;
+}
+
+h5
+{
+  font-size: 12px;
+}
+
+h6
+{
+  font-size: 10px;
+}
+
+/* NEW */
+code, pre {
+  font-family: 'Courier New', Courier, Fixed;
+}
+
+/* NEW */
+pre {
+  overflow: auto;
+  width: 512px;
+  border: 1px dotted #D9D9D9; /* inner_border_color */
+  padding: 5px
+}
+
+/* NEW */
+blockquote {
+  color: #777;
+  margin: 15px 30px 0 10px;
+  padding-left: 20px;
+  border-left: 5px solid #ddd
+}
+
+/* Links */
+
+a:link, a:visited
+{
+  font-weight: normal;
+  text-decoration: none;
+  color: #993333; /* link_reg_color */
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #FF3333; /* link_hi_color */
+}
+
+a:active
+{
+  color: #3333FF; /* link_down_color */
+}
+
+/* Images */
+
+img
+{
+  border: 0;
+}
+
+#img_float_left
+{
+  /* Used in the [img] tag when float=left */
+  float: left;
+  margin: 2px 8px 4px 2px;
+}
+
+#img_float_right
+{
+  /* Used in the [img] tag when float=right */
+  float: right;
+  margin: 2px 2px 4px 8px;
+}
+
+/* Elements */
+
+hr
+{
+  color: #D9D9D9; /* inner_border_color */
+  background-color: #D9D9D9; /* inner_border_color */
+  height: 1px;
+  border: 0px;
+  margin: 8px 0px 8px 0px;
+}
+
+/* Forms */
+
+/* NEW */
+form {
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px
+}
+
+input, select, option, textarea
+{
+  font-size: 11px;
+  text-align: left;
+}
+
+/* Theme Specific */
+
+#header_image
+{
+  border-color: #4D4D45; /* border_color */
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+}
+
+#header
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #FFFFFF; /* header_txt_color */
+  margin: 0px;
+  border-color: #4D4D45; /* border_color */
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  background-color: #999966; /* header_bg_color */
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+#maincontent
+{
+  margin: 0;
+  padding: 10px;
+  border: 5px;
+  empty-cells: show;
+}
+
+#maincontent .blog_subject
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #666633; /* headline_txt_color */
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  border-width: 7px 18px 0px 18px;
+  border-style: solid;
+}
+
+#maincontent .blog_subject img
+{
+  /* padding: top right bottom left */
+  padding: 0px 10px 0px 0px;
+}
+
+#maincontent .entry_top
+{
+  margin: 0;
+  padding: 0px;  /* 10px; */
+  border: 0px;
+  border-width: 0px 0px 0px 0px;
+  height: 0px;
+  empty-cells: show;
+}
+
+#maincontent .entry_bottom
+{
+  margin: 0;
+  padding: 0px;  /* 10px; */
+  border: 0px;
+  border-width: 0px 0px 0px 0px;
+  height: 2px;
+  empty-cells: show;
+}
+
+#maincontent .blog_byline
+{
+  color: #999999; /* date_txt_color */
+  font-size: 9px;
+  margin-bottom: 10px;
+}
+
+#maincontent .blog_body
+{
+  padding: 12px; /* Used to be 10px */
+  margin: 0px;
+  line-height: 14px; /* This is new */
+  color: #663;
+  background-color: #FFFFFF;
+  border-width: 7px 7px 0px 7px;
+  border-style: solid;
+  background: #fff url(images/under_entry_title.png) repeat-x 0 0;
+}
+
+#maincontent .blog_body_clear
+{
+  padding: 0px;
+  border-color: #FFF;
+  border-width: 0px;
+  border-style: solid;
+}
+
+#maincontent .blog_body_solid
+{
+  padding: 1px;
+  border-color: #660;
+  background: #fff;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#maincontent .blog_date
+{
+  font-weight: normal;
+  color: #999;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: -7px;
+}
+
+#maincontent .blog_comment
+{
+  padding: 6px 10px 6px 10px;
+  color: #663;
+  border-width: 0px 7px 7px 7px;
+  border-style: solid;
+}
+
+/* New Comment Differences */
+#maincontent .blog_subject_comment
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #663; /* headline_txt_color */
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  border-width: 7px 18px 0px 18px;
+  border-style: solid;
+}
+
+#maincontent .entry_top_comment
+{
+  margin: 0;
+  padding: 0px;  /* 10px; */
+  border: 0px;
+  border-width: 0px 0px 0px 0px;
+  height: 0px;
+  empty-cells: show;
+}
+
+#maincontent .entry_bottom_comment
+{
+  margin: 0;
+  padding: 0px;  /* 10px; */
+  border: 0px;
+  border-width: 0px 0px 0px 0px;
+  height: 2px;
+  empty-cells: show;
+}
+
+#maincontent .blog_body_comment
+{
+  padding: 12px; /* Used to be 10px */
+  margin: 0px;
+  line-height: 14px; /* This is new */
+  color: #663;
+  background-color: #FFFFFF;
+  border-width: 7px 7px 0px 7px;
+  border-style: solid;
+  background: #fff url(images/under_entry_title.png) repeat-x 0 0;
+}
+
+#maincontent .blog_comment_comment
+{
+  padding: 6px 10px 6px 10px;
+  color: #663;
+  border-width: 0px 7px 7px 7px;
+  border-style: solid;
+}
+
+div #toggleSidebarAvatar, #toggleSidebarLinks, #toggleSidebarCalendar, #toggleSidebarArchives, #toggleSidebarCategories , #toggleSidebarSearch, #toggleSidebarMenu, #toggleSidebarPreferences, #toggleSidebarRecentComments, #toggleSidebarRecentEntries, #toggleSidebarRecentTrackbacks
+{
+  display: block;
+}
+
+#sidebar
+{
+  padding: 10px;
+}
+
+#sidebar .menu_title
+{
+  font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  padding: 3px 3px 1px 3px;
+}
+
+#sidebar .menu_title a
+{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+#sidebar .menu_title:hover
+{
+}
+
+#sidebar .menu_body
+{
+  padding: 10px;
+  border-color: #999;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#sidebar .divider {
+  margin: 8px 0px 8px 0px;
+}
+
+#sidebar .calendar
+{
+  font-size: 10px;
+}
+
+#sidebar .calendar a
+{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#sidebar .calendar td
+{
+  padding: 2px;
+}
+
+/* NEW */
+#archive_tree_menu ul
+{
+  list-style: none inside;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+}
+
+/* NEW */
+#archive_tree_menu li
+{
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px #F0F dashed; */
+}
+
+#footer
+{
+  border: 0;
+  border-top: 1px solid #4D4D45; /* border_color */
+  color: #666666; /* footer_txt_color */
+  background: #EEEEEE; /* footer_bg_color */
+  padding: 10px;
+  text-align: left;
+  clear: both;
+}
+
+.divider { margin: 20px 0px 15px 0px; }

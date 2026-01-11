@@ -1,0 +1,23 @@
+</H2><p>
+<p>
+<p>
+<p>
+<p>
+
+<!-- 
+<a href="http://www.janebushell.co.uk/links/form.html" target="_top" onFocus="if(this.blur)this.blur()" onMouseOver="SwapOut2()" onMouseOut="SwapBack2()"><img NAME="imageflip2" SRC="button_link.jpg" border=0></a>
+-->
+
+<p>
+
+</center>
+<p align="right">
+<a href="http://www.janebushell.co.uk/links/index.php">Admin</a>
+</p>
+<a href="http://www.janebushell.co.uk" target="_top" onFocus="if(this.blur)this.blur()" onMouseOver="SwapOut1()" onMouseOut="SwapBack1()"><img NAME="imageflip1" SRC="button_home.jpg" border=0></a>
+<hr size=1 noshade>
+<center>Powered by <a href=\"http://www.phpjunkyard.com/php-link-manager.php\" target=\"_new\" class=\"linkman\">Link manager LinkMan</a>
+from <a href=\"http://www.phpjunkyard.com/\" target=\"_new\" class=\"linkman\">PHPJunkYard - free php scripts</a></p>
+
+</body>
+</html>

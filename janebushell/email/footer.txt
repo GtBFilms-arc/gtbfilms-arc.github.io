@@ -1,0 +1,12 @@
+</H2><p>
+<p>
+<p>
+<p>
+<p>
+
+<a href="http://www.janebushell.co.uk" target="_top" onFocus="if(this.blur)this.blur()" onMouseOver="SwapOut1()" onMouseOut="SwapBack1()"><img NAME="imageflip1" SRC="../button_home.jpg" border=0></a>
+<hr size=1 noshade>
+
+
+</body>
+</html>

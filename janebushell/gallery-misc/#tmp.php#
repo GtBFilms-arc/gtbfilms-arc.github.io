@@ -1,0 +1,6 @@
+<?php
+
+include('config.php');
+include('globals.php');
+
+$all = get_all_data()

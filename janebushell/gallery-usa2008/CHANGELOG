@@ -1,0 +1,238 @@
+-------------------------------------------------------------------------------
+Yapig's Change-Log
+-------------------------------------------------------------------------------
+
+0.95 stable (4/7/2005)
+-----------------------
+
+New Features
+    * Updated Exifier to version 1.5. Thanks to Sebastien.
+    * Added Polish translation (0.92b). Thanks to Kwachu (kwasimir).
+    * Updated Catalá translation (0.92b). Thanks to Cai Roigé Roca (cairoige @@@ tinet.org) 
+    * Updated Italian translation (0.92b). Thanks to Lucio Benfante (benfy).
+    * Updated German translation. Thanks to Sven Schäfer <pointer @@@ linux-blog.de>
+    * Updated French translation. Thanks to Sebastien <sebastieng @@@ pointbat.be>
+    
+Fixed Bugs
+    * Warning for set_timeout(#1230503).
+    * German locale file permisions problem. (#1230494)
+    * Page counter and page argument errors (#1182544)
+    * Vulnerability: Cross site scripting on add comment form (#1230491)
+    * Vulnerability: Save plain text login information in cookies (#1230491)
+    * Vulnerability: Arbitrary directory removal on upload.php (#1230491)
+    * Vulnerability: Extension checks on upload.php (#1230491)
+    * Vulnerability: Arbitrary file Inclusion global.php and last_gallery.php (#1230491)
+    * Vulnerability: Cross-site Scripting (#1230491)
+    * Vulnerability: Information disclosure in phid argument of view.php and slideshow.php (#1230491)
+    * Rotate Image thanks to Sebastian Muszynski <basti @@@ linkt.de> 
+    * Link error in slideshow (#1173021)
+
+0.94.0 testing (06/02/2005)
+---------------------------
+New Features:
+    * Updated Spanish Translation.
+    * Updated German translation. Thanks to Roger Göldenitz <rgoelden @@@ rgoelden.net>
+    * Display some Exif information if available on the pic. Using exifier 1.4
+    * Slideshow. Thanks to Keith Nicholson (www.keithnicholson.net)
+    * Display current page and number of the image.
+Fixed Bugs:
+    * SAFE MODE installation better explained.(#1070572) 
+    * Security fix: now password protected galleries cannot change their
+      gallery thumbnail(#1056001)
+    * Resolved escaped \' and \" on captions (#959969)
+    * Problems deleting files created with Yapig due to default server umask
+      (#1065867)
+    * FINALLY FIXED JS Zoom stuff. Thanks to Christian Taepper fix! (#1025155)
+    * Stats dissapear due to concurrent access to text database files.
+
+0.93.0 testing (16/10/2004)
+---------------------------
+New Features:
+    * Added Slovak translation (0.92). Thanks to Andrej Zatko
+    * Added Norwegiam translation (0.92). Thanks to Bernt Egil Berntzen (zenmed)
+    * Added Japanese translation (0.92). Thanks to Tadashi Jokagi (elf2000)
+    * Added Finnish translation (0.92). Thanks to Miikka Mättölä (mixxu)
+    * Added Hungarian translation (0.92). Thanks to Greg J. (greggood)
+    * Added Romanian translation (0.92). Thanks to Mat (kamikadzee)
+    * Added Galician language translation (0.92). Thanks to Rashgaroc (http://surf.to/rashgaroc)
+    * Updated Swedish language (0.92). Thanks to Jasmin Z.  
+    * Updated Czech translation (0.92). Thanks to Jiri Cincura.
+    * last_gallery.php. Now you can display the last gallery you added in other pages
+    * User Interface (admin not yet) validated using XHTML Strict.
+    * W3C validator Valid CSS.
+    * Auto select browser language.
+    * Auto select language charset.
+    * index.html with redirections instead of blank files. 
+    * Added posibility to have multiple columns in gallery index (config.php)
+    * Added allow configure multiple admin accounts (config.php)
+    * Some little JavaScript checks on user comments.
+    * Admin can order index of galleries using Yapig's web-admin.
+    * Email notification when a new comment is posted.
+    * Added security advices after install.
+    
+Fixed Bugs
+    * Minor changes in INSTALL file.
+    * Filter HTML on comments avoiding cross site scripting.(#1017552) 
+    * Error in a link of modify_phid.php (#970184) 
+    * Solved problem when logging IP and browser.
+    * Updated English Strings. Thanks to Jazmin Z for his corrections.(#965224)
+    * Error in Zoom JavaScript (#982335)
+    * Zoom JavaScript exit() removed.(#960191)
+    * Long strings in comments are wrapped. (#934441)
+    * Now MAX_IMG_SIZE on config.php works ok
+    * Changed Description: 0 when images did not have a caption
+    * Now thumbnails of images with rare names are shown on modify_phid (#950739)
+    * Removed '/' after $BASE_DIR on safe mode install (#948861)
+    * Automatically adds '/' on $SECURE_DIR when safe mode On (#936163)
+    * On view.php an H1 heading was printed before the HTML element (#999391)
+    * Corrected width x height on phid_info.php (#945894)
+    * Now email field on comment form length is 40 (#945894)
+    * Removed throw error during install if could not touch index.html(#937795)
+    
+
+0.92.2 (29/08/2004)
+-------------------
+Fixed Bugs
+     * Repaired PHP insertion vulnerability (#1007246). Thanks to acidbits.
+     
+0.92.1 (09/05/2004)
+-------------------
+Fixed Bugs
+      * Repaired install.php bug (#950377)
+
+0.92 stable (16/04/2004)
+---------------------
+New Features:
+    * Chinese translation. Thanks to attimee.
+    * Dutch translation. Thanks to Theo Beers.
+    * Czech translation. Thanks to Jiri Cincura and Frettie. 
+    * Catalan language translation. Thanks to Antoni Hortal.
+    * Indonesian translation. Thanks to Bernouli.
+Fixed Bugs:
+    * Minor bugfixes 
+
+0.91-1 unstable (21/03/2004)
+----------------------------
+New Features
+    * Safe Mode support during install (Patched by DSword - Miikka Koskinen)
+    * New YaPiG's documentation look. 
+Fixed Bugs
+    * Up and Next Page bugs (#915541) 
+    * deleted pepeeee debug line on JS of template file zoom_bar.php (#906664)
+    * Now GD 1.6 tested and really supported (didn't work on previous versions)
+    * messages.log now is on SECURE_DIR (#862986)
+    * Install bugfixes
+    * Little bug on upload.php
+
+0.91 unstable (28/02/2004)
+--------------------------
+New Features
+    * Updated Spanish Translation.
+    * Image Captions/Description. Now you can add a little description of the 
+      image contents. (Feature Request)
+    * Admin can delete user comments (Feature Request)
+    * Admin can modify user comments (Feature Request)
+
+Fixed Bugs
+    * Security on comments log (Bug #862986)
+    * Warn about possible problem of memory lack (Bug #904278)
+    * Delete phid comments: Gallery Comments Counter updated (Bug #888124)
+    * Minor bugfixes
+    
+0.90-1 unstable (20/02/2004)
+----------------------------
+Fixed Bugs
+    * Thomas Orieux JavaScript patch. Now, Resizing works on some browsers.
+
+0.90 unstable (14/02/2004)
+--------------------------
+New Features
+    * Autoresize big images using a JavaScript. Zoom in and out.
+    * Admin can show/hide comments and comments form in each gallery.
+    * Admin user can upload files using the web admin tool.
+      (Based on Matt Thompsom patch against 0.83beta)
+    * Admin user can create directories for galleries using the web admin tool.
+    * Added Swedish translation. Thanks to Daniel Ek
+    * Added Italian translation. Thanks to Andrea Baldon.
+    * Added Russian translation. Thanks to Arseny Vesnin.
+Fixed Bugs
+    * Count hits using gallery navigation bar.
+    * Repaired select thumbnail.
+    * Repaired view info link in modify image list
+    * Removed line with '=>' in counter files
+    
+0.83beta (30/01/2003)
+---------------------
+New Features
+   * No new features.
+Fixed Bugs
+   * Counters didn't work properly.
+   * Repaired CSS class in view image.
+
+
+0.82beta (24/01/2004)
+---------------------
+New Features
+    * Added French translation. Thanks to Thomas Oirieux 
+      (ttp://flying.disc.chez.tiscali.fr/index.php) and David Foucher both of
+      them sent me a french translation.
+    * Added German translation. Thanks to docviper (www.docviper.net/photo)
+    * Added checking correct GD library is available during installation.
+    * Try to load GD library if not already loaded. 
+    * Improved install documentation.
+    
+Fixed bugs
+    * Register globals problems when set off (default in new PHP versions).
+    * Corrected links in Modify Gallery.
+    * Problems using cookies and logout links.
+    * Removed annoying \' on comments. Now appears only ' character.
+    * Problems with imagenames that have some 'rare' characters as ?,!...
+    * Correct link in delete_gallery.php for Delete more galleries.
+    * Minor bugfixes.
+    
+0.81beta (7/1/2004)
+-------------------
+New Features
+    * None. In this version only bug fixing changes.
+    
+Fixed bugs
+    * delete_gallery_form.php, PHP extension missing.
+    * Problem setting enviroment variable LANG in some safe mode configs.
+    * Multiple-page galleries TERRIBLE BUG! :$
+
+0.80beta (19/12/2003)
+---------------------
+New Features
+    * New template look.
+    * Changed from alfa to beta status.
+    * Added posibility to gallery logout. 
+    * Deleted gallery in admin improved. Now admin can choose what data 
+      want to delete (all gallery comments,visits...)
+    * Admin can choose gallery thumbnail
+    * Admin can add and delete individual images from gallery.
+    * Allow multiples pages per gallery. Nice for big galleries.
+    
+Fixed Bugs
+    * modify_gallery.php error
+    * Spanish translation problems
+    * Some other minor bugs
+    
+0.72a (5/december/2003)
+-----------------------
+ New Features
+   * Added gallery navigation bar, (that is previous and next gallery links) 
+   * Added comments as documentation to template files.
+   * Source Code prepared to have phpDocumentor documentation 
+     (http://phpdocu.sf.net)
+   * Real thumbnail of a password protected gallery shown when user already
+     logged in.
+   * Updated user documentation (+ Added INSTALL and CHANGELOG files)
+   
+ Fixed Bugs
+   * Problem with access to password protected galleries in some servers
+   * Author on comments not shown.
+   * Some other minor Bugfixes.
+
+--
+This changelog exists since YaPiG 0.72a version. 
+YaPiG Home: http://yapig.sf.net

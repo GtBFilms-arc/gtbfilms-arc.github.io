@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html><head>
+  <style><!--
+BODY {
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #FFF;
+    color: black; 
+}
+A:link { color: #22F }      /* unvisited link */
+A:visited { color: #555 }   /* visited links */
+A:active { color: #F00 }    /* active links */
+DT {
+    margin-top: 0.5em;
+    font-weight: bold
+}
+TH { background: #faa }
+--></style><title>W3C time zones</title></head>
+
+<body>
+<p>
+<a href="http://www.w3.org/"><img src="W3C%20time%20zones_files/w3c_home.png" alt="W3C" border="0"></a>
+</p><h1>
+  Welcome to W3C time!
+</h1>
+<p>
+Each clock is an instance of the tz class, so it needs to have the file tz.class
+accessible, tz.class in turn makes use of Clock.class so that file needs
+to be in the same directory as tz.class. (It is possible to put the two files
+in a jar file, which may save some download time.)
+</p><table>
+  <tbody><tr>
+    <th>Paris<br>
+      (Texas that is)</th>
+    <th>The time at<br>
+      MIT</th>
+    <th>Holt (near<br>
+      Trowbridge)</th>
+    <th>Saint Tropez<br>
+      &amp; Mallorca</th>
+    <th>The land of <br>
+      the rising sun</th>
+  </tr>
+  <tr valign="top">
+    <td><applet code="tz.class" codebase="../../../Protocols/Time/" height="135" width="90">
+      <param name="tz" value="CST"> <param name="language" value="en">
+      <param name="country" value="GB"> <param name="bgcolor" value="ffffff">
+      <param name="color" value="0000ff"> <param name="textcolor" value="000000">
+      <param name="daycolor" value="fff030"> <param name="nightcolor" value="6040a0">
+      <param name="seconds" value="off"> Your browser is not configured to show
+      Java applets. This would show a clock with the time in Austin. </applet></td>
+    <td><applet code="tz.class" codebase="../../../Protocols/Time/" height="135" width="90">
+      <param name="tz" value="EST"> <param name="language" value="en">
+      <param name="country" value="GB"> <param name="bgcolor" value="ffffff">
+      <param name="color" value="0000ff"> <param name="textcolor" value="000000">
+      <param name="daycolor" value="fff030"> <param name="nightcolor" value="6040a0">
+      <param name="seconds" value="off"> Your browser is not configured to show
+      Java 1.1 applets. This would show a clock with the time in Boston. </applet></td>
+    <td><applet code="tz.class" codebase="../../../Protocols/Time/" height="135" width="90">
+      <param name="tz" value="BST"> <param name="language" value="en">
+      <param name="country" value="GB"> <param name="bgcolor" value="ffffff">
+      <param name="color" value="0000ff"> <param name="textcolor" value="000000">
+      <param name="daycolor" value="fff030"> <param name="nightcolor" value="6040a0">
+      <param name="seconds" value="off"> Your browser is not configured to show
+      Java 1.1 applets. This would show a clock with the time in England. </applet></td>
+    <td><applet code="tz.class" codebase="../../../Protocols/Time/" height="135" width="90">
+      <param name="tz" value="ECT"> <param name="language" value="en">
+      <param name="country" value="GB"> <param name="bgcolor" value="ffffff">
+      <param name="color" value="0000ff"> <param name="textcolor" value="000000">
+      <param name="daycolor" value="fff030"> <param name="nightcolor" value="6040a0">
+      <param name="seconds" value="off"> Your browser is not configured to show
+      Java 1.1 applets. This would show a clock with the time in France. </applet></td>
+    <td><applet code="tz.class" codebase="../../../Protocols/Time/" height="135" width="90">
+      <param name="tz" value="JST"> <param name="language" value="en">
+      <param name="country" value="GB"> <param name="bgcolor" value="ffffff">
+      <param name="color" value="0000ff"> <param name="textcolor" value="000000">
+      <param name="daycolor" value="fff030"> <param name="nightcolor" value="6040a0">
+      <param name="seconds" value="off"> Your browser is not configured to show
+      Java 1.1 applets. This would show a clock with the time in Japan. </applet></td>
+  </tr>
+</tbody></table>
+<p>
+Here is an example applet for California (Pacific time):
+<applet code="tz.class" codebase="../../../Protocols/Time/" align="right" height="220" width="150">
+<param name="tz" value="PST"> <param name="country" value="GB">
+<param name="language" value="en"> <param name="color" value="ffffff">
+<param name="textcolor" value="ffff00"> <param name="bgcolor" value="0000ff">
+<param name="daycolor" value="ffaaaa"> <param name="nightcolor" value="ffaaaa">
+<param name="seconds" value="on"> <param name="style" value="3"> Your browser
+is not configured to show Java applets. This would show a clock with the
+time in California </applet>
+</p><pre>&lt;applet code="tz.class" width=150 height=220
+  align=right&gt;
+&lt;param name="tz" value="PST"&gt;
+&lt;param name="language" value="en"&gt;
+&lt;param name="country" value="GB"&gt;
+&lt;param name="bgcolor" value="0000ff"&gt;
+&lt;param name="color" value="ffffff"&gt;
+&lt;param name="textcolor" value="ffff00"&gt;
+&lt;param name="daycolor" value="ffaaaa"&gt;
+&lt;param name="nightcolor" value="ffaaaa"&gt;
+&lt;param name="seconds" value="on"&gt;
+&lt;param name="style" value="3"&gt;
+  Your browser is not configured to show Java applets.
+  This would show a clock with the time in California.
+&lt;/applet&gt;
+</pre>
+<p>
+You can set the width and height attributes of the applet, and the clock
+will fill the given space. However, the text (date, time and digits on the
+dial) will not change size.
+</p><p>
+The parameters for the tz applet are:
+</p><dl>
+  <dt>
+    tz
+  </dt><dd>
+    Timezone, values are: GMT (Greenwich Mean Time, a.k.a. UTC), BST
+    (British Standard Time, also valid for Portugal), ECT (Western Europe),
+    EET (Eastern Europe), ART (Egypt),
+    EAT (East Africa), MET (Middle East), NET (Near East), PLT (Pakistan/Lahore),
+    IST (India), BST (Bangladesh), VST (Vietnam), CTT (Taiwan), JST (Japan),
+    ACT (Australia Central), AET (Australia Eastern), SST (Solomon Islands),
+    NST (New Zealand), MIT (no, not Massachusetts, but Midway Islands), HST (Hawaii),
+    AST (Alaska), PST (US Pacific), PNT (Phoenix), MST (Mountain), CST (Central),
+    EST (Eastern), PRT (Puerto Rico), CNT (Newfoundland), AGT (Argentina), BET
+    (Brazil), CAT (central Africa)
+  </dd><dt>
+    language
+  </dt><dd>
+    Which language you want the digital time to be shown in. A two-letter code,
+    such as "en" for English.
+  </dd><dt>
+    country
+  </dt><dd>
+    Which local variant of the language you want, for example "GB" to get British
+    English.
+  </dd><dt>
+    bgcolor
+  </dt><dd>
+    The color of the applet outside of the clock dial itself; a hex number, such
+    as "ffffff" for white.
+  </dd><dt>
+    color
+  </dt><dd>
+    The color of the hour and minutes hand, but only in the day time. The color
+    will be automatically adjusted to keep enough contrast with the night color.
+    A hex color, such as "0000ff" for blue.
+  </dd><dt>
+    textcolor
+  </dt><dd>
+    The color for the digits and the seconds hand, also only in the day time.
+    A hex number, such as "000000" for black.
+  </dd><dt>
+    daycolor
+  </dt><dd>
+    The color of the dial at noon. the dial will change color every half hour,
+    gradually moving from the daycolor to the night color. (Often the colors
+    don't come out right, at least on NS 4beta under Solaris. I suspect some
+    problems in the color handling for Java, since NS4 also locks up when an
+    applet cannot get enough color cells on my 8bit display. Or maybe there is
+    a bug in my code...) A hex color such as "fff030" for a light yellow.
+  </dd><dt>
+    nightcolor
+  </dt><dd>
+    The color of the dial at midnight. A hex number such as "6040a0" for a slightly
+    purple blue.
+  </dd><dt>
+    seconds
+  </dt><dd>
+    Whether to display a seconds hand or not. Displaying the seconds hand makes
+    the Java VM work a lot harder. In MSIE4 it doesn't seem to matter, but Netscape
+    on Solaris slows annoyingly when there are five clock applets running that
+    update every second... The value is either "on" or "off".
+  </dd><dt>
+    style
+  </dt><dd>
+    The style for the date, either 0, 1, 2, or 3. Default is "2"
+    <ul>
+      <li>
+	"0" = "Wednesday, 15 October 1997"
+      </li><li>
+	"1" = "15 October, 1997"
+      </li><li>
+	"2" = "15-Oct-97"
+      </li><li>
+	"3" = "15/10/97"
+    </li></ul>
+</dd></dl>
+<p>
+(Sources: <a href="http://www.w3.org/International/tz.java">tz.java</a> and
+<a href="http://www.w3.org/International/Clock.java">Clock.java</a>. <a href="http://www.w3.org/Consortium/Legal/copyright-software-19980720.html">
+Copyright</a>.)
+  </p><hr>
+<address>
+  <a href="http://www.w3.org/"><img src="W3C%20time%20zones_files/w3c_home.png" alt="W3C" align="left" border="0" height="48" width="72"></a><a href="http://www.w3.org/people/bos">Bert Bos</a><br>
+  $Date: 2000/08/23 14:45:44 $
+</address>
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: sgml
+sgml-declaration:"~/SGML/HTML4.decl"
+sgml-default-doctype-name:"html"
+sgml-minimize-attributes:t
+sgml-nofill-elements:("pre" "style" "br")
+sgml-live-element-indicator:t
+End:
+--></body></html>

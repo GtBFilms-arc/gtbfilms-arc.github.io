@@ -1,0 +1,1248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-04 15:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jasmin Zejnilagic <jasmin@zejnilagic.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../add_comment.php:75
+msgid "Incorrect add comment form"
+msgstr "Felaktigt. Lägg till kommentarformen"
+
+#: ../add_comment.php:82
+msgid "Title field required"
+msgstr "Titelfältet krävs"
+
+#: ../add_comment.php:87
+msgid "Author field required"
+msgstr "Författarfältet krävs"
+
+#: ../add_comment.php:92
+#, fuzzy
+msgid "Email field required"
+msgstr "epost fältet krävs"
+
+#: ../add_comment.php:97
+#, fuzzy
+msgid "Website field required"
+msgstr "webbfältet krävs"
+
+#: ../add_comment.php:102
+msgid "Comment field required"
+msgstr "kommentarsfältet krävs"
+
+#: ../add_comment.php:107
+msgid "Some required fields were not filled in."
+msgstr ""
+
+#: ../add_comment.php:150
+#, fuzzy
+msgid "Thank you for your contribution"
+msgstr "Tack för din kommentar!"
+
+#: ../add_comment.php:151
+#, fuzzy
+msgid "Added this comment"
+msgstr "Kommentaren tillagd"
+
+#: ../add_comment.php:152 ../admin_func.php:560 ../view_func.php:78
+msgid "Title"
+msgstr "Titel"
+
+#: ../add_comment.php:153 ../admin_func.php:190 ../admin_func.php:561 ../view_func.php:79 ../view_func.php:316
+msgid "Author"
+msgstr "Författare"
+
+#: ../add_comment.php:154 ../view_func.php:317
+#, fuzzy
+msgid "Email"
+msgstr "Epost"
+
+#: ../add_comment.php:155 ../view_func.php:318
+#, fuzzy
+msgid "Website"
+msgstr "Webb"
+
+#: ../add_comment.php:156 ../view_func.php:319 ../view_func.php:345
+msgid "Comment"
+msgstr "Kommentar"
+
+#. Interface variables
+#: ../add_comment.php:157 ../admin_func.php:660
+msgid "If the page is not automatically refreshed."
+msgstr "Om inte sidan uppdateras automatiskt."
+
+#: ../add_comment.php:158 ../admin_func.php:661
+#, fuzzy
+msgid "Press here"
+msgstr "Var vänlig och tryck här"
+
+#: ../add_comment.php:165 ../admin_func.php:563 ../view_func.php:81
+msgid "Gallery"
+msgstr "Galleri"
+
+#: ../add_comment.php:174
+#, fuzzy
+msgid "[Yapig comment] "
+msgstr "Bildkommentarer"
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "Lägg till nytt galleri"
+
+#: ../add_gallery.php:60
+#, fuzzy
+msgid "GD library not loaded. Please, read installation documentation"
+msgstr "GD billiotek ej laddad. Var vänlig och läs dokumentationen"
+
+#. Check arguments
+#: ../add_gallery.php:66
+#, fuzzy
+msgid "Image storage directory required!"
+msgstr "Titel, författare och beskrivning krävs!"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:158
+msgid "Title, author and description are required!"
+msgstr "Titel, författare och beskrivning krävs!"
+
+#: ../add_gallery.php:82
+#, fuzzy
+msgid "Location directory does not exist:"
+msgstr "Funktionen imacreatefromjpeg finns inte"
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Den markerade katalogen används av ett annat galleri. Ta bort det andra galleriet först."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Skapar index.html för att undvika server bläddring."
+
+#: ../add_gallery.php:91
+msgid "Permissions. Read FAQ documentation."
+msgstr "Rättigheter. Läs FAQ dokumentationen."
+
+#. Load all imagenames
+#: ../add_gallery.php:95
+#, fuzzy
+msgid "Loading image names of: "
+msgstr "Laddar följande bildnamn: "
+
+#: ../add_gallery.php:99
+msgid "Failed to read image names."
+msgstr "Misslyckades att läsa bildnamnen."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:103
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Skapar korresponderande fotofilnamn <-> photo identification (phid)"
+
+#: ../add_gallery.php:105
+msgid "Creating phid correspondence."
+msgstr "Skapar phid korrespondens."
+
+#. Create Info File
+#: ../add_gallery.php:111 ../modify_gallery.php:167
+msgid "Creating gallery information file with:"
+msgstr "Skapar galleri-informationsfil med:"
+
+#: ../add_gallery.php:128
+msgid "Error creating gallery information file."
+msgstr "Fel, kunde inte skapa galleri-informationsfil."
+
+#. Make thumbnails
+#: ../add_gallery.php:132
+msgid "Creating thumbnails"
+msgstr "Skapar miniatyrbilder"
+
+#: ../add_gallery.php:134
+msgid "Could not create all thumbnails."
+msgstr "Kunde inte skapa alla miniatyrer."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:137
+msgid "Adding this gallery to gallery index"
+msgstr "Lägger detta galleri till galleri index"
+
+#: ../add_gallery.php:139
+msgid "Adding gallery to file: "
+msgstr "Lägger till galleriet till filen: "
+
+#: ../add_gallery.php:140
+msgid "Gallery <b>successfully</b> created"
+msgstr "Galleriet <b>skapades</b> utan problem"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:143 ../functions.php:198 ../view_func.php:390
+msgid "Gallery index"
+msgstr "Galleri index"
+
+#: ../add_gallery.php:144
+msgid "Back to admin page"
+msgstr "Tillbaka till admin. sidan"
+
+#: ../admin_func.php:26
+#, fuzzy
+msgid "GD library not loaded. Trying to load it."
+msgstr "GD biblioteket laddades ej. Försöker ladda det."
+
+#: ../admin_func.php:29
+#, fuzzy
+msgid "Function dynamic extension load not available."
+msgstr "Funktionen för dynamiska ändelser laddning är inte tillgänglig."
+
+#: ../admin_func.php:34
+#, fuzzy
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd2.dll laddades utan problem."
+
+#: ../admin_func.php:38
+#, fuzzy
+msgid "GD library not available"
+msgstr "GD biblioteket är laddad."
+
+#: ../admin_func.php:41
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so laddades utan problem."
+
+#: ../admin_func.php:47
+msgid "Function getimagesize does not exist"
+msgstr "Funktionen getimagesize finns inte"
+
+#: ../admin_func.php:52
+#, fuzzy
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Funktionen imagecreateruecolor finns inte"
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Funktionen imacreatefromjpeg finns inte"
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr "GD biblioteket är laddad."
+
+#. Admin login form internationalization.
+#: ../admin_func.php:130
+#, fuzzy
+msgid "Please login as administrator"
+msgstr "Logga in som admin"
+
+#: ../admin_func.php:131
+msgid "User"
+msgstr "Användare"
+
+#: ../admin_func.php:132 ../admin_func.php:194
+msgid "Password"
+msgstr "Lösenord"
+
+#: ../admin_func.php:133
+msgid "Submit"
+msgstr "Skicka"
+
+#. I18n
+#: ../admin_func.php:147
+#, fuzzy
+msgid "Administrative tasks"
+msgstr "Administrativa uppgifter"
+
+#: ../admin_func.php:148 ../upload.php:107
+msgid "Upload files"
+msgstr ""
+
+#: ../admin_func.php:149
+msgid "Add gallery"
+msgstr "Lägg till galleri"
+
+#: ../admin_func.php:150
+msgid "Modify gallery"
+msgstr "Modifiera galleri"
+
+#: ../admin_func.php:151 ../admin_func.php:557 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Ta bort galleri"
+
+#: ../admin_func.php:152
+msgid "Configuration"
+msgstr ""
+
+#: ../admin_func.php:153
+msgid "Logout"
+msgstr "Logga ut"
+
+#: ../admin_func.php:189
+msgid "Gallery title"
+msgstr "Galleriets titel"
+
+#: ../admin_func.php:191 ../admin_func.php:566 ../view_func.php:84 ../view_func.php:344
+msgid "Date"
+msgstr "Datum"
+
+#: ../admin_func.php:192
+msgid "Leave it blank for today's date."
+msgstr ""
+
+#: ../admin_func.php:193
+msgid "Location"
+msgstr "Plats"
+
+#: ../admin_func.php:195
+#, fuzzy
+msgid "set this option for restricted access to gallery"
+msgstr "välj detta fält om du vill ha privat åtkomst till detta galleri"
+
+#: ../admin_func.php:196 ../admin_func.php:567 ../view_func.php:85 ../view_func.php:247
+msgid "Description"
+msgstr "Beskrivning"
+
+#: ../admin_func.php:197
+#, fuzzy
+msgid "Hide comments"
+msgstr "Bildkommentarer"
+
+#: ../admin_func.php:198 ../install.php:44 ../view_func.php:321
+msgid "Send"
+msgstr "Skicka"
+
+#: ../admin_func.php:238
+msgid " is a huge image, it might cause memory issues."
+msgstr ""
+
+#: ../admin_func.php:321
+#, fuzzy
+msgid "GD library not loaded. Please read installation documentation"
+msgstr "GD billiotek ej laddad. Var vänlig och läs dokumentationen"
+
+#: ../admin_func.php:457 ../admin_func.php:464
+msgid "Opening gid counter file: "
+msgstr "™ppnar gid räknarfilen: "
+
+#: ../admin_func.php:554
+msgid "Modify gallery info"
+msgstr "Modifierar galleri info"
+
+#: ../admin_func.php:555
+msgid "Select thumbnail"
+msgstr "Välj miniatyr"
+
+#: ../admin_func.php:556
+#, fuzzy
+msgid "Modify imagelist"
+msgstr "Modifiera bildlista"
+
+#: ../admin_func.php:559 ../view_func.php:77
+msgid "Number of images"
+msgstr "Antal bilder"
+
+#: ../admin_func.php:562 ../view_func.php:80
+msgid "View this gallery"
+msgstr "Visa detta galleri"
+
+#: ../admin_func.php:564 ../modify_phid.php:119 ../view_func.php:82 ../view_func.php:246
+msgid "Visits"
+msgstr "Besök"
+
+#: ../admin_func.php:565 ../modify_phid.php:118 ../view_func.php:83 ../view_func.php:155
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: ../admin_func.php:568 ../view_func.php:442
+msgid "Up"
+msgstr "Upp"
+
+#: ../admin_func.php:569
+msgid "Down"
+msgstr ""
+
+#: ../admin_func.php:570
+#, fuzzy
+msgid "Move up this gallery on index"
+msgstr "Lägger detta galleri till galleri index"
+
+#: ../admin_func.php:571
+#, fuzzy
+msgid "Move down this gallery on index"
+msgstr "Lägger detta galleri till galleri index"
+
+#: ../admin_func.php:593
+msgid "Select deletion options:"
+msgstr "Välj alternativ för borttagning:"
+
+#: ../admin_func.php:594
+msgid "Do not list gallery in gallery index any more."
+msgstr "Lista inte detta galleri i galleri indexet mer."
+
+#: ../admin_func.php:595
+msgid "Clear all image comments."
+msgstr "Rensa alla bildkommentarer."
+
+#: ../admin_func.php:596
+msgid "Clear all image visit counters."
+msgstr "Nollställ alla bilders besöksräknare."
+
+#: ../admin_func.php:597
+msgid "Clear gallery visit counters."
+msgstr "Rensa galleriets alla besöksräknare."
+
+#: ../admin_func.php:598
+msgid "Delete gallery thumbnails."
+msgstr "Ta bort galleriets miniatyrer."
+
+#: ../admin_func.php:599
+msgid "Delete all files in directory."
+msgstr "Ta bort alla filer i katalogen."
+
+#: ../admin_func.php:600
+#, fuzzy
+msgid "Delete all image captions."
+msgstr "Rensa alla bildkommentarer."
+
+#: ../admin_func.php:601
+msgid "send"
+msgstr "skicka"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+#, fuzzy
+msgid "<strong>Yapig</strong> administration"
+msgstr "<strong>YaPiG</strong> Admin"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Inte tillgänglig."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Skapa nytt galleri"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:120
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galleriet finns inte eller så är gid argumentet inte satt"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Galleriets statistik finns inte eller kunde inte tas bort"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Galleri statistik borttagen."
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Bildstatistiken för detta galleri finns inte eller kunde inte tas bort."
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Bildstatistiken för detta galleri är borttagen."
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Kommentarsräknaren för detta galleri finns inte eller kunde inte tas bort"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Kommentarsräknaren för detta galleri är borttagen"
+
+#: ../delete_gallery.php:69
+#, fuzzy
+msgid "Could not load this file: "
+msgstr "Kunde inte ladda denna fil: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:86 ../delete_gallery.php:111 ../delete_gallery.php:126
+#, fuzzy
+msgid "Could not delete: "
+msgstr "Kunde inte ladda denna fil: "
+
+#: ../delete_gallery.php:77 ../delete_gallery.php:87
+#, fuzzy
+msgid "Deleted: "
+msgstr "Borttagen fil: "
+
+#: ../delete_gallery.php:93
+msgid "Could not get image list from file: "
+msgstr "Kunde inte hämta bildlistan från filen: "
+
+#: ../delete_gallery.php:98
+msgid "Could not delete thumbnail image: "
+msgstr "Kunde inte ta bort miniatyrbilden: "
+
+#: ../delete_gallery.php:99
+msgid "Deleted thumbnail: "
+msgstr "Miniatyr borttagen: "
+
+#: ../delete_gallery.php:107
+msgid "Gallery could not be removed from index"
+msgstr "Galleriet kunde inte tas bort från indexet"
+
+#: ../delete_gallery.php:109
+#, fuzzy
+msgid "Gallery will not be displayed anymore in the gallery index"
+msgstr "Galleriet kommer inte att visas mer i galleri indexet"
+
+#: ../delete_gallery.php:118
+msgid " is not a valid directory"
+msgstr " är inte giltig katalog"
+
+#: ../delete_gallery.php:121
+msgid " could not be opened"
+msgstr " kunde inte öppnas"
+
+#: ../delete_gallery.php:128
+msgid "Deleted file: "
+msgstr "Borttagen fil: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:133
+msgid "Gallery successfully deleted."
+msgstr "Galleriet togs bort utan problem."
+
+#. Show some useful links
+#: ../delete_gallery.php:136
+msgid "Admin index"
+msgstr "Admin index"
+
+#: ../delete_gallery.php:137
+#, fuzzy
+msgid "Delete additional galleries"
+msgstr "Ta bort fler gallerier"
+
+#: ../functions.php:135
+msgid "Error"
+msgstr "Fel"
+
+#: ../functions.php:153
+msgid "Warning"
+msgstr "Varning"
+
+#: ../functions.php:197
+#, fuzzy
+msgid "Main menu"
+msgstr "Huvudmeny"
+
+#: ../functions.php:199
+#, fuzzy
+msgid "Homepage"
+msgstr "Startsida"
+
+#: ../functions.php:201
+msgid "Admin"
+msgstr "Admin"
+
+#. Logout links
+#: ../functions.php:204
+msgid "Admin logout"
+msgstr "Logga ut admin"
+
+#: ../functions.php:205
+msgid "Gallery logout"
+msgstr "Logga ut galleri"
+
+#: ../gallery.php:46
+#, fuzzy
+msgid "Congratulations Yapig is up and running!"
+msgstr "Gratulerar YAPIG fungerar!"
+
+#. welcome message
+#: ../gallery.php:49
+#, fuzzy
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\n"
+"   <p>If this is the first time you run:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Välkommen till <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Det finns <strong>INGA</strong> gallerier.<p>\n"
+"   <p>om detta är första gången du kör YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Ändra i <i>config.php</i> filen.</li>\n"
+"   <li><a href=\"admin.php\">Logga in som administartör</a> och lägg till ett nytt galleri.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:69
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Det finns inga gallerier. Logga in som admin för att skapa nya gallerier."
+
+#: ../install.php:61
+#, fuzzy
+msgid "Yapig installation"
+msgstr "YaPIG installation"
+
+#: ../install.php:66
+#, fuzzy
+msgid "YaPiG already installed"
+msgstr "YaPiG installerades utan problem."
+
+#: ../install.php:80
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr ""
+
+#: ../install.php:85
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory yourself with any random name on $BASE_DIR (photos/) and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create an empty file called index.html to both BASE_DIR and\r\n"
+"\t  SECURE_DIR directories. These are for avoiding server listing.</li>\r\n"
+"\t  <li>After you have created the directory and set its permissions, \r\n"
+"\t  please enter its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:107
+msgid "SECURE_DIR does not exist! Please enter the correct directory name:"
+msgstr ""
+
+#: ../install.php:116
+msgid "Could not create index.html in SECURE_DIR. Read FAQ documentation."
+msgstr ""
+
+#: ../install.php:119
+msgid "Could not create index.html in BASE_DIR. Read FAQ documentation"
+msgstr ""
+
+#: ../install.php:124
+#, fuzzy
+msgid "Could not load GD library which is required by Yapig or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "Kunde inte ladda GD biblioteket som krävs för att köra YaPiG eller så är din GD version för gammal. Vänligen läs /doc/install.html dokumentationen för mer information."
+
+#: ../install.php:127
+#, fuzzy
+msgid "Good! Your server has GD library. You can run Yapig!"
+msgstr "Fint! Din server har GD version 2 eller högre. Du kan köra YaPIG!"
+
+#: ../install.php:133
+#, fuzzy
+msgid "Could not get GD version. Please read doc/en/install.html documentation for more information."
+msgstr "Kunde inte ladda GD biblioteket som krävs för att köra YaPiG eller så är din GD version för gammal. Vänligen läs /doc/install.html dokumentationen för mer information."
+
+#: ../install.php:139
+#, fuzzy
+msgid "Change Yapig's root directory permissions to allow creating new files."
+msgstr "Ändra YaPiGs katalogs behörighet för att tillåta att nya filer skapas."
+
+#: ../install.php:140
+msgid "Installation aborted. Could not create config file."
+msgstr "Installationen avbröts. Kunde inte skapa config filen."
+
+#: ../install.php:197
+#, fuzzy
+msgid "Yapig successfully installed."
+msgstr "YaPiG installerades utan problem."
+
+#: ../install.php:200
+#, fuzzy
+msgid "Congratulations Yapig is up and runnig!"
+msgstr "Gratulerar YAPIG fungerar!"
+
+#: ../install.php:204
+msgid "Security Advice: After you have configured all, delete install.php"
+msgstr ""
+
+#. welcome message    
+#: ../install.php:209
+#, fuzzy
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\r\n"
+"   <p>If this is the first time you run:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Välkommen till <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Det finns <strong>INGA</strong> gallerier.<p>\n"
+"   <p>om detta är första gången du kör YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Ändra i <i>config.php</i> filen.</li>\n"
+"   <li><a href=\"admin.php\">Logga in som administartör</a> och lägg till ett nytt galleri.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../modify_gallery.php:22
+#, fuzzy
+msgid "<p>Select a gallery:</p>"
+msgstr "<p>Vänligen välj ett galleri:</p>"
+
+#: ../modify_gallery.php:25
+#, fuzzy
+msgid "There are no available galleries."
+msgstr "Det finns inga gallerier."
+
+#: ../modify_gallery.php:42
+#, fuzzy
+msgid "Update gallery imagelist"
+msgstr "Kunde inte uppdatera galleriets bildlista"
+
+#: ../modify_gallery.php:43
+#, fuzzy
+msgid "Overwrite existing thumbnails"
+msgstr "Skapar miniatyrbilder"
+
+#: ../modify_gallery.php:44
+#, fuzzy
+msgid "Only create new thumbnails"
+msgstr "Skapar miniatyrbilder"
+
+#: ../modify_gallery.php:45
+msgid "view/edit"
+msgstr ""
+
+#: ../modify_gallery.php:48
+#, fuzzy
+msgid "Could not get imagelist. Gallery probably does not have images"
+msgstr "Kunde inte ladda bildlistan. Galleriet kanske inte innehåller några bilder"
+
+#: ../modify_gallery.php:52
+#, fuzzy
+msgid "Current images in gallery are:"
+msgstr "Nuvarande bilder i galleriet är:"
+
+#: ../modify_gallery.php:58
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr ""
+
+#: ../modify_gallery.php:73
+msgid "Could not read gallery directory filenames"
+msgstr "Kunde inte läsa galleriets katalogs filnamn"
+
+#: ../modify_gallery.php:75
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Bilder som är i katalogen men inte i galleriet:</p><ul>"
+
+#: ../modify_gallery.php:126 ../modify_phid.php:233
+msgid "Modify gallery: "
+msgstr "Modifiera galleriet: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:137
+msgid "Modify gallery information:"
+msgstr "Ändra galleri information:"
+
+#: ../modify_gallery.php:153
+msgid "Directory location with images required!"
+msgstr "Katalogens fysiska plats med bilder krävs!"
+
+#: ../modify_gallery.php:181
+msgid "Creating gallery information file."
+msgstr "Skapar galleriets informationsfil."
+
+#: ../modify_gallery.php:182
+msgid "Gallery info successfully updated."
+msgstr "Galleriets info uppdaterades utan problem."
+
+#: ../modify_gallery.php:193
+#, fuzzy
+msgid "Sorry, password protected galeries cannot change the thumbnail"
+msgstr "standard lösenordsskydd på galleriets miniatyrer"
+
+#: ../modify_gallery.php:199
+msgid "Could not update thumbnail"
+msgstr "Kunde inte uppdatera miniatyr"
+
+#: ../modify_gallery.php:200
+#, fuzzy
+msgid "Thumbnail updated. (Do not worry if the upper thumbnail is the previous one)"
+msgstr "Miniatyr uppdaterad. (Oroa dig inte om den övre miniatyren är den gamla)"
+
+#. List all phids.
+#: ../modify_gallery.php:205
+msgid "Select thumbnail: "
+msgstr "Välj miniatyr: "
+
+#: ../modify_gallery.php:207
+#, fuzzy
+msgid "Could not get all imagelist."
+msgstr "Kunde inte ta emot hela bildlistan."
+
+#. Construct Form.
+#: ../modify_gallery.php:210
+msgid "Update gallery thumbnail"
+msgstr "Uppdatera galleriets miniatyrer"
+
+#: ../modify_gallery.php:211
+msgid "default password protected galleries thumbnail"
+msgstr "standard lösenordsskydd på galleriets miniatyrer"
+
+#: ../modify_gallery.php:212
+msgid "view info"
+msgstr ""
+
+#: ../modify_gallery.php:247
+#, fuzzy
+msgid "Selected imagelist:"
+msgstr "Modifiera bildlista"
+
+#: ../modify_gallery.php:250
+#, fuzzy
+msgid "Creating thumbnail for images that do not have one."
+msgstr "Skapar miniatyrer för bilder som ännu inte har dessa."
+
+#: ../modify_gallery.php:255
+msgid "Creating all thumbs"
+msgstr "Skapar alla miniatyrer"
+
+#: ../modify_gallery.php:260
+#, fuzzy
+msgid "Could not update gallery imagelist"
+msgstr "Kunde inte uppdatera galleriets bildlista"
+
+#: ../modify_gallery.php:261
+#, fuzzy
+msgid "Imagelist successfully updated"
+msgstr "Bildlistan uppdaterades utan problem"
+
+#: ../modify_gallery.php:264
+msgid "Number of images not updated"
+msgstr "Antalet bilder är inte uppdaterat"
+
+#: ../modify_gallery.php:266
+msgid "Number of images updated"
+msgstr "Antalet bilder uppdaterat"
+
+#: ../modify_gallery.php:273 ../modify_gallery.php:279
+#, fuzzy
+msgid "Operation could not be done"
+msgstr " kunde inte öppnas"
+
+#: ../modify_gallery.php:291
+#, fuzzy
+msgid "Display this gallery"
+msgstr "Visa detta galleri"
+
+#: ../modify_gallery.php:292
+#, fuzzy
+msgid "Modify gallery index"
+msgstr "Modifiera galleriets index"
+
+#: ../modify_phid.php:54 ../modify_phid.php:58 ../modify_phid.php:292
+#, fuzzy
+msgid "Image has no comments"
+msgstr "Bildkommentarer"
+
+#: ../modify_phid.php:61
+#, fuzzy
+msgid "Modify"
+msgstr "Modifiera bild"
+
+#: ../modify_phid.php:62
+#, fuzzy
+msgid "Delete"
+msgstr "Borttagen fil: "
+
+#: ../modify_phid.php:63
+#, fuzzy
+msgid "Image Comments"
+msgstr "Bildkommentarer"
+
+#: ../modify_phid.php:93
+msgid "Image identificator (phid) not found."
+msgstr "Bild identificatorn (phid) hittades inte."
+
+#. I18n
+#: ../modify_phid.php:117
+msgid "Image name"
+msgstr "Bildnamn"
+
+#: ../modify_phid.php:120
+#, fuzzy
+msgid "Remove from gallery"
+msgstr "Ta bort bild"
+
+#: ../modify_phid.php:121
+msgid "Clear"
+msgstr "Rensa"
+
+#: ../modify_phid.php:122
+#, fuzzy
+msgid "Delete All"
+msgstr "Ta bort galleri"
+
+#: ../modify_phid.php:123
+msgid "Image id"
+msgstr "Bild id"
+
+#: ../modify_phid.php:124
+msgid "Modify Image"
+msgstr "Modifiera bild"
+
+#: ../modify_phid.php:125
+msgid "Set as gallery thumbnail"
+msgstr "Sätt som galleri miniatyr"
+
+#: ../modify_phid.php:126
+#, fuzzy
+msgid "Image caption"
+msgstr "Bildkommentarer"
+
+#: ../modify_phid.php:127
+#, fuzzy
+msgid "Change caption"
+msgstr "Ändra i huvudconfig"
+
+#: ../modify_phid.php:128
+#, fuzzy
+msgid "Rotate image"
+msgstr "Ta bort bild"
+
+#: ../modify_phid.php:144
+#, fuzzy
+msgid "Could not remove image from gallery imagelist"
+msgstr "Kunde inte ta bort bilden från galleriets bildlista"
+
+#: ../modify_phid.php:145
+#, fuzzy
+msgid "Image will not be displayed in list."
+msgstr "Bilden kommer inte visas i listan."
+
+#: ../modify_phid.php:168
+msgid "Could not delete image comments file: "
+msgstr "Kunde inte ta bort bildens kommentarer från filen: "
+
+#: ../modify_phid.php:169
+msgid "Image comments deleted"
+msgstr "Bildens kommentarer borttagna"
+
+#: ../modify_phid.php:177
+msgid "Could not delete image comments counter: "
+msgstr "Kunde inte ta bort bildens kommentarsräknare: "
+
+#: ../modify_phid.php:178
+msgid "Image comments counter deleted"
+msgstr "Bildkommentarernas räknare borttagen"
+
+#: ../modify_phid.php:186
+msgid "Image visits counter not found or could not be removed."
+msgstr "Bildbesöksräknaren kunde inte hittas eller tas bort."
+
+#: ../modify_phid.php:187
+msgid "Image visits counter deleted"
+msgstr "Bildbesöksräknaren borttagen"
+
+#: ../modify_phid.php:277
+msgid "Set new caption to: "
+msgstr ""
+
+#: ../modify_phid.php:279
+#, fuzzy
+msgid "Could not update caption."
+msgstr "Kunde inte uppdatera miniatyr"
+
+#: ../modify_phid.php:288
+#, fuzzy
+msgid "Comment not selected"
+msgstr "Kommentar titel"
+
+#: ../modify_phid.php:294
+#, fuzzy
+msgid "Coul not open comments file"
+msgstr "Kunde inte ta bort bildens kommentarer från filen: "
+
+#: ../modify_phid.php:302
+#, fuzzy
+msgid "Comment successfully deleted"
+msgstr "Galleriet togs bort utan problem."
+
+#: ../modify_phid.php:315
+#, fuzzy
+msgid "Could not read comments file"
+msgstr "Kunde inte ta bort bildens kommentarer från filen: "
+
+#: ../modify_phid.php:319
+#, fuzzy
+msgid "Opening comments file."
+msgstr "™ppnar kommentarsfilen"
+
+#: ../modify_phid.php:328
+#, fuzzy
+msgid "Comment successfully updated"
+msgstr "Bildlistan uppdaterades utan problem"
+
+#: ../modify_phid.php:352
+#, fuzzy
+msgid "Image not found."
+msgstr "Bild identificatorn (phid) hittades inte."
+
+#: ../modify_phid.php:361 ../modify_phid.php:365
+#, fuzzy
+msgid "Could not rotate the image or the thumbnail"
+msgstr "Kunde inte skapa alla miniatyrer."
+
+#. header("Location: modify_phid?action=view_phid&gid=$gid&phid=$phid");
+#: ../modify_phid.php:369
+msgid "Image has successfully been rotated, although your browser might be displaying the old one because it is on cache."
+msgstr ""
+
+#: ../upload.php:25
+msgid "Upload Files"
+msgstr ""
+
+#: ../upload.php:39
+msgid "Dots in directory names are not allowed"
+msgstr ""
+
+#: ../upload.php:53
+msgid "Created directory: "
+msgstr ""
+
+#: ../upload.php:56
+#, fuzzy
+msgid "Could not create directory: "
+msgstr "Kunde inte läsa galleriets katalogs filnamn"
+
+#: ../upload.php:62
+msgid "Successfully removed directory: "
+msgstr ""
+
+#: ../upload.php:64
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr ""
+
+#: ../upload.php:74
+msgid "Files will be uploaded to following directory: "
+msgstr ""
+
+#: ../upload.php:76
+#, fuzzy
+msgid "Create directory"
+msgstr "Hämtar galleriets katalog"
+
+#. i18n
+#: ../upload.php:105
+msgid "Select only <b>one</b> directory"
+msgstr ""
+
+#: ../upload.php:106
+msgid "Files to upload"
+msgstr ""
+
+#: ../upload.php:137
+msgid " is not recognized as an image."
+msgstr ""
+
+#: ../upload.php:147
+#, fuzzy
+msgid "Successfully uploaded file: "
+msgstr "gd.so laddades utan problem."
+
+#: ../upload.php:150
+#, fuzzy
+msgid "Could not copy file: "
+msgstr "Kunde inte ladda denna fil: "
+
+#: ../view_func.php:56
+msgid "Gallery does not exist: "
+msgstr "Galleriet finns inte:"
+
+#: ../view_func.php:86
+msgid "View slideshow"
+msgstr ""
+
+#: ../view_func.php:96
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Detta galleri kräver lösenord. Var god fyll i lösenordsfältet och tryck på valideringsknappen. Tack."
+
+#: ../view_func.php:98
+msgid "Validate"
+msgstr "Validera"
+
+#: ../view_func.php:99
+msgid "Gallery password"
+msgstr "Galleri lösenord"
+
+#. I18n -
+#: ../view_func.php:152
+msgid "Enlarge image"
+msgstr ""
+
+#: ../view_func.php:153
+msgid "Image"
+msgstr "Bild"
+
+#: ../view_func.php:154
+msgid "Hits"
+msgstr "Träffar"
+
+#: ../view_func.php:241
+#, fuzzy
+msgid "Image caption not set"
+msgstr "Bildkommentarer"
+
+#: ../view_func.php:243
+msgid "Filename"
+msgstr "Filnamn"
+
+#: ../view_func.php:244
+msgid "File size"
+msgstr "Filstorlek"
+
+#: ../view_func.php:245
+msgid "Image size"
+msgstr "Bildstorlek"
+
+#: ../view_func.php:314
+#, fuzzy
+msgid "Add your comment!"
+msgstr "Lägg till kommentar!"
+
+#: ../view_func.php:315
+msgid "Comment title"
+msgstr "Kommentar titel"
+
+#: ../view_func.php:320
+msgid "* = required fields"
+msgstr ""
+
+#: ../view_func.php:355
+msgid "Image comments"
+msgstr "Bildkommentarer"
+
+#: ../view_func.php:357
+msgid "There are no messages! Give us your opinion!"
+msgstr "Det finns inga meddelanden! Ge din uppfattning!"
+
+#: ../view_func.php:362
+msgid "Opening comments file"
+msgstr "™ppnar kommentarsfilen"
+
+#: ../view_func.php:388
+#, fuzzy
+msgid "Previous gallery"
+msgstr "Föregående galleri"
+
+#: ../view_func.php:389
+#, fuzzy
+msgid "Next gallery"
+msgstr "Nästa galleri"
+
+#: ../view_func.php:396 ../view_func.php:445
+#, fuzzy
+msgid "could not display gallery navigation bar"
+msgstr "Kunde inte visa galleriets navigationsruta"
+
+#: ../view_func.php:405 ../view_func.php:443
+msgid "[Slideshow]"
+msgstr ""
+
+#: ../view_func.php:426
+#, fuzzy
+msgid "Previous image"
+msgstr "Föregående bild"
+
+#: ../view_func.php:427
+#, fuzzy
+msgid "Next image"
+msgstr "Nästa bild"
+
+#: ../view_func.php:477
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: ../view_func.php:478
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: ../view_func.php:485
+#, fuzzy
+msgid "Page"
+msgstr "Bild"
+
+#: ../view_func.php:511
+msgid "Zoom in"
+msgstr ""
+
+#: ../view_func.php:512
+msgid "Zoom out"
+msgstr ""
+
+#: ../view_func.php:513
+#, fuzzy
+msgid "Original size"
+msgstr "Filstorlek"
+
+#: ../view.php:49
+#, fuzzy
+msgid "Incorrect Arguments"
+msgstr "Felaktigt. Lägg till kommentarformen"
+
+#: ../view.php:57
+#, fuzzy
+msgid "Retrieving gallery directory"
+msgstr "Hämtar galleriets katalog"
+
+#: ../view.php:72
+msgid "Password incorrect."
+msgstr "Felaktigt lösenord."
+
+#: ../view.php:93
+#, fuzzy
+msgid "Gallery data not found. Please re-create this gallery"
+msgstr "Galleriets data hittades inte. Skapa detta gelleri igen"
+
+#: ../view.php:106
+#, fuzzy
+msgid "Image not found"
+msgstr "Bild id"
+
+#~ msgid "Sorry, you did not fill some required fields."
+#~ msgstr "Tyvärr, du fyllde inte i alla obligatoriska fält."
+
+#~ msgid "e-mail"
+#~ msgstr "epost"
+
+#~ msgid "Directory where images are stored required!"
+#~ msgstr "Katalogen med lagrade bilder krävs!"
+
+#~ msgid "Location directory DOES NOT EXIST."
+#~ msgstr "Location katalogen FINNS INTE."
+
+#~ msgid "Permissions. I will try chmod 2777 "
+#~ msgstr "Rättigheter. Jag prövar med chmod 2777 "
+
+#~ msgid "Gallery Index"
+#~ msgstr "Galleri index"
+
+#~ msgid "PNG files not supported in this version"
+#~ msgstr "PNG filer stödjs inte i denna version"
+
+#~ msgid "View image bigger"
+#~ msgstr "Se större bild"
+
+#~ msgid "View this Gallery"
+#~ msgstr "Vissa detta galleri"
+
+#~ msgid "Fields with * are required"
+#~ msgstr "Fält markerade med * är obligatoriska"
+
+#~ msgid "Index of Galleries"
+#~ msgstr "Galleri index"
+
+#~ msgid "GID not set"
+#~ msgstr "GID inte satt"

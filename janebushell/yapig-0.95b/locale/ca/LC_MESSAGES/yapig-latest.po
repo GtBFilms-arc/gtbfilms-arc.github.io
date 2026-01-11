@@ -1,0 +1,1385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-04 15:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../add_comment.php:75
+#, fuzzy
+msgid "Incorrect add comment form"
+msgstr "Formulari d'adicci&oacute; de comentari incorrecte"
+
+#: ../add_comment.php:82
+#, fuzzy
+msgid "Title field required"
+msgstr "El camp t&iacute;tol &eacute;s necessari"
+
+#: ../add_comment.php:87
+msgid "Author field required"
+msgstr "El camp autor &eacute;s necessari"
+
+#: ../add_comment.php:92
+#, fuzzy
+msgid "Email field required"
+msgstr "El camp correu-e &eacute;s obligatori"
+
+#: ../add_comment.php:97
+#, fuzzy
+msgid "Website field required"
+msgstr "El camp Web &eacute;s obligatori"
+
+#: ../add_comment.php:102
+#, fuzzy
+msgid "Comment field required"
+msgstr "El camp comentari &eacute;s obligatori"
+
+#: ../add_comment.php:107
+msgid "Some required fields were not filled in."
+msgstr ""
+
+#: ../add_comment.php:150
+#, fuzzy
+msgid "Thank you for your contribution"
+msgstr "Gr&agrave;cies pel teu comentari"
+
+#: ../add_comment.php:151
+#, fuzzy
+msgid "Added this comment"
+msgstr "Afegit el seg&uuml;ent comentari"
+
+#: ../add_comment.php:152 ../admin_func.php:560 ../view_func.php:78
+msgid "Title"
+msgstr "T&iacute;tol"
+
+#: ../add_comment.php:153 ../admin_func.php:190 ../admin_func.php:561 ../view_func.php:79 ../view_func.php:316
+msgid "Author"
+msgstr "Autor"
+
+#: ../add_comment.php:154 ../view_func.php:317
+#, fuzzy
+msgid "Email"
+msgstr "Correu-e"
+
+#: ../add_comment.php:155 ../view_func.php:318
+#, fuzzy
+msgid "Website"
+msgstr "Web"
+
+#: ../add_comment.php:156 ../view_func.php:319 ../view_func.php:345
+msgid "Comment"
+msgstr "Comentari"
+
+#. Interface variables
+#: ../add_comment.php:157 ../admin_func.php:660
+msgid "If the page is not automatically refreshed."
+msgstr "Si la p&agrave;gina no s'actualitza autom&agrave;ticament."
+
+#: ../add_comment.php:158 ../admin_func.php:661
+#, fuzzy
+msgid "Press here"
+msgstr "Si us plau, pressiona aqu&iacute;"
+
+#: ../add_comment.php:165 ../admin_func.php:563 ../view_func.php:81
+#, fuzzy
+msgid "Gallery"
+msgstr "Galeria"
+
+#: ../add_comment.php:174
+#, fuzzy
+msgid "[Yapig comment] "
+msgstr "Comentaris"
+
+#: ../add_gallery.php:53
+#, fuzzy
+msgid "Adding new gallery: "
+msgstr "Afegint nova Galeria"
+
+#: ../add_gallery.php:60
+msgid "GD library not loaded. Please, read installation documentation"
+msgstr ""
+
+#. Check arguments
+#: ../add_gallery.php:66
+#, fuzzy
+msgid "Image storage directory required!"
+msgstr "Els camps t&iacute;tol, autor i descipci&oacute; s&oacute;n necessaris"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:158
+#, fuzzy
+msgid "Title, author and description are required!"
+msgstr "Els camps t&iacute;tol, autor i descipci&oacute; s&oacute;n necessaris"
+
+#: ../add_gallery.php:82
+#, fuzzy
+msgid "Location directory does not exist:"
+msgstr "Aquesta galeria no existeix: "
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "El directori seleccionat l'est&agrave; utilitzant una altra galeria. Esborra-la primer"
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Creant index.html per a evitar que es llistin els arxius"
+
+#: ../add_gallery.php:91
+msgid "Permissions. Read FAQ documentation."
+msgstr "Permisos. Llegeix la documentaci&oacute; FAQ."
+
+#. Load all imagenames
+#: ../add_gallery.php:95
+#, fuzzy
+msgid "Loading image names of: "
+msgstr "Llegint noms de les imatges de: "
+
+#: ../add_gallery.php:99
+#, fuzzy
+msgid "Failed to read image names."
+msgstr "No s'han pogut llegir els noms de les imatges."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:103
+#, fuzzy
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Creant la correspond&egrave;ncia foto <-> Identificador de foto"
+
+#: ../add_gallery.php:105
+#, fuzzy
+msgid "Creating phid correspondence."
+msgstr "Creant correspond&egrave;ncia phid."
+
+#. Create Info File
+#: ../add_gallery.php:111 ../modify_gallery.php:167
+#, fuzzy
+msgid "Creating gallery information file with:"
+msgstr "Creant arxiu amb dades de la galeria: "
+
+#: ../add_gallery.php:128
+#, fuzzy
+msgid "Error creating gallery information file."
+msgstr "Error creant l'arxiu de dades de la galeria"
+
+#. Make thumbnails
+#: ../add_gallery.php:132
+#, fuzzy
+msgid "Creating thumbnails"
+msgstr "Creant mini-imatges"
+
+#: ../add_gallery.php:134
+#, fuzzy
+msgid "Could not create all thumbnails."
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:137
+msgid "Adding this gallery to gallery index"
+msgstr "Afegint aquesta galeria a l'&iacute;ndex de galeries"
+
+#: ../add_gallery.php:139
+#, fuzzy
+msgid "Adding gallery to file: "
+msgstr "Afegint aquesta galeria a l'arxiu: "
+
+#: ../add_gallery.php:140
+#, fuzzy
+msgid "Gallery <b>successfully</b> created"
+msgstr "Galeria creada de forma <b>satisfact&ograve;ria</b>"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:143 ../functions.php:198 ../view_func.php:390
+#, fuzzy
+msgid "Gallery index"
+msgstr "&Iacute;ndex de galeries"
+
+#: ../add_gallery.php:144
+#, fuzzy
+msgid "Back to admin page"
+msgstr "Tornar a la p&agrave;gina de l'administrador"
+
+#: ../admin_func.php:26
+msgid "GD library not loaded. Trying to load it."
+msgstr ""
+
+#: ../admin_func.php:29
+msgid "Function dynamic extension load not available."
+msgstr ""
+
+#: ../admin_func.php:34
+#, fuzzy
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "Galeria eliminada satisfact&ograve;riament."
+
+#: ../admin_func.php:38
+#, fuzzy
+msgid "GD library not available"
+msgstr "No disponible."
+
+#: ../admin_func.php:41
+#, fuzzy
+msgid "gd.so sucessfully loaded."
+msgstr "Llistat d'imatges actualitzat satisfact&ograve;riament."
+
+#: ../admin_func.php:47
+msgid "Function getimagesize does not exist"
+msgstr ""
+
+#: ../admin_func.php:52
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr ""
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr ""
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr ""
+
+#. Admin login form internationalization.
+#: ../admin_func.php:130
+#, fuzzy
+msgid "Please login as administrator"
+msgstr "Si us plau, identifica't com administrador"
+
+#: ../admin_func.php:131
+msgid "User"
+msgstr "Usuari"
+
+#: ../admin_func.php:132 ../admin_func.php:194
+msgid "Password"
+msgstr "Contrasenya"
+
+#: ../admin_func.php:133
+msgid "Submit"
+msgstr "Enviar"
+
+#. I18n
+#: ../admin_func.php:147
+#, fuzzy
+msgid "Administrative tasks"
+msgstr "Tasques d'administraci&oacute;"
+
+#: ../admin_func.php:148 ../upload.php:107
+msgid "Upload files"
+msgstr ""
+
+#: ../admin_func.php:149
+#, fuzzy
+msgid "Add gallery"
+msgstr "Afegir galeria"
+
+#: ../admin_func.php:150
+#, fuzzy
+msgid "Modify gallery"
+msgstr "Modificar galeria "
+
+#: ../admin_func.php:151 ../admin_func.php:557 ../delete_gallery.php:24
+#, fuzzy
+msgid "Delete gallery"
+msgstr "Esborrar galeria"
+
+#: ../admin_func.php:152
+msgid "Configuration"
+msgstr ""
+
+#: ../admin_func.php:153
+msgid "Logout"
+msgstr "Desconnectar-se"
+
+#: ../admin_func.php:189
+#, fuzzy
+msgid "Gallery title"
+msgstr "Galeria"
+
+#: ../admin_func.php:191 ../admin_func.php:566 ../view_func.php:84 ../view_func.php:344
+msgid "Date"
+msgstr "Data"
+
+#: ../admin_func.php:192
+msgid "Leave it blank for today's date."
+msgstr ""
+
+#: ../admin_func.php:193
+msgid "Location"
+msgstr "Localitzaci&oacute;"
+
+#: ../admin_func.php:195
+#, fuzzy
+msgid "set this option for restricted access to gallery"
+msgstr "estableix un valor a aquest camp si vols acc&eacutes privat a la galeria"
+
+#: ../admin_func.php:196 ../admin_func.php:567 ../view_func.php:85 ../view_func.php:247
+msgid "Description"
+msgstr "Descripci&oacute;"
+
+#: ../admin_func.php:197
+#, fuzzy
+msgid "Hide comments"
+msgstr "Comentaris"
+
+#: ../admin_func.php:198 ../install.php:44 ../view_func.php:321
+msgid "Send"
+msgstr "Enviar"
+
+#: ../admin_func.php:238
+msgid " is a huge image, it might cause memory issues."
+msgstr ""
+
+#: ../admin_func.php:321
+msgid "GD library not loaded. Please read installation documentation"
+msgstr ""
+
+#: ../admin_func.php:457 ../admin_func.php:464
+#, fuzzy
+msgid "Opening gid counter file: "
+msgstr "Obrint l'arxiu comptador d'aquesta galeria: "
+
+#: ../admin_func.php:554
+#, fuzzy
+msgid "Modify gallery info"
+msgstr "Modificar informaci&oacute; sobre galeria"
+
+#: ../admin_func.php:555
+#, fuzzy
+msgid "Select thumbnail"
+msgstr "Seleccionar mini-imatge"
+
+#: ../admin_func.php:556
+#, fuzzy
+msgid "Modify imagelist"
+msgstr "Modificar llistat d'imatges"
+
+#: ../admin_func.php:559 ../view_func.php:77
+msgid "Number of images"
+msgstr "Nombre d'imatges"
+
+#: ../admin_func.php:562 ../view_func.php:80
+#, fuzzy
+msgid "View this gallery"
+msgstr "Veure aquesta galeria"
+
+#: ../admin_func.php:564 ../modify_phid.php:119 ../view_func.php:82 ../view_func.php:246
+msgid "Visits"
+msgstr "Visites"
+
+#: ../admin_func.php:565 ../modify_phid.php:118 ../view_func.php:83 ../view_func.php:155
+msgid "Comments"
+msgstr "Comentaris"
+
+#: ../admin_func.php:568 ../view_func.php:442
+msgid "Up"
+msgstr "Pujar"
+
+#: ../admin_func.php:569
+msgid "Down"
+msgstr ""
+
+#: ../admin_func.php:570
+#, fuzzy
+msgid "Move up this gallery on index"
+msgstr "Afegint aquesta galeria a l'&iacute;ndex de galeries"
+
+#: ../admin_func.php:571
+#, fuzzy
+msgid "Move down this gallery on index"
+msgstr "Afegint aquesta galeria a l'&iacute;ndex de galeries"
+
+#: ../admin_func.php:593
+msgid "Select deletion options:"
+msgstr "Selecciona opcions d'eliminaci&oacute;:"
+
+#: ../admin_func.php:594
+#, fuzzy
+msgid "Do not list gallery in gallery index any more."
+msgstr "No llistar aquesta galeria en l'&iacute;ndex de galeries."
+
+#: ../admin_func.php:595
+#, fuzzy
+msgid "Clear all image comments."
+msgstr "Eliminar tots els comentaris sobre aquesta imatge."
+
+#: ../admin_func.php:596
+msgid "Clear all image visit counters."
+msgstr "Posar a zero tots els comptadors de les imatges"
+
+#: ../admin_func.php:597
+msgid "Clear gallery visit counters."
+msgstr "Posar a zero el comptador de visites de la galeria"
+
+#: ../admin_func.php:598
+#, fuzzy
+msgid "Delete gallery thumbnails."
+msgstr "Esborrar les mini-imatges de la galeria"
+
+#: ../admin_func.php:599
+msgid "Delete all files in directory."
+msgstr "Esborrar tots els arxius del directori"
+
+#: ../admin_func.php:600
+#, fuzzy
+msgid "Delete all image captions."
+msgstr "Eliminar tots els comentaris sobre aquesta imatge."
+
+#: ../admin_func.php:601
+#, fuzzy
+msgid "send"
+msgstr "Enviar"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+#, fuzzy
+msgid "<strong>Yapig</strong> administration"
+msgstr "Administrador de <strong>YaPiG</strong> "
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "No disponible."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+#, fuzzy
+msgid "Add a new gallery"
+msgstr "Afegir nova galeria"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:120
+#, fuzzy
+msgid "Gallery does not exist or gid argument not set"
+msgstr "La galeria no existeix o l'argument gid no est&agrave; establert"
+
+#: ../delete_gallery.php:49
+#, fuzzy
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "No existeixen o no s'han pogut esborrar les estad&iacute;stiques d'acc&eacute;s a la galeria"
+
+#: ../delete_gallery.php:51
+#, fuzzy
+msgid "Gallery stats deleted."
+msgstr "Estad&iacute;stiques d'acc&eacute;s eliminades"
+
+#: ../delete_gallery.php:56
+#, fuzzy
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Les estad&iacute;stiques de les imatges no existeixen o no s'han pogut eliminar."
+
+#: ../delete_gallery.php:58
+#, fuzzy
+msgid "Image stats of this gallery deleted."
+msgstr "Eliminades les estad&iacute;stiques d'aquesta galeria"
+
+#: ../delete_gallery.php:64
+#, fuzzy
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "No s'han pogut eliminar o no existien els comptadors de comentaris d'aquesta galeria"
+
+#: ../delete_gallery.php:66
+#, fuzzy
+msgid "Comments counter of this gallery deleted"
+msgstr "Eliminats els comptadors de comentaris d'aquesta galeria"
+
+#: ../delete_gallery.php:69
+#, fuzzy
+msgid "Could not load this file: "
+msgstr "No s'ha pogut llegir l'arxiu: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:86 ../delete_gallery.php:111 ../delete_gallery.php:126
+#, fuzzy
+msgid "Could not delete: "
+msgstr "No s'ha pogut esborrar: "
+
+#: ../delete_gallery.php:77 ../delete_gallery.php:87
+#, fuzzy
+msgid "Deleted: "
+msgstr "Esborrat: "
+
+#: ../delete_gallery.php:93
+#, fuzzy
+msgid "Could not get image list from file: "
+msgstr "No s'ha pogut llegir l'arxiu: "
+
+#: ../delete_gallery.php:98
+#, fuzzy
+msgid "Could not delete thumbnail image: "
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#: ../delete_gallery.php:99
+#, fuzzy
+msgid "Deleted thumbnail: "
+msgstr "Esborrat: "
+
+#: ../delete_gallery.php:107
+#, fuzzy
+msgid "Gallery could not be removed from index"
+msgstr "No s'ha pogut esborrar la galeria de l'&iacute;ndex de galeries"
+
+#: ../delete_gallery.php:109
+#, fuzzy
+msgid "Gallery will not be displayed anymore in the gallery index"
+msgstr "Aquesta galeria no ser&agrave; mostrada en l'&iacute;ndex de galeries a partir d'ara."
+
+#: ../delete_gallery.php:118
+msgid " is not a valid directory"
+msgstr " no &eacute;s un directori v&agrave;lid"
+
+#: ../delete_gallery.php:121
+#, fuzzy
+msgid " could not be opened"
+msgstr " no s'ha pogut obrir"
+
+#: ../delete_gallery.php:128
+#, fuzzy
+msgid "Deleted file: "
+msgstr "Esborrat: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:133
+#, fuzzy
+msgid "Gallery successfully deleted."
+msgstr "Galeria eliminada satisfact&ograve;riament."
+
+#. Show some useful links
+#: ../delete_gallery.php:136
+#, fuzzy
+msgid "Admin index"
+msgstr "Administrador"
+
+#: ../delete_gallery.php:137
+#, fuzzy
+msgid "Delete additional galleries"
+msgstr "Esborrar m&eacute;s galeries"
+
+#: ../functions.php:135
+msgid "Error"
+msgstr "Error"
+
+#: ../functions.php:153
+msgid "Warning"
+msgstr "Atenci&oacute;"
+
+#: ../functions.php:197
+#, fuzzy
+msgid "Main menu"
+msgstr "men&uacute; principal"
+
+#: ../functions.php:199
+#, fuzzy
+msgid "Homepage"
+msgstr "Inici"
+
+#: ../functions.php:201
+msgid "Admin"
+msgstr "Administrador"
+
+#. Logout links
+#: ../functions.php:204
+msgid "Admin logout"
+msgstr "Desconnexi&oacute; de l'administrador"
+
+#: ../functions.php:205
+#, fuzzy
+msgid "Gallery logout"
+msgstr "Finalitzar sessi&oacute; en galeria"
+
+#: ../gallery.php:46
+#, fuzzy
+msgid "Congratulations Yapig is up and running!"
+msgstr "Enhorabona, YaPiG funciona!"
+
+#. welcome message
+#: ../gallery.php:49
+#, fuzzy
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\n"
+"   <p>If this is the first time you run:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Benvingut a <a href=\"http://natasab.merlos.biz\">YaPiG.</a></p>\n"
+"   <p><strong>NO</strong> hi ha galeries.<p>\n"
+"   <p>Si aquest &eacute;s el primer cop que executes YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edita l'arxiu <i>config.php</i>.</li>\n"
+"   <li><a href=\"admin.php\">Identifica't com administrador</a> i afegeix una galeria.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:69
+#, fuzzy
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "No hi ha cap galeria. Identifica't com administrador per a crear noves galeries"
+
+#: ../install.php:61
+#, fuzzy
+msgid "Yapig installation"
+msgstr "Instal·laci&oacute; de YaPiG"
+
+#: ../install.php:66
+#, fuzzy
+msgid "YaPiG already installed"
+msgstr "Galeria eliminada satisfact&ograve;riament."
+
+#: ../install.php:80
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr ""
+
+#: ../install.php:85
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory yourself with any random name on $BASE_DIR (photos/) and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create an empty file called index.html to both BASE_DIR and\r\n"
+"\t  SECURE_DIR directories. These are for avoiding server listing.</li>\r\n"
+"\t  <li>After you have created the directory and set its permissions, \r\n"
+"\t  please enter its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:107
+msgid "SECURE_DIR does not exist! Please enter the correct directory name:"
+msgstr ""
+
+#: ../install.php:116
+msgid "Could not create index.html in SECURE_DIR. Read FAQ documentation."
+msgstr ""
+
+#: ../install.php:119
+msgid "Could not create index.html in BASE_DIR. Read FAQ documentation"
+msgstr ""
+
+#: ../install.php:124
+msgid "Could not load GD library which is required by Yapig or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr ""
+
+#: ../install.php:127
+msgid "Good! Your server has GD library. You can run Yapig!"
+msgstr ""
+
+#: ../install.php:133
+msgid "Could not get GD version. Please read doc/en/install.html documentation for more information."
+msgstr ""
+
+#: ../install.php:139
+#, fuzzy
+msgid "Change Yapig's root directory permissions to allow creating new files."
+msgstr "Canvia els permisos del directori arrel de YaPiG per a permetre crear nous arxius"
+
+#: ../install.php:140
+#, fuzzy
+msgid "Installation aborted. Could not create config file."
+msgstr "Instal·laci&oacute; avortada. No s'ha pogut crear l'arxiu de configuraci&oacute;"
+
+#: ../install.php:197
+#, fuzzy
+msgid "Yapig successfully installed."
+msgstr "Galeria eliminada satisfact&ograve;riament."
+
+#: ../install.php:200
+#, fuzzy
+msgid "Congratulations Yapig is up and runnig!"
+msgstr "Enhorabona, YaPiG funciona!"
+
+#: ../install.php:204
+msgid "Security Advice: After you have configured all, delete install.php"
+msgstr ""
+
+#. welcome message    
+#: ../install.php:209
+#, fuzzy
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\r\n"
+"   <p>If this is the first time you run:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Benvingut a <a href=\"http://natasab.merlos.biz\">YaPiG.</a></p>\n"
+"   <p><strong>NO</strong> hi ha galeries.<p>\n"
+"   <p>Si aquest &eacute;s el primer cop que executes YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edita l'arxiu <i>config.php</i>.</li>\n"
+"   <li><a href=\"admin.php\">Identifica't com administrador</a> i afegeix una galeria.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../modify_gallery.php:22
+#, fuzzy
+msgid "<p>Select a gallery:</p>"
+msgstr "<p>Si us plau, selecciona una galeria</p>"
+
+#: ../modify_gallery.php:25
+#, fuzzy
+msgid "There are no available galleries."
+msgstr "Actualment no hi ha cap galeria"
+
+#: ../modify_gallery.php:42
+#, fuzzy
+msgid "Update gallery imagelist"
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#: ../modify_gallery.php:43
+#, fuzzy
+msgid "Overwrite existing thumbnails"
+msgstr "Creant mini-imatges"
+
+#: ../modify_gallery.php:44
+#, fuzzy
+msgid "Only create new thumbnails"
+msgstr "Creant mini-imatges"
+
+#: ../modify_gallery.php:45
+msgid "view/edit"
+msgstr ""
+
+#: ../modify_gallery.php:48
+#, fuzzy
+msgid "Could not get imagelist. Gallery probably does not have images"
+msgstr "No s'ha pogut obtenir el llistat d'imatges. Pot ser que la galeria no en tingui"
+
+#: ../modify_gallery.php:52
+#, fuzzy
+msgid "Current images in gallery are:"
+msgstr "Actualment aquestes s&oacute;n les imatges:"
+
+#: ../modify_gallery.php:58
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr ""
+
+#: ../modify_gallery.php:73
+msgid "Could not read gallery directory filenames"
+msgstr "No s'han pogut llegir els noms dels arxius del directori de la galeria"
+
+#: ../modify_gallery.php:75
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Les seg&uuml;ents imatges s&oacute;n al directori, per&ograve; no a la galeria:</p></ul>"
+
+#: ../modify_gallery.php:126 ../modify_phid.php:233
+#, fuzzy
+msgid "Modify gallery: "
+msgstr "Modificar galeria: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:137
+#, fuzzy
+msgid "Modify gallery information:"
+msgstr "Modificar informaci&oacute; de la galeria"
+
+#: ../modify_gallery.php:153
+#, fuzzy
+msgid "Directory location with images required!"
+msgstr "El camp del directori on es troben les imatges &eacute;s obligatori"
+
+#: ../modify_gallery.php:181
+#, fuzzy
+msgid "Creating gallery information file."
+msgstr "Creant arxiu amb dades de la galeria: "
+
+#: ../modify_gallery.php:182
+#, fuzzy
+msgid "Gallery info successfully updated."
+msgstr "Galeria modificada satisfact&ograve;riament."
+
+#: ../modify_gallery.php:193
+#, fuzzy
+msgid "Sorry, password protected galeries cannot change the thumbnail"
+msgstr "mini-imatge usada per defecte de les galeries protegides amb contrasenya"
+
+#: ../modify_gallery.php:199
+#, fuzzy
+msgid "Could not update thumbnail"
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#: ../modify_gallery.php:200
+#, fuzzy
+msgid "Thumbnail updated. (Do not worry if the upper thumbnail is the previous one)"
+msgstr "Mini-imatge actualitzada (No et preocupis si la imatge que apareix m&eacute;s amunt &eacute;s l'antiga)"
+
+#. List all phids.
+#: ../modify_gallery.php:205
+#, fuzzy
+msgid "Select thumbnail: "
+msgstr "Selecciona les  mini-imatges"
+
+#: ../modify_gallery.php:207
+#, fuzzy
+msgid "Could not get all imagelist."
+msgstr "No s'ha pogut obtenir el llistat de totes les mini-imatges"
+
+#. Construct Form.
+#: ../modify_gallery.php:210
+#, fuzzy
+msgid "Update gallery thumbnail"
+msgstr "Actualitzar la mini-imatge de la galeria"
+
+#: ../modify_gallery.php:211
+msgid "default password protected galleries thumbnail"
+msgstr "mini-imatge usada per defecte de les galeries protegides amb contrasenya"
+
+#: ../modify_gallery.php:212
+msgid "view info"
+msgstr ""
+
+#: ../modify_gallery.php:247
+#, fuzzy
+msgid "Selected imagelist:"
+msgstr "Modificar llistat d'imatges"
+
+#: ../modify_gallery.php:250
+#, fuzzy
+msgid "Creating thumbnail for images that do not have one."
+msgstr "Creant l'arxiu de dades de la galeria"
+
+#: ../modify_gallery.php:255
+#, fuzzy
+msgid "Creating all thumbs"
+msgstr "Creant mini-imatges"
+
+#: ../modify_gallery.php:260
+#, fuzzy
+msgid "Could not update gallery imagelist"
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#: ../modify_gallery.php:261
+#, fuzzy
+msgid "Imagelist successfully updated"
+msgstr "Llistat d'imatges actualitzat satisfact&ograve;riament."
+
+#: ../modify_gallery.php:264
+#, fuzzy
+msgid "Number of images not updated"
+msgstr "Nombre d'imatges no actualitzat"
+
+#: ../modify_gallery.php:266
+#, fuzzy
+msgid "Number of images updated"
+msgstr "Nombre d'imatges actualitzat"
+
+#: ../modify_gallery.php:273 ../modify_gallery.php:279
+#, fuzzy
+msgid "Operation could not be done"
+msgstr " no s'ha pogut obrir"
+
+#: ../modify_gallery.php:291
+#, fuzzy
+msgid "Display this gallery"
+msgstr "Veure aquesta galeria"
+
+#: ../modify_gallery.php:292
+#, fuzzy
+msgid "Modify gallery index"
+msgstr "Modificar informaci&oacute; sobre galeria"
+
+#: ../modify_phid.php:54 ../modify_phid.php:58 ../modify_phid.php:292
+#, fuzzy
+msgid "Image has no comments"
+msgstr "Comentaris"
+
+#: ../modify_phid.php:61
+#, fuzzy
+msgid "Modify"
+msgstr "Modificar imatge"
+
+#: ../modify_phid.php:62
+#, fuzzy
+msgid "Delete"
+msgstr "Esborrat: "
+
+#: ../modify_phid.php:63
+#, fuzzy
+msgid "Image Comments"
+msgstr "Comentaris"
+
+#: ../modify_phid.php:93
+msgid "Image identificator (phid) not found."
+msgstr "Identificador d'imatge (phid) no trobat"
+
+#. I18n
+#: ../modify_phid.php:117
+#, fuzzy
+msgid "Image name"
+msgstr "Nom de la imatge:"
+
+#: ../modify_phid.php:120
+#, fuzzy
+msgid "Remove from gallery"
+msgstr "Eliminar imatge"
+
+#: ../modify_phid.php:121
+msgid "Clear"
+msgstr "Posar a zero"
+
+#: ../modify_phid.php:122
+#, fuzzy
+msgid "Delete All"
+msgstr "Esborrar galeria"
+
+#: ../modify_phid.php:123
+#, fuzzy
+msgid "Image id"
+msgstr "Id. de la imatge"
+
+#: ../modify_phid.php:124
+#, fuzzy
+msgid "Modify Image"
+msgstr "Modificar imatge"
+
+#: ../modify_phid.php:125
+#, fuzzy
+msgid "Set as gallery thumbnail"
+msgstr "Establir com a mini-imatge de la galeria"
+
+#: ../modify_phid.php:126
+#, fuzzy
+msgid "Image caption"
+msgstr "Comentaris"
+
+#: ../modify_phid.php:127
+#, fuzzy
+msgid "Change caption"
+msgstr "Canviar la configuraci&oacute;"
+
+#: ../modify_phid.php:128
+#, fuzzy
+msgid "Rotate image"
+msgstr "Eliminar imatge"
+
+#: ../modify_phid.php:144
+#, fuzzy
+msgid "Could not remove image from gallery imagelist"
+msgstr "No s'ha pogut eliminar la imatge del llistat d'imatges de la galeria"
+
+#: ../modify_phid.php:145
+#, fuzzy
+msgid "Image will not be displayed in list."
+msgstr "Aquesta galeria no ser&agrave; mostrada en l'&iacute;ndex de galeries a partir d'ara."
+
+#: ../modify_phid.php:168
+#, fuzzy
+msgid "Could not delete image comments file: "
+msgstr "No s'ha pogut llegir l'arxiu de comentaris: "
+
+#: ../modify_phid.php:169
+#, fuzzy
+msgid "Image comments deleted"
+msgstr "Comentaris de la imtage eliminats"
+
+#: ../modify_phid.php:177
+#, fuzzy
+msgid "Could not delete image comments counter: "
+msgstr "No s'ha pogut esborrar el comptador de comentaris de la imatge: "
+
+#: ../modify_phid.php:178
+#, fuzzy
+msgid "Image comments counter deleted"
+msgstr "Eliminats els comptadors de comentaris d'aquesta galeria"
+
+#: ../modify_phid.php:186
+#, fuzzy
+msgid "Image visits counter not found or could not be removed."
+msgstr "Les estad&iacute;stiques d'acc&eacute;s d'aquesta galeria no s'han pogut eliminar."
+
+#: ../modify_phid.php:187
+#, fuzzy
+msgid "Image visits counter deleted"
+msgstr "Eliminats els comptadors de visita de la imtage"
+
+#: ../modify_phid.php:277
+msgid "Set new caption to: "
+msgstr ""
+
+#: ../modify_phid.php:279
+#, fuzzy
+msgid "Could not update caption."
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#: ../modify_phid.php:288
+#, fuzzy
+msgid "Comment not selected"
+msgstr "T&iacute;tol"
+
+#: ../modify_phid.php:294
+#, fuzzy
+msgid "Coul not open comments file"
+msgstr "No s'ha pogut llegir l'arxiu de comentaris: "
+
+#: ../modify_phid.php:302
+#, fuzzy
+msgid "Comment successfully deleted"
+msgstr "Galeria eliminada satisfact&ograve;riament."
+
+#: ../modify_phid.php:315
+#, fuzzy
+msgid "Could not read comments file"
+msgstr "No s'ha pogut llegir l'arxiu de comentaris: "
+
+#: ../modify_phid.php:319
+#, fuzzy
+msgid "Opening comments file."
+msgstr "Obrint l'arxiu de comentaris"
+
+#: ../modify_phid.php:328
+#, fuzzy
+msgid "Comment successfully updated"
+msgstr "Llistat d'imatges actualitzat satisfact&ograve;riament."
+
+#: ../modify_phid.php:352
+#, fuzzy
+msgid "Image not found."
+msgstr "Identificador d'imatge (phid) no trobat"
+
+#: ../modify_phid.php:361 ../modify_phid.php:365
+#, fuzzy
+msgid "Could not rotate the image or the thumbnail"
+msgstr "No s'han pogut crear totes les mini-imatges"
+
+#. header("Location: modify_phid?action=view_phid&gid=$gid&phid=$phid");
+#: ../modify_phid.php:369
+msgid "Image has successfully been rotated, although your browser might be displaying the old one because it is on cache."
+msgstr ""
+
+#: ../upload.php:25
+msgid "Upload Files"
+msgstr ""
+
+#: ../upload.php:39
+msgid "Dots in directory names are not allowed"
+msgstr ""
+
+#: ../upload.php:53
+msgid "Created directory: "
+msgstr ""
+
+#: ../upload.php:56
+#, fuzzy
+msgid "Could not create directory: "
+msgstr "No s'han pogut llegir els noms dels arxius del directori de la galeria"
+
+#: ../upload.php:62
+msgid "Successfully removed directory: "
+msgstr ""
+
+#: ../upload.php:64
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr ""
+
+#: ../upload.php:74
+msgid "Files will be uploaded to following directory: "
+msgstr ""
+
+#: ../upload.php:76
+msgid "Create directory"
+msgstr ""
+
+#. i18n
+#: ../upload.php:105
+msgid "Select only <b>one</b> directory"
+msgstr ""
+
+#: ../upload.php:106
+msgid "Files to upload"
+msgstr ""
+
+#: ../upload.php:137
+msgid " is not recognized as an image."
+msgstr ""
+
+#: ../upload.php:147
+msgid "Successfully uploaded file: "
+msgstr ""
+
+#: ../upload.php:150
+#, fuzzy
+msgid "Could not copy file: "
+msgstr "No s'ha pogut esborrar: "
+
+#: ../view_func.php:56
+#, fuzzy
+msgid "Gallery does not exist: "
+msgstr "Aquesta galeria no existeix: "
+
+#: ../view_func.php:86
+msgid "View slideshow"
+msgstr ""
+
+#: ../view_func.php:96
+#, fuzzy
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Aquesta galeria requereix contrasenya. Si us plau, omple el camp contrasenya i polsa el bot&oacute; de validaci&oacute;. Gr&agrave;cies"
+
+#: ../view_func.php:98
+msgid "Validate"
+msgstr "Validar"
+
+#: ../view_func.php:99
+#, fuzzy
+msgid "Gallery password"
+msgstr "Contrasenya"
+
+#. I18n -
+#: ../view_func.php:152
+msgid "Enlarge image"
+msgstr ""
+
+#: ../view_func.php:153
+msgid "Image"
+msgstr "Imatge"
+
+#: ../view_func.php:154
+msgid "Hits"
+msgstr "Visites"
+
+#: ../view_func.php:241
+#, fuzzy
+msgid "Image caption not set"
+msgstr "Comentaris"
+
+#: ../view_func.php:243
+msgid "Filename"
+msgstr "Nom de l'arxiu"
+
+#: ../view_func.php:244
+msgid "File size"
+msgstr "Mida"
+
+#: ../view_func.php:245
+msgid "Image size"
+msgstr "Dimensions"
+
+#: ../view_func.php:314
+#, fuzzy
+msgid "Add your comment!"
+msgstr "Afegeix el teu comentari!"
+
+#: ../view_func.php:315
+#, fuzzy
+msgid "Comment title"
+msgstr "T&iacute;tol"
+
+#: ../view_func.php:320
+msgid "* = required fields"
+msgstr ""
+
+#: ../view_func.php:355
+#, fuzzy
+msgid "Image comments"
+msgstr "Comentaris"
+
+#: ../view_func.php:357
+msgid "There are no messages! Give us your opinion!"
+msgstr "No hi ha missatges! Dona'ns la teva opini&oacute;!"
+
+#: ../view_func.php:362
+#, fuzzy
+msgid "Opening comments file"
+msgstr "Obrint l'arxiu de comentaris"
+
+#: ../view_func.php:388
+#, fuzzy
+msgid "Previous gallery"
+msgstr "Galeria anterior"
+
+#: ../view_func.php:389
+#, fuzzy
+msgid "Next gallery"
+msgstr "Seg&uuml;ent galeria"
+
+#: ../view_func.php:396 ../view_func.php:445
+#, fuzzy
+msgid "could not display gallery navigation bar"
+msgstr "No s'ha pogut mostrar la barra de navegaci&oacute; de galeries"
+
+#: ../view_func.php:405 ../view_func.php:443
+msgid "[Slideshow]"
+msgstr ""
+
+#: ../view_func.php:426
+#, fuzzy
+msgid "Previous image"
+msgstr "Imatge anterior"
+
+#: ../view_func.php:427
+#, fuzzy
+msgid "Next image"
+msgstr "Seg&uuml;ent imatge"
+
+#: ../view_func.php:477
+#, fuzzy
+msgid "Previous page"
+msgstr "P&agrave;gina anterior"
+
+#: ../view_func.php:478
+#, fuzzy
+msgid "Next page"
+msgstr "P&agrave;gina seg&uuml;ent"
+
+#: ../view_func.php:485
+#, fuzzy
+msgid "Page"
+msgstr "Imatge"
+
+#: ../view_func.php:511
+msgid "Zoom in"
+msgstr ""
+
+#: ../view_func.php:512
+msgid "Zoom out"
+msgstr ""
+
+#: ../view_func.php:513
+#, fuzzy
+msgid "Original size"
+msgstr "Mida"
+
+#: ../view.php:49
+#, fuzzy
+msgid "Incorrect Arguments"
+msgstr "Formulari d'adicci&oacute; de comentari incorrecte"
+
+#: ../view.php:57
+#, fuzzy
+msgid "Retrieving gallery directory"
+msgstr "Esborrar tots els arxius del directori"
+
+#: ../view.php:72
+#, fuzzy
+msgid "Password incorrect."
+msgstr "Contrasenya incorrecta"
+
+#: ../view.php:93
+#, fuzzy
+msgid "Gallery data not found. Please re-create this gallery"
+msgstr "Dades de la galeria no trobades. Si us plau, crea de nou aquesta galeria"
+
+#: ../view.php:106
+#, fuzzy
+msgid "Image not found"
+msgstr "Id. de la imatge"
+
+#~ msgid "Sorry, you did not fill some required fields."
+#~ msgstr "Ho sento, no has introdu&iuml;t alguns camps del formulari obligatoris"
+
+#~ msgid "e-mail"
+#~ msgstr "correu-e"
+
+#, fuzzy
+#~ msgid "Directory where images are stored required!"
+#~ msgstr "Cal introduir el directori on es troben les imatges"
+
+#, fuzzy
+#~ msgid "Location directory DOES NOT EXIST."
+#~ msgstr "El directori de la galeria NO EXISTEIX"
+
+#, fuzzy
+#~ msgid "Permissions. I will try chmod 2777 "
+#~ msgstr "Permisos. S'intentar&agrave; chmod 2777 "
+
+#~ msgid "Gallery Index"
+#~ msgstr "&Iacute;ndex de galeries"
+
+#~ msgid "PNG files not supported in this version"
+#~ msgstr "Arxius PNG no \"suportats\" en aquesta versi&oacute;"
+
+#~ msgid "<p>You can modify: Title, Author, Description and  Gallery_Location. Thumbnails will be created with the pictures in the directory.</p><p>Please select the gallery you want to modify:</p>"
+#~ msgstr "<p>Pots modificar: T&iacute;tol, Autor, Descripci&oacute; i Localitzaci&oacute;. Les mini-imatges es crearan amb les imatges al directori.</p><p>Selecciona la galeria que vols modificar:</p>"
+
+#~ msgid "There are no galleries to delete."
+#~ msgstr "No hi ha cap galeria per esborrar"
+
+#, fuzzy
+#~ msgid "View image bigger"
+#~ msgstr "Engrandir la imatge"
+
+#, fuzzy
+#~ msgid "View this Gallery"
+#~ msgstr "Veure aquesta galeria"
+
+#, fuzzy
+#~ msgid "Modify Gallery"
+#~ msgstr "Modificar galeria"
+
+#~ msgid "phid argument not set"
+#~ msgstr "Argument phid no establert."
+
+#~ msgid "Fields with * are required"
+#~ msgstr "Els camps amb * s&oacute;n obligatoris"
+
+#, fuzzy
+#~ msgid "Index of Galleries"
+#~ msgstr "&Iacute;ndex de galeries"
+
+#~ msgid "GID not set"
+#~ msgstr "GID no establert"
+
+#, fuzzy
+#~ msgid "Gallery does not exist"
+#~ msgstr "&Iacute;ndex de galeries"
+
+#~ msgid ""
+#~ "   \n"
+#~ "   <hr><p><strong>Note:</strong>\n"
+#~ "   Gallery files still exist in "
+#~ msgstr ""
+#~ "   \n"
+#~ "   <hr><p><strong>Nota:</strong>\n"
+#~ "   Les imatges de la galeria encara s&oacute;n a "
+
+#, fuzzy
+#~ msgid ""
+#~ ". If anytime you would\n"
+#~ "   like to create again this gallery you have to click on\n"
+#~ "   <a href=\"admin.php?action=add\" title=\"Add a new gallery\">Add\n"
+#~ "   Gallery</a> and complete the form filling as Gallery_location <i> "
+#~ msgstr ""
+#~ ". Si en algun moment \n"
+#~ "  vols crear de nou aquesta galeria nom&eacute;s has d'entrar a \n"
+#~ "  <a href=\"admin.php?action=add\" title=\"Afegir nova galeria\">Afegir \n"
+#~ "   galeria</a> omplint el camp Localitzaci&oacute; amb <i> "
+
+#~ msgid ""
+#~ "</i></p>\n"
+#~ "  <p>You can delete this folder to free disk space if you want.</p><hr>"
+#~ msgstr ""
+#~ "</i></p>\n"
+#~ "<p>Pots esborrar aquest directori per alliberar espai en disc si vols</p></hr>"
+
+#, fuzzy
+#~ msgid "Loading image mames from: "
+#~ msgstr "Llegint noms de les imatges de: "
+
+#~ msgid "Failed to read image Names."
+#~ msgstr "No s'han pogut llegir els nomes de les imatges"
+
+#~ msgid "Creating correspondence between photo identificators and photo filenames"
+#~ msgstr "Creant la correspond&egrave;ncia foto <-> identificador de foto"
+
+#, fuzzy
+#~ msgid "Creating correspondence."
+#~ msgstr "Creant correspond&egrave;ncies."
+
+#~ msgid "Next"
+#~ msgstr "Seg&uuml;ent"

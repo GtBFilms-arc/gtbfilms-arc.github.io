@@ -1,0 +1,1235 @@
+# Romanian YaPiG language file.
+# Copyright (C) 2004 Attila Mahovics
+# This file is distributed under the same license as the YaPiG package.
+# Attila Mahovics <matula@go.ro>, 2004.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-04 15:37+0200\n"
+"PO-Revision-Date: 2004-06-12 00:00+0000\n"
+"Last-Translator: Attila Mahovics <matula@go.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../add_comment.php:75
+msgid "Incorrect add comment form"
+msgstr "Date incorecte in formularul de comentarii"
+
+#: ../add_comment.php:82
+msgid "Title field required"
+msgstr "Lipseste Titlul"
+
+#: ../add_comment.php:87
+msgid "Author field required"
+msgstr "Lipseste Autorul"
+
+#: ../add_comment.php:92
+#, fuzzy
+msgid "Email field required"
+msgstr "Lipseste adresa de e-mail"
+
+#: ../add_comment.php:97
+#, fuzzy
+msgid "Website field required"
+msgstr "Lipseste adresa Web"
+
+#: ../add_comment.php:102
+msgid "Comment field required"
+msgstr "Lipseste Comentariul"
+
+#: ../add_comment.php:107
+msgid "Some required fields were not filled in."
+msgstr ""
+
+#: ../add_comment.php:150
+#, fuzzy
+msgid "Thank you for your contribution"
+msgstr "Multumim pentru comentariu"
+
+#: ../add_comment.php:151
+#, fuzzy
+msgid "Added this comment"
+msgstr "Comentariu adaugat"
+
+#: ../add_comment.php:152 ../admin_func.php:560 ../view_func.php:78
+msgid "Title"
+msgstr "Titlu"
+
+#: ../add_comment.php:153 ../admin_func.php:190 ../admin_func.php:561 ../view_func.php:79 ../view_func.php:316
+msgid "Author"
+msgstr "Autor"
+
+#: ../add_comment.php:154 ../view_func.php:317
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#: ../add_comment.php:155 ../view_func.php:318
+#, fuzzy
+msgid "Website"
+msgstr "Pagina de Web"
+
+#: ../add_comment.php:156 ../view_func.php:319 ../view_func.php:345
+msgid "Comment"
+msgstr "Comentariu"
+
+#. Interface variables
+#: ../add_comment.php:157 ../admin_func.php:660
+msgid "If the page is not automatically refreshed."
+msgstr "Daca pagina nu se re-improspateaza automat."
+
+#: ../add_comment.php:158 ../admin_func.php:661
+#, fuzzy
+msgid "Press here"
+msgstr "Da-ti click aici"
+
+#: ../add_comment.php:165 ../admin_func.php:563 ../view_func.php:81
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../add_comment.php:174
+#, fuzzy
+msgid "[Yapig comment] "
+msgstr "Comenatrii imagine"
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "Adaug galerie noua:"
+
+#: ../add_gallery.php:60
+#, fuzzy
+msgid "GD library not loaded. Please, read installation documentation"
+msgstr "Libraria GD nu este incarcata. Va rog consultati ghidul de instalare"
+
+#. Check arguments
+#: ../add_gallery.php:66
+#, fuzzy
+msgid "Image storage directory required!"
+msgstr "Titlul, autorul si descriptia sunt obligatorii!"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:158
+msgid "Title, author and description are required!"
+msgstr "Titlul, autorul si descriptia sunt obligatorii!"
+
+#: ../add_gallery.php:82
+#, fuzzy
+msgid "Location directory does not exist:"
+msgstr "Functia imacreatefromjpeg nu exista"
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Catalogul galeriei selectate este folosita de o alta galerie. Stergeti aceasta mai intai."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Creez index.html pt a evita afisarea directa continutului."
+
+#: ../add_gallery.php:91
+msgid "Permissions. Read FAQ documentation."
+msgstr "Permisiuni. Cititi intrebarile frecvente din documentatie"
+
+#. Load all imagenames
+#: ../add_gallery.php:95
+#, fuzzy
+msgid "Loading image names of: "
+msgstr "Incarc numele imaginilor:"
+
+#: ../add_gallery.php:99
+msgid "Failed to read image names."
+msgstr "NU pot citi numele imaginilor"
+
+#. Make phid-filenames;
+#: ../add_gallery.php:103
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Creez corespondenta nume poza <-> identificator poza (phid)"
+
+#: ../add_gallery.php:105
+msgid "Creating phid correspondence."
+msgstr "Creez corespondenta phid (identificator poze)."
+
+#. Create Info File
+#: ../add_gallery.php:111 ../modify_gallery.php:167
+msgid "Creating gallery information file with:"
+msgstr "Creez fisierul cu informatiile galeriei cu:"
+
+#: ../add_gallery.php:128
+msgid "Error creating gallery information file."
+msgstr "NU POT creea fisierul cu informatiile galeriei."
+
+#. Make thumbnails
+#: ../add_gallery.php:132
+msgid "Creating thumbnails"
+msgstr "Creez pictograme (thumbnail)"
+
+#: ../add_gallery.php:134
+msgid "Could not create all thumbnails."
+msgstr "Nu pot creea pictogramele (thumbnail)."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:137
+msgid "Adding this gallery to gallery index"
+msgstr "Adaug aceasta galerie la index-ul galeriilor"
+
+#: ../add_gallery.php:139
+msgid "Adding gallery to file: "
+msgstr "Adaug galeria la fisierul:"
+
+#: ../add_gallery.php:140
+msgid "Gallery <b>successfully</b> created"
+msgstr "Galeria a fost creata cu <b>succes</b>"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:143 ../functions.php:198 ../view_func.php:390
+msgid "Gallery index"
+msgstr "Index Galerii"
+
+#: ../add_gallery.php:144
+msgid "Back to admin page"
+msgstr "Inapoi la pagina de admin"
+
+#: ../admin_func.php:26
+#, fuzzy
+msgid "GD library not loaded. Trying to load it."
+msgstr "Libraria GD nu este incarcata. Incerc sa-l incarc."
+
+#: ../admin_func.php:29
+msgid "Function dynamic extension load not available."
+msgstr "Functia ~dynamic extension load~ nu exista."
+
+#: ../admin_func.php:34
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll incarcat cu succes."
+
+#: ../admin_func.php:38
+#, fuzzy
+msgid "GD library not available"
+msgstr "Libraria GD incarcata."
+
+#: ../admin_func.php:41
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so incarcat cu succes."
+
+#: ../admin_func.php:47
+msgid "Function getimagesize does not exist"
+msgstr "Functia getimagesize nu exista"
+
+#: ../admin_func.php:52
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Functia imagecreate(truecolor) nu exista"
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Functia imacreatefromjpeg nu exista"
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr "Libraria GD incarcata."
+
+#. Admin login form internationalization.
+#: ../admin_func.php:130
+#, fuzzy
+msgid "Please login as administrator"
+msgstr "Autentificati-va ca si admin"
+
+#: ../admin_func.php:131
+msgid "User"
+msgstr "Utilizator"
+
+#: ../admin_func.php:132 ../admin_func.php:194
+msgid "Password"
+msgstr "Parola"
+
+#: ../admin_func.php:133
+msgid "Submit"
+msgstr "Trimite"
+
+#. I18n
+#: ../admin_func.php:147
+#, fuzzy
+msgid "Administrative tasks"
+msgstr "Meniu administrator"
+
+#: ../admin_func.php:148 ../upload.php:107
+msgid "Upload files"
+msgstr "Incarca fisiere"
+
+#: ../admin_func.php:149
+msgid "Add gallery"
+msgstr "Adauga galerie"
+
+#: ../admin_func.php:150
+msgid "Modify gallery"
+msgstr "Modifica galerie"
+
+#: ../admin_func.php:151 ../admin_func.php:557 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Sterge galerie"
+
+#: ../admin_func.php:152
+msgid "Configuration"
+msgstr ""
+
+#: ../admin_func.php:153
+msgid "Logout"
+msgstr "Logout"
+
+#: ../admin_func.php:189
+msgid "Gallery title"
+msgstr "Titlul galeriei"
+
+#: ../admin_func.php:191 ../admin_func.php:566 ../view_func.php:84 ../view_func.php:344
+msgid "Date"
+msgstr "Data"
+
+#: ../admin_func.php:192
+#, fuzzy
+msgid "Leave it blank for today's date."
+msgstr "Format liber. Lasa-l gol pentru data de azi"
+
+#: ../admin_func.php:193
+msgid "Location"
+msgstr "Locatia"
+
+#: ../admin_func.php:195
+#, fuzzy
+msgid "set this option for restricted access to gallery"
+msgstr "seteaza o parola pentru acces privat la aceasta galerie"
+
+#: ../admin_func.php:196 ../admin_func.php:567 ../view_func.php:85 ../view_func.php:247
+msgid "Description"
+msgstr "Descriere"
+
+#: ../admin_func.php:197
+msgid "Hide comments"
+msgstr "Ascunde comentariile"
+
+#: ../admin_func.php:198 ../install.php:44 ../view_func.php:321
+msgid "Send"
+msgstr "Trimite"
+
+#: ../admin_func.php:238
+#, fuzzy
+msgid " is a huge image, it might cause memory issues."
+msgstr "  e o imagine mare, poate cauza probleme de memorie."
+
+#: ../admin_func.php:321
+#, fuzzy
+msgid "GD library not loaded. Please read installation documentation"
+msgstr "Libraria GD nu este incarcata. Va rog consultati ghidul de instalare"
+
+#: ../admin_func.php:457 ../admin_func.php:464
+msgid "Opening gid counter file: "
+msgstr "Deschid fisierul gid counter:"
+
+#: ../admin_func.php:554
+msgid "Modify gallery info"
+msgstr "Modifica informatiile despre galerie"
+
+#: ../admin_func.php:555
+msgid "Select thumbnail"
+msgstr "Selecteaza pictograma (thumbnail)"
+
+#: ../admin_func.php:556
+#, fuzzy
+msgid "Modify imagelist"
+msgstr "Modifica lista de imagini"
+
+#: ../admin_func.php:559 ../view_func.php:77
+msgid "Number of images"
+msgstr "Numarul imaginilor"
+
+#: ../admin_func.php:562 ../view_func.php:80
+msgid "View this gallery"
+msgstr "Vizualizare galerie"
+
+#: ../admin_func.php:564 ../modify_phid.php:119 ../view_func.php:82 ../view_func.php:246
+msgid "Visits"
+msgstr "Vizite"
+
+#: ../admin_func.php:565 ../modify_phid.php:118 ../view_func.php:83 ../view_func.php:155
+msgid "Comments"
+msgstr "Comentarii"
+
+#: ../admin_func.php:568 ../view_func.php:442
+msgid "Up"
+msgstr "Sus"
+
+#: ../admin_func.php:569
+msgid "Down"
+msgstr ""
+
+#: ../admin_func.php:570
+#, fuzzy
+msgid "Move up this gallery on index"
+msgstr "Adaug aceasta galerie la index-ul galeriilor"
+
+#: ../admin_func.php:571
+#, fuzzy
+msgid "Move down this gallery on index"
+msgstr "Adaug aceasta galerie la index-ul galeriilor"
+
+#: ../admin_func.php:593
+msgid "Select deletion options:"
+msgstr "Optiuni de stergere:"
+
+#: ../admin_func.php:594
+msgid "Do not list gallery in gallery index any more."
+msgstr "Numai lista aceasta galerie in index"
+
+#: ../admin_func.php:595
+msgid "Clear all image comments."
+msgstr "Sterge toate comentariile"
+
+#: ../admin_func.php:596
+msgid "Clear all image visit counters."
+msgstr "Sterge numarul de vizitatori de la imagini"
+
+#: ../admin_func.php:597
+msgid "Clear gallery visit counters."
+msgstr "Sterge numarul de vizitatori de la galerii"
+
+#: ../admin_func.php:598
+msgid "Delete gallery thumbnails."
+msgstr "Sterge pictogramele galeriei"
+
+#: ../admin_func.php:599
+msgid "Delete all files in directory."
+msgstr "Sterge toate fisierele din catalog"
+
+#: ../admin_func.php:600
+#, fuzzy
+msgid "Delete all image captions."
+msgstr "Sterge toate comentariile"
+
+#: ../admin_func.php:601
+msgid "send"
+msgstr "Trimite"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+#, fuzzy
+msgid "<strong>Yapig</strong> administration"
+msgstr "Administrare <strong>YaPiG</strong>"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Nu este disponibil."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Adauga o noua galerie"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:120
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galerie inexistenta sau argumentul gid nu a fost setat"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Statistici galerie inexistente sau nu se pot sterge"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Statistici galerii sterse"
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Statisticile imaginii din aceasta galerie nu exista sau nu pot fi sterse"
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Statisticile imaginii din aceasta galerie au fost sterse"
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Contorul de comentarii al acestei galerii nu exista sau nu se poate sterge"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Contorul de comentarii al acestei galerii a fost sters"
+
+#: ../delete_gallery.php:69
+#, fuzzy
+msgid "Could not load this file: "
+msgstr "Acest fisier nu poate fi incarcat:"
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:86 ../delete_gallery.php:111 ../delete_gallery.php:126
+msgid "Could not delete: "
+msgstr "Nu s-a putut sterge:"
+
+#: ../delete_gallery.php:77 ../delete_gallery.php:87
+msgid "Deleted: "
+msgstr "Sters:"
+
+#: ../delete_gallery.php:93
+msgid "Could not get image list from file: "
+msgstr "Nu pot lua lista de imagini din fisierul:"
+
+#: ../delete_gallery.php:98
+msgid "Could not delete thumbnail image: "
+msgstr "Nu pot sterge pictograma (thumbnail) de la imaginea:"
+
+#: ../delete_gallery.php:99
+msgid "Deleted thumbnail: "
+msgstr "Pictograma (thumbnail) stearsa:"
+
+#: ../delete_gallery.php:107
+msgid "Gallery could not be removed from index"
+msgstr "Galeria nu poate fi stearsa din index"
+
+#: ../delete_gallery.php:109
+#, fuzzy
+msgid "Gallery will not be displayed anymore in the gallery index"
+msgstr "Galeria nu va mai aparea in index"
+
+#: ../delete_gallery.php:118
+msgid " is not a valid directory"
+msgstr " catalog invalid"
+
+#: ../delete_gallery.php:121
+msgid " could not be opened"
+msgstr " nu poate fi deshis"
+
+#: ../delete_gallery.php:128
+msgid "Deleted file: "
+msgstr "Fisier sters:"
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:133
+msgid "Gallery successfully deleted."
+msgstr "Galeria a fost stearsa"
+
+#. Show some useful links
+#: ../delete_gallery.php:136
+msgid "Admin index"
+msgstr "Index Administrator"
+
+#: ../delete_gallery.php:137
+#, fuzzy
+msgid "Delete additional galleries"
+msgstr "Sterge alte galerii"
+
+#: ../functions.php:135
+msgid "Error"
+msgstr "Eroare"
+
+#: ../functions.php:153
+msgid "Warning"
+msgstr "Atentie"
+
+#: ../functions.php:197
+#, fuzzy
+msgid "Main menu"
+msgstr "Meniu principal"
+
+#: ../functions.php:199
+#, fuzzy
+msgid "Homepage"
+msgstr "Home page"
+
+#: ../functions.php:201
+msgid "Admin"
+msgstr "Administrare"
+
+#. Logout links
+#: ../functions.php:204
+#, fuzzy
+msgid "Admin logout"
+msgstr "logout"
+
+#: ../functions.php:205
+msgid "Gallery logout"
+msgstr "logout galerie"
+
+#: ../gallery.php:46
+#, fuzzy
+msgid "Congratulations Yapig is up and running!"
+msgstr "Felicitari! YAPIG functioneaza!"
+
+#. welcome message
+#: ../gallery.php:49
+#, fuzzy
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\n"
+"   <p>If this is the first time you run:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Bine ai venit la <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p><strong>NU</strong> exista galerii.<p>\n"
+"   <p>Daca ai pornit YaPiG pentru prima oara:</p>\n"
+"   <ol>\n"
+"   <li>Modifica fisierul <i>config.php</i></li>\n"
+"   <li><a href=\"admin.php\">Autentifica-te ca admin</a> si adauga o noua galerie.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:69
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Nu exista galerii. Autentifica-te ca admin si creaza galerii noi"
+
+#: ../install.php:61
+#, fuzzy
+msgid "Yapig installation"
+msgstr "Instalare YaPiG"
+
+#: ../install.php:66
+#, fuzzy
+msgid "YaPiG already installed"
+msgstr "YaPiG a fost instalat cu succes."
+
+#: ../install.php:80
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "Nu pot crea SECURE_DIR. Schimba permisiunea la BASE_DIR in 777 (vezi config.php)"
+
+#: ../install.php:85
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory yourself with any random name on $BASE_DIR (photos/) and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create an empty file called index.html to both BASE_DIR and\r\n"
+"\t  SECURE_DIR directories. These are for avoiding server listing.</li>\r\n"
+"\t  <li>After you have created the directory and set its permissions, \r\n"
+"\t  please enter its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:107
+msgid "SECURE_DIR does not exist! Please enter the correct directory name:"
+msgstr ""
+
+#: ../install.php:116
+#, fuzzy
+msgid "Could not create index.html in SECURE_DIR. Read FAQ documentation."
+msgstr "Nu pot crea index.html in SECURE_DIR"
+
+#: ../install.php:119
+#, fuzzy
+msgid "Could not create index.html in BASE_DIR. Read FAQ documentation"
+msgstr "Nu pot crea index.html in BASE_DIR"
+
+#: ../install.php:124
+#, fuzzy
+msgid "Could not load GD library which is required by Yapig or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "Nu pot incarca libraria GD, sau versiunea acestea e prea veche. Libraria GD este necesara pentru a folosi YaPiG. Consulta doc/install.html pentru mai multe informatii."
+
+#: ../install.php:127
+#, fuzzy
+msgid "Good! Your server has GD library. You can run Yapig!"
+msgstr "Am gasit libraria GD, YaPiG va functiona."
+
+#: ../install.php:133
+#, fuzzy
+msgid "Could not get GD version. Please read doc/en/install.html documentation for more information."
+msgstr "Nu pot incarca libraria GD, sau versiunea acestea e prea veche. Libraria GD este necesara pentru a folosi YaPiG. Consulta doc/install.html pentru mai multe informatii."
+
+#: ../install.php:139
+#, fuzzy
+msgid "Change Yapig's root directory permissions to allow creating new files."
+msgstr "Schimba permisiunea pe catalogul root al YaPiG-ului, pentru a crea fisiere noi"
+
+#: ../install.php:140
+msgid "Installation aborted. Could not create config file."
+msgstr "Instalare abandonata. Nu pot crea fisierul config"
+
+#: ../install.php:197
+#, fuzzy
+msgid "Yapig successfully installed."
+msgstr "YaPiG a fost instalat cu succes."
+
+#: ../install.php:200
+#, fuzzy
+msgid "Congratulations Yapig is up and runnig!"
+msgstr "Felicitari! YAPIG functioneaza!"
+
+#: ../install.php:204
+msgid "Security Advice: After you have configured all, delete install.php"
+msgstr ""
+
+#. welcome message    
+#: ../install.php:209
+#, fuzzy
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\r\n"
+"   <p>If this is the first time you run:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Bine ai venit la <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p><strong>NU</strong> exista galerii.<p>\n"
+"   <p>Daca ai pornit YaPiG pentru prima oara:</p>\n"
+"   <ol>\n"
+"   <li>Modifica fisierul <i>config.php</i></li>\n"
+"   <li><a href=\"admin.php\">Autentifica-te ca admin</a> si adauga o noua galerie.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../modify_gallery.php:22
+#, fuzzy
+msgid "<p>Select a gallery:</p>"
+msgstr "<p>Va rog, selectati o galerie:</p>"
+
+#: ../modify_gallery.php:25
+#, fuzzy
+msgid "There are no available galleries."
+msgstr "Nu exista galerii"
+
+#: ../modify_gallery.php:42
+#, fuzzy
+msgid "Update gallery imagelist"
+msgstr "Actualizeaza lista de imagini"
+
+#: ../modify_gallery.php:43
+msgid "Overwrite existing thumbnails"
+msgstr "Suprascriu pictogramele (thumbnail) existente"
+
+#: ../modify_gallery.php:44
+msgid "Only create new thumbnails"
+msgstr "Creez doar pictograme (thumbnail) noi"
+
+#: ../modify_gallery.php:45
+msgid "view/edit"
+msgstr "vizualizare/modificare"
+
+#: ../modify_gallery.php:48
+#, fuzzy
+msgid "Could not get imagelist. Gallery probably does not have images"
+msgstr "Nu gasesc lista de imagini. Posibil ca galeria sa nu aiba imagini"
+
+#: ../modify_gallery.php:52
+#, fuzzy
+msgid "Current images in gallery are:"
+msgstr "Imaginile curente din galerie sunt:"
+
+#: ../modify_gallery.php:58
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr ""
+
+#: ../modify_gallery.php:73
+msgid "Could not read gallery directory filenames"
+msgstr "Nu pot citi numele fisierelor din galerie"
+
+#: ../modify_gallery.php:75
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Imagini din catalog, dar care lipsesc din galerie:</p><ul>"
+
+#: ../modify_gallery.php:126 ../modify_phid.php:233
+msgid "Modify gallery: "
+msgstr "Modifica galerie"
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:137
+msgid "Modify gallery information:"
+msgstr "Modifica informatiile galeriei"
+
+#: ../modify_gallery.php:153
+msgid "Directory location with images required!"
+msgstr "Am nevoie de locatia catalogului cu imagini!"
+
+#: ../modify_gallery.php:181
+msgid "Creating gallery information file."
+msgstr "Creez fisierul cu informatii despre galerie."
+
+#: ../modify_gallery.php:182
+msgid "Gallery info successfully updated."
+msgstr "Informatia galeriei a fost actualizata cu succes."
+
+#: ../modify_gallery.php:193
+#, fuzzy
+msgid "Sorry, password protected galeries cannot change the thumbnail"
+msgstr "pictograma standard pentru galeriile cu parola"
+
+#: ../modify_gallery.php:199
+msgid "Could not update thumbnail"
+msgstr "Nu pot actualiza pictograma (thumbnail)"
+
+#: ../modify_gallery.php:200
+#, fuzzy
+msgid "Thumbnail updated. (Do not worry if the upper thumbnail is the previous one)"
+msgstr "Pictograma actualizata (Nu-ti fa griji daca cel de sus e inca cel vechi)"
+
+#. List all phids.
+#: ../modify_gallery.php:205
+msgid "Select thumbnail: "
+msgstr "Alege pictograma:"
+
+#: ../modify_gallery.php:207
+#, fuzzy
+msgid "Could not get all imagelist."
+msgstr "Nu pot lua toata lista de imagini."
+
+#. Construct Form.
+#: ../modify_gallery.php:210
+msgid "Update gallery thumbnail"
+msgstr "Actualizeaza pictograma galeiei"
+
+#: ../modify_gallery.php:211
+msgid "default password protected galleries thumbnail"
+msgstr "pictograma standard pentru galeriile cu parola"
+
+#: ../modify_gallery.php:212
+msgid "view info"
+msgstr "vizualizare info"
+
+#: ../modify_gallery.php:247
+#, fuzzy
+msgid "Selected imagelist:"
+msgstr "Modifica lista de imagini"
+
+#: ../modify_gallery.php:250
+#, fuzzy
+msgid "Creating thumbnail for images that do not have one."
+msgstr "Creez pictograme pentru imaginile care nu au."
+
+#: ../modify_gallery.php:255
+msgid "Creating all thumbs"
+msgstr "Creez toate pictogramele"
+
+#: ../modify_gallery.php:260
+#, fuzzy
+msgid "Could not update gallery imagelist"
+msgstr "Nu pot actualiza lista de imagini al galeriei"
+
+#: ../modify_gallery.php:261
+#, fuzzy
+msgid "Imagelist successfully updated"
+msgstr "Lista de imagini a fost actualizata cu succes"
+
+#: ../modify_gallery.php:264
+msgid "Number of images not updated"
+msgstr "Numarul imaginilor neactualizate"
+
+#: ../modify_gallery.php:266
+msgid "Number of images updated"
+msgstr "Numarul imaginilor actualizate"
+
+#: ../modify_gallery.php:273 ../modify_gallery.php:279
+#, fuzzy
+msgid "Operation could not be done"
+msgstr " nu poate fi deshis"
+
+#: ../modify_gallery.php:291
+#, fuzzy
+msgid "Display this gallery"
+msgstr "Vizualizare galerie"
+
+#: ../modify_gallery.php:292
+#, fuzzy
+msgid "Modify gallery index"
+msgstr "Index Modificari galerii"
+
+#: ../modify_phid.php:54 ../modify_phid.php:58 ../modify_phid.php:292
+msgid "Image has no comments"
+msgstr "Imaginea nu are comentarii"
+
+#: ../modify_phid.php:61
+msgid "Modify"
+msgstr "Modifica"
+
+#: ../modify_phid.php:62
+msgid "Delete"
+msgstr "Sterge"
+
+#: ../modify_phid.php:63
+msgid "Image Comments"
+msgstr "Comentarii Imagine"
+
+#: ../modify_phid.php:93
+msgid "Image identificator (phid) not found."
+msgstr "Identificatorul de imagini (phid) nu a fost gasit."
+
+#. I18n
+#: ../modify_phid.php:117
+msgid "Image name"
+msgstr "Numele imaginii"
+
+#: ../modify_phid.php:120
+msgid "Remove from gallery"
+msgstr "Retrage din galerie"
+
+#: ../modify_phid.php:121
+msgid "Clear"
+msgstr "Curatza"
+
+#: ../modify_phid.php:122
+msgid "Delete All"
+msgstr "Sterge toate"
+
+#: ../modify_phid.php:123
+msgid "Image id"
+msgstr "ID Imagine"
+
+#: ../modify_phid.php:124
+msgid "Modify Image"
+msgstr "Modifica imaginea"
+
+#: ../modify_phid.php:125
+msgid "Set as gallery thumbnail"
+msgstr "Seteaza ca si pictograma pentru galerie"
+
+#: ../modify_phid.php:126
+msgid "Image caption"
+msgstr "Subtitlu imagine"
+
+#: ../modify_phid.php:127
+msgid "Change caption"
+msgstr "Schimba subtitlul"
+
+#: ../modify_phid.php:128
+msgid "Rotate image"
+msgstr ""
+
+#: ../modify_phid.php:144
+#, fuzzy
+msgid "Could not remove image from gallery imagelist"
+msgstr "Nu pot retrage imaginea din lista de imagini al galeriei"
+
+#: ../modify_phid.php:145
+#, fuzzy
+msgid "Image will not be displayed in list."
+msgstr "Imaginea nu va aparea in lista"
+
+#: ../modify_phid.php:168
+msgid "Could not delete image comments file: "
+msgstr "Nu pot sterge fisierul cu comentarii al imaginii"
+
+#: ../modify_phid.php:169
+msgid "Image comments deleted"
+msgstr "Comentariile imaginii au fost sterse"
+
+#: ../modify_phid.php:177
+msgid "Could not delete image comments counter: "
+msgstr "Nu pot sterge contorul comentari al imaginii"
+
+#: ../modify_phid.php:178
+msgid "Image comments counter deleted"
+msgstr "Contorul comentari al imaginii a fost sters"
+
+#: ../modify_phid.php:186
+msgid "Image visits counter not found or could not be removed."
+msgstr "Contorul accesari al imaginii nu se poate sterge sau nu a fost gasit."
+
+#: ../modify_phid.php:187
+msgid "Image visits counter deleted"
+msgstr "Contorul accesari al imaginii a fost sters"
+
+#: ../modify_phid.php:277
+msgid "Set new caption to: "
+msgstr "Seteaza noul subtitlu:"
+
+#: ../modify_phid.php:279
+msgid "Could not update caption."
+msgstr "Nu pot actualiza subtitlul"
+
+#: ../modify_phid.php:288
+msgid "Comment not selected"
+msgstr "Comentariu neselectat"
+
+#: ../modify_phid.php:294
+msgid "Coul not open comments file"
+msgstr "Nu pot deschide fisierul de comentarii"
+
+#: ../modify_phid.php:302
+msgid "Comment successfully deleted"
+msgstr "Comentariu sters cu succes"
+
+#: ../modify_phid.php:315
+msgid "Could not read comments file"
+msgstr "Nu pot citi fisierul de comentarii"
+
+#: ../modify_phid.php:319
+msgid "Opening comments file."
+msgstr "Deschid fisierul de comentarii."
+
+#: ../modify_phid.php:328
+msgid "Comment successfully updated"
+msgstr "Comentariu actualizat cu succes"
+
+#: ../modify_phid.php:352
+#, fuzzy
+msgid "Image not found."
+msgstr "Subtitlu imagine"
+
+#: ../modify_phid.php:361 ../modify_phid.php:365
+#, fuzzy
+msgid "Could not rotate the image or the thumbnail"
+msgstr "Nu pot creea pictogramele (thumbnail)."
+
+#. header("Location: modify_phid?action=view_phid&gid=$gid&phid=$phid");
+#: ../modify_phid.php:369
+msgid "Image has successfully been rotated, although your browser might be displaying the old one because it is on cache."
+msgstr ""
+
+#: ../upload.php:25
+msgid "Upload Files"
+msgstr "Incarca fisier(ele)"
+
+#: ../upload.php:39
+msgid "Dots in directory names are not allowed"
+msgstr ""
+
+#: ../upload.php:53
+msgid "Created directory: "
+msgstr "Catalogul creat: "
+
+#: ../upload.php:56
+msgid "Could not create directory: "
+msgstr "Nu pot crea catalogul: "
+
+#: ../upload.php:62
+msgid "Successfully removed directory: "
+msgstr "Catalogul sters cu succes: "
+
+#: ../upload.php:64
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "Nu pot sterge catalogul (nu e gol, sau nu am permisiuni)"
+
+#: ../upload.php:74
+#, fuzzy
+msgid "Files will be uploaded to following directory: "
+msgstr "Fisierele vor fi incarcate in catalogul: "
+
+#: ../upload.php:76
+msgid "Create directory"
+msgstr "Creeaza catalogul"
+
+#. i18n
+#: ../upload.php:105
+#, fuzzy
+msgid "Select only <b>one</b> directory"
+msgstr "Selecteaza <b>UN</b> catalog"
+
+#: ../upload.php:106
+msgid "Files to upload"
+msgstr "Fisiere de incarcat"
+
+#: ../upload.php:137
+msgid " is not recognized as an image."
+msgstr ""
+
+#: ../upload.php:147
+msgid "Successfully uploaded file: "
+msgstr "Fisier incarcat cu succes: "
+
+#: ../upload.php:150
+#, fuzzy
+msgid "Could not copy file: "
+msgstr "Nu pot copia la fisierul: "
+
+#: ../view_func.php:56
+msgid "Gallery does not exist: "
+msgstr "Galerie inexistenta:"
+
+#: ../view_func.php:86
+msgid "View slideshow"
+msgstr ""
+
+#: ../view_func.php:96
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Aceasta galerie este parolata. Introdu parola si apasa butonul validare."
+
+#: ../view_func.php:98
+msgid "Validate"
+msgstr "Validare"
+
+#: ../view_func.php:99
+msgid "Gallery password"
+msgstr "Parola galerie"
+
+#. I18n -
+#: ../view_func.php:152
+msgid "Enlarge image"
+msgstr ""
+
+#: ../view_func.php:153
+msgid "Image"
+msgstr "Imagine"
+
+#: ../view_func.php:154
+msgid "Hits"
+msgstr "Accesari"
+
+#: ../view_func.php:241
+#, fuzzy
+msgid "Image caption not set"
+msgstr "Subtitlu imagine"
+
+#: ../view_func.php:243
+msgid "Filename"
+msgstr "Numefisier"
+
+#: ../view_func.php:244
+msgid "File size"
+msgstr "Marime"
+
+#: ../view_func.php:245
+msgid "Image size"
+msgstr "Marime imagine"
+
+#: ../view_func.php:314
+#, fuzzy
+msgid "Add your comment!"
+msgstr "Adauga comentariul tau!"
+
+#: ../view_func.php:315
+msgid "Comment title"
+msgstr "Titlu"
+
+#: ../view_func.php:320
+msgid "* = required fields"
+msgstr ""
+
+#: ../view_func.php:355
+msgid "Image comments"
+msgstr "Comenatrii imagine"
+
+#: ../view_func.php:357
+msgid "There are no messages! Give us your opinion!"
+msgstr "Nu exista mesaje! Spune-ne parerea ta!"
+
+#: ../view_func.php:362
+msgid "Opening comments file"
+msgstr "Deschid fisierul de comentarii"
+
+#: ../view_func.php:388
+#, fuzzy
+msgid "Previous gallery"
+msgstr "Galeria Precedenta"
+
+#: ../view_func.php:389
+#, fuzzy
+msgid "Next gallery"
+msgstr "Galeria Urmatoare"
+
+#: ../view_func.php:396 ../view_func.php:445
+#, fuzzy
+msgid "could not display gallery navigation bar"
+msgstr "nu pot arata bara de navigare al galeriei"
+
+#: ../view_func.php:405 ../view_func.php:443
+msgid "[Slideshow]"
+msgstr ""
+
+#: ../view_func.php:426
+#, fuzzy
+msgid "Previous image"
+msgstr "Imaginea Precedenta"
+
+#: ../view_func.php:427
+#, fuzzy
+msgid "Next image"
+msgstr "Imaginea Urmatoare"
+
+#: ../view_func.php:477
+msgid "Previous page"
+msgstr "Pagina Precedenta"
+
+#: ../view_func.php:478
+msgid "Next page"
+msgstr "Pagina Urmatoare"
+
+#: ../view_func.php:485
+#, fuzzy
+msgid "Page"
+msgstr "Imagine"
+
+#: ../view_func.php:511
+msgid "Zoom in"
+msgstr "Mareste"
+
+#: ../view_func.php:512
+#, fuzzy
+msgid "Zoom out"
+msgstr "Micsoreaza"
+
+#: ../view_func.php:513
+#, fuzzy
+msgid "Original size"
+msgstr "Standard"
+
+#: ../view.php:49
+#, fuzzy
+msgid "Incorrect Arguments"
+msgstr "Date incorecte in formularul de comentarii"
+
+#: ../view.php:57
+#, fuzzy
+msgid "Retrieving gallery directory"
+msgstr "Accesez catalogul galeriei"
+
+#: ../view.php:72
+msgid "Password incorrect."
+msgstr "Parola incorecta."
+
+#: ../view.php:93
+#, fuzzy
+msgid "Gallery data not found. Please re-create this gallery"
+msgstr "Datele galeriei nu exista. Va rog creatzi din nou aceasta galerie"
+
+#: ../view.php:106
+#, fuzzy
+msgid "Image not found"
+msgstr "Subtitlu imagine"
+
+#~ msgid "Sorry, you did not fill some required fields."
+#~ msgstr "Imi pare rau, nu ati trecut campurile necesare"
+
+#~ msgid "e-mail"
+#~ msgstr "e-mail"
+
+#~ msgid "Directory where images are stored required!"
+#~ msgstr "Catalogul cu imagini este obligatoriu!"
+
+#~ msgid "Location directory DOES NOT EXIST."
+#~ msgstr "Catalog INEXISTENT."
+
+#~ msgid "Permissions. I will try chmod 2777 "
+#~ msgstr "Permisiuni. Incerc CHMOD 2777"
+
+#~ msgid "Gallery Index"
+#~ msgstr "Index galerii"
+
+#~ msgid "GD Library NOT AVAILABLE"
+#~ msgstr "NU AM GASIT Libraria GD"
+
+#~ msgid "Change main config"
+#~ msgstr "Configurare"
+
+#~ msgid "PNG files not supported in this version"
+#~ msgstr "Fisierele PNG nu sunt suportate de aceasta versiune"
+
+#~ msgid "View image bigger"
+#~ msgstr "Mareste imaginea"
+
+#~ msgid "View this Gallery"
+#~ msgstr "Vizualizare galerie"
+
+#~ msgid "Fields with * are required"
+#~ msgstr "Campurile cu * sunt obligatorii"
+
+#~ msgid "Index of Galleries"
+#~ msgstr "Indexul Galeriei"
+
+#~ msgid "GID not set"
+#~ msgstr "GID nesetat"

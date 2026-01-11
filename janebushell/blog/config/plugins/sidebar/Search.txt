@@ -1,0 +1,1 @@
+plugin|Search|enabled|1

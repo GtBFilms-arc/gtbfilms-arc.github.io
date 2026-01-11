@@ -1,0 +1,996 @@
+# Finnish translation for YaPiG
+# This file is distributed under the same license as the YaPiG package.
+# Miikka M‰ttˆl‰ <miikka.mattola@pp.inet.fi>, 2004.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-02-28 18:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:72
+msgid "Incorrect add comment form"
+msgstr "Ep‰korrekti lis‰‰ kommentti -kaavake"
+
+#: ../add_comment.php:78
+msgid "Title field required"
+msgstr "Otsikkokentt‰ vaaditaan"
+
+#: ../add_comment.php:82
+msgid "Author field required"
+msgstr "L‰hett‰j‰kentt‰ vaaditaan"
+
+#: ../add_comment.php:86
+msgid "e-mail field required"
+msgstr "S‰hkˆpostikentt‰ vaaditaan"
+
+#: ../add_comment.php:90
+msgid "Web field required"
+msgstr "Kotisivukentt‰ vaaditaan"
+
+#: ../add_comment.php:94
+msgid "Comment field required"
+msgstr "Kommenttikentt‰ vaaditaan"
+
+#: ../add_comment.php:99
+msgid "Sorry, you did not fill some required fields."
+msgstr "Et t‰ytt‰nyt joitakin tarvittavia kentti‰."
+
+#: ../add_comment.php:137
+msgid "Thank you for your comment"
+msgstr "Kiitos kommentistasi"
+
+#: ../add_comment.php:138
+msgid "Added this Comment"
+msgstr "Lis‰si t‰m‰n kommentin"
+
+#: ../add_comment.php:139 ../admin_func.php:504 ../functions.php:553
+msgid "Title"
+msgstr "Otsikko"
+
+#: ../add_comment.php:140 ../admin_func.php:132 ../admin_func.php:505 ../functions.php:554 ../view_func.php:90
+msgid "Author"
+msgstr "L‰hett‰j‰"
+
+#: ../add_comment.php:141
+msgid "e-mail"
+msgstr "S‰hkˆpostiosoite"
+
+#: ../add_comment.php:142 ../view_func.php:92
+msgid "Web"
+msgstr "Kotisivut"
+
+#: ../add_comment.php:143 ../view_func.php:93 ../view_func.php:119
+msgid "Comment"
+msgstr "Kommentti"
+
+#: ../add_comment.php:144
+msgid "If the page is not automatically refreshed."
+msgstr "Jos sivua ei automaattisesti p‰ivitet‰."
+
+#: ../add_comment.php:145
+msgid "Please, press here"
+msgstr "Paina t‰st‰"
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "Lis‰t‰‰n uusi galleria: "
+
+#: ../add_gallery.php:60 ../admin_func.php:254
+msgid "GD library not loaded. Please read install documentation"
+msgstr "GD -kirjasto ei ole ladattuna. Lue asennusdokumentaatio"
+
+#. Check arguments
+#: ../add_gallery.php:66
+msgid "Directory where images are stored required!"
+msgstr "Kuvien tallennuskansio vaaditaan!"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:139
+msgid "Title, author and description are required!"
+msgstr "Otsikko, l‰hett‰j‰ ja kuvaus vaaditaan!"
+
+#: ../add_gallery.php:82
+msgid "Location directory DOES NOT EXIST."
+msgstr "Antamaasi kansiota ei ole olemassa."
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Toinen galleria k‰ytt‰‰ valitsemaasi kansiota. Poista se galleria ensin."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Luodaan index.html v‰ltt‰‰ksemme tiedostolistauksen."
+
+#: ../add_gallery.php:91
+msgid "Permissions. I will try chmod 2777 "
+msgstr "Oikeudet. Kokeilen chmod 2777 "
+
+#: ../add_gallery.php:93 ../add_gallery.php:96
+msgid "Permissions. Read FAQ documentation."
+msgstr "Oikeudet. Lue FAQ-dokumentaatio."
+
+#. Load all imagenames
+#: ../add_gallery.php:105
+msgid "Loading image Names of: "
+msgstr "Ladataan kuvien nimi‰: "
+
+#: ../add_gallery.php:109
+msgid "Failed to read image names."
+msgstr "Kuvien nimien lukeminen ep‰onnistui."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:113
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Tehd‰‰n vastaavuuksia kuvien tiedostonimet <-> kuvien id (phid)"
+
+#: ../add_gallery.php:115
+msgid "Creating phid correspondence."
+msgstr "Tehd‰‰n phid -vastaavuuksia."
+
+#. Create Info File
+#: ../add_gallery.php:121 ../modify_gallery.php:146
+msgid "Creating gallery information file with:"
+msgstr "Tehd‰‰n gallerian kuvaustiedostoa:"
+
+#: ../add_gallery.php:138
+msgid "Error creating gallery information file."
+msgstr "Virhe tehdess‰ gallerian kuvaustiedostoa."
+
+#. Make thumbnails
+#: ../add_gallery.php:142
+msgid "Creating thumbnails"
+msgstr "Tehd‰‰n pikkukuvia"
+
+#: ../add_gallery.php:144
+msgid "Could not create all thumbnails."
+msgstr "Kaikkia pikkukuvia ei voitu tehd‰."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:147
+msgid "Adding this gallery to gallery index"
+msgstr "Lis‰t‰‰n t‰m‰ galleria gallerioiden juureen"
+
+#: ../add_gallery.php:149
+msgid "Adding gallery to file: "
+msgstr "Lis‰t‰‰n galleria tiedostoon: "
+
+#: ../add_gallery.php:150
+msgid "Gallery <b>successfully</b> created"
+msgstr "Gallerian luonti <b>onnistui</b>"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:153
+msgid "Gallery Index"
+msgstr "Galleria"
+
+#: ../add_gallery.php:154
+msgid "Back to admin page"
+msgstr "Takaisin yll‰pitosivulle"
+
+#: ../admin_func.php:25
+msgid "GD library not loaded. Will try to load it."
+msgstr "GD -kirjasto ei ole ladattuna. Yritet‰‰n ladata se."
+
+#: ../admin_func.php:28
+msgid "Function dynamic extension load not available."
+msgstr "Funktion <i>dynamic extension load</i> ei ole saatavilla"
+
+#: ../admin_func.php:33
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll ladattiin onnistuneesti."
+
+#: ../admin_func.php:37
+msgid "GD Library NOT AVAILABLE"
+msgstr "GD -kirjastoa ei ole saatavilla"
+
+#: ../admin_func.php:40
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so ladattiin onnistuneesti."
+
+#: ../admin_func.php:46
+msgid "Function getimagesize does not exist"
+msgstr "Funktio getimagesize puuttuu"
+
+#: ../admin_func.php:51
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Funktio imagecreate(truecolor) puuttuu"
+
+#: ../admin_func.php:55
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Funktio imacreatefromjpeg puuttuu"
+
+#: ../admin_func.php:58
+msgid "GD library is loaded."
+msgstr "GD -kirjasto on ladattu."
+
+#. Admin login form internationalization.
+#: ../admin_func.php:76
+msgid "Please login as admin"
+msgstr "Kirjaudu sis‰‰n yll‰pit‰j‰n‰"
+
+#: ../admin_func.php:77
+msgid "User"
+msgstr "K‰ytt‰j‰"
+
+#: ../admin_func.php:78 ../admin_func.php:136
+msgid "Password"
+msgstr "Salasana"
+
+#: ../admin_func.php:79
+msgid "Submit"
+msgstr "L‰het‰"
+
+#. I18n
+#: ../admin_func.php:93
+msgid "Administration tasks"
+msgstr "Yll‰pitoteht‰v‰t"
+
+#: ../admin_func.php:94
+msgid "Upload files"
+msgstr "L‰het‰ tiedostoja"
+
+#: ../admin_func.php:95
+msgid "Add gallery"
+msgstr "Lis‰‰ galleria"
+
+#: ../admin_func.php:96
+msgid "Modify gallery"
+msgstr "Muokkaa galleriaa"
+
+#: ../admin_func.php:97 ../admin_func.php:501 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Poista galleria"
+
+#: ../admin_func.php:98
+msgid "Change main config"
+msgstr "Muuta p‰‰asetuksia"
+
+#: ../admin_func.php:99
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: ../admin_func.php:131
+msgid "Gallery title"
+msgstr "Gallerian otsikko"
+
+#: ../admin_func.php:133 ../admin_func.php:510 ../functions.php:559 ../view_func.php:118
+msgid "Date"
+msgstr "P‰iv‰m‰‰r‰"
+
+#: ../admin_func.php:134
+msgid "Free Format. Leave it blank to set today's date."
+msgstr "Vapaa muoto. J‰t‰ tyhj‰ksi asettaaksesi t‰m‰nhetkisen p‰iv‰m‰‰r‰n ja kellonajan."
+
+#: ../admin_func.php:135
+msgid "Location"
+msgstr "Sijainti"
+
+#: ../admin_func.php:137
+msgid "set this field if you want private access to this gallery"
+msgstr "aseta t‰m‰, jos haluat gallerian olevan privaatti"
+
+#: ../admin_func.php:138 ../admin_func.php:511 ../functions.php:560 ../view_func.php:35
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../admin_func.php:139
+msgid "Hide comments"
+msgstr "Piilota kommentit"
+
+#: ../admin_func.php:140 ../view_func.php:95
+msgid "Send"
+msgstr "L‰het‰"
+
+#: ../admin_func.php:180
+msgid "  is a very big image, it might cause memory problems."
+msgstr "  on eritt‰in iso kuva, voi aiheuttaa muistiongelmia."
+
+#: ../admin_func.php:200
+msgid "PNG files not supported in this version"
+msgstr "PNG -tiedostot eiv‰t ole tuettuja t‰ss‰ versiossa"
+
+#: ../admin_func.php:402 ../admin_func.php:409
+msgid "Opening gid counter file: "
+msgstr "Avataan <i>gid counter</i> tiedosto: "
+
+#: ../admin_func.php:498
+msgid "Modify gallery info"
+msgstr "Muokkaa gallerian infoa"
+
+#: ../admin_func.php:499
+msgid "Select thumbnail"
+msgstr "Valitse pikkukuva"
+
+#: ../admin_func.php:500
+msgid "Modify image list"
+msgstr "Muokkaa kuvalistaa"
+
+#: ../admin_func.php:503 ../functions.php:552
+msgid "Number of images"
+msgstr "Kuvia yhteens‰"
+
+#: ../admin_func.php:506 ../functions.php:555
+msgid "View this gallery"
+msgstr "Selaa t‰t‰ galleriaa"
+
+#: ../admin_func.php:507 ../functions.php:556
+msgid "Gallery"
+msgstr "Galleria"
+
+#: ../admin_func.php:508 ../functions.php:557 ../modify_phid.php:110 ../view_func.php:34
+msgid "Visits"
+msgstr "Vierailuja"
+
+#: ../admin_func.php:509 ../functions.php:558 ../functions.php:621 ../modify_phid.php:109
+msgid "Comments"
+msgstr "Kommentteja"
+
+#: ../admin_func.php:530
+msgid "Select deletion options:"
+msgstr "Valitse poiston asetukset:"
+
+#: ../admin_func.php:531
+msgid "Do not list gallery in gallery index any more."
+msgstr "ƒl‰ listaa galleriaa galleriajuuressa en‰‰."
+
+#: ../admin_func.php:532
+msgid "Clear all image comments."
+msgstr "Poista kaikki kuvakommentit."
+
+#: ../admin_func.php:533
+msgid "Clear all image visit counters."
+msgstr "Tyhjenn‰ kaikki kuvien vierailulaskurit."
+
+#: ../admin_func.php:534
+msgid "Clear gallery visit counters."
+msgstr "Tyhjenn‰ gallerian vierailulaskurit."
+
+#: ../admin_func.php:535
+msgid "Delete gallery thumbnails."
+msgstr "Poista gallerioiden pikkukuvat."
+
+#: ../admin_func.php:536
+msgid "Delete all files in directory."
+msgstr "Poista kaikki kansion tiedostot."
+
+#: ../admin_func.php:537
+msgid "send"
+msgstr "l‰het‰"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+msgid "<strong>YaPiG</strong> Admin"
+msgstr "<strong>YaPiG</strong> Yll‰pit‰j‰"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Ei saatavilla."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Lis‰‰ uusi galleria."
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:102 ../modify_phid.php:206
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galleriaa ei ole tai gid -argumenttia ei ole asetettu"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Gallerian tilastoja ei ole tai niit‰ ei voitu poistaa"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Gallerian tilastot poistettiin."
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Kuvatilastoja t‰st‰ galleriasta ei ole tai ei voitu poistaa."
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Kuvatilastot t‰st‰ galleriasta poistettiin."
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Kommenttilaskuria t‰st‰ galleriasta ei ole tai ei voitu tyhjent‰‰"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Kommenttilaskuri t‰st‰ galleriasta tyhjennettiin"
+
+#: ../delete_gallery.php:69
+msgid "Could not be loaded this file: "
+msgstr "Ei voitu avata tiedostoa: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:105 ../delete_gallery.php:120
+msgid "Could not delete: "
+msgstr "Ei voitu poistaa: "
+
+#: ../delete_gallery.php:77
+msgid "Deleted: "
+msgstr "Poistettiin: "
+
+#: ../delete_gallery.php:87
+msgid "Could not get image list from file: "
+msgstr "Ei saatu kuvalistaa tiedostosta: "
+
+#: ../delete_gallery.php:92
+msgid "Could not delete thumbnail image: "
+msgstr "Ei voitu poistaa pikkukuvaa: "
+
+#: ../delete_gallery.php:93
+msgid "Deleted thumbnail: "
+msgstr "Poistettiin pikkukuva: "
+
+#: ../delete_gallery.php:101
+msgid "Gallery could not be removed from index"
+msgstr "Galleriaa ei voitu poistaa juuresta"
+
+#: ../delete_gallery.php:103
+msgid "Gallery will not be shown anymore in the index of galeries"
+msgstr "Galleria ei n‰y en‰‰n gallerioiden juuressa"
+
+#: ../delete_gallery.php:112
+msgid " is not a valid directory"
+msgstr " ei ole kelvollinen kansio"
+
+#: ../delete_gallery.php:115
+msgid " could not be opened"
+msgstr " ei voitu avata"
+
+#: ../delete_gallery.php:122
+msgid "Deleted file: "
+msgstr "Poistettiin tiedosto: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:127
+msgid "Gallery successfully deleted."
+msgstr "Galleria poistettiin onnistuneesti."
+
+#. Show some useful links
+#: ../delete_gallery.php:130
+msgid "Admin index"
+msgstr "Yll‰pidon p‰‰sivu"
+
+#: ../delete_gallery.php:131
+msgid "Delete more galleries"
+msgstr "Poista lis‰‰ gallerioita"
+
+#: ../functions.php:113
+msgid "Error"
+msgstr "Virhe"
+
+#: ../functions.php:131
+msgid "Warning"
+msgstr "Varoitus"
+
+#: ../functions.php:175
+msgid "main menu"
+msgstr "p‰‰valikko"
+
+#: ../functions.php:176
+msgid "Gallery index"
+msgstr "Galleria"
+
+#: ../functions.php:177
+msgid "Home page"
+msgstr "Kotisivu"
+
+#: ../functions.php:179
+msgid "Admin"
+msgstr "Yll‰pit‰j‰"
+
+#. Logout links
+#: ../functions.php:182
+msgid "Admin logout"
+msgstr "Yll‰pit‰j‰n uloskirjautuminen"
+
+#: ../functions.php:183
+msgid "Gallery logout"
+msgstr "Gallerian uloskirjautuminen"
+
+#: ../functions.php:532
+msgid "Gallery does not exist: "
+msgstr "Galleriaa ei ole: "
+
+#: ../functions.php:570
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "T‰m‰ galleria vaatii salasanan. T‰yt‰ salasanakentt‰ ja klikkaa Varmista -painiketta. Kiitos."
+
+#: ../functions.php:572
+msgid "Validate"
+msgstr "Varmista"
+
+#: ../functions.php:573
+msgid "Gallery password"
+msgstr "Gallerian salasana"
+
+#. I18n -
+#: ../functions.php:618
+msgid "View image bigger"
+msgstr "Katsele kuvaa isompana"
+
+#: ../functions.php:619
+msgid "Image"
+msgstr "Kuva"
+
+#: ../functions.php:620
+msgid "Hits"
+msgstr "Vierailuja"
+
+#: ../gallery.php:39 ../install.php:114
+msgid "Congratulations YAPIG is working!"
+msgstr "Onnittelut. YAPIG toimii!"
+
+#. welcome message
+#: ../gallery.php:42 ../install.php:117
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\n"
+"   <p>If this is the first time you run YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Tervetuloa <a href=\"http://yapig.sf.net\">YaPig:iin.</a></p>\n"
+"   <p>Gallerioita <strong>EI</strong> ole.<p>\n"
+"   <p>Jos t‰m‰ on ensimm‰inen kerta, kun suoritat YaPiG:in:</p>\n"
+"   <ol>\n"
+"   <li>Muokkaa <i>config.php</i> -tiedostoa.</li>\n"
+"   <li><a href=\"admin.php\">Kirjaudu sis‰‰n yll‰pit‰j‰n‰</a> ja lis‰‰ uusi galleria.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:62
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Gallerioita ei ole. Kirjaudu sis‰‰n yll‰pit‰j‰n‰ tehd‰ksesi uusia gallerioita"
+
+#: ../install.php:30
+msgid "YaPiG Installation"
+msgstr "YaPiG:n asennus"
+
+#: ../install.php:42
+msgid "Could not be loaded GD library witch is required by YapiG or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "GD -kirjastoa, jonka YapiG vaatii, ei voitu ladata tai GD versiosi on liian vanha. Lis‰tietoja saat doc/install.html -dokumentaatiosta."
+
+#: ../install.php:45
+msgid "Nice! Your server has GD library. You can run YaPiG!"
+msgstr "Hienoa! Palvelimellasi on GD -kirjasto. Voit suorittaa YaPiG:n!"
+
+#: ../install.php:53
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "Ei voitu luoda SECURE_DIR:‰. Vaihda BASE_DIR:si (katso config.php) oikeudet 777:‰‰n."
+
+#: ../install.php:57
+msgid "Could not create index.html in SECURE_DIR"
+msgstr "Ei voitu luoda index.html SECURE_DIR:ss‰"
+
+#: ../install.php:59
+msgid "Could not create index.html in BASE_DIR"
+msgstr "Ei voitu luoda index.html BASE_DIR:ss‰"
+
+#: ../install.php:63
+msgid "Change YaPiG's root directory permissions to allow creating new files."
+msgstr "Muuta YaPiG:n juurikansion oikeudet niin, ett‰ ne sallii uusien tiedostojen luomisen."
+
+#: ../install.php:64
+msgid "Installation aborted. Could not create config file."
+msgstr "Asennus keskeytettiin. Ei voitu tehd‰ asetustiedostoa."
+
+#: ../install.php:111
+msgid "YaPiG successfully installed."
+msgstr "YaPiG asennettiin onnistuneesti."
+
+#: ../modify_gallery.php:24
+msgid "Update gallery Image list"
+msgstr "P‰ivit‰ gallerian kuvalista"
+
+#: ../modify_gallery.php:25
+msgid "Overwrite existing thumbnails"
+msgstr "Ylikirjoita olemassa olevat pikkukuvat"
+
+#: ../modify_gallery.php:26
+msgid "Only create new thumbnails"
+msgstr "Tee vain uudet pikkukuvat"
+
+#: ../modify_gallery.php:27
+msgid "view/edit"
+msgstr "katsele/muokkaa"
+
+#: ../modify_gallery.php:30
+msgid "Could not get image list. Gallery might have not images"
+msgstr "Kuvalistaa ei voitu saada. Galleriassa ei ehk‰ ole yht‰‰n kuvaa."
+
+#: ../modify_gallery.php:34
+msgid "Current images at gallery are:"
+msgstr "T‰m‰nhetkiset kuvat galleriassa ovat:"
+
+#: ../modify_gallery.php:40
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr "<span class=\"red\">Kuvan otsaketta ei ole asetettu</span>"
+
+#: ../modify_gallery.php:55
+msgid "Could not read gallery directory filenames"
+msgstr "Ei voitu lukea galleriakansion tiedostonimi‰"
+
+#: ../modify_gallery.php:57
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Kuvat, jotka ovat kansiossa, muttei galleriassa:</p><ul>"
+
+#: ../modify_gallery.php:108 ../modify_phid.php:212
+msgid "Modify gallery: "
+msgstr "Muokkaa galleriaa: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:118
+msgid "Modify gallery information:"
+msgstr "Muokkaa gallerian tietoja:"
+
+#: ../modify_gallery.php:134
+msgid "Directory location with images required!"
+msgstr "Vaaditaan kansio, jossa on kuvia!"
+
+#: ../modify_gallery.php:160
+msgid "Creating gallery information file."
+msgstr "Tehd‰‰n gallerian info -tiedostoa."
+
+#: ../modify_gallery.php:161
+msgid "Gallery info successfully updated."
+msgstr "Gallerian info p‰ivitettiin onnistuneesti."
+
+#: ../modify_gallery.php:174
+msgid "Could not update thumbnail"
+msgstr "Ei voitu p‰ivitt‰‰ pikkukuvaa"
+
+#: ../modify_gallery.php:175
+msgid "Thumbnail updated. (Do not worry if the upper thumb is the old one)"
+msgstr "Pikkukuva p‰ivitettiin. (ƒl‰ huolehdi vaikka ylempi pikkukuva olisi vanha)"
+
+#. List all phids.
+#: ../modify_gallery.php:180
+msgid "Select thumbnail: "
+msgstr "Valitse pikkukuva: "
+
+#: ../modify_gallery.php:182
+msgid "Could not get all image list."
+msgstr "Ei voitu saada kaikkien kuvien listaa."
+
+#. Construct Form.
+#: ../modify_gallery.php:185
+msgid "Update gallery thumbnail"
+msgstr "P‰ivit‰ gallerian pikkukuva"
+
+#: ../modify_gallery.php:186
+msgid "default password protected galleries thumbnail"
+msgstr "yleinen salasanalla suojattujen gallerioiden pikkukuva"
+
+#: ../modify_gallery.php:187
+msgid "view info"
+msgstr "katso info"
+
+#: ../modify_gallery.php:224
+msgid "Creating thumbs for images that do not have it."
+msgstr "Tehd‰‰n pikkukuvat kuville, joilla ei niit‰ ole."
+
+#: ../modify_gallery.php:229
+msgid "Creating all thumbs"
+msgstr "Tehd‰‰n kaikki pikkukuvat"
+
+#: ../modify_gallery.php:234
+msgid "Could not update gallery image list"
+msgstr "Ei voitu p‰ivitt‰‰ gallerian kuvalistaa"
+
+#: ../modify_gallery.php:235
+msgid "Image list successfully updated"
+msgstr "Kuvalista p‰ivitettiin onnistuneesti"
+
+#: ../modify_gallery.php:238
+msgid "Number of images not updated"
+msgstr "Kuvia, joita ei p‰ivitetty"
+
+#: ../modify_gallery.php:240
+msgid "Number of images updated"
+msgstr "Kuvia p‰ivitettiin"
+
+#. Default action is view galleries.
+#: ../modify_gallery.php:248
+msgid "<p>Please, select a gallery:</p>"
+msgstr "<p>Valitse galleria:</p>"
+
+#: ../modify_gallery.php:251
+msgid "There are no galleries."
+msgstr "Gallerioita ei ole."
+
+#: ../modify_gallery.php:262
+msgid "View this Gallery"
+msgstr "Selaa t‰t‰ galleriaa"
+
+#: ../modify_gallery.php:263
+msgid "Modify Gallery Index"
+msgstr "Muokkaa gallerian juurta"
+
+#: ../modify_phid.php:47 ../modify_phid.php:51 ../modify_phid.php:265
+msgid "Image has no comments"
+msgstr "Kuvalla ei ole kommentteja"
+
+#: ../modify_phid.php:54
+msgid "Modify"
+msgstr "Muokkaa"
+
+#: ../modify_phid.php:55
+msgid "Delete"
+msgstr "Poista"
+
+#: ../modify_phid.php:56
+msgid "Image Comments"
+msgstr "Kuvan kommentit"
+
+#: ../modify_phid.php:86
+msgid "Image identificator (phid) not found."
+msgstr "Kuvan id:t‰ (phid) ei lˆydy."
+
+#. I18n
+#: ../modify_phid.php:108
+msgid "Image name"
+msgstr "Kuvan nimi"
+
+#: ../modify_phid.php:111
+msgid "Remove from gallery"
+msgstr "Poista galleriasta"
+
+#: ../modify_phid.php:112
+msgid "Clear"
+msgstr "Tyhjenn‰"
+
+#: ../modify_phid.php:113
+msgid "Delete All"
+msgstr "Poista kaikki"
+
+#: ../modify_phid.php:114
+msgid "Image id"
+msgstr "Kuvan id"
+
+#: ../modify_phid.php:115
+msgid "Modify Image"
+msgstr "Muokkaa kuvaa"
+
+#: ../modify_phid.php:116
+msgid "Set as gallery thumbnail"
+msgstr "Aseta gallerian pikkukuvaksi"
+
+#: ../modify_phid.php:117
+msgid "Image caption"
+msgstr "Kuvan otsake"
+
+#: ../modify_phid.php:118
+msgid "Change caption"
+msgstr "Muuta otsake"
+
+#: ../modify_phid.php:134
+msgid "Could not remove image from gallery image list"
+msgstr "Ei voitu poistaa kuvaa gallerian kuvalistasta"
+
+#: ../modify_phid.php:135
+msgid "Image will not be shown in list."
+msgstr "Kuvaa ei n‰ytet‰ listassa."
+
+#: ../modify_phid.php:158
+msgid "Could not delete image comments file: "
+msgstr "Ei voitu poistaa kuvan kommenttitiedostoa: "
+
+#: ../modify_phid.php:159
+msgid "Image comments deleted"
+msgstr "Kuvien kommentit poistettiin"
+
+#: ../modify_phid.php:167
+msgid "Could not delete image comments counter: "
+msgstr "Ei voitu tyhjent‰‰ kuvien kommenttilaskuria: "
+
+#: ../modify_phid.php:168
+msgid "Image comments counter deleted"
+msgstr "Kuvien kommenttilaskuri tyhjennettiin"
+
+#: ../modify_phid.php:176
+msgid "Image visits counter not found or could not be removed."
+msgstr "Kuvien vierailulaskuria ei lˆydetty tai ei voitu tyhjent‰‰."
+
+#: ../modify_phid.php:177
+msgid "Image visits counter deleted"
+msgstr "Kuvien vierailulaskuri tyhjennettiin"
+
+#: ../modify_phid.php:250
+msgid "Set new caption to: "
+msgstr "Aseta uudeksi otsakkeeksi: "
+
+#: ../modify_phid.php:252
+msgid "Could not update caption."
+msgstr "Ei voitu p‰ivitt‰‰ otsaketta."
+
+#: ../modify_phid.php:261
+msgid "Comment not selected"
+msgstr "Kommenttia ei ole valittu"
+
+#: ../modify_phid.php:267
+msgid "Coul not open comments file"
+msgstr "Ei voitu avata kommenttitiedostoa"
+
+#: ../modify_phid.php:275
+msgid "Comment successfully deleted"
+msgstr "Kommentti poistettu onnistuneesti"
+
+#: ../modify_phid.php:288
+msgid "Could not read comments file"
+msgstr "Ei voitu lukea kommenttitiedostoa"
+
+#: ../modify_phid.php:292
+msgid "Opening comments file."
+msgstr "Avataan kommenttitiedostoa."
+
+#: ../modify_phid.php:301
+msgid "Comment successfully updated"
+msgstr "Kommentti p‰ivitetty onnistuneesti"
+
+#: ../upload.php:48 ../upload.php:121
+msgid "Upload Files"
+msgstr "L‰het‰ tiedostoja"
+
+#: ../upload.php:69
+msgid "Created directory: "
+msgstr "Luotiin kansio: "
+
+#: ../upload.php:71
+msgid "Could not create directory: "
+msgstr "Ei voitu luoda kansiota: "
+
+#: ../upload.php:76
+msgid "Successfully removed directory: "
+msgstr "Onnistuneesti poistettiin kansio: "
+
+#: ../upload.php:78
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "Ei voitu poistaa kansiota (ei tyhj‰ tai oikeusongelma)"
+
+#: ../upload.php:88
+msgid "Files will be uploaded in this directory: "
+msgstr "Tiedostot l‰hetet‰‰n t‰h‰n kansioon: "
+
+#: ../upload.php:90
+msgid "Create directory"
+msgstr "Luo kansio"
+
+#. i18n
+#: ../upload.php:119
+msgid "Select <b>ONE</b> directory"
+msgstr "Valitse <b>YKSI</b> kansio"
+
+#: ../upload.php:120
+msgid "Files to upload"
+msgstr "Tiedostot, joita l‰hetet‰‰n"
+
+#: ../upload.php:156
+msgid "Successfully uploaded file: "
+msgstr "Onnistuneesti l‰hetetty tiedosto: "
+
+#: ../upload.php:159
+msgid "Could not copy to file: "
+msgstr "Ei voitu kopioida tiedostoon: "
+
+#: ../view_func.php:31
+msgid "Filename"
+msgstr "Tiedostonimi"
+
+#: ../view_func.php:32
+msgid "File size"
+msgstr "Tiedostokoko"
+
+#: ../view_func.php:33
+msgid "Image size"
+msgstr "Kuvakoko"
+
+#: ../view_func.php:88
+msgid "Add yout comment!"
+msgstr "Lis‰‰ kommenttisi!"
+
+#: ../view_func.php:89
+msgid "Comment title"
+msgstr "Kommentin otsikko"
+
+#: ../view_func.php:91
+msgid "E-mail"
+msgstr "S‰hkˆpostiosoite"
+
+#: ../view_func.php:94
+msgid "Fields with * are required"
+msgstr "Kent‰t, joissa on * ovat vaadittuja"
+
+#: ../view_func.php:129
+msgid "Image comments"
+msgstr "Kuvan kommentit"
+
+#: ../view_func.php:131
+msgid "There are no messages! Give us your opinion!"
+msgstr "Viestej‰ ei ole! Kerro meille mielipiteesi!"
+
+#: ../view_func.php:136
+msgid "Opening comments file"
+msgstr "Avataan kommenttitiedostoa"
+
+#: ../view_func.php:162
+msgid "Previous Gallery"
+msgstr "Edellinen galleria"
+
+#: ../view_func.php:163
+msgid "Next Gallery"
+msgstr "Seuraava galleria"
+
+#: ../view_func.php:164
+msgid "Index of Galleries"
+msgstr "Kaikki galleriat"
+
+#: ../view_func.php:167 ../view_func.php:202
+msgid "could not show gallery navigation bar"
+msgstr "ei voitu n‰ytt‰‰ gallerian selauspalkkia"
+
+#: ../view_func.php:196
+msgid "Previous Image"
+msgstr "Edellinen kuva"
+
+#: ../view_func.php:197
+msgid "Next Image"
+msgstr "Seuraava kuva"
+
+#: ../view_func.php:198
+msgid "Up"
+msgstr "Takaisin galleriaan"
+
+#: ../view_func.php:231
+msgid "Previous page"
+msgstr "Edellinen sivu"
+
+#: ../view_func.php:232
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+#: ../view_func.php:259
+msgid "Zoom in"
+msgstr "Tarkenna"
+
+#: ../view_func.php:260
+msgid "Zoom Out"
+msgstr "Loitonna"
+
+#: ../view_func.php:261
+msgid "Real size"
+msgstr "Oikea koko"
+
+#. 0 -> View gallery identified with "gid"
+#: ../view.php:38
+msgid "GID not set"
+msgstr "GID ei ole asetettu"
+
+#: ../view.php:46
+msgid "Getting gallery directory"
+msgstr "Haetaan galleriakansio"
+
+#: ../view.php:61
+msgid "Password incorrect."
+msgstr "V‰‰r‰ salasana."
+
+#: ../view.php:82
+msgid "Gallery data not found. Please create again this gallery"
+msgstr "Gallerian dataa ei lˆydy. Tee t‰m‰ galleria uudelleen."

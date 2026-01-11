@@ -1,0 +1,1233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004 Jiri Cincura
+# This file is distributed under the same license as the YaPiG package.
+# Jiri Cincura <support@cincura.net>, 2004.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-04 15:37+0200\n"
+"PO-Revision-Date: 2004-03-30 00:00+0100\n"
+"Last-Translator: Jiri Cincura <support@cincura.net>\n"
+"Language-Team: Jiri (x2) Cincura <support@cincura.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../add_comment.php:75
+msgid "Incorrect add comment form"
+msgstr "Nekorektn data v komenti"
+
+#: ../add_comment.php:82
+msgid "Title field required"
+msgstr "Nzev je nutn"
+
+#: ../add_comment.php:87
+msgid "Author field required"
+msgstr "Autor je nutn"
+
+#: ../add_comment.php:92
+#, fuzzy
+msgid "Email field required"
+msgstr "e-mail je nutn"
+
+#: ../add_comment.php:97
+#, fuzzy
+msgid "Website field required"
+msgstr "Web je nutn"
+
+#: ../add_comment.php:102
+msgid "Comment field required"
+msgstr "Koment je nutn"
+
+#: ../add_comment.php:107
+msgid "Some required fields were not filled in."
+msgstr ""
+
+#: ../add_comment.php:150
+#, fuzzy
+msgid "Thank you for your contribution"
+msgstr "Dky za tvj koment"
+
+#: ../add_comment.php:151
+#, fuzzy
+msgid "Added this comment"
+msgstr "Pidn tento Koment"
+
+#: ../add_comment.php:152 ../admin_func.php:560 ../view_func.php:78
+msgid "Title"
+msgstr "Nzev"
+
+#: ../add_comment.php:153 ../admin_func.php:190 ../admin_func.php:561 ../view_func.php:79 ../view_func.php:316
+msgid "Author"
+msgstr "Autor"
+
+#: ../add_comment.php:154 ../view_func.php:317
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#: ../add_comment.php:155 ../view_func.php:318
+#, fuzzy
+msgid "Website"
+msgstr "Web"
+
+#: ../add_comment.php:156 ../view_func.php:319 ../view_func.php:345
+msgid "Comment"
+msgstr "Koment"
+
+#. Interface variables
+#: ../add_comment.php:157 ../admin_func.php:660
+msgid "If the page is not automatically refreshed."
+msgstr "Kdy tato strnka nen automaticky obnovena."
+
+#: ../add_comment.php:158 ../admin_func.php:661
+#, fuzzy
+msgid "Press here"
+msgstr "Prosm, stiskni zde"
+
+#: ../add_comment.php:165 ../admin_func.php:563 ../view_func.php:81
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../add_comment.php:174
+#, fuzzy
+msgid "[Yapig comment] "
+msgstr "Koment obrzku"
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "Pidvm novou galerii: "
+
+#: ../add_gallery.php:60
+#, fuzzy
+msgid "GD library not loaded. Please, read installation documentation"
+msgstr "GD knihovna nen natena. Prosm prostuduj instalan dokumentaci"
+
+#. Check arguments
+#: ../add_gallery.php:66
+#, fuzzy
+msgid "Image storage directory required!"
+msgstr "Nzev, autor a popis jsou vyadovny!"
+
+#: ../add_gallery.php:71 ../modify_gallery.php:158
+msgid "Title, author and description are required!"
+msgstr "Nzev, autor a popis jsou vyadovny!"
+
+#: ../add_gallery.php:82
+#, fuzzy
+msgid "Location directory does not exist:"
+msgstr "Funkce imacreatefromjpeg neexistuje"
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Vybran adres galerie je pouvn jinou galeri. Sma nejprve tuto galerii."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "Vytvm index.html pro pro zabrnn prochzen (listing) serverem."
+
+#: ../add_gallery.php:91
+msgid "Permissions. Read FAQ documentation."
+msgstr "Prva. Peti FAQ dokumentaci."
+
+#. Load all imagenames
+#: ../add_gallery.php:95
+#, fuzzy
+msgid "Loading image names of: "
+msgstr "Natm obrzky Jmna z: "
+
+#: ../add_gallery.php:99
+msgid "Failed to read image names."
+msgstr "Chyba pri natn jmen obrzk."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:103
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Vytvm zvislosti mezi jmny soubor a 'photo identificator (phid)'"
+
+#: ../add_gallery.php:105
+msgid "Creating phid correspondence."
+msgstr "Vytvm phid zvislosti."
+
+#. Create Info File
+#: ../add_gallery.php:111 ../modify_gallery.php:167
+msgid "Creating gallery information file with:"
+msgstr "Vytvm informan soubor galerie s:"
+
+#: ../add_gallery.php:128
+msgid "Error creating gallery information file."
+msgstr "Chyba pi vytven informanho souboru galerie."
+
+#. Make thumbnails
+#: ../add_gallery.php:132
+msgid "Creating thumbnails"
+msgstr "Vytvm nhledy"
+
+#: ../add_gallery.php:134
+msgid "Could not create all thumbnails."
+msgstr "Nejdou vytvoit vechny nhledy."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:137
+msgid "Adding this gallery to gallery index"
+msgstr "Pidvm tuto galerii do indexu galeri"
+
+#: ../add_gallery.php:139
+msgid "Adding gallery to file: "
+msgstr "Pidvm galerii do souboru: "
+
+#: ../add_gallery.php:140
+msgid "Gallery <b>successfully</b> created"
+msgstr "Galerie <b>spn</b> vytvoena"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:143 ../functions.php:198 ../view_func.php:390
+msgid "Gallery index"
+msgstr "Index galerie"
+
+#: ../add_gallery.php:144
+msgid "Back to admin page"
+msgstr "Zpt na admin page"
+
+#: ../admin_func.php:26
+#, fuzzy
+msgid "GD library not loaded. Trying to load it."
+msgstr "GD library nenatena. Zkus nast."
+
+#: ../admin_func.php:29
+msgid "Function dynamic extension load not available."
+msgstr "Funkce dynamick natn ppon nen ptomna."
+
+#: ../admin_func.php:34
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll spn natena"
+
+#: ../admin_func.php:38
+#, fuzzy
+msgid "GD library not available"
+msgstr "GD knihovna natena."
+
+#: ../admin_func.php:41
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so spn naten."
+
+#: ../admin_func.php:47
+msgid "Function getimagesize does not exist"
+msgstr "Funkce getimagesize neexistuje"
+
+#: ../admin_func.php:52
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Funkce imagecreatetruecolor neexistuje"
+
+#: ../admin_func.php:56
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Funkce imacreatefromjpeg neexistuje"
+
+#: ../admin_func.php:59
+msgid "GD library is loaded."
+msgstr "GD knihovna natena."
+
+#. Admin login form internationalization.
+#: ../admin_func.php:130
+#, fuzzy
+msgid "Please login as administrator"
+msgstr "Prosm pihlas se jako admin"
+
+#: ../admin_func.php:131
+msgid "User"
+msgstr "Uivatel"
+
+#: ../admin_func.php:132 ../admin_func.php:194
+msgid "Password"
+msgstr "Heslo"
+
+#: ../admin_func.php:133
+msgid "Submit"
+msgstr "Odeslat"
+
+#. I18n
+#: ../admin_func.php:147
+#, fuzzy
+msgid "Administrative tasks"
+msgstr "Funkce admina"
+
+#: ../admin_func.php:148 ../upload.php:107
+msgid "Upload files"
+msgstr "Nahrt soubory"
+
+#: ../admin_func.php:149
+msgid "Add gallery"
+msgstr "Pidat galerii"
+
+#: ../admin_func.php:150
+msgid "Modify gallery"
+msgstr "Upravit galerii"
+
+#: ../admin_func.php:151 ../admin_func.php:557 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Smazat galerii"
+
+#: ../admin_func.php:152
+msgid "Configuration"
+msgstr ""
+
+#: ../admin_func.php:153
+msgid "Logout"
+msgstr "Odhlsit"
+
+#: ../admin_func.php:189
+msgid "Gallery title"
+msgstr "Nzev galerie"
+
+#: ../admin_func.php:191 ../admin_func.php:566 ../view_func.php:84 ../view_func.php:344
+msgid "Date"
+msgstr "Nzev galerie"
+
+#: ../admin_func.php:192
+#, fuzzy
+msgid "Leave it blank for today's date."
+msgstr "Voln formt. Nech przdn pro dnen datum."
+
+#: ../admin_func.php:193
+msgid "Location"
+msgstr "Umstn"
+
+#: ../admin_func.php:195
+#, fuzzy
+msgid "set this option for restricted access to gallery"
+msgstr "nastav toto pole, pokud chce soukrom pstup k tto galerii"
+
+#: ../admin_func.php:196 ../admin_func.php:567 ../view_func.php:85 ../view_func.php:247
+msgid "Description"
+msgstr "Popis"
+
+#: ../admin_func.php:197
+msgid "Hide comments"
+msgstr "Skrt komente"
+
+#: ../admin_func.php:198 ../install.php:44 ../view_func.php:321
+msgid "Send"
+msgstr "Poslat"
+
+#: ../admin_func.php:238
+#, fuzzy
+msgid " is a huge image, it might cause memory issues."
+msgstr " je velmi velk soubor, co me zpsobovat pamov problmy."
+
+#: ../admin_func.php:321
+#, fuzzy
+msgid "GD library not loaded. Please read installation documentation"
+msgstr "GD knihovna nen natena. Prosm prostuduj instalan dokumentaci"
+
+#: ../admin_func.php:457 ../admin_func.php:464
+msgid "Opening gid counter file: "
+msgstr "Otevrm gid potadlo: "
+
+#: ../admin_func.php:554
+msgid "Modify gallery info"
+msgstr "Zmnit informace o galerii"
+
+#: ../admin_func.php:555
+msgid "Select thumbnail"
+msgstr "Vybrat nhled"
+
+#: ../admin_func.php:556
+#, fuzzy
+msgid "Modify imagelist"
+msgstr "Zmnit seznam obrzk"
+
+#: ../admin_func.php:559 ../view_func.php:77
+msgid "Number of images"
+msgstr "Poet obrzk"
+
+#: ../admin_func.php:562 ../view_func.php:80
+msgid "View this gallery"
+msgstr "Zobrazit tuto galerii"
+
+#: ../admin_func.php:564 ../modify_phid.php:119 ../view_func.php:82 ../view_func.php:246
+msgid "Visits"
+msgstr "Nvtvy"
+
+#: ../admin_func.php:565 ../modify_phid.php:118 ../view_func.php:83 ../view_func.php:155
+msgid "Comments"
+msgstr "Komente"
+
+#: ../admin_func.php:568 ../view_func.php:442
+msgid "Up"
+msgstr "Nahoru"
+
+#: ../admin_func.php:569
+msgid "Down"
+msgstr ""
+
+#: ../admin_func.php:570
+#, fuzzy
+msgid "Move up this gallery on index"
+msgstr "Pidvm tuto galerii do indexu galeri"
+
+#: ../admin_func.php:571
+#, fuzzy
+msgid "Move down this gallery on index"
+msgstr "Pidvm tuto galerii do indexu galeri"
+
+#: ../admin_func.php:593
+msgid "Select deletion options:"
+msgstr "Vyber monosti mazn:"
+
+#: ../admin_func.php:594
+msgid "Do not list gallery in gallery index any more."
+msgstr "Nezobrazuj galerii v indexu galeri."
+
+#: ../admin_func.php:595
+msgid "Clear all image comments."
+msgstr "Smazat vechny komente obrzk."
+
+#: ../admin_func.php:596
+msgid "Clear all image visit counters."
+msgstr "Smazat potadlo nvtv obrzk."
+
+#: ../admin_func.php:597
+msgid "Clear gallery visit counters."
+msgstr "Smazat potadlo nvtv galerie."
+
+#: ../admin_func.php:598
+msgid "Delete gallery thumbnails."
+msgstr "Smazat nhledy galerie."
+
+#: ../admin_func.php:599
+msgid "Delete all files in directory."
+msgstr "Smazat potadlo nvtv galerie."
+
+#: ../admin_func.php:600
+#, fuzzy
+msgid "Delete all image captions."
+msgstr "Smazat vechny komente obrzk."
+
+#: ../admin_func.php:601
+msgid "send"
+msgstr "poslat"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+#, fuzzy
+msgid "<strong>Yapig</strong> administration"
+msgstr "<strong>YaPiG</strong> Admin"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Nepstupn"
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Pidat novou galerii"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:120
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galerie neexistuje nebo nen nastaven gid"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Statistiky galerie neexistuj nebo nemohou bt smazny"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Statistiky galerie smazny."
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Statistiky obrzk tto galerie neexistuj nebo nemohou bt smazny"
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Statistiky obrzk tto galerii smazny."
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Potadlo galerie neexistuje nebo neme bt smazno"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Potadlo koment tto galerie smazno"
+
+#: ../delete_gallery.php:69
+#, fuzzy
+msgid "Could not load this file: "
+msgstr "Nelze nast tento soubor: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:86 ../delete_gallery.php:111 ../delete_gallery.php:126
+msgid "Could not delete: "
+msgstr "Nelze smazat: "
+
+#: ../delete_gallery.php:77 ../delete_gallery.php:87
+msgid "Deleted: "
+msgstr "Smazno: "
+
+#: ../delete_gallery.php:93
+msgid "Could not get image list from file: "
+msgstr "Nelze nast seznam soubor ze souboru: "
+
+#: ../delete_gallery.php:98
+msgid "Could not delete thumbnail image: "
+msgstr "Nelze smazat nhled obrzku: "
+
+#: ../delete_gallery.php:99
+msgid "Deleted thumbnail: "
+msgstr "Smazn nhled: "
+
+#: ../delete_gallery.php:107
+msgid "Gallery could not be removed from index"
+msgstr "Nelze odebrat galerii z indexu"
+
+#: ../delete_gallery.php:109
+#, fuzzy
+msgid "Gallery will not be displayed anymore in the gallery index"
+msgstr "Galerie nebude zobrazovna v indexu galerii"
+
+#: ../delete_gallery.php:118
+msgid " is not a valid directory"
+msgstr " nen platn adres"
+
+#: ../delete_gallery.php:121
+msgid " could not be opened"
+msgstr " nemohl bt oteven"
+
+#: ../delete_gallery.php:128
+msgid "Deleted file: "
+msgstr "Smazn soubor: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:133
+msgid "Gallery successfully deleted."
+msgstr "Galerie spn smazna."
+
+#. Show some useful links
+#: ../delete_gallery.php:136
+msgid "Admin index"
+msgstr "Admin index"
+
+#: ../delete_gallery.php:137
+#, fuzzy
+msgid "Delete additional galleries"
+msgstr "Smazat vce galeri"
+
+#: ../functions.php:135
+msgid "Error"
+msgstr "Chyba"
+
+#: ../functions.php:153
+msgid "Warning"
+msgstr "Varovn"
+
+#: ../functions.php:197
+#, fuzzy
+msgid "Main menu"
+msgstr "hlavn menu"
+
+#: ../functions.php:199
+#, fuzzy
+msgid "Homepage"
+msgstr "Domovsk strnka"
+
+#: ../functions.php:201
+msgid "Admin"
+msgstr "Admin"
+
+#. Logout links
+#: ../functions.php:204
+msgid "Admin logout"
+msgstr "Odhlen admina"
+
+#: ../functions.php:205
+msgid "Gallery logout"
+msgstr "Odhlen z galerie"
+
+#: ../gallery.php:46
+#, fuzzy
+msgid "Congratulations Yapig is up and running!"
+msgstr "Gratulace YAPIG pracuje!"
+
+#. welcome message
+#: ../gallery.php:49
+#, fuzzy
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\n"
+"   <p>If this is the first time you run:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Vtej v <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Neexistuje <strong>dn</strong> galerie.<p>\n"
+"   <p>Pokud poprv spout YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edituj <i>config.php</i> soubor.</li>\n"
+"   <li><a href=\"admin.php\">Pihlas se jako admin</a> a pidej novou galerii.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:69
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Nejsou dn galerie. Pihlas se jako admin a vytvo nov galerie"
+
+#: ../install.php:61
+#, fuzzy
+msgid "Yapig installation"
+msgstr "YaPiG instalace"
+
+#: ../install.php:66
+#, fuzzy
+msgid "YaPiG already installed"
+msgstr "YaPiG spn nainstalovn."
+
+#: ../install.php:80
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "Nelze vytvoit SECURE_DIR. Zmn prva svho BASE_DIR (vce config.php) na 777."
+
+#: ../install.php:85
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory yourself with any random name on $BASE_DIR (photos/) and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create an empty file called index.html to both BASE_DIR and\r\n"
+"\t  SECURE_DIR directories. These are for avoiding server listing.</li>\r\n"
+"\t  <li>After you have created the directory and set its permissions, \r\n"
+"\t  please enter its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:107
+msgid "SECURE_DIR does not exist! Please enter the correct directory name:"
+msgstr ""
+
+#: ../install.php:116
+#, fuzzy
+msgid "Could not create index.html in SECURE_DIR. Read FAQ documentation."
+msgstr "Nelze vytvoit index.html in SECURE_DIR"
+
+#: ../install.php:119
+#, fuzzy
+msgid "Could not create index.html in BASE_DIR. Read FAQ documentation"
+msgstr "Nelze vytvoit index.html in BASE_DIR"
+
+#: ../install.php:124
+#, fuzzy
+msgid "Could not load GD library which is required by Yapig or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "Nelze nast GD knohovnu, kter je nutn pro YapiG nebo je jeho verze pli star. Prosm peti doc/install.html dokumentaci pro vce informac."
+
+#: ../install.php:127
+#, fuzzy
+msgid "Good! Your server has GD library. You can run Yapig!"
+msgstr "Skvl! Tvj server m GD verze 2 nebo vy. Me spustit YaPiG!"
+
+#: ../install.php:133
+#, fuzzy
+msgid "Could not get GD version. Please read doc/en/install.html documentation for more information."
+msgstr "Nelze nast GD knohovnu, kter je nutn pro YapiG nebo je jeho verze pli star. Prosm peti doc/install.html dokumentaci pro vce informac."
+
+#: ../install.php:139
+#, fuzzy
+msgid "Change Yapig's root directory permissions to allow creating new files."
+msgstr "Zm prva koenovho adrese YaPiG-u, aby mohl vytvet nov soubory."
+
+#: ../install.php:140
+msgid "Installation aborted. Could not create config file."
+msgstr "Instalace stornovna. Nelze vytvoit konfiguran soubor."
+
+#: ../install.php:197
+#, fuzzy
+msgid "Yapig successfully installed."
+msgstr "YaPiG spn nainstalovn."
+
+#: ../install.php:200
+#, fuzzy
+msgid "Congratulations Yapig is up and runnig!"
+msgstr "Gratulace YAPIG pracuje!"
+
+#: ../install.php:204
+msgid "Security Advice: After you have configured all, delete install.php"
+msgstr ""
+
+#. welcome message    
+#: ../install.php:209
+#, fuzzy
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">Yapig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> defined  galleries.<p>\r\n"
+"   <p>If this is the first time you run:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Vtej v <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Neexistuje <strong>dn</strong> galerie.<p>\n"
+"   <p>Pokud poprv spout YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edituj <i>config.php</i> soubor.</li>\n"
+"   <li><a href=\"admin.php\">Pihlas se jako admin</a> a pidej novou galerii.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../modify_gallery.php:22
+#, fuzzy
+msgid "<p>Select a gallery:</p>"
+msgstr "<p>Prosm, vyber galerii:</p>"
+
+#: ../modify_gallery.php:25
+#, fuzzy
+msgid "There are no available galleries."
+msgstr "Nejsou dn galerie."
+
+#: ../modify_gallery.php:42
+#, fuzzy
+msgid "Update gallery imagelist"
+msgstr "prava seznamu obrzk galerie"
+
+#: ../modify_gallery.php:43
+msgid "Overwrite existing thumbnails"
+msgstr "Pepsat existujc nhledy"
+
+#: ../modify_gallery.php:44
+msgid "Only create new thumbnails"
+msgstr "Pouze vytvoit nov nhledy"
+
+#: ../modify_gallery.php:45
+msgid "view/edit"
+msgstr "zobrazit/editovat"
+
+#: ../modify_gallery.php:48
+#, fuzzy
+msgid "Could not get imagelist. Gallery probably does not have images"
+msgstr "Nelze pest seznam soubor. Gallerie mon nem dn obrzky"
+
+#: ../modify_gallery.php:52
+#, fuzzy
+msgid "Current images in gallery are:"
+msgstr "Souasn obrzky v galerii jsou:"
+
+#: ../modify_gallery.php:58
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr "<span class=\"red\">Nadpis obrzku nenastaven</span>"
+
+#: ../modify_gallery.php:73
+msgid "Could not read gallery directory filenames"
+msgstr "Nelze st jmno adrese galerie"
+
+#: ../modify_gallery.php:75
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Obrzky kter jsou v adresi ale nejsou v galerii:</p><ul>"
+
+#: ../modify_gallery.php:126 ../modify_phid.php:233
+msgid "Modify gallery: "
+msgstr "Zmnit galerii"
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:137
+msgid "Modify gallery information:"
+msgstr "Zmnit informace o galerii"
+
+#: ../modify_gallery.php:153
+msgid "Directory location with images required!"
+msgstr "Adres s obrzky je nutn!"
+
+#: ../modify_gallery.php:181
+msgid "Creating gallery information file."
+msgstr "Vytvm informan soubor galerie."
+
+#: ../modify_gallery.php:182
+msgid "Gallery info successfully updated."
+msgstr "Informan soubor galerie spn aktualizovn."
+
+#: ../modify_gallery.php:193
+#, fuzzy
+msgid "Sorry, password protected galeries cannot change the thumbnail"
+msgstr "defaultn obrzek galeri chrnnch heslem"
+
+#: ../modify_gallery.php:199
+msgid "Could not update thumbnail"
+msgstr "Nelze upravit nhledy"
+
+#: ../modify_gallery.php:200
+#, fuzzy
+msgid "Thumbnail updated. (Do not worry if the upper thumbnail is the previous one)"
+msgstr "Nhled upraven. (Nemj strach, pokud nhled nahoe je ten star)"
+
+#. List all phids.
+#: ../modify_gallery.php:205
+msgid "Select thumbnail: "
+msgstr "Vyber nhled: "
+
+#: ../modify_gallery.php:207
+#, fuzzy
+msgid "Could not get all imagelist."
+msgstr "Nelze nast cel seznam obrzk."
+
+#. Construct Form.
+#: ../modify_gallery.php:210
+msgid "Update gallery thumbnail"
+msgstr "Upravit nhled galerie"
+
+#: ../modify_gallery.php:211
+msgid "default password protected galleries thumbnail"
+msgstr "defaultn obrzek galeri chrnnch heslem"
+
+#: ../modify_gallery.php:212
+msgid "view info"
+msgstr "zobrazit informace"
+
+#: ../modify_gallery.php:247
+#, fuzzy
+msgid "Selected imagelist:"
+msgstr "Zmnit seznam obrzk"
+
+#: ../modify_gallery.php:250
+#, fuzzy
+msgid "Creating thumbnail for images that do not have one."
+msgstr "Vytvm nhledy pro obrzky, kter je nemaj."
+
+#: ../modify_gallery.php:255
+msgid "Creating all thumbs"
+msgstr "Vytvm vechny nhledy"
+
+#: ../modify_gallery.php:260
+#, fuzzy
+msgid "Could not update gallery imagelist"
+msgstr "Nelze aktualizovat seznam obrzk galerie"
+
+#: ../modify_gallery.php:261
+#, fuzzy
+msgid "Imagelist successfully updated"
+msgstr "Seznam obrzk galerie spn aktualizovn"
+
+#: ../modify_gallery.php:264
+msgid "Number of images not updated"
+msgstr "Poet obrzk nezmnn."
+
+#: ../modify_gallery.php:266
+msgid "Number of images updated"
+msgstr "Poet obrzk zmnn."
+
+#: ../modify_gallery.php:273 ../modify_gallery.php:279
+#, fuzzy
+msgid "Operation could not be done"
+msgstr " nemohl bt oteven"
+
+#: ../modify_gallery.php:291
+#, fuzzy
+msgid "Display this gallery"
+msgstr "Zobrazit tuto galerii"
+
+#: ../modify_gallery.php:292
+#, fuzzy
+msgid "Modify gallery index"
+msgstr "Upravit index galerie"
+
+#: ../modify_phid.php:54 ../modify_phid.php:58 ../modify_phid.php:292
+msgid "Image has no comments"
+msgstr "Obrzek nem komente"
+
+#: ../modify_phid.php:61
+msgid "Modify"
+msgstr "Upravit"
+
+#: ../modify_phid.php:62
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../modify_phid.php:63
+msgid "Image Comments"
+msgstr "Komente obrzku"
+
+#: ../modify_phid.php:93
+msgid "Image identificator (phid) not found."
+msgstr "Identifiktor obrzku (phid) nenalezen."
+
+#. I18n
+#: ../modify_phid.php:117
+msgid "Image name"
+msgstr "Jmno obrzku"
+
+#: ../modify_phid.php:120
+msgid "Remove from gallery"
+msgstr "Odebrat z galerie"
+
+#: ../modify_phid.php:121
+msgid "Clear"
+msgstr "Vyistit"
+
+#: ../modify_phid.php:122
+msgid "Delete All"
+msgstr "Smazat ve"
+
+#: ../modify_phid.php:123
+msgid "Image id"
+msgstr "id obrzku"
+
+#: ../modify_phid.php:124
+msgid "Modify Image"
+msgstr "Upravit obrzek"
+
+#: ../modify_phid.php:125
+msgid "Set as gallery thumbnail"
+msgstr "Natavit jako nhled galerie"
+
+#: ../modify_phid.php:126
+msgid "Image caption"
+msgstr "Nadpis obrzku"
+
+#: ../modify_phid.php:127
+msgid "Change caption"
+msgstr "Zmnit nadpis"
+
+#: ../modify_phid.php:128
+msgid "Rotate image"
+msgstr ""
+
+#: ../modify_phid.php:144
+#, fuzzy
+msgid "Could not remove image from gallery imagelist"
+msgstr "Nelze odstranit obrzek z seznamu obrzk galerie"
+
+#: ../modify_phid.php:145
+#, fuzzy
+msgid "Image will not be displayed in list."
+msgstr "Obrzek nebude zobrazovn v seznamu"
+
+#: ../modify_phid.php:168
+msgid "Could not delete image comments file: "
+msgstr "Nelze smazat soubor koment k obrzku: "
+
+#: ../modify_phid.php:169
+msgid "Image comments deleted"
+msgstr "Komente obrzku smazny"
+
+#: ../modify_phid.php:177
+msgid "Could not delete image comments counter: "
+msgstr "Nelze smazat potadlo koment obrzku: "
+
+#: ../modify_phid.php:178
+msgid "Image comments counter deleted"
+msgstr "Potadlo koment k obrzku smazno"
+
+#: ../modify_phid.php:186
+msgid "Image visits counter not found or could not be removed."
+msgstr "Potadlo nvtv obrzku nenalezeno nebo nelze smazat."
+
+#: ../modify_phid.php:187
+msgid "Image visits counter deleted"
+msgstr "Potadlo nvtv obrzku smazno"
+
+#: ../modify_phid.php:277
+msgid "Set new caption to: "
+msgstr "Nastavit nov nadpis pro: "
+
+#: ../modify_phid.php:279
+msgid "Could not update caption."
+msgstr "Nelze upravit nadpis."
+
+#: ../modify_phid.php:288
+msgid "Comment not selected"
+msgstr "Koment nevybrn"
+
+#: ../modify_phid.php:294
+msgid "Coul not open comments file"
+msgstr "Nelze otevt soubor komente"
+
+#: ../modify_phid.php:302
+msgid "Comment successfully deleted"
+msgstr "Koment spn smazn"
+
+#: ../modify_phid.php:315
+msgid "Could not read comments file"
+msgstr "Nelze st soubor komente"
+
+#: ../modify_phid.php:319
+msgid "Opening comments file."
+msgstr "Otevrm soubor komente"
+
+#: ../modify_phid.php:328
+msgid "Comment successfully updated"
+msgstr "Koment spn aktualizovn"
+
+#: ../modify_phid.php:352
+#, fuzzy
+msgid "Image not found."
+msgstr "Nadpis obrzku"
+
+#: ../modify_phid.php:361 ../modify_phid.php:365
+#, fuzzy
+msgid "Could not rotate the image or the thumbnail"
+msgstr "Nejdou vytvoit vechny nhledy."
+
+#. header("Location: modify_phid?action=view_phid&gid=$gid&phid=$phid");
+#: ../modify_phid.php:369
+msgid "Image has successfully been rotated, although your browser might be displaying the old one because it is on cache."
+msgstr ""
+
+#: ../upload.php:25
+msgid "Upload Files"
+msgstr "Nahrt soubory"
+
+#: ../upload.php:39
+msgid "Dots in directory names are not allowed"
+msgstr ""
+
+#: ../upload.php:53
+msgid "Created directory: "
+msgstr "Adres vytvoen"
+
+#: ../upload.php:56
+msgid "Could not create directory: "
+msgstr "Nelze vytvoit adres"
+
+#: ../upload.php:62
+msgid "Successfully removed directory: "
+msgstr "Adres spn odstrann"
+
+#: ../upload.php:64
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "Nelze odstranit adres (nen przdn nebo patn prva)"
+
+#: ../upload.php:74
+#, fuzzy
+msgid "Files will be uploaded to following directory: "
+msgstr "Soubory budou nahrny do tohoto adrese: "
+
+#: ../upload.php:76
+msgid "Create directory"
+msgstr "Vytvo adres"
+
+#. i18n
+#: ../upload.php:105
+#, fuzzy
+msgid "Select only <b>one</b> directory"
+msgstr "Vyber <b>JEDEN</b> adres"
+
+#: ../upload.php:106
+msgid "Files to upload"
+msgstr "Soubory pro nahrn"
+
+#: ../upload.php:137
+msgid " is not recognized as an image."
+msgstr ""
+
+#: ../upload.php:147
+msgid "Successfully uploaded file: "
+msgstr "spn nahran soubor: "
+
+#: ../upload.php:150
+#, fuzzy
+msgid "Could not copy file: "
+msgstr "Nelze koprovat do souboru: "
+
+#: ../view_func.php:56
+msgid "Gallery does not exist: "
+msgstr "Odhlen z galerie"
+
+#: ../view_func.php:86
+msgid "View slideshow"
+msgstr ""
+
+#: ../view_func.php:96
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Tato galerie vyaduje heslo. Vypl, prosm, pole heslo a stiskni tlatko pro oven. Dky."
+
+#: ../view_func.php:98
+msgid "Validate"
+msgstr "Ov"
+
+#: ../view_func.php:99
+msgid "Gallery password"
+msgstr "Heslo galerie"
+
+#. I18n -
+#: ../view_func.php:152
+msgid "Enlarge image"
+msgstr ""
+
+#: ../view_func.php:153
+msgid "Image"
+msgstr "Obrzek"
+
+#: ../view_func.php:154
+msgid "Hits"
+msgstr "Kliknut"
+
+#: ../view_func.php:241
+#, fuzzy
+msgid "Image caption not set"
+msgstr "Nadpis obrzku"
+
+#: ../view_func.php:243
+msgid "Filename"
+msgstr "Jmno souboru"
+
+#: ../view_func.php:244
+msgid "File size"
+msgstr "Velikost souboru"
+
+#: ../view_func.php:245
+msgid "Image size"
+msgstr "Velikost obrzku"
+
+#: ../view_func.php:314
+msgid "Add your comment!"
+msgstr "Pidej svj koment!"
+
+#: ../view_func.php:315
+msgid "Comment title"
+msgstr "Nadpis komente"
+
+#: ../view_func.php:320
+msgid "* = required fields"
+msgstr ""
+
+#: ../view_func.php:355
+msgid "Image comments"
+msgstr "Koment obrzku"
+
+#: ../view_func.php:357
+msgid "There are no messages! Give us your opinion!"
+msgstr "dn zprvy. Vyjdi svj nzor!"
+
+#: ../view_func.php:362
+msgid "Opening comments file"
+msgstr "Otevrm soubor komente"
+
+#: ../view_func.php:388
+#, fuzzy
+msgid "Previous gallery"
+msgstr "Pedchoz galerie"
+
+#: ../view_func.php:389
+#, fuzzy
+msgid "Next gallery"
+msgstr "Nsledujc galerie"
+
+#: ../view_func.php:396 ../view_func.php:445
+#, fuzzy
+msgid "could not display gallery navigation bar"
+msgstr "nelze zobrazit navigan litu galerie"
+
+#: ../view_func.php:405 ../view_func.php:443
+msgid "[Slideshow]"
+msgstr ""
+
+#: ../view_func.php:426
+#, fuzzy
+msgid "Previous image"
+msgstr "Pedchzejc obrzek"
+
+#: ../view_func.php:427
+#, fuzzy
+msgid "Next image"
+msgstr "Nsledujc obrzek"
+
+#: ../view_func.php:477
+msgid "Previous page"
+msgstr "Pedchoz strnka"
+
+#: ../view_func.php:478
+msgid "Next page"
+msgstr "Nsledujc strnka"
+
+#: ../view_func.php:485
+#, fuzzy
+msgid "Page"
+msgstr "Obrzek"
+
+#: ../view_func.php:511
+msgid "Zoom in"
+msgstr "Zvtit"
+
+#: ../view_func.php:512
+#, fuzzy
+msgid "Zoom out"
+msgstr "Zmenit"
+
+#: ../view_func.php:513
+#, fuzzy
+msgid "Original size"
+msgstr "Pvodn velikost"
+
+#: ../view.php:49
+#, fuzzy
+msgid "Incorrect Arguments"
+msgstr "Nekorektn data v komenti"
+
+#: ../view.php:57
+#, fuzzy
+msgid "Retrieving gallery directory"
+msgstr "Zskvm adres galerie"
+
+#: ../view.php:72
+msgid "Password incorrect."
+msgstr "patn heslo"
+
+#: ../view.php:93
+#, fuzzy
+msgid "Gallery data not found. Please re-create this gallery"
+msgstr "Data galerie nenalezena. Vytvo prosm tuto galerii znovu"
+
+#: ../view.php:106
+#, fuzzy
+msgid "Image not found"
+msgstr "Nadpis obrzku"
+
+#~ msgid "Sorry, you did not fill some required fields."
+#~ msgstr "Sorry, nevyplnil jsi nkter povinn pole."
+
+#~ msgid "e-mail"
+#~ msgstr "e-mail"
+
+#~ msgid "Directory where images are stored required!"
+#~ msgstr "Je teba adres, kde jsou uloeny obrzky!"
+
+#~ msgid "Location directory DOES NOT EXIST."
+#~ msgstr "Hledan adres NEEXISTUJE."
+
+#~ msgid "Permissions. I will try chmod 2777 "
+#~ msgstr "Prva. Zkusm chmod 27777 "
+
+#~ msgid "Gallery Index"
+#~ msgstr "Index galerie"
+
+#~ msgid "GD Library NOT AVAILABLE"
+#~ msgstr "GD knihovna NEN DOSTUPN"
+
+#~ msgid "Change main config"
+#~ msgstr "Zmnit hlavn konfiguraci"
+
+#~ msgid "PNG files not supported in this version"
+#~ msgstr "PNG soubory nejsou v tto verzi podporovny"
+
+#~ msgid "View image bigger"
+#~ msgstr "Zobraz obrzek vt"
+
+#~ msgid "View this Gallery"
+#~ msgstr "Zobrazit tuto galerii"
+
+#~ msgid "Fields with * are required"
+#~ msgstr "Pole oznaen * jsou povinn"
+
+#~ msgid "Index of Galleries"
+#~ msgstr "Index galeri"
+
+#~ msgid "GID not set"
+#~ msgstr "GID nenastaven"

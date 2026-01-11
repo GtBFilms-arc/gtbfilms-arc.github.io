@@ -1,0 +1,1 @@
+plugin|CounterTotals|enabled|1

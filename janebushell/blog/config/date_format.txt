@@ -1,0 +1,1 @@
+weekday|, |month| |day|, |year|||Month/Day/Year|/||||12|on| AM| PM|:|long|, |time|0|short

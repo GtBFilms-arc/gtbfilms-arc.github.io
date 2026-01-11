@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Links</title>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from none JavaScript Browsers
+Image1= new Image(100,30)
+Image1.src = "button_home.jpg"
+Image2 = new Image(100,30)
+Image2.src = "button_home_on.jpg"
+Image3= new Image(100,30)
+Image3.src = "button_link.jpg"
+Image4 = new Image(100,30)
+Image4.src = "button_link_on.jpg"
+
+
+function SwapOut1() {
+document.imageflip1.src = Image2.src; 
+document.home.src = Image2.src;
+return true;
+}
+
+function SwapBack1() {
+document.imageflip1.src = Image1.src; 
+document.home.src = Image1.src;
+return true;
+}
+
+function SwapOut2() {
+document.imageflip2.src = Image4.src; 
+document.home.src = Image4.src;
+return true;
+}
+
+function SwapBack2() {
+document.imageflip2.src = Image3.src; 
+document.home.src = Image3.src;
+return true;
+}
+// - stop hiding -->
+</SCRIPT>
+
+<style type="text/css">
+body {background-color: #DFDFEF;
+font-family: Arial,Verdana, sans-serif;
+color: #666676;
+font-size: 80%;
+margin: 0pt;}
+h1 {
+   margin-top: 8px;
+   margin-bottom: 5px;
+   padding: 3px;
+   border: thin solid #9F9FAF;
+   background: #BFBFcF;
+   color: white;
+   clear: both;
+   }
+p {background-color: transparent}
+</style>
+</head>
+<body>
+<H1>Jane's Web Links</H1>
+<center>
+Here are some links to web pages you might find useful.
+<H2>

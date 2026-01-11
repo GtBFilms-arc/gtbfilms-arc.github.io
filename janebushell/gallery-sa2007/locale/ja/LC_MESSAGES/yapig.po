@@ -1,0 +1,1075 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-13 10:20+0900\n"
+"PO-Revision-Date: 2004-08-13 10:32+0900\n"
+"Last-Translator: Tadashi Jokagi <elf2000@users.sourceforge.net>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:72
+msgid "Incorrect add comment form"
+msgstr "コメント追加フォームが正しくありません。"
+
+#: ../add_comment.php:78
+msgid "Title field required"
+msgstr "タイトルフィールドは必須です。"
+
+#: ../add_comment.php:82
+msgid "Author field required"
+msgstr "著者フィールドは必須です。"
+
+#: ../add_comment.php:86
+msgid "e-mail field required"
+msgstr "電子メールフィールドは必須です。"
+
+#: ../add_comment.php:90
+msgid "Web field required"
+msgstr "ウェブフィールドは必須です。"
+
+#: ../add_comment.php:94
+msgid "Comment field required"
+msgstr "コメントフィールドは必須です。"
+
+#: ../add_comment.php:99
+msgid "Sorry, you did not fill some required fields."
+msgstr "すみませんが、必須フィールドがすべて埋まっていません。"
+
+#: ../add_comment.php:137
+msgid "Thank you for your comment"
+msgstr "コメントをありがとう"
+
+#: ../add_comment.php:138
+msgid "Added this Comment"
+msgstr "このコメントを追加しました。"
+
+#: ../add_comment.php:139 ../admin_func.php:512 ../functions.php:553
+msgid "Title"
+msgstr "タイトル"
+
+#: ../add_comment.php:140 ../admin_func.php:132 ../admin_func.php:513 ../functions.php:554 ../view_func.php:90
+msgid "Author"
+msgstr "著者"
+
+#: ../add_comment.php:141
+msgid "e-mail"
+msgstr "電子メール"
+
+#: ../add_comment.php:142 ../view_func.php:92
+msgid "Web"
+msgstr "ウェブ"
+
+#: ../add_comment.php:143 ../view_func.php:93 ../view_func.php:119
+msgid "Comment"
+msgstr "コメント"
+
+#: ../add_comment.php:144
+msgid "If the page is not automatically refreshed."
+msgstr "もしこのページが自動的に切り替わらない場合は、"
+
+#: ../add_comment.php:145
+msgid "Please, press here"
+msgstr "ここを押してください。"
+
+#: ../add_gallery.php:53
+msgid "Adding new gallery: "
+msgstr "新規ギャラリー追加中: "
+
+#: ../add_gallery.php:60 ../admin_func.php:262
+msgid "GD library not loaded. Please read install documentation"
+msgstr "GDライブラリがどー度されていません。インストールドキュメントを読んでください。"
+
+#. Check arguments
+#: ../add_gallery.php:66
+msgid "Directory where images are stored required!"
+msgstr ""
+
+#: ../add_gallery.php:71 ../modify_gallery.php:139
+msgid "Title, author and description are required!"
+msgstr "タイトル，著者と説明は必須です!"
+
+#: ../add_gallery.php:82
+msgid "Location directory DOES NOT EXIST."
+msgstr "ロケーションで指定のディレクトリが存在しません。"
+
+#: ../add_gallery.php:84
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr ""
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:88
+msgid "Creating index.html for avoiding server listing."
+msgstr "サーバーの一覧化を無効にする index.html を作成中。"
+
+#: ../add_gallery.php:91
+msgid "Permissions. I will try chmod 2777 "
+msgstr "許可がありません。「chmod 2777」の実行を挑戦してください。"
+
+#: ../add_gallery.php:93 ../add_gallery.php:96
+msgid "Permissions. Read FAQ documentation."
+msgstr "許可がありません。FAQ ドキュメントを読んでください。"
+
+#. Load all imagenames
+#: ../add_gallery.php:105
+msgid "Loading image Names of: "
+msgstr "ロード中の画像名:"
+
+#: ../add_gallery.php:109
+msgid "Failed to read image names."
+msgstr "画像名の読み込みに失敗しました。"
+
+#. Make phid-filenames;
+#: ../add_gallery.php:113
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "写真ファイル名の対応 <-> 写真識別子(phid) の作成中。"
+
+#: ../add_gallery.php:115
+msgid "Creating phid correspondence."
+msgstr "phid 対応の作成中。"
+
+#. Create Info File
+#: ../add_gallery.php:121 ../modify_gallery.php:146
+msgid "Creating gallery information file with:"
+msgstr "ギャラリー情報ファイルの作成:"
+
+#: ../add_gallery.php:138
+msgid "Error creating gallery information file."
+msgstr "ギャラリー情報ファイルの作成エラーです。"
+
+#. Make thumbnails
+#: ../add_gallery.php:142
+msgid "Creating thumbnails"
+msgstr "サムネイル作成中"
+
+#: ../add_gallery.php:144
+msgid "Could not create all thumbnails."
+msgstr "すべてのサムネイルを作成できませんでした。"
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:147
+msgid "Adding this gallery to gallery index"
+msgstr "このギャラリーをギャラリーインデックスに追加中"
+
+#: ../add_gallery.php:149
+msgid "Adding gallery to file: "
+msgstr "ギャラリーをファイルに追加中: "
+
+#: ../add_gallery.php:150
+msgid "Gallery <b>successfully</b> created"
+msgstr "ギャラリーの作成に<b>成功</b>しました。"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:153
+msgid "Gallery Index"
+msgstr "ギャラリーインデックス"
+
+#: ../add_gallery.php:154
+msgid "Back to admin page"
+msgstr "管理ページに戻る"
+
+#: ../admin_func.php:25
+msgid "GD library not loaded. Will try to load it."
+msgstr "GD ライブラリがロードされていません。 それのロードをしようとするでしょう。"
+
+#: ../admin_func.php:28
+msgid "Function dynamic extension load not available."
+msgstr "ダイナミック関数拡張のロードが有効ではありません。"
+
+#: ../admin_func.php:33
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll のロードに成功しました。"
+
+#: ../admin_func.php:37
+msgid "GD Library NOT AVAILABLE"
+msgstr "GDライブラリが有効ではありません。"
+
+#: ../admin_func.php:40
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so のロードに成功しました。"
+
+#: ../admin_func.php:46
+msgid "Function getimagesize does not exist"
+msgstr "getimagesize 関数が存在しません。"
+
+#: ../admin_func.php:51
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "imagecreate(truecolor) 関数が存在しません。"
+
+#: ../admin_func.php:55
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "imacreatefromjpeg 関数が存在しません。"
+
+#: ../admin_func.php:58
+msgid "GD library is loaded."
+msgstr "GD ライブラリをロードしました。"
+
+#. Admin login form internationalization.
+#: ../admin_func.php:76
+msgid "Please login as admin"
+msgstr "管理者でログインしてください。"
+
+#: ../admin_func.php:77
+msgid "User"
+msgstr "ユーザー"
+
+#: ../admin_func.php:78 ../admin_func.php:136
+msgid "Password"
+msgstr "パスワード"
+
+#: ../admin_func.php:79
+msgid "Submit"
+msgstr "送信"
+
+#. I18n
+#: ../admin_func.php:93
+msgid "Administration tasks"
+msgstr "管理タスク"
+
+#: ../admin_func.php:94
+msgid "Upload files"
+msgstr "アップロードファイル"
+
+#: ../admin_func.php:95
+msgid "Add gallery"
+msgstr "ギャラリー追加"
+
+#: ../admin_func.php:96
+msgid "Modify gallery"
+msgstr "ギャラリー修正"
+
+#: ../admin_func.php:97 ../admin_func.php:509 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "ギャラリー削除"
+
+#: ../admin_func.php:98
+msgid "Change main config"
+msgstr "メイン設定変更"
+
+#: ../admin_func.php:99
+msgid "Logout"
+msgstr "ログアウト"
+
+#: ../admin_func.php:131
+msgid "Gallery title"
+msgstr "ギャラリータイトル"
+
+#: ../admin_func.php:133 ../admin_func.php:518 ../functions.php:559 ../view_func.php:118
+msgid "Date"
+msgstr "日付"
+
+#: ../admin_func.php:134
+msgid "Free Format. Leave it blank to set today's date."
+msgstr "フリーフォーマットです。からにすることで、今日の日付が設定されます。"
+
+#: ../admin_func.php:135
+msgid "Location"
+msgstr "場所"
+
+#: ../admin_func.php:137
+msgid "set this field if you want private access to this gallery"
+msgstr "このギャラリーへのプライベートアクセスを希望するなら、このフィールドを設定します。"
+
+#: ../admin_func.php:138 ../admin_func.php:519 ../functions.php:560 ../view_func.php:35
+msgid "Description"
+msgstr "説明"
+
+#: ../admin_func.php:139
+msgid "Hide comments"
+msgstr "コメントを隠す"
+
+#: ../admin_func.php:140 ../install.php:27 ../view_func.php:95
+msgid "Send"
+msgstr "送信"
+
+#: ../admin_func.php:180
+msgid "  is a very big image, it might cause memory problems."
+msgstr ""
+
+#: ../admin_func.php:200
+msgid "PNG files not supported in this version"
+msgstr "このバージョンは PNG ファイルをサポートしていません。"
+
+#: ../admin_func.php:410 ../admin_func.php:417
+msgid "Opening gid counter file: "
+msgstr "gid カウンターファイルを開いています: "
+
+#: ../admin_func.php:506
+msgid "Modify gallery info"
+msgstr "ギャラリー情報修正"
+
+#: ../admin_func.php:507
+msgid "Select thumbnail"
+msgstr "サムネイル選択"
+
+#: ../admin_func.php:508
+msgid "Modify image list"
+msgstr "画像一覧修正"
+
+#: ../admin_func.php:511 ../functions.php:552
+msgid "Number of images"
+msgstr "画像数"
+
+#: ../admin_func.php:514 ../functions.php:555
+msgid "View this gallery"
+msgstr "ギャラリー閲覧"
+
+#: ../admin_func.php:515 ../functions.php:556
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: ../admin_func.php:516 ../functions.php:557 ../modify_phid.php:110 ../view_func.php:34
+msgid "Visits"
+msgstr "訪問数"
+
+#: ../admin_func.php:517 ../functions.php:558 ../functions.php:621 ../modify_phid.php:109
+msgid "Comments"
+msgstr "コメント数"
+
+#: ../admin_func.php:520 ../view_func.php:203
+msgid "Up"
+msgstr "上へ"
+
+#: ../admin_func.php:521
+msgid "Down"
+msgstr "下へ"
+
+#: ../admin_func.php:540
+msgid "Select deletion options:"
+msgstr "削除オプションを選択する"
+
+#: ../admin_func.php:541
+msgid "Do not list gallery in gallery index any more."
+msgstr "ギャラリーインデックス中にギャラリー一覧がありません。"
+
+#: ../admin_func.php:542
+msgid "Clear all image comments."
+msgstr "すべての画像のコメントをクリアする"
+
+#: ../admin_func.php:543
+msgid "Clear all image visit counters."
+msgstr "すべての画像の訪問カウンターをクリアする"
+
+#: ../admin_func.php:544
+msgid "Clear gallery visit counters."
+msgstr "ギャラリーの訪問カウンターをクリアする"
+
+#: ../admin_func.php:545
+msgid "Delete gallery thumbnails."
+msgstr "ギャラリーのサムネイルを削除する"
+
+#: ../admin_func.php:546
+msgid "Delete all files in directory."
+msgstr "ディレクトリ中のすべてのファイルを削除"
+
+#: ../admin_func.php:547
+msgid "send"
+msgstr "送信"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+msgid "<strong>YaPiG</strong> Admin"
+msgstr "<strong>YaPiG</strong> 管理"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "有効ではありません。"
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "新規ギャラリー追加"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:102 ../modify_phid.php:206
+msgid "Gallery does not exist or gid argument not set"
+msgstr "ギャラリーが存在しないか、gid 引数が設定されていません。"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "ギャラリー統計が存在しないか、削除することが出来ませんでした。"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "ギャラリー統計を削除しました。"
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "このギャラリーに画像統計が存在しないか、削除することが出来ませんでした。"
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "このギャラリーの画像統計を削除しました。"
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "このギャラリーのコメント数は存在しないか、削除できませんでした。"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "このギャラリーのコメントカウンターを削除しました。"
+
+#: ../delete_gallery.php:69
+msgid "Could not be loaded this file: "
+msgstr "このファイルをロードできませんでした: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:105 ../delete_gallery.php:120
+msgid "Could not delete: "
+msgstr "削除できませんでした: "
+
+#: ../delete_gallery.php:77
+msgid "Deleted: "
+msgstr "削除しました: "
+
+#: ../delete_gallery.php:87
+msgid "Could not get image list from file: "
+msgstr "ファイルから画像一覧を取得できませんでした: "
+
+#: ../delete_gallery.php:92
+msgid "Could not delete thumbnail image: "
+msgstr "サムネイル画像を削除できませんでした: "
+
+#: ../delete_gallery.php:93
+msgid "Deleted thumbnail: "
+msgstr "サムネイルを削除しました: "
+
+#: ../delete_gallery.php:101
+msgid "Gallery could not be removed from index"
+msgstr "インデックスからギャラリーを削除できませんでした。"
+
+#: ../delete_gallery.php:103
+msgid "Gallery will not be shown anymore in the index of galeries"
+msgstr "ギャラリーは、ギャラリーインデックス中にこれ以上表示されないでしょう。"
+
+#: ../delete_gallery.php:112
+msgid " is not a valid directory"
+msgstr "は有効なディレクトリではありません。"
+
+#: ../delete_gallery.php:115
+msgid " could not be opened"
+msgstr "を開くことが出来ません。"
+
+#: ../delete_gallery.php:122
+msgid "Deleted file: "
+msgstr "ファイルを削除しました: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:127
+msgid "Gallery successfully deleted."
+msgstr "ギャラリーの削除に成功しました。"
+
+#. Show some useful links
+#: ../delete_gallery.php:130
+msgid "Admin index"
+msgstr "インデックス管理"
+
+#: ../delete_gallery.php:131
+msgid "Delete more galleries"
+msgstr "もっとギャラリーを削除"
+
+#: ../functions.php:113
+msgid "Error"
+msgstr "エラー"
+
+#: ../functions.php:131
+msgid "Warning"
+msgstr "警告"
+
+#: ../functions.php:175
+msgid "main menu"
+msgstr "メインメニュー"
+
+#: ../functions.php:176
+msgid "Gallery index"
+msgstr "ギャラリーインデックス"
+
+#: ../functions.php:177
+msgid "Home page"
+msgstr "ホームページ"
+
+#: ../functions.php:179
+msgid "Admin"
+msgstr "管理"
+
+#. Logout links
+#: ../functions.php:182
+msgid "Admin logout"
+msgstr "管理者ログアウト"
+
+#: ../functions.php:183
+msgid "Gallery logout"
+msgstr "ギャラリーログアウト"
+
+#: ../functions.php:532
+msgid "Gallery does not exist: "
+msgstr "ギャラリーが存在しません。"
+
+#: ../functions.php:570
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "ありがとうございます。このギャラリーはパスワードを要求します。パスワードフィールドを埋めて、検証ボタンを押してください。"
+
+#: ../functions.php:572
+msgid "Validate"
+msgstr "検証"
+
+#: ../functions.php:573
+msgid "Gallery password"
+msgstr "ギャラリーパスワード"
+
+#. I18n -
+#: ../functions.php:618
+msgid "View image bigger"
+msgstr "大きな画像閲覧"
+
+#: ../functions.php:619
+msgid "Image"
+msgstr "画像"
+
+#: ../functions.php:620
+msgid "Hits"
+msgstr "ヒット数"
+
+#: ../gallery.php:39 ../install.php:167
+msgid "Congratulations YAPIG is working!"
+msgstr "おめでとうございます。YAPIG は処理中です!"
+
+#. welcome message
+#: ../gallery.php:42
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\n"
+"   <p>If this is the first time you run YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\\n\n"
+"   <p>ようこそ <a href=\\\"http://yapig.sf.net\\\">YaPig.</a> へ。</p>\\n\n"
+"   <p>ギャラリーは <strong>ありません</strong> 。<p>\\n\n"
+"   <p>これが YaPiG の初期実行なら:</p>\\n\n"
+"   <ol>\\n\n"
+"   <li><i>config.php</i> ファイルを編集してください。</li>\\n\n"
+"   <li><a href=\\\"admin.php\\\">管理者でログイン</a> して、新規ギャラリーを追加してください。</li>\\n\n"
+"   </ol>\\n\n"
+"    \n"
+
+#: ../gallery.php:62
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "ギャラリーがありません。新しいギャラリーを作成するために管理者でログインしてください。"
+
+#: ../install.php:44
+msgid "YaPiG Installation"
+msgstr "YaPiG インストール"
+
+#: ../install.php:60
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "SECURE_DIR を作成できませんでした。BASE_DIR (config.php を見てください)のパーミッションを 777 に変更してください。"
+
+#: ../install.php:64
+msgid "Could not create index.html in SECURE_DIR"
+msgstr "SECURE_DIR 中に index.html を作成できませんでした。"
+
+#: ../install.php:66
+msgid "Could not create index.html in BASE_DIR"
+msgstr "BASE_DIR 中に index.html を作成できませんでした。"
+
+#: ../install.php:70
+msgid ""
+"<ol>\r\n"
+"\t  <li>Create a directory with random name to BASE DIR and set\r\n"
+"\t  its permissions to 777. This directory, called SECURE_DIR, will\r\n"
+"\t  be used to save dynamic data.</li>\r\n"
+"\t  <li>Create to the both directories, BASE_DIR and\r\n"
+"\t  SECURE_DIR empty files called index.html. These are for avoiding\r\n"
+"\t  server listing.</li>\r\n"
+"\t  <li>After you've created the directory and set its permissions, please post its name here:\r\n"
+"          </li>\r\n"
+"\t  </ol>"
+msgstr ""
+
+#: ../install.php:88
+msgid "SECURE_DIR doesn't exist! Please enter the correct name:"
+msgstr ""
+
+#: ../install.php:96 ../install.php:105
+msgid "Could not be loaded GD library witch is required by YapiG or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr ""
+"Could not be loaded GD library witch is required by YapiG or your GD version is too old.\n"
+"より詳しい情報は doc/install.html ドキュメントを読んでください。"
+
+#: ../install.php:99
+#, fuzzy
+msgid "Nice! Your server has GD library. You can run YaPiG!"
+msgstr "ナイス! あなたのサーバーは GD バージョン 2 以上を持っています。 YaPiG を実行できます!"
+
+#: ../install.php:110
+msgid "Change YaPiG's root directory permissions to allow creating new files."
+msgstr "YaPiG のルートディレクトリのパーミッションを新規ファイルの作成が出来るように変更してください。"
+
+#: ../install.php:111
+msgid "Installation aborted. Could not create config file."
+msgstr "インストールを中断しました。構成ファイルを作成できませんでした。"
+
+#: ../install.php:164
+msgid "YaPiG successfully installed."
+msgstr "YaPiG のインストールに成功しました。"
+
+#. welcome message
+#: ../install.php:170
+#, fuzzy
+msgid ""
+"\r\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">YaPig.</a></p>\r\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\r\n"
+"   <p>If this is the first time you run YaPiG:</p>\r\n"
+"   <ol>\r\n"
+"   <li>Edit the <i>config.php</i> file.</li>\r\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\r\n"
+"   </ol>\r\n"
+"    "
+msgstr ""
+"\\n\n"
+"   <p>ようこそ <a href=\\\"http://yapig.sf.net\\\">YaPig.</a> へ。</p>\\n\n"
+"   <p>ギャラリーは <strong>ありません</strong> 。<p>\\n\n"
+"   <p>これが YaPiG の初期実行なら:</p>\\n\n"
+"   <ol>\\n\n"
+"   <li><i>config.php</i> ファイルを編集してください。</li>\\n\n"
+"   <li><a href=\\\"admin.php\\\">管理者でログイン</a> して、新規ギャラリーを追加してください。</li>\\n\n"
+"   </ol>\\n\n"
+"    \n"
+
+#: ../modify_gallery.php:24
+#, fuzzy
+msgid "Update gallery Image list"
+msgstr "ギャラリー画像一覧を更新できませんでした。"
+
+#: ../modify_gallery.php:25
+#, fuzzy
+msgid "Overwrite existing thumbnails"
+msgstr "サムネイル作成中"
+
+#: ../modify_gallery.php:26
+#, fuzzy
+msgid "Only create new thumbnails"
+msgstr "サムネイル作成中"
+
+#: ../modify_gallery.php:27
+msgid "view/edit"
+msgstr "閲覧/編集"
+
+#: ../modify_gallery.php:30
+#, fuzzy
+msgid "Could not get image list. Gallery might have not images"
+msgstr "ファイルから画像一覧を取得できませんでした: "
+
+#: ../modify_gallery.php:34
+msgid "Current images at gallery are:"
+msgstr ""
+
+#: ../modify_gallery.php:40
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr ""
+
+#: ../modify_gallery.php:55
+msgid "Could not read gallery directory filenames"
+msgstr "ギャラリーディレクトリのファイル名を読み込むことが出来ません。"
+
+#: ../modify_gallery.php:57
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr ""
+
+#: ../modify_gallery.php:108 ../modify_phid.php:212
+msgid "Modify gallery: "
+msgstr "ギャラリー修正: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:118
+msgid "Modify gallery information:"
+msgstr "ギャラリー情報修正:"
+
+#: ../modify_gallery.php:134
+msgid "Directory location with images required!"
+msgstr "ロケーションディレクトリに画像が必要です!"
+
+#: ../modify_gallery.php:160
+msgid "Creating gallery information file."
+msgstr "ギャラリー情報ファイルを作成中。"
+
+#: ../modify_gallery.php:161
+msgid "Gallery info successfully updated."
+msgstr "ギャラリー情報の更新に成功しました。"
+
+#: ../modify_gallery.php:174
+msgid "Could not update thumbnail"
+msgstr "サムネイルの更新が出来ませんでした。"
+
+#: ../modify_gallery.php:175
+msgid "Thumbnail updated. (Do not worry if the upper thumb is the old one)"
+msgstr "サムネイルを更新しました(上にあるサムネイルが古いかどうか心配いりません)"
+
+#. List all phids.
+#: ../modify_gallery.php:180
+msgid "Select thumbnail: "
+msgstr "サムネイル選択: "
+
+#: ../modify_gallery.php:182
+msgid "Could not get all image list."
+msgstr "全画像一覧を取得できませんでした。"
+
+#. Construct Form.
+#: ../modify_gallery.php:185
+msgid "Update gallery thumbnail"
+msgstr "ギャラリーサムネイルを更新する"
+
+#: ../modify_gallery.php:186
+msgid "default password protected galleries thumbnail"
+msgstr "デフォルトパスワードがギャラリーサムネイルを保護しました。"
+
+#: ../modify_gallery.php:187
+msgid "view info"
+msgstr "情報閲覧"
+
+#: ../modify_gallery.php:224
+msgid "Creating thumbs for images that do not have it."
+msgstr "それを持っていない画像のためのサムネイル作成"
+
+#: ../modify_gallery.php:229
+msgid "Creating all thumbs"
+msgstr "全サムネイル作成中"
+
+#: ../modify_gallery.php:234
+msgid "Could not update gallery image list"
+msgstr "ギャラリー画像一覧を更新できませんでした。"
+
+#: ../modify_gallery.php:235
+msgid "Image list successfully updated"
+msgstr "画像一覧の更新に成功しました。"
+
+#: ../modify_gallery.php:238
+msgid "Number of images not updated"
+msgstr ""
+
+#: ../modify_gallery.php:240
+msgid "Number of images updated"
+msgstr ""
+
+#. Default action is view galleries.
+#: ../modify_gallery.php:248
+msgid "<p>Please, select a gallery:</p>"
+msgstr "<p>ギャラリーを選択してください:</p>"
+
+#: ../modify_gallery.php:251
+msgid "There are no galleries."
+msgstr "ギャラリーがありません。"
+
+#: ../modify_gallery.php:262
+msgid "View this Gallery"
+msgstr "このギャラリーを閲覧"
+
+#: ../modify_gallery.php:263
+msgid "Modify Gallery Index"
+msgstr "ギャラリーインデックス修正"
+
+#: ../modify_phid.php:47 ../modify_phid.php:51 ../modify_phid.php:265
+#, fuzzy
+msgid "Image has no comments"
+msgstr "画像コメント数"
+
+#: ../modify_phid.php:54
+#, fuzzy
+msgid "Modify"
+msgstr "画像修正"
+
+#: ../modify_phid.php:55
+#, fuzzy
+msgid "Delete"
+msgstr "削除しました: "
+
+#: ../modify_phid.php:56
+#, fuzzy
+msgid "Image Comments"
+msgstr "画像コメント数"
+
+#: ../modify_phid.php:86
+msgid "Image identificator (phid) not found."
+msgstr "画像識別子(phid)が見つかりません。"
+
+#. I18n
+#: ../modify_phid.php:108
+msgid "Image name"
+msgstr "画像名"
+
+#: ../modify_phid.php:111
+#, fuzzy
+msgid "Remove from gallery"
+msgstr "画像削除"
+
+#: ../modify_phid.php:112
+msgid "Clear"
+msgstr "消す"
+
+#: ../modify_phid.php:113
+#, fuzzy
+msgid "Delete All"
+msgstr "ギャラリー削除"
+
+#: ../modify_phid.php:114
+msgid "Image id"
+msgstr "画像 ID"
+
+#: ../modify_phid.php:115
+msgid "Modify Image"
+msgstr "画像修正"
+
+#: ../modify_phid.php:116
+msgid "Set as gallery thumbnail"
+msgstr "ギャラリーサムネイルを設定"
+
+#: ../modify_phid.php:117
+#, fuzzy
+msgid "Image caption"
+msgstr "画像コメント数"
+
+#: ../modify_phid.php:118
+#, fuzzy
+msgid "Change caption"
+msgstr "メイン設定変更"
+
+#: ../modify_phid.php:134
+msgid "Could not remove image from gallery image list"
+msgstr "画像ギャラリー一覧から画像を削除できませんでした。"
+
+#: ../modify_phid.php:135
+msgid "Image will not be shown in list."
+msgstr "画像は一覧に表示されないでしょう。"
+
+#: ../modify_phid.php:158
+msgid "Could not delete image comments file: "
+msgstr "画像のコメントファイルを削除できませんでした: "
+
+#: ../modify_phid.php:159
+msgid "Image comments deleted"
+msgstr "画像のコメントを削除しました。"
+
+#: ../modify_phid.php:167
+msgid "Could not delete image comments counter: "
+msgstr "画像コメントカウンターを削除できませんでした: "
+
+#: ../modify_phid.php:168
+msgid "Image comments counter deleted"
+msgstr "画像コメントカウンターを削除しました。"
+
+#: ../modify_phid.php:176
+msgid "Image visits counter not found or could not be removed."
+msgstr "画像訪問数が見つからなかったか、削除できませんでした。"
+
+#: ../modify_phid.php:177
+msgid "Image visits counter deleted"
+msgstr "画像訪問数を削除しました。"
+
+#: ../modify_phid.php:250
+msgid "Set new caption to: "
+msgstr ""
+
+#: ../modify_phid.php:252
+#, fuzzy
+msgid "Could not update caption."
+msgstr "サムネイルの更新が出来ませんでした。"
+
+#: ../modify_phid.php:261
+#, fuzzy
+msgid "Comment not selected"
+msgstr "コメントタイトル"
+
+#: ../modify_phid.php:267
+#, fuzzy
+msgid "Coul not open comments file"
+msgstr "画像のコメントファイルを削除できませんでした: "
+
+#: ../modify_phid.php:275
+#, fuzzy
+msgid "Comment successfully deleted"
+msgstr "ギャラリーの削除に成功しました。"
+
+#: ../modify_phid.php:288
+#, fuzzy
+msgid "Could not read comments file"
+msgstr "画像のコメントファイルを削除できませんでした: "
+
+#: ../modify_phid.php:292
+#, fuzzy
+msgid "Opening comments file."
+msgstr "コメントファイルを開いています。"
+
+#: ../modify_phid.php:301
+#, fuzzy
+msgid "Comment successfully updated"
+msgstr "画像一覧の更新に成功しました。"
+
+#: ../upload.php:48 ../upload.php:121
+#, fuzzy
+msgid "Upload Files"
+msgstr "アップロードファイル"
+
+#: ../upload.php:69
+msgid "Created directory: "
+msgstr "作成したディレクトリ: "
+
+#: ../upload.php:71
+#, fuzzy
+msgid "Could not create directory: "
+msgstr "ギャラリーディレクトリのファイル名を読み込むことが出来ません。"
+
+#: ../upload.php:76
+msgid "Successfully removed directory: "
+msgstr "削除に成功したディレクトリ: "
+
+#: ../upload.php:78
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "削除できなかったディレクトリ (空ではないか、パーミッションに失敗した)"
+
+#: ../upload.php:88
+#, fuzzy
+msgid "Files will be uploaded in this directory: "
+msgstr "このファイルをロードできませんでした: "
+
+#: ../upload.php:90
+#, fuzzy
+msgid "Create directory"
+msgstr "ギャラリーディレクトリを取得中です"
+
+#. i18n
+#: ../upload.php:119
+msgid "Select <b>ONE</b> directory"
+msgstr "<b>一つの</b> ディレクトリを選択する"
+
+#: ../upload.php:120
+msgid "Files to upload"
+msgstr "ファイルをアップロード"
+
+#: ../upload.php:156
+#, fuzzy
+msgid "Successfully uploaded file: "
+msgstr "gd.so のロードに成功しました。"
+
+#: ../upload.php:159
+#, fuzzy
+msgid "Could not copy to file: "
+msgstr "このファイルをロードできませんでした: "
+
+#: ../view_func.php:31
+msgid "Filename"
+msgstr "ファイル名"
+
+#: ../view_func.php:32
+msgid "File size"
+msgstr "ファイルサイズ"
+
+#: ../view_func.php:33
+msgid "Image size"
+msgstr "画像サイズ"
+
+#: ../view_func.php:88
+msgid "Add yout comment!"
+msgstr "コメントを追加してください!"
+
+#: ../view_func.php:89
+msgid "Comment title"
+msgstr "コメントタイトル"
+
+#: ../view_func.php:91
+msgid "E-mail"
+msgstr "電子メール"
+
+#: ../view_func.php:94
+msgid "Fields with * are required"
+msgstr "「*」のフィールドは必須です。"
+
+#: ../view_func.php:129
+msgid "Image comments"
+msgstr "画像コメント数"
+
+#: ../view_func.php:131
+msgid "There are no messages! Give us your opinion!"
+msgstr "メッセージがありません! あなたの評価をください!"
+
+#: ../view_func.php:136
+msgid "Opening comments file"
+msgstr "コメントファイルを開いています。"
+
+#: ../view_func.php:162
+msgid "Previous Gallery"
+msgstr "前のギャラリー"
+
+#: ../view_func.php:163
+msgid "Next Gallery"
+msgstr "次のギャラリー"
+
+#: ../view_func.php:164
+msgid "Index of Galleries"
+msgstr "ギャラリーのインデックス"
+
+#: ../view_func.php:167 ../view_func.php:205
+msgid "could not show gallery navigation bar"
+msgstr "ギャラリーのナビゲーションバーを表示できません。"
+
+#: ../view_func.php:196
+msgid "Previous Image"
+msgstr "前の画像"
+
+#: ../view_func.php:197
+msgid "Next Image"
+msgstr "次の画像"
+
+#: ../view_func.php:234
+msgid "Previous page"
+msgstr "前のページ"
+
+#: ../view_func.php:235
+msgid "Next page"
+msgstr "次のページ"
+
+#: ../view_func.php:262
+msgid "Zoom in"
+msgstr "ズームイン"
+
+#: ../view_func.php:263
+msgid "Zoom Out"
+msgstr "ズームアウト"
+
+#: ../view_func.php:264
+#, fuzzy
+msgid "Real size"
+msgstr "ファイルサイズ"
+
+#. 0 -> View gallery
+#: ../view.php:38
+msgid "GID not set"
+msgstr "GID が設定されていません。"
+
+#: ../view.php:46
+msgid "Getting gallery directory"
+msgstr "ギャラリーディレクトリを取得中です"
+
+#: ../view.php:61
+msgid "Password incorrect."
+msgstr "パスワードが違います。"
+
+#: ../view.php:82
+msgid "Gallery data not found. Please create again this gallery"
+msgstr "ギャラリーデータが見つかりません。このギャラリーをもう一度作成してください。"
+
+#~ msgid "YaPiG already installed"
+#~ msgstr "YaPiG は既にインストール済みです。"

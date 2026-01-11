@@ -1,0 +1,947 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-12-18 18:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. end log
+#. ############################ MAIN PROGRAM #################
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:63
+#, fuzzy
+msgid "Incorrect add comment form"
+msgstr "Formulario de adición de comentario incorrecto"
+
+#: ../add_comment.php:69
+#, fuzzy
+msgid "Title field required"
+msgstr "Il campo Titolo &egrave; obbligatorio"
+
+#: ../add_comment.php:73
+msgid "Author field required"
+msgstr "Il campo Autore &grave; obbligatorio"
+
+#: ../add_comment.php:77
+msgid "e-mail field required"
+msgstr "Il campo E-mail &egrave; obbligatorio"
+
+#: ../add_comment.php:81
+msgid "Web field required"
+msgstr "Il campo Web &egrave; obbligatorio"
+
+#: ../add_comment.php:85
+#, fuzzy
+msgid "Comment field required"
+msgstr "Il campo Commento &egrave; obbligatorio"
+
+#: ../add_comment.php:90
+msgid "Sorry, you did not fill some required fields."
+msgstr "Spaicente, non hai compilato alcuni campi obbligatori"
+
+#: ../add_comment.php:144
+msgid "Thank you for your comment"
+msgstr "Grazie per aver inviato il tuo Commento"
+
+#: ../add_comment.php:145
+msgid "Added this Comment"
+msgstr "Aggiungi un tuo Commento"
+
+#: ../add_comment.php:146 ../admin_func.php:409 ../functions.php:473
+msgid "Title"
+msgstr "Titolo"
+
+#: ../add_comment.php:147 ../admin_func.php:55 ../admin_func.php:410 ../functions.php:474 ../view_func.php:68
+msgid "Author"
+msgstr "Autore"
+
+#: ../add_comment.php:148
+msgid "e-mail"
+msgstr "e-mail"
+
+#: ../add_comment.php:149 ../view_func.php:70
+msgid "Web"
+msgstr "Web"
+
+#: ../add_comment.php:150 ../view_func.php:71 ../view_func.php:95
+msgid "Comment"
+msgstr "Commento"
+
+#: ../add_comment.php:151
+msgid "If the page is not automatically refreshed."
+msgstr "Se la pagina non si aggiorna automaticamente."
+
+#: ../add_comment.php:152
+#, fuzzy
+msgid "Please, press here"
+msgstr "Per favore, clicca qui"
+
+#: ../add_gallery.php:43
+#, fuzzy
+msgid "Adding new gallery: "
+msgstr "Aggiungi una nuova gallery: "
+
+#. Check arguments
+#: ../add_gallery.php:47
+#, fuzzy
+msgid "Directory where images are stored required!"
+msgstr "E' necessario creare una directory dove mettere le immagini!"
+
+#: ../add_gallery.php:52 ../modify_gallery.php:128
+#, fuzzy
+msgid "Title, author and description are required!"
+msgstr "Titolo, autore e descrizione sono obbligatori!"
+
+#: ../add_gallery.php:63
+#, fuzzy
+msgid "Location directory DOES NOT EXIST."
+msgstr "La directory NON ESISTE."
+
+#: ../add_gallery.php:65
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "La gallery selezionata &egrave; in uso su un'altra galleria. Cancella l'immagine prima."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:69
+msgid "Creating index.html for avoiding server listing."
+msgstr "Sto creando index.html per evitare il server listing."
+
+#: ../add_gallery.php:72
+#, fuzzy
+msgid "Permissions. I will try chmod 2777 "
+msgstr "Permessi. Si cerca di impostare chmod 2777 "
+
+#: ../add_gallery.php:74 ../add_gallery.php:77
+msgid "Permissions. Read FAQ documentation."
+msgstr "Permessi. Leggi le FAQ."
+
+#. Load all imagenames
+#: ../add_gallery.php:86
+#, fuzzy
+msgid "Loading image Names of: "
+msgstr "Caricamento dell'immagine con nome: "
+
+#: ../add_gallery.php:90
+#, fuzzy
+msgid "Failed to read image names."
+msgstr "Lettura dei nomi immagine fallita."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:95
+#, fuzzy
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Sto creando la corrispondeza nomi foto <-> photo id (phid)"
+
+#: ../add_gallery.php:97
+#, fuzzy
+msgid "Creating phid correspondence."
+msgstr "Creazione della corrispondenza phid."
+
+#. Create Info File
+#: ../add_gallery.php:100 ../modify_gallery.php:131
+#, fuzzy
+msgid "Creating gallery information file with:"
+msgstr "Creazione delle informazioni sulla gallery: "
+
+#: ../add_gallery.php:116
+#, fuzzy
+msgid "Error creating gallery information file."
+msgstr "Errore nel creare le informazioni della gallery."
+
+#. Make thumbnails
+#: ../add_gallery.php:120
+#, fuzzy
+msgid "Creating thumbnails"
+msgstr "Creazione anteprime"
+
+#: ../add_gallery.php:122
+#, fuzzy
+msgid "Could not create all thumbnails."
+msgstr "Non sono state create tutte le anteprime."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:125
+msgid "Adding this gallery to gallery index"
+msgstr "Aggiungi questa gallery all'indice delle gallery"
+
+#: ../add_gallery.php:127
+#, fuzzy
+msgid "Adding gallery to file: "
+msgstr "Aggiungi un file alla gallery: "
+
+#: ../add_gallery.php:128
+#, fuzzy
+msgid "Gallery <b>successfully</b> created"
+msgstr "Gallery creata con <b>successo</b>"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:131
+msgid "Gallery Index"
+msgstr "Indice delle Gallery"
+
+#: ../add_gallery.php:132
+#, fuzzy
+msgid "Back to admin page"
+msgstr "Ritorna alla Homepage di Amministrazione"
+
+#. Admin login form internationalization.
+#: ../admin_func.php:22
+#, fuzzy
+msgid "Please login as admin"
+msgstr "Per favore, indetificati come amministratore"
+
+#: ../admin_func.php:23
+msgid "User"
+msgstr "Utente"
+
+#: ../admin_func.php:24 ../admin_func.php:57
+msgid "Password"
+msgstr "Password"
+
+#: ../admin_func.php:25
+msgid "Submit"
+msgstr "Invia"
+
+#. I18n
+#: ../admin_func.php:39
+#, fuzzy
+msgid "Administration tasks"
+msgstr "Strumenti Amministratore"
+
+#: ../admin_func.php:40
+#, fuzzy
+msgid "Add gallery"
+msgstr "Aggiungi gallery"
+
+#: ../admin_func.php:41 ../admin.php:83
+#, fuzzy
+msgid "Modify gallery"
+msgstr "Modifica gallery"
+
+#: ../admin_func.php:42 ../admin_func.php:406 ../admin.php:93 ../delete_gallery.php:24
+#, fuzzy
+msgid "Delete gallery"
+msgstr "Cancella gallery"
+
+#: ../admin_func.php:43
+#, fuzzy
+msgid "Change main config"
+msgstr "Cambia la configurazione principale"
+
+#: ../admin_func.php:44
+msgid "Logout"
+msgstr "Disconnetti"
+
+#: ../admin_func.php:54
+#, fuzzy
+msgid "Gallery title"
+msgstr "Titolo Gallery"
+
+#: ../admin_func.php:56
+msgid "Location"
+msgstr "Localizzazione"
+
+#: ../admin_func.php:58
+msgid "set this field if you want private access to this gallery"
+msgstr "clicca sull'opzione se vuoi un accesso privato alla galleria"
+
+#: ../admin_func.php:59 ../admin_func.php:416 ../functions.php:480
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../admin_func.php:60 ../view_func.php:73
+msgid "Send"
+msgstr "Invia"
+
+#: ../admin_func.php:115
+msgid "PNG files not supported in this version"
+msgstr "I file PNG non sono \"supportati\" in questa versione"
+
+#: ../admin_func.php:307 ../admin_func.php:314
+#, fuzzy
+msgid "Opening gid counter file: "
+msgstr "Sto aprendo il counter file: "
+
+#: ../admin_func.php:403
+#, fuzzy
+msgid "Modify gallery info"
+msgstr "Modifica le informazioni sulla gallery"
+
+#: ../admin_func.php:404
+#, fuzzy
+msgid "Select thumbnail"
+msgstr "Seleziona Anteprima"
+
+#: ../admin_func.php:405
+#, fuzzy
+msgid "Modify image list"
+msgstr "Modifica la lista immagini"
+
+#: ../admin_func.php:408 ../functions.php:472
+msgid "Number of images"
+msgstr "Numero immagini"
+
+#: ../admin_func.php:411 ../functions.php:475
+#, fuzzy
+msgid "View this gallery"
+msgstr "Vedi questa gallery"
+
+#: ../admin_func.php:412 ../functions.php:476
+#, fuzzy
+msgid "Gallery"
+msgstr "Gallery"
+
+#: ../admin_func.php:413 ../functions.php:477 ../modify_phid.php:41 ../view_func.php:31
+msgid "Visits"
+msgstr "Visitatori"
+
+#: ../admin_func.php:414 ../functions.php:478 ../functions.php:540 ../modify_phid.php:40
+msgid "Comments"
+msgstr "Commenti"
+
+#: ../admin_func.php:415 ../functions.php:479 ../view_func.php:94
+msgid "Date"
+msgstr "Data"
+
+#: ../admin_func.php:435
+msgid "Select deletion options:"
+msgstr "Selezionale opzioni di cancellazione:"
+
+#: ../admin_func.php:436
+#, fuzzy
+msgid "Do not list gallery in gallery index any more."
+msgstr "Non elencare più questa gallery nell'indice."
+
+#: ../admin_func.php:437
+#, fuzzy
+msgid "Clear all image comments."
+msgstr "Cancella tutti i commenti sull'immagine."
+
+#: ../admin_func.php:438
+msgid "Clear all image visit counters."
+msgstr "Cancella tutti i commenti sull'immagine"
+
+#: ../admin_func.php:439
+msgid "Clear gallery visit counters."
+msgstr "Cancella tutti i contatori della gallery."
+
+#: ../admin_func.php:440
+#, fuzzy
+msgid "Delete gallery thumbnails."
+msgstr "Cancella tutte le anteprime della gallery."
+
+#: ../admin_func.php:441
+msgid "Delete all files in directory."
+msgstr "Cancella tutti i files nella directory."
+
+#: ../admin_func.php:442
+#, fuzzy
+msgid "send"
+msgstr "Invia"
+
+#: ../admin.php:20
+#, fuzzy
+msgid "<strong>YaPiG</strong> Admin"
+msgstr "Amministratore di <strong>YaPiG</strong> "
+
+#: ../admin.php:57
+msgid "Not available."
+msgstr "Non disponibile."
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:76
+#, fuzzy
+msgid "Add a new gallery"
+msgstr "Aggiungi una nuova gallery"
+
+#: ../admin.php:85
+msgid "<p>You can modify: Title, Author, Description and  Gallery_Location. Thumbnails will be created with the pictures in the directory.</p><p>Please select the gallery you want to modify:</p>"
+msgstr "<p>Puoi modificare: Titolo, Autore, Descrizione e Localizzazione. Le anteprime saranno create con le foto nella directory relativa.</p><p>Per favore segli la gallery da modificare:</p>"
+
+#: ../admin.php:89 ../modify_gallery.php:230
+msgid "There are no galleries."
+msgstr "Non ci sono gallery al momento."
+
+#: ../admin.php:97
+msgid "There are no galleries to delete."
+msgstr "Non ci sono gallery da cancellare."
+
+#: ../delete_gallery.php:32 ../modify_gallery.php:97 ../modify_phid.php:103
+#, fuzzy
+msgid "Gallery does not exist or gid argument not set"
+msgstr "La gallery non esiste oppure non &egrave; settato il gid"
+
+#: ../delete_gallery.php:48
+#, fuzzy
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Le statistiche della gallery non esistono oppure non possono essere cancellate."
+
+#: ../delete_gallery.php:50
+#, fuzzy
+msgid "Gallery stats deleted."
+msgstr "Statistiche gallery cancellate."
+
+#: ../delete_gallery.php:55
+#, fuzzy
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Le statistiche dell'immagine non esistono oppure non possono essere cancellate."
+
+#: ../delete_gallery.php:57
+#, fuzzy
+msgid "Image stats of this gallery deleted."
+msgstr "Statistiche immagine cancellate."
+
+#: ../delete_gallery.php:63
+#, fuzzy
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Il contatore della gallery non esiste oppure non può essere cancellato"
+
+#: ../delete_gallery.php:65
+#, fuzzy
+msgid "Comments counter of this gallery deleted"
+msgstr "Contatore gallery azzerato"
+
+#: ../delete_gallery.php:68
+msgid "Could not be loaded this file: "
+msgstr "Non posso caricare questo file: "
+
+#: ../delete_gallery.php:75 ../delete_gallery.php:89 ../delete_gallery.php:104
+#, fuzzy
+msgid "Could not delete: "
+msgstr "Non posso cancellare: "
+
+#: ../delete_gallery.php:76
+#, fuzzy
+msgid "Deleted: "
+msgstr "Cancellato: "
+
+#: ../delete_gallery.php:85
+#, fuzzy
+msgid "Gallery could not be removed from index"
+msgstr "La gallery non può essere rimossa dall'indice"
+
+#: ../delete_gallery.php:87
+#, fuzzy
+msgid "Gallery will not be shown anymore in the index of galeries"
+msgstr "La gallery non potr&agrave; far vedere più di tanto nell'indice."
+
+#: ../delete_gallery.php:96
+msgid " is not a valid directory"
+msgstr " no es un directorio válido"
+
+#: ../delete_gallery.php:99
+#, fuzzy
+msgid " could not be opened"
+msgstr " non può essere aperto"
+
+#: ../delete_gallery.php:106
+#, fuzzy
+msgid "Deleted file: "
+msgstr "Cancellato: "
+
+#: ../delete_gallery.php:114
+#, fuzzy
+msgid "Could not get image list from file: "
+msgstr "Non posso caricare la lista immagine dal file: "
+
+#: ../delete_gallery.php:119
+#, fuzzy
+msgid "Could not delete thumbnail image: "
+msgstr "Non posso cancellare l'immagine di anteprima: "
+
+#: ../delete_gallery.php:120
+#, fuzzy
+msgid "Deleted thumbnail: "
+msgstr "Cancellata Anteprima: "
+
+#: ../delete_gallery.php:124
+#, fuzzy
+msgid "Gallery successfully deleted."
+msgstr "Gallery eliminata con successo."
+
+#. Show some useful links
+#: ../delete_gallery.php:127
+#, fuzzy
+msgid "Admin index"
+msgstr "Indice Amministratore"
+
+#: ../delete_gallery.php:128
+#, fuzzy
+msgid "Delete more galleries"
+msgstr "Cancella pi&ugrave; gallery"
+
+#: ../functions.php:80
+msgid "Error"
+msgstr "Errore"
+
+#: ../functions.php:98
+msgid "Warning"
+msgstr "Attenzione"
+
+#: ../functions.php:141
+msgid "main menu"
+msgstr "men&uacute; principale"
+
+#: ../functions.php:142
+#, fuzzy
+msgid "Gallery index"
+msgstr "Indice della Gallery"
+
+#: ../functions.php:143
+#, fuzzy
+msgid "Home page"
+msgstr "Homepage"
+
+#: ../functions.php:145
+msgid "Admin"
+msgstr "Amministratore"
+
+#. Logout links
+#: ../functions.php:148
+msgid "Admin logout"
+msgstr "Disconnetti Amministratore"
+
+#: ../functions.php:149
+#, fuzzy
+msgid "Gallery logout"
+msgstr "Disconnetti Gallery"
+
+#: ../functions.php:452
+#, fuzzy
+msgid "Gallery does not exist: "
+msgstr "La gallery non esiste: "
+
+#: ../functions.php:490
+#, fuzzy
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Accesso Riservato. Per favore inserisci la Password e premi il bottone Accedi. Grazie."
+
+#: ../functions.php:492
+msgid "Validate"
+msgstr "Accedi"
+
+#: ../functions.php:493
+#, fuzzy
+msgid "Gallery password"
+msgstr "Gallery password"
+
+#. I18n -
+#: ../functions.php:537
+#, fuzzy
+msgid "View image bigger"
+msgstr "Ingradisci l'immagine"
+
+#: ../functions.php:538
+msgid "Image"
+msgstr "Immagine"
+
+#: ../functions.php:539
+msgid "Hits"
+msgstr "Visite"
+
+#: ../gallery.php:25
+msgid "Congratulations YAPIG is working!"
+msgstr "Complimenti, YaPiG Funziona!"
+
+#. welcome message
+#: ../gallery.php:28
+#, fuzzy
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://natasab.merlos.biz\">YaPig.</a></p>\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\n"
+"   <p>If this is the first time you run YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Benvenuto in <a href=\"http://natasab.merlos.biz\">YaPiG.</a></p>\n"
+"   <p><strong>NESSUNA</strong> Gallery presente.<p>\n"
+"   <p>Questa &egrave; la prima volta che viene eseguito YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Editare il file di configurazione <i>config.php</i>.</li>\n"
+"   <li><a href=\"admin.php\">Accedere come Amministratore</a> ed aggiungi una nuova gallery.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:48
+#, fuzzy
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Nessuna Gallery presente. Accedi come amministratore per creare una nuova gallery"
+
+#: ../install.php:28
+msgid "YaPiG Installation"
+msgstr "Installazione di YaPiG"
+
+#: ../install.php:42
+msgid "Change YaPiG's root directory permissions to allow creating new files."
+msgstr "Cambiare i permessi root di YAPIG per permette la creazione di nuovi files."
+
+#: ../install.php:43
+#, fuzzy
+msgid "Installation aborted. Could not create config file."
+msgstr "Installazione non completata. Non &egrave; "
+
+#: ../install.php:82
+#, fuzzy
+msgid "YaPiG successfully installed."
+msgstr "YaPiG installato con successo."
+
+#: ../modify_gallery.php:34
+msgid "Could not get image list. Gallery might have not images"
+msgstr "Non posso caricare la lista immagini. Potrebbe non contenere nessuna immagine"
+
+#: ../modify_gallery.php:38
+msgid "Current images at gallery are:"
+msgstr "Attualmente le immagini sono:"
+
+#: ../modify_gallery.php:55
+msgid "Could not read gallery directory filenames"
+msgstr "Non posso leggere i nomi delle directory"
+
+#: ../modify_gallery.php:57
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Immagini che sono nella directory ma non nella gallery:</p></ul>"
+
+#: ../modify_gallery.php:103 ../modify_phid.php:109
+#, fuzzy
+msgid "Modify gallery: "
+msgstr "Modifica gallery: "
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:113
+#, fuzzy
+msgid "Modify gallery information:"
+msgstr "Modifica informazioni della gallery"
+
+#. Check arguments
+#: ../modify_gallery.php:123
+#, fuzzy
+msgid "Directory location with images required!"
+msgstr "Directory con immagini richiesta!"
+
+#: ../modify_gallery.php:143
+#, fuzzy
+msgid "Creating gallery information file."
+msgstr "Creazione informazioni gallery: "
+
+#: ../modify_gallery.php:144
+#, fuzzy
+msgid "Gallery info successfully updated."
+msgstr "Gallery modificata con successo."
+
+#: ../modify_gallery.php:153
+#, fuzzy
+msgid "Could not update thumbnail"
+msgstr "Non posso aggiornare le anteprime"
+
+#: ../modify_gallery.php:154
+msgid "Thumbnail updated. (Do not worry if the upper thumb is the old one)"
+msgstr "Anteprima aggiornata (Non preoccuparti se l'anteprima &egrave; ancora quella vecchia)"
+
+#. List all phids.
+#: ../modify_gallery.php:159
+#, fuzzy
+msgid "Select thumbnail: "
+msgstr "Seleziona anteprima: "
+
+#: ../modify_gallery.php:161
+#, fuzzy
+msgid "Could not get all image list."
+msgstr "Impossibile ottenere la lista immagini."
+
+#. Construct Form.
+#: ../modify_gallery.php:164
+#, fuzzy
+msgid "Update gallery thumbnail"
+msgstr "Anteprima immagine aggiornata"
+
+#: ../modify_gallery.php:165
+msgid "default password protected galleries thumbnail"
+msgstr "gallery protetta da password"
+
+#: ../modify_gallery.php:203
+#, fuzzy
+msgid "Creating thumbs for images that do not have it."
+msgstr "Creazione anteprime per le immagini che non hanno un anteprima."
+
+#: ../modify_gallery.php:208
+#, fuzzy
+msgid "Creating all thumbs"
+msgstr "Creazione di tutte le anteprime"
+
+#: ../modify_gallery.php:213
+#, fuzzy
+msgid "Could not update gallery image list"
+msgstr "Non posso aggiornare la lista immagini"
+
+#: ../modify_gallery.php:214
+#, fuzzy
+msgid "Image list successfully updated"
+msgstr "Lista immagini aggiornata con successo."
+
+#: ../modify_gallery.php:217
+#, fuzzy
+msgid "Number of images not updated"
+msgstr "Numero immagini non aggiornato"
+
+#: ../modify_gallery.php:219
+#, fuzzy
+msgid "Number of images updated"
+msgstr "Numero immagini aggiornato"
+
+#. Default action is view galleries.
+#: ../modify_gallery.php:227
+msgid "<p>Please, select a gallery:</p>"
+msgstr "<p>Per favore, seleziona una gallery:</p>"
+
+#: ../modify_gallery.php:240
+#, fuzzy
+msgid "View this Gallery"
+msgstr "Vedi la Gallery"
+
+#: ../modify_gallery.php:241
+#, fuzzy
+msgid "Modify Gallery"
+msgstr "Modifica Gallery"
+
+#: ../modify_phid.php:24
+msgid "Image identificator (phid) not found."
+msgstr "Identificatore di immagini (phid) non trovato."
+
+#. I18n
+#: ../modify_phid.php:39
+#, fuzzy
+msgid "Image name"
+msgstr "Nome Immagine:"
+
+#: ../modify_phid.php:42
+msgid "Remove image"
+msgstr "Cancellare Immagine"
+
+#: ../modify_phid.php:43
+msgid "Clear"
+msgstr "Cancellare"
+
+#: ../modify_phid.php:44
+#, fuzzy
+msgid "Image id"
+msgstr "Id. Immagine"
+
+#: ../modify_phid.php:45
+#, fuzzy
+msgid "Modify Image"
+msgstr "Modifica Immagine"
+
+#: ../modify_phid.php:46
+#, fuzzy
+msgid "Set as gallery thumbnail"
+msgstr "Imposta come anteprima gallery"
+
+#: ../modify_phid.php:57
+msgid "Could not remove image from gallery image list"
+msgstr "Non posso rimuovere l'immagine dalla lista"
+
+#: ../modify_phid.php:58
+#, fuzzy
+msgid "Image will not be shown in list."
+msgstr "L'immagine non &egrave; elencata nella lista."
+
+#: ../modify_phid.php:67
+#, fuzzy
+msgid "Could not delete image comments file: "
+msgstr "Non posso cancellare i commenti dell'immagine: "
+
+#: ../modify_phid.php:68
+#, fuzzy
+msgid "Image comments deleted"
+msgstr "Commenti Immagine cancellati"
+
+#: ../modify_phid.php:71
+#, fuzzy
+msgid "Could not delete image comments counter: "
+msgstr "Non posso cancellare i contatori dell'immagine: "
+
+#: ../modify_phid.php:72
+#, fuzzy
+msgid "Image comments counter deleted"
+msgstr "Contatori Commenti Immagine cancellati"
+
+#: ../modify_phid.php:80
+#, fuzzy
+msgid "Image visits counter not found or could not be removed."
+msgstr "Contatori Visite Immagine non trovati oppure non possono essere rimossi."
+
+#: ../modify_phid.php:81
+#, fuzzy
+msgid "Image visits counter deleted"
+msgstr "Contatori Visite Immagine cancellati"
+
+#: ../modify_phid.php:113
+msgid "phid argument not set"
+msgstr "phid non settato"
+
+#: ../view_func.php:28
+msgid "Filename"
+msgstr "Nome del file"
+
+#: ../view_func.php:29
+msgid "File size"
+msgstr "Peso"
+
+#: ../view_func.php:30
+msgid "Image size"
+msgstr "Dimensione"
+
+#: ../view_func.php:66
+#, fuzzy
+msgid "Add yout comment!"
+msgstr "Aggiungi un commento!"
+
+#: ../view_func.php:67
+#, fuzzy
+msgid "Comment title"
+msgstr "Titolo"
+
+#: ../view_func.php:69
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../view_func.php:72
+msgid "Fields with * are required"
+msgstr "I campi con * sono obbligatori"
+
+#: ../view_func.php:105
+#, fuzzy
+msgid "Image comments"
+msgstr "Commenti"
+
+#: ../view_func.php:107
+msgid "There are no messages! Give us your opinion!"
+msgstr "¡Non ci sono messaggi! Inserisci il tuo!"
+
+#: ../view_func.php:112
+#, fuzzy
+msgid "Opening comments file"
+msgstr "Sto caricando i commenti"
+
+#: ../view_func.php:138
+#, fuzzy
+msgid "Previous Gallery"
+msgstr "Gallery Precedente"
+
+#: ../view_func.php:139
+#, fuzzy
+msgid "Next Gallery"
+msgstr "Gallery Successiva"
+
+#: ../view_func.php:140
+#, fuzzy
+msgid "Index of Galleries"
+msgstr "Indice delle Galleries"
+
+#: ../view_func.php:143 ../view_func.php:178
+msgid "could not show gallery navigation bar"
+msgstr "Non posso visulazzare la barra di navigazione della gallery"
+
+#: ../view_func.php:172
+#, fuzzy
+msgid "Previous Image"
+msgstr "Immagine Precedente"
+
+#: ../view_func.php:173
+#, fuzzy
+msgid "Next Image"
+msgstr "Immagine Successiva"
+
+#: ../view_func.php:174
+msgid "Up"
+msgstr "Su"
+
+#: ../view_func.php:207
+#, fuzzy
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: ../view_func.php:208
+#, fuzzy
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#. 0 -> View gallery identified with "gid"
+#: ../view.php:17
+msgid "GID not set"
+msgstr "GID non settato"
+
+#: ../view.php:35
+#, fuzzy
+msgid "Password incorrect."
+msgstr "Password errata"
+
+#: ../view.php:56
+msgid "Gallery data not found. Please create again this gallery"
+msgstr "Dati della Gallery non trovati. Per favore crea una nuova gallery"
+
+#, fuzzy
+#~ msgid "Gallery does not exist"
+#~ msgstr "Indice della Gallery"
+
+#~ msgid ""
+#~ "   \n"
+#~ "   <hr><p><strong>Note:</strong>\n"
+#~ "   Gallery files still exist in "
+#~ msgstr ""
+#~ "   \n"
+#~ "   <hr><p><strong>Nota:</strong>\n"
+#~ "   Le immagine della Gallery esistono in "
+
+#, fuzzy
+#~ msgid ""
+#~ ". If anytime you would\n"
+#~ "   like to create again this gallery you have to click on\n"
+#~ "   <a href=\"admin.php?action=add\" title=\"Add a new gallery\">Add\n"
+#~ "   Gallery</a> and complete the form filling as Gallery_location <i> "
+#~ msgstr ""
+#~ ". Quando vuoi\n"
+#~ "  puoi creare ancora una gallery cliccando semplicemente su\n"
+#~ "  <a href=\"admin.php?action=add\" title=\"Aggiungi nuova Gallery\">Aggiungi \n"
+#~ "   Gallery</a> completando i campi nella form <i> "
+
+#~ msgid ""
+#~ "</i></p>\n"
+#~ "  <p>You can delete this folder to free disk space if you want.</p><hr>"
+#~ msgstr ""
+#~ "</i></p>\n"
+#~ "<p>Puoi cancellare questa cartella per recuperare spazio dal disco.</p></hr>"
+
+#, fuzzy
+#~ msgid "Loading image mames from: "
+#~ msgstr "Sto caricando i nomi immagine da: "
+
+#~ msgid "Failed to read image Names."
+#~ msgstr "Impossibile leggere i nomi immagine"
+
+#~ msgid "Creating correspondence between photo identificators and photo filenames"
+#~ msgstr "Sto creando la corrispondeza foto <-> id foto"
+
+#, fuzzy
+#~ msgid "Creating correspondence."
+#~ msgstr "Sto creando le corrispondenze."
+
+#~ msgid "Next"
+#~ msgstr "Successivo"

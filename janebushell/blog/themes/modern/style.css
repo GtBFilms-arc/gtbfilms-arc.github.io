@@ -1,0 +1,361 @@
+/*
+--------------------------
+Simple PHP Blog CSS Styles
+--------------------------
+
+Name: Modern Theme
+Author: Alexander Palmo
+Version: 0.4.2
+Date: 12/11/06
+
+Description:
+This the is the css theme for the Modern theme. You can use
+this as a template for your own themes.
+
+Also refer to user_style.php for custom color over-rides.
+
+
+Some font suggestions...
+
+STANDARD
+font-family: Arial, Helvetica, Sans-Serif;
+font-family:  'Lucida Grande', Geneva, sans-serif;
+font-family: Tahoma, Geneva, sans-serif;
+font-family: Geneva, Verdana, sans-serif;
+
+CLASSIC / TRADITIONAL
+font-family: 'Times New Roman', Times, serif;
+font-family: Georgia, serif;
+font-family: Book Antiqua, Palatino, serif;
+
+MODERN / FUNKY
+font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif;
+
+MONOSPACE
+font-family: Lucida Console, Monaco, monospace;
+
+*/
+
+/* GENERAL SETTINGS */
+body
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #000;
+  font-size: 0.7em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background-color: #cccc99;
+}
+
+p
+{
+  margin: .8em 0 .8em 0;
+}
+
+hr  
+{
+  color: #cccccc;
+  background-color: #cccccc;
+  height: 1px;
+  border: 0;
+}
+
+/* TYPEOGRAPHY */
+a { text-decoration: none; }
+a:link, a:visited { color: #933; }
+a:hover { color: #F33; }
+a:active { color: #33F; }
+
+form {
+  margin: 0;
+  padding: 0
+}
+
+input, select, option, textarea
+{
+  font-size: 1em;
+}
+
+code, pre {
+  font-family: 'Courier New', Courier, Fixed;
+  font-size: 1.2em;
+}
+
+pre {
+  width: 480px;
+  overflow: auto;
+  border: 1px dotted #777;
+  padding: 10px;
+}
+
+blockquote
+{
+  color: #666666;
+  padding-left: 1.5em;
+  border-left: 5px solid #999999;
+  margin: 1.5em 3.0em 0 1.0em;
+}
+
+/* HEADERS */
+h1, h2, h3, h4, h5, h6
+{
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  margin: .3em 0 .3em 0;
+}
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+/* IMAGES */
+img { border: 0; }
+
+#img_float_left
+{
+  /* Used by the [img] tag when float=left */
+  float: left;
+  margin: 2px 8px 4px 2px;
+}
+
+#img_float_right
+{
+  /* Used by the [img] tag when float=right */
+  float: right;
+  margin: 2px 2px 4px 8px;
+}
+
+/* LAYOUT / PLACEMENT */
+#page
+{
+  width: 750px;
+  margin: 10px auto 10px auto;
+  border: 1px solid #80804d;
+  background-color: #ffffe6;
+}
+
+#popup
+{
+  width: 550px;
+  margin: 10px auto 10px auto;
+  border: 1px solid #80804d;
+  background-color: #ffffe6;
+}
+
+#header
+{
+  border-bottom: 1px solid #666;
+}
+
+#title
+{
+  font-size: 1.3em;
+  color: #FFF;
+  background-color: #996;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid #80804d;
+}
+
+#innerpage
+{
+  margin: 0;
+  padding: 0;
+}
+
+#content
+{
+  width: 530px;
+  padding: 10px;
+  float: left;
+}
+
+#sidebar
+{
+  background-color: #e6e6b3;
+  padding: 10px;
+  width: 179px;
+  border-left: 1px #80804d solid;
+  border-bottom: 1px #80804d solid;
+  float: left;
+}
+
+#footer
+{
+  font-size: 0.8em;
+  color: #FFF;
+  background-color: #996;
+  padding: 10px;
+  border-top: 1px solid #666;
+  clear: both;
+}
+
+/* CONTENT */
+#content .entry,
+#content .static,
+#content .comment
+{
+  padding-bottom: 10px;
+}
+
+#content .entry .blog_title,
+#content .static .blog_title,
+#content .comment .blog_title
+{
+  font-size: 1.3em;
+  color: #FFF;
+  border-color: #660;
+  padding: .3em .5em;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  background-color: #B2B286;
+}
+
+#content .blog_title img
+{
+  /* padding: top right bottom left */
+  padding: 0px 10px 0px 0px;
+}
+
+#content .blog_title_buttons
+{
+  /* Edit and Delete buttons in the Blog Title */
+  float: right;
+  position: relative;
+  top: -15px;
+  right: 2px;
+  display: inline;
+}
+
+#content .entry .blog_body,
+#content .static .blog_body,
+#content .comment .blog_body
+{
+  line-height: 1.3em;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #660;
+  color: #663;
+}
+
+#content .entry .blog_body_clear,
+#content .static .blog_body_clear,
+#content .comment .blog_body_clear
+{
+  padding: 0px;
+  border-color: #FFF;
+  border-width: 0px;
+  border-style: solid;
+}
+
+#content .entry .blog_body_solid,
+#content .static .blog_body_solid,
+#content .comment .blog_body_solid
+{
+  padding: 1px;
+  border-color: #660;
+  background: #fff;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#content .entry .blog_date,
+#content .static .blog_date,
+#content .comment .blog_date
+{
+  font-size: .9em;
+  color: #999;
+  margin-bottom: 1em;
+}
+
+.blog_ip_address
+{
+  font-size: 0.8em;
+}
+
+#content .entry .blog_comment,
+#content .static .blog_comment,
+#content .comment .blog_comment
+{
+  padding: .5em;
+  color: #663;
+  background-color: #FFF;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #660;
+}
+
+/* SIDEBAR */
+#sidebar .menu_body a { text-decoration: none; }
+#sidebar .menu_body a:link, #sidebar .menu_body a:visited { color: #933; }
+#sidebar .menu_body a:hover { color: #F33; }
+#sidebar .menu_body a:active { color: #33F; }
+
+div #toggleSidebarAvatar, #toggleSidebarLinks, #toggleSidebarCalendar, #toggleSidebarArchives, #toggleSidebarCategories , #toggleSidebarSearch, #toggleSidebarMenu, #toggleSidebarPreferences, #toggleSidebarRecentComments, #toggleSidebarRecentEntries, #toggleSidebarRecentTrackbacks
+{
+  display: block;
+}
+
+#sidebar .menu_title
+{
+  font-size: 1em;
+  color: #FFF;
+  padding: .3em .5em;
+  background-color: #B2B286;
+  margin: 0;
+  border-color: #A6A6A6;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#sidebar .menu_title a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+#sidebar .menu_title:hover
+{
+}
+
+#sidebar .menu_body
+{
+  padding: 10px;
+  background-color: #FFF;
+  margin: 0;
+  border-color: #A6A6A6;
+  border-width: 0 1px 1px 1px;
+  border-style: none solid solid solid;
+}
+
+#sidebar .calendar
+{
+  font-size: 1em;
+}
+
+#sidebar .calendar a
+{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#sidebar .calendar td
+{
+  padding: 2px;
+}
+
+#archive_tree_menu ul 
+{
+  list-style: none inside;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+#archive_tree_menu li 
+{
+  margin: 0;
+  padding: .5em 0 0 0;
+}

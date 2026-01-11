@@ -1,0 +1,216 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<title>LinkMan - README</title>
+<style>
+BODY, TD {
+color: black;
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+P {
+color : black;
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+A:HOVER {
+color : Red;
+text-decoration : none ! important;
+}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h3><font color="#FF0000">LinkMan</font> 1.02<br>
+<font size="3">PHP reciprocal links manager</font></h3>
+
+<p>PHP reciprocal links manager (LinkMan)<br>
+Version: 1.02 from 23rd June 2005<br><br>
+Written 16th July 2004 by Klemen Stirn (info AT phpjunkyard DOT com)<br>
+<a href="http://www.phpjunkyard.com">PHPJunkYard.com - Free PHP scripts</a><br>
+<a href="http://www.phpjunkyard.com/php-link-manager.php">Link manager LinkMan</a><br>
+<a href="http://developers.phpjunkyard.com/">Support and developers forum</a></p>
+
+<b>PLEASE NOTE:</b> I <font color="#FF0000">cannot</font> provide free installation
+support for this free script! Please use the above e-mail address to contact me
+ONLY about possible bug reports, suggestions or comments! Thank you!</p>
+
+<hr>
+
+<p><b>COPYRIGHT NOTICE</b></p>
+<p>Copyright 2004-2005 Klemen Stirn. All Rights Reserved.</p>
+<p>The LinkMan may be used and modified free of charge by anyone so long as
+this copyright notice and the comments above remain intact. By using this
+code you agree to indemnify Klemen Stirn from any liability
+that might arise from it's use.</p>
+<p>Selling the code for this program without prior written consent is
+expressly forbidden. In other words, please ask first before you try and
+make money off this program.</p>
+<p>Obtain permission before redistributing this software over the Internet or
+in any other medium. In all cases copyright and header must remain intact.
+This Copyright is in full effect in any country that has International
+Trade Agreements with the United States of America or with
+the European Union.</p>
+
+<p><b>Removing copyright notice (&quot;Powered by&quot; statement)</b><br>
+Removing any of the copyright notices without purchasing a license is <b>NOT ALLOWED</b>!
+To remove PHPJunkyard copyright notice you must purchase a license for this script.
+For more information on how to obtain a license please visit the site below:<br>
+<a href="http://www.phpjunkyard.com/copyright-removal.php"
+target="_blank">http://www.phpjunkyard.com/copyright-removal.php</a></p>
+
+<hr>
+
+<p>DESCRIPTION</p>
+
+<p>PHP link manager will completely automate your reciprocal links exchange!</p>
+
+<hr>
+
+<p>Requirements</p>
+
+<ul>
+	<li>UNIX or Windows server (it *might* work on others too)</li>
+    <li>PHP 4.3.x support</li>
+    <li>FTP access and a FTP program</li>
+</ul>
+
+<hr>
+
+<p><b>&gt;&gt; Quick installation</b></p>
+
+<p>Open file settings.php in your favorite <b>PLAIN TEXT</b> editor (like Notepad or
+Wordpad on Windows systems, DO NOT use MS Word or similar editor) and set these variables:</p>
+
+<ul>
+<li><b>$settings['system']</b> - set to 1 if your website is on a server under Linux (most servers are),
+set to 2 if it is under Windows (your SERVER, not your computer!). If you are not
+sure which operating system your server runs under
+try with $settings['system'] set to 1 first or consult your web hosting company.
+If you are under some other OS (not Linux nor Win)
+you can try setting it from 1 to 3 and see if it works<br><br></li>
+<li><b>$settings['apass']</b> - this will be your password for the admin panel. Change it from the
+default password <b>admin</b>. Use only letters a-Z, A-Z and numbers 0-9<br><br></li>
+<li><b>$settings['site_url']</b> - URL of your website. This is the URL your link
+partners will have to place on their website.<br><br></li>
+<li><b>$settings['admin_email']</b> - Your e-mail address.<br><br></li>
+<li><b>$settings['notify']</b> - If set to <b>1</b> you will receive an e-mail notification
+at the above e-mail address every time someone successfully submits a link. Set
+to <b>0</b> if you don't want to be notified.<br><br></li>
+<li><b>$settings['max_links']</b> - Set to the maximum links you will allow submitted.
+For better performance please set an appropriate limit (50 works fine on most servers).
+Once this limit is reached no new links can be submitted (unless some are deleted)<br><br></li>
+<li><b>$settings['clean']</b> - If set to <b>1</b> the &quot;straight&quot; URLs
+will appear as links (example: http://www.somesite.com). If set to <b>0</b> redirects
+will be used<br>(example: http://www.yourdomain.com/linkman/go.php?url=http://www.somesite.com).<br><br></li>
+<li><b>$settings['add_to']</b> - If set to <b>0</b> new listings will appear to
+the top of the page. If you want new listings to appear below old listings
+set this variable to <b>1</b>.<br><br></li>
+<li><b>$settings['linkfile']</b> - File where all the link data will be stored
+(advanced users only).
+You may leave this as it is.<br><br></li>
+</ul>
+
+<p>Save and close the settings.php file.</p>
+
+<p>Go to your FTP client and FTP to the public
+directory on your server (where the rest
+of your website is; usually &quot;public_html&quot;, &quot;www&quot; or &quot;site&quot;)
+and create a folder where you will install linkman.<br>
+Example: /public_html/linkman<br>
+Corresponding URL: http://www.yourdomain.com/linkman</p>
+
+<p>Upload all LinkMan files to this folder. Images (line.gif,reset.gif,delete.gif)
+must be transferred in BINARY mode, other files in ASCII mode (refer to your FTP client
+instructions for details on how to set transfer mode properly).</p>
+
+<p>Make sure that the PHP scripts have permission to write to file linkinfo.txt
+- on UNIX (Linux) servers you must CHMOD (set permissions for) this
+file to 666 (rw-rw-rw).</p>
+
+<p>Use the HTML form from &quot;form.html&quot; to allow users to submit their links.
+YOu may modify the look of this page as much as you like or even use the form
+HTML code on any page you like, just make sure you set the proper ACTION parameter
+of the &lt;form ... &gt; tag!</p>
+
+<p>The links.php file is the one that displays all the links. Use this file as
+your links page, for example use page http://www.yourdomain.com/linkman/links.php
+as your &quot;Reciprocal links&quot; page.</p>
+
+<p>You may edit header.txt and footer.txt files to add your own header and footer
+to the links page. You will have to use <b>full image URLs</b> in the code. For example
+instead of &lt;IMG SRC=&quot;images/image.jpg&quot; ... &gt; use
+&lt;IMG SRC=&quot;http://www.yourdomain.com/images/image.jpg&quot; ... &gt;! Same
+goes for any Javascripts or CSS files if you are calling them from within the
+header or footer.</p>
+
+<p>If you have done all this your link exchange should work now. In your browser open
+folder where you have installed LinkMan, for example:<br>
+http://www.yourdomain.com/linkman</p>
+
+<p>Type in the password you set in settings.php, click Enter admin panel and you
+are in the admin panel! Here you can remove unwanted links and run a check to see
+if sites still have your reciprocal link.</p>
+
+<p>Good luck with the script!</p>
+
+<hr>
+
+<p><b>&gt;&gt; Troubleshooting</b></p>
+
+<p><b>What is CHMOD and FTP?</b></p>
+
+<p>I have prepared a simple <a href="http://www.phpjunkyard.com/ftp-chmod-tutorial.php" target="_blank">
+FTP and CHMOD tutorial</a> which will help you FTP files to your server and
+set correct CHMOD settings.</p>
+
+<p><b>My link exchange doesn't work, HELP!</b></p>
+
+<p>Here are a few things to check:</p>
+<ol>
+<li>did you upload all files except images in ASCII mode?</li>
+<li>is linkinfo.txt file world writable? CHMOD it to 666 (rw-rw-rw) if you are on a UNIX server</li>
+<li>go through the entire setup process again carefully</li>
+</ol>
+
+<p>Since these scripts are free no support is guaranteed. If you can't get the script to work please go
+through this readme file again carefully and repeat the installation step-by-step (also delete old
+files and folders from the server). Also please feel free to post any questions or problems you might have
+in <a href="http://developers.phpjunkyard.com">PHPJunkyard forum</a>!</p>
+
+<hr>
+
+<p><b>&gt;&gt; Stay updated!</b></p>
+
+<p>Join my FREE newsletter and you will be notified about new scripts, new versions of the existing scripts
+and other important news from PHPJunkYard.<br>
+<a href="http://www.phpjunkyard.com/newsletter.php">Click here for more info</a></p>
+
+<hr>
+
+<p><b>&gt;&gt; Please rate this script</b></p>
+
+<p>If you like this script please rate it or even write a review at:</p>
+<p><a href="http://www.hotscripts.com/Detailed/36875.html" target="_new">Rate
+this Script @ Hot Scripts</a></p>
+
+<hr>
+
+<p><b>&gt;&gt; What else?</b></p>
+
+<p>That's it! If you use PHPJunkYard free scripts or any portion of their code  please place a link
+to PHPJunkYard.com on your website. I won't sue you if you don't, but
+I believe it is a fair trade for a free script/code. Think about it. You can
+find link suggestions <a href="http://www.phpjunkyard.com/link2us.php">here</a>.</p>
+
+<p><b>Best regards,<br><br>
+Klemen Stirn<br>
+PHP JunkYard<br>
+<a href="http://www.phpjunkyard.com">http://www.PHPJunkYard.com</a></b></p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>

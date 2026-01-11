@@ -1,0 +1,314 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+ <title>Yapig - English Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="NaTaSaB" />
+<meta name="description" content="Yapig is a simple but powerful image gallery written in php. It has web admin tool,user comments and visit stats.">
+<meta name="keywords" content="yapig, yet another,php,image gallery, photo album, photo, php album, php gallery">
+<meta name="Copyright" content="&copy; 2003 NaTaSaB" />
+
+<!-- Metadatos Dublin Core -->
+<meta name="DC.Title" content="Documentation" />
+<meta name="DC.Creator" content="NaTaSaB" />
+<meta name="DC.Subject" content="Documentation of the YaPiG PHP Script" />
+<meta name="DC.Description" content="Yapig is a simple but powerful image gallery written in php. It has web admin tool,user comments and visit stats." />
+<meta name="DC.Publisher" content="yapig.sf.net" />
+<meta name="DC.Date" content="2003-07-01" />
+<meta name="DC.Relation.isPartOf" content="http://yapig.sourceforge.net" />
+<meta name="DC.Identifier" content="http://yapig.sourceforge.net" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Rights" content="(c) 2003 NaTaSaB" />
+<link rel="Start" href="http://yapig.sourceforge.net" />
+
+<link rel="icon" href="img/mini.png" type="image/png" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+<script type="text/javascript">
+<!--
+function openWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+<body>
+<!-- TOP ZONE -->
+<div class="top"><img src="../img/top.jpg" alt="Yapig Documentation" style="margin:0px; padding:0px" /></div>
+<!--
+<div class="top">
+<span class="toptit1"> .::YaPiG </span>
+      <span class="toptit2">&nbsp;Documentation </span>
+     <small style="color: #AAAABB">yapig.sourceforge.net</small>
+</div>
+-->
+
+<div id="topmenu">
+ YaPiG Home Page: 
+        <a href="http://yapig.sourceforge.net/index.php" title="Index - Home - Start">home</a> |
+   <a href="http://yapig.sourceforge.net/doc/" title="YaPiG User Manual">Online- Docs</a> |
+ <a href="http://yapig.sourceforge.net/download.php" title="Download YaPiG and CVS info">Download</a> 
+
+</div>
+
+ <div class="contents">
+      <div class="text">
+      
+      
+      
+
+
+<h2>Frequently Asked Questions</h2>
+
+
+
+<h3>About Yapig itself</h3>
+
+<dt><b>For what should I use Yapig?</b></dt>
+<dd>Yapig is specially thought to people that wants to publish some images, 
+pictures, photos on the internet. Using Yapig you have a very simple to use
+system that helps you to create the thumbnails and administrate your
+galleries. For example, if you have a digital camera and you want to show
+your shots to the world, Yapig will help you!</dd>
+
+<dt><b>What does require Yapig?</b></dt>
+<dd>
+Yapig requires a web server that supports <a
+href="http://www.php.net">PHP 4.x</a> witch is a programming language mainly
+oriented to web developing. Most of web hostings support this language, it
+is very popular on the internet. As well, requires that your server has the
+GD lybrary, witch is an extension included in the standard distribution of
+PHP that has some functions for handling images.
+</dd>
+
+<dt><b>Does it support GD 1.6 version?</b></dt>
+<dd>YES, since 0.91-1 version or higher. Of course GD 2.0 works as well</dd>
+
+<dt><b>I would like to customize Yapig look, is it possible?</b></dt>
+<dd>
+Yes, of course, yapig uses a template system, that is, you don't have to edit
+the PHP source code to change the look, you can easilly edit the HTML of the
+templates. As well, Yapig look relies in Cascading Style Sheets (CSS).
+</dd>
+
+<dt><b>Does Yapig show the JPEG EXIF information</b></dt>
+<dd>
+Most of Digital cameras create JPEG files with some extra information about
+the picture in a common format called EXIF (Exchangeable Image File Format).
+Since version 0.94u Yapig displays some EXIF info.
+</dd>
+
+<dt><b>Why does not Yapig use SQL databases?</b></dt>
+<dd>
+ The idea is to create a script that requires minimal server requirements,
+so it can work in nearly all php enabled servers. Many
+ servers offer free php service but paid SQL access. Maybe
+ in the future there will be the option of using text and SQL data bases. 
+</dd>
+
+<dt><b>Why does not use Smarty for templates?</b></dt>
+<dd>
+Once again, simplicity. Smarty is very powerful, but requires a 'big' effort
+for users learning it. Yapig's template system is very easy to use and you 
+can integrate Yapig in your web with minimal effort thanks to it only
+needing a little of HTML or CSS knowledge
+</dd>
+
+<dt><b>I like this project, how can I help it?</b></dt>
+<dd>There are several ways to help this project: 
+
+<ul>
+<li>Developing
+Yapig source code or 
+<a href="http://sourceforge.net/tracker/?atid=605078&group_id=93674&func=browse">sending patches</a> 
+or improvements. Some people already sent
+them and have been included in Yapig's releases. Yapig source code is
+heavily documented and I think it is quite easy to modify.
+</li>
+<li>Other way to help the
+project is sending bugs, if when you are using Yapig you find that there is
+something that does not work as it was espected you can report that problem.
+You can also post 
+<a
+href="http://sourceforge.net/tracker/?atid=605079&group_id=93674&func=browse">new
+features</a> you would like tol have on future releases or give your
+preferences for the already sent ones.</li>
+<li>Translating or updating Yapig's translations. Yapig is translated into
+some languages, but these translations need to be updated from time to time 
+to support new features output text. How to translate or update Yapig's
+translation is explained in <a href="doc/translations.html">translations docs</a></li>
+
+<li>Finally, one of the easiest way
+to help the project, if you find it interesting, is helping other users to
+find it. Yapig is indexed on some resource pages, this pages rank the
+programs they have or let users post their opinion. Your task is simple, you
+just have to vote or write an opinion about Yapig on these webs. Just tell
+other users why you chose Yapig, what are the advantages/disadvantages and
+what you like or don't like about it, that is, what you think about this
+program. To find Yapig, you can use the search engine most of this pages have.
+Theses are the web pages where Yapig is listed:
+<ul>
+ <li><a href="http://free.world-directory.net">Free Stuff Directory</a></li>
+   <li><a href="http://www.scriptz.com/" target="_blank">Visit
+Scriptz.com!</a></li>
+  <li><a href="http://www.thecgisite.com">TheCgiSite.com - The Mother of all
+Programming Sites!</a></li>
+  <li><a
+href="http://php.softwarefolder.com/in.php?id=9677">SoftwareFolder.com PHP
+Script Index</a></li>
+  <li><a href="http://www.ahfb2000.com/php-scripts/in.php?num=188">Advanced
+HTML For Beginners PHP Script Index</a></li>
+   <li><a href="http://www.refdev.com">Ref Dev</a></li>
+          <li><a href="http://www.hotscripts.com">HotScripts.com</a></li>
+	          <li><a href="http://www.phpfreaks.com">PHP freaks</a></li>
+   <li><a href="http://www.webscriptsdirectory.com/">Web Scripts Directory</a></li>
+        <li><a href="http://www.onlyphp.com">Only PHP</a></li>
+	<li><a href="http://www.phpscriptsearch.com">PHP Script Search</a></li>
+        <li><a href="http://www.scriptdex.com">Script DeX</a></li>
+	<li><a href="http://www.bigwebmaster.com">BigWebmaster.com</a></li>
+	<li><a href="http://www.getascript.com">Get a Script</a></li>
+        <li><a href="http://www.sctiptsmatrix.com">Script Matix</a></li>
+        <li><a href="http://www.softwarefolder.com">Software Folder</a></li>
+        <li><a href="http://www.webmasterengine.com">Webmaster Engine</li>
+	<li><a href="http://www.devscripts.com">Dev Scripts</a></li>
+	</ul>
+</li>
+</ul>
+</dd>
+
+<dt><b>Why do you develop Yapig</b></dt>
+<dd>Well, I bought a Digital Camera and I searched for a nice script for
+publishing my personal albums, I didn't find any that matched what exactly 
+I wanted so I decided to develop mine's one :D. I wanted it to be very simple, 
+lightweight and easy to customize. As well, I've made a big effort on user documentation
+and internationalization issues on the script, that is something I
+appreciate when I use some kind of software. I hate good software witch is
+poorly documented because I can't use it if there is any problem! </dd>
+
+<h3>Installation</h3>
+
+
+<dl>
+<dt><b>Web host where Yapig works</b></dt>
+<dd>On <a
+href="http://sourceforge.net/forum/forum.php?thread_id=1020974&forum_id=323824">Yapig's
+forum</a>, it  was created a thread where users can post witch web
+server can run Yapig. So if you are searching a webhost or you know a good
+one: share your knowledge!  </dd>
+
+<dt><b>Could not create index.html</b></dt>
+<dd> As default Yapig creates a file called <i>index.html</i>, this is done
+to avoid default HTTP server file listing. There are two critical
+directories $BASE_DIR (defined in config.php) and $SECURE_DIR (defined in
+$BASE_DIR/global_gen.php). If you have password protected
+galleries you MUST create a blank <i>index.html</i> file for security
+reasons in both dirs. If you don't have password protected files, it doesn't
+matter.
+</dd>
+
+<dt><b>Permissions Issues</b></dt>
+<dd>Most of problems running <b>Yapig</b> are related to permissions. Remember:
+<ul>
+<li><b>photos/</b> directory must have 777 (drwxrwrwx) permissions</li>
+<li>Each <b>gallery directory</b> must have 777 (drwxrwxrwx) permissions</li>
+<li>Yapig's root directory must have 777 permissions as well.</li>
+</ul>
+</dd>
+<dt><b>What does give 777 permissions mean?</b></dt>
+<dd>
+It is a commonly used terminology on Unix/Linux operating systems, this only
+means that you have to give all read, write and execution permissions to
+this folder for the owner of the folder, the group of the owner of the
+folder and other users that are out the owner group. This is necessary
+because on most system the user who runs the webserver and executes the
+Yapig script is different from the owner of the files, and must have access
+to write on them (for example, to store a comment)<br />
+To change these permissions on most ftp clients you have the option, just
+search for: modify permissions, modify atributes, chmod or something.<br />
+If you are accesing using a shell of text based client the command is <i>chmod
+777 filename</i>. For more information you can search in your favourite
+search engine <i>unix file permissions</i>.
+</dd>
+
+<h3>Running</h3>
+<dl>
+<dt><b>Yapig Excedes execution time</b></dt>
+<dd>This is because as default PHP runs its scripts during 30 seconds. After
+that time, it kills them. You have to edit your <i>php.ini</i> file and modify this value to:<pre>
+     max_execution_time = 300     ; Maximum execution time of each script, in seconds
+</pre>
+From 0.94 and above Yapig tries to do this automatically, but some servers
+disallow changing the maximun execution time.
+</dd>
+
+<dt><b>Memory problems with big images</b></dt>
+<dd>
+ If you are trying to create a gallery with images whitch size in pixels is
+very big, it might cause problems when running Yapig. On php server config
+(<i>php.ini</i>) there is a directive that sets the maximun amount of memory
+allocable by a single script, set to 8MB as default. When Yapig loads big
+images and tries to allocate more than this amount, the PHP engine returns a
+Fatal Error. The possible solutions to this are:
+<ul>
+<li>change php.ini directive <i>memory_limit = 16M</i>, for example.</li>
+<li>Reduce the image size.</li>
+</ul>
+</dd>
+
+<dt><b></b></dt>
+<dd>
+</dd>
+
+<!--
+<dt><b></b></dt>
+<dd>
+</dd>
+-->
+<dt><b>How does password protect the images?</b></dt>
+<dd>Yapig gallery password system is very insecure because if you know the 
+directory and the image name you can access directly to the image url with 
+your browser.
+Anyway, for personal albums it is enought and if you choose rare/random 
+image names it will be enougth. In the future, it will be studied 
+how to improve this security topic. 
+</dd>
+</dl>
+</div> <!-- Fin div Text -->
+
+<div class="bottom">
+  <address>&copy <b>YaPIG</b> ::
+    <a href="http://yapig.sourceforge.net">http://yapig.sourceforge.net</a> # 
+      <a href="http://natasab.merlos.biz">natasab</a>@users.sourceforge.net
+</address>
+ </div><!-- Fin div bottom -->
+
+</div><!-- Fin div contents-->
+
+<!-- MENU LATERAL -->
+
+ <div class="menu"><!-- Div Contenedor Menu -->
+     	<div class="msec"><b><a href="index.html" title="YaPiG's Documentation">Documentation</a></b></div>
+	<div class="msub">
+	     &bull;<a href="features.html" >Features</a><br />
+	      &bull;<a href="install.html">Install</a><br />
+	      &bull;<a href="FAQ.html">FAQ</a><br />
+              &bull;<a href="templates.html">Templates</a><br />
+              &bull;<a href="translations.html">Multilingual Support</a><br />
+              &bull;<a href="bugs.html">How to report Bugs</a><br />
+              &bull;<a href="credits.html">Credits</a><br />
+	</div>
+  <div class="msec"><b><a href="http://yapig.sourceforge.net/index.php">YaPiG Home</a></b></div>
+	<div class="msec"><b><a href="http://yapig.sourceforge.net/download.php" title="Download Page">Downloads</a></b></div>
+
+      <div class="msec">User Feedback</div>
+      <div class="msub">
+      &bull;<a href="http://yapig.sourceforge.net/list.php" title="Information about YaPiGs Mailing lists">Mailing Lists</a><br />
+      &bull;<a href="http://sourceforge.net/forum/?group_id=93674" title="YaPiG SF.net -  Project Forums">Forums</a><br />
+      &bull;<a href="http://sourceforge.net/tracker/?group_id=93674&atid=605076" title="YaPiG SF.net Bug Tracker">Report Bugs</a><br />
+      &bull;<a href="http://sourceforge.net/tracker/?atid=605079&group_id=93674&func=browse" title="YaPiG SF.net Feature Request Tracker">Feature Request</a>
+      </div>
+     
+ </div>
+     
+</body>
+</html>

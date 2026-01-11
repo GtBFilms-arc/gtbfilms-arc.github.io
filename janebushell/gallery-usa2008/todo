@@ -1,0 +1,21 @@
+Yapig TODO List
+---------------
+
+What is missing until version 1.0.0?
+
+1. Multilevel galleries: This will allow having a hierarchy on the gallery
+2. Allow having big galleries without the use of set_max_execution_time. Now 
+   to create big galleries it is necessary to call this function, not always
+   available on public servers.
+   
+3. Watermarking: Make an automatic mark on the images to add some kind of
+   copyright.
+4. Dynamic gallery creation: Upload files and automatically create the 
+5. Help system: Put links on the forms with help text. 
+
+What will be next?
+
+1. PHP5 + Object oriented programming
+2. SQL support
+3. Multiuser support.
+

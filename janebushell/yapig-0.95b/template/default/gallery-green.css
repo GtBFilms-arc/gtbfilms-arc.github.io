@@ -1,0 +1,105 @@
+/*
+------------------------------------------------------------------------------
+   YaPiG Default template CSS
+   
+   Just modifying this file you can heavily customize your 
+   YaPiG's look.
+   
+------------------------------------------------------------------------------
+*/
+
+/****************************************************
+ HTML Elements
+******************************************************/
+
+body {
+     font-family: Arial,Verdana, sans-serif;
+     font-color: #006600;
+     background: #EEFFEE
+}
+
+
+h1 {
+
+   margin-top: 8px;
+   margin-bottom: 5px;
+   padding: 3px;
+   border: thin solid #88DD88;
+   background: #DDFFDD;
+   color: #66CC66;
+   }
+
+strong {
+       color: red;
+}
+
+address {
+	 border-top: thin solid #006600;
+	 margin: 10px;
+	 background: #DDFFDD;
+}
+
+/******************************************************
+YaPiG Interface Classes
+*******************************************************/
+
+/*  Main task bar style */
+.main {
+      border: thin solid #AAFFAA;
+      background: #DDFFDD;
+      margin: 6px;
+      
+}
+
+/* Admin task bar style */
+.admin {
+      border: thin solid #FFAAAA;
+      padding: 2px;
+      background: #FFDDDD;
+      margin: 10px;      
+}
+
+/* Gallery Index container */
+
+.gidindex {
+	 border: thin solid #AAFFAA;
+	 width: 100%;
+}
+
+/* Information about a gallery container style*/
+.gidindexdata{
+	  border: thin solid #AAFFAA;
+	  background: #DDFFDD;	  
+}
+
+/* TD of Index of galleries */
+.gidindextd{
+	    width: 180px;
+}
+
+/*DIV containing information about image information (name,size,dimensions)*/
+.phidinfo{
+	  border: thin solid #AAFFAA;
+	  background: #DDFFDD;
+	  margin: 6px;
+	  padding: 5px;
+	  }
+	  
+/* UserComments Style */
+.comment {
+	  border: thin solid #AAFFAA;
+	  background: #DDFFDD;
+	  margin: 5px;
+	  padding: 5px;
+}
+
+/* Image name in a gallery index (below thumbnail) */
+.view {
+      font-size: 60%;
+}
+
+/*Thumbnail Image style */
+.thumb {
+       
+}
+

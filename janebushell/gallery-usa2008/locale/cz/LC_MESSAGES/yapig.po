@@ -1,0 +1,997 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004 Jiri Cincura
+# This file is distributed under the same license as the YaPiG package.
+# Jiri Cincura <support@cincura.net>, 2004.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"Report-Msgid-Bugs-To: support@cincura.net\n"
+"POT-Creation-Date: 2004-03-30 00:00+0100\n"
+"PO-Revision-Date: 2004-03-30 00:00+0100\n"
+"Last-Translator: Jiri Cincura <support@cincura.net>\n"
+"Language-Team: Jiri (x2) Cincura <support@cincura.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Check arguments in form. gid and phid are required.
+#: ../add_comment.php:72
+msgid "Incorrect add comment form"
+msgstr "Nekorektní data v komentáøi"
+
+#: ../add_comment.php:78
+msgid "Title field required"
+msgstr "Název je nutný"
+
+#: ../add_comment.php:82
+msgid "Author field required"
+msgstr "Autor je nutný"
+
+#: ../add_comment.php:86
+msgid "e-mail field required"
+msgstr "e-mail je nutný"
+
+#: ../add_comment.php:90
+msgid "Web field required"
+msgstr "Web je nutný"
+
+#: ../add_comment.php:94
+msgid "Comment field required"
+msgstr "Komentáø je nutný"
+
+#: ../add_comment.php:99
+msgid "Sorry, you did not fill some required fields."
+msgstr "Sorry, nevyplnil jsi nìkterá povinná pole."
+
+#: ../add_comment.php:157
+msgid "Thank you for your comment"
+msgstr "Díky za tvùj komentáø"
+
+#: ../add_comment.php:158
+msgid "Added this Comment"
+msgstr "Pøidán tento Komentáø"
+
+#: ../add_comment.php:159 ../admin_func.php:481 ../functions.php:477
+msgid "Title"
+msgstr "Název"
+
+#: ../add_comment.php:160 ../admin_func.php:123 ../admin_func.php:482 ../functions.php:478 ../view_func.php:68
+msgid "Author"
+msgstr "Autor"
+
+#: ../add_comment.php:161
+msgid "e-mail"
+msgstr "e-mail"
+
+#: ../add_comment.php:162 ../view_func.php:70
+msgid "Web"
+msgstr "Web"
+
+#: ../add_comment.php:163 ../view_func.php:71 ../view_func.php:95
+msgid "Comment"
+msgstr "Komentáø"
+
+#: ../add_comment.php:164
+msgid "If the page is not automatically refreshed."
+msgstr "Kdy¾ tato stránka není automaticky obnovena."
+
+#: ../add_comment.php:165
+msgid "Please, press here"
+msgstr "Prosím, stiskni zde"
+
+#: ../add_gallery.php:51
+msgid "Adding new gallery: "
+msgstr "Pøidávám novou galerii: "
+
+#: ../add_gallery.php:58 ../admin_func.php:229
+msgid "GD library not loaded. Please read install documentation"
+msgstr "GD knihovna není naètena. Prosím prostuduj instalaèní dokumentaci"
+
+#. Check arguments
+#: ../add_gallery.php:64
+msgid "Directory where images are stored required!"
+msgstr "Je tøeba adresáø, kde jsou ulo¾eny obrázky!"
+
+#: ../add_gallery.php:69 ../modify_gallery.php:140
+msgid "Title, author and description are required!"
+msgstr "Název, autor a popis jsou vy¾adovány!"
+
+#: ../add_gallery.php:80
+msgid "Location directory DOES NOT EXIST."
+msgstr "Hledaný adresáø NEEXISTUJE."
+
+#: ../add_gallery.php:82
+msgid "Selected gallery directory is being used by another gallery. Delete that gallery first."
+msgstr "Vybraný adresáø galerie je pou¾íván jinou galerií. Sma¾ nejprve tuto galerii."
+
+#. first of all secure the dir.
+#. This is for avoiding automatic server listing.
+#: ../add_gallery.php:86
+msgid "Creating index.html for avoiding server listing."
+msgstr "Vytváøím index.html pro pro zabránìní procházení (listing) serverem."
+
+#: ../add_gallery.php:89
+msgid "Permissions. I will try chmod 2777 "
+msgstr "Práva. Zkusím chmod 27777 "
+
+#: ../add_gallery.php:91 ../add_gallery.php:94
+msgid "Permissions. Read FAQ documentation."
+msgstr "Práva. Pøeèti FAQ dokumentaci."
+
+#. Load all imagenames
+#: ../add_gallery.php:103
+msgid "Loading image Names of: "
+msgstr "Naèítám obrázky Jména z: "
+
+#: ../add_gallery.php:107
+msgid "Failed to read image names."
+msgstr "Chyba pri naèítání jmen obrázkù."
+
+#. Make phid-filenames;
+#: ../add_gallery.php:112
+msgid "Creating correspondence photo filenames <-> photo identificator (phid)"
+msgstr "Vytváøím závislosti mezi jmény souborù a 'photo identificator (phid)'"
+
+#: ../add_gallery.php:114
+msgid "Creating phid correspondence."
+msgstr "Vytváøím phid závislosti."
+
+#. Create Info File
+#: ../add_gallery.php:117 ../modify_gallery.php:143
+msgid "Creating gallery information file with:"
+msgstr "Vytváøím informaèní soubor galerie s:"
+
+#: ../add_gallery.php:133
+msgid "Error creating gallery information file."
+msgstr "Chyba pøi vytváøení informaèního souboru galerie."
+
+#. Make thumbnails
+#: ../add_gallery.php:137
+msgid "Creating thumbnails"
+msgstr "Vytváøím náhledy"
+
+#: ../add_gallery.php:139
+msgid "Could not create all thumbnails."
+msgstr "Nejdou vytvoøit v¹echny náhledy."
+
+#. Now add gallery to $GID_DIRS file.
+#: ../add_gallery.php:142
+msgid "Adding this gallery to gallery index"
+msgstr "Pøidávám tuto galerii do indexu galerií"
+
+#: ../add_gallery.php:144
+msgid "Adding gallery to file: "
+msgstr "Pøidávám galerii do souboru: "
+
+#: ../add_gallery.php:145
+msgid "Gallery <b>successfully</b> created"
+msgstr "Galerie <b>úspì¹nì</b> vytvoøena"
+
+#. Links to most possible destinations
+#: ../add_gallery.php:148
+msgid "Gallery Index"
+msgstr "Index galerie"
+
+#: ../add_gallery.php:149
+msgid "Back to admin page"
+msgstr "Zpìt na admin page"
+
+#: ../admin_func.php:25
+msgid "GD library not loaded. Will try to load it."
+msgstr "GD library nenaètena. Zkus naèíst."
+
+#: ../admin_func.php:28
+msgid "Function dynamic extension load not available."
+msgstr "Funkce dynamické naèítání pøípon není pøítomna."
+
+#: ../admin_func.php:33
+msgid "php_gd(2).dll sucessfully loaded."
+msgstr "php_gd(2).dll úspì¹nì naètena"
+
+#: ../admin_func.php:37
+msgid "GD Library NOT AVAILABLE"
+msgstr "GD knihovna NENÍ DOSTUPNÁ"
+
+#: ../admin_func.php:40
+msgid "gd.so sucessfully loaded."
+msgstr "gd.so úspì¹nì naèten."
+
+#: ../admin_func.php:46
+msgid "Function getimagesize does not exist"
+msgstr "Funkce getimagesize neexistuje"
+
+#: ../admin_func.php:51
+msgid "Function imagecreate(truecolor) does not exist"
+msgstr "Funkce imagecreatetruecolor neexistuje"
+
+#: ../admin_func.php:55
+msgid "Function imacreatefromjpeg does not exist"
+msgstr "Funkce imacreatefromjpeg neexistuje"
+
+#: ../admin_func.php:58
+msgid "GD library is loaded."
+msgstr "GD knihovna naètena."
+
+#. Admin login form internationalization.
+#: ../admin_func.php:76
+msgid "Please login as admin"
+msgstr "Prosím pøihlas se jako admin"
+
+#: ../admin_func.php:77
+msgid "User"
+msgstr "U¾ivatel"
+
+#: ../admin_func.php:78 ../admin_func.php:136
+msgid "Password"
+msgstr "Heslo"
+
+#: ../admin_func.php:79
+msgid "Submit"
+msgstr "Odeslat"
+
+#. I18n
+#: ../admin_func.php:93
+msgid "Administration tasks"
+msgstr "Funkce admina"
+
+#: ../admin_func.php:94
+msgid "Upload files"
+msgstr "Nahrát soubory"
+
+#: ../admin_func.php:95
+msgid "Add gallery"
+msgstr "Pøidat galerii"
+
+#: ../admin_func.php:96
+msgid "Modify gallery"
+msgstr "Upravit galerii"
+
+#: ../admin_func.php:97 ../admin_func.php:501 ../delete_gallery.php:24
+msgid "Delete gallery"
+msgstr "Smazat galerii"
+
+#: ../admin_func.php:98
+msgid "Change main config"
+msgstr "Zmìnit hlavní konfiguraci"
+
+#: ../admin_func.php:99
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: ../admin_func.php:131
+msgid "Gallery title"
+msgstr "Název galerie"
+
+#: ../admin_func.php:133 ../admin_func.php:510 ../functions.php:559 ../view_func.php:118
+msgid "Date"
+msgstr "Název galerie"
+
+#: ../admin_func.php:134
+msgid "Free Format. Leave it blank to set today's date."
+msgstr "Volný formát. Nech prázdné pro dne¹ní datum."
+
+#: ../admin_func.php:135
+msgid "Location"
+msgstr "Umístìní"
+
+#: ../admin_func.php:137
+msgid "set this field if you want private access to this gallery"
+msgstr "nastav toto pole, pokud chce¹ soukromý pøístup k této galerii"
+
+#: ../admin_func.php:138 ../admin_func.php:511 ../functions.php:560 ../view_func.php:35
+msgid "Description"
+msgstr "Popis"
+
+#: ../admin_func.php:139
+msgid "Hide comments"
+msgstr "Skrýt komentáøe"
+
+#: ../admin_func.php:140 ../view_func.php:95
+msgid "Send"
+msgstr "Poslat"
+
+#: ../admin_func.php:180
+msgid "  is a very big image, it might cause memory problems."
+msgstr " je velmi velký soubor, co¾ mù¾e zpùsobovat pamì»ové problémy."
+
+#: ../admin_func.php:200
+msgid "PNG files not supported in this version"
+msgstr "PNG soubory nejsou v této verzi podporovány"
+
+#: ../admin_func.php:402 ../admin_func.php:409
+msgid "Opening gid counter file: "
+msgstr "Otevírám gid poèítadlo: "
+
+#: ../admin_func.php:498
+msgid "Modify gallery info"
+msgstr "Zmìnit informace o galerii"
+
+#: ../admin_func.php:499
+msgid "Select thumbnail"
+msgstr "Vybrat náhled"
+
+#: ../admin_func.php:500
+msgid "Modify image list"
+msgstr "Zmìnit seznam obrázkù"
+
+#: ../admin_func.php:503 ../functions.php:552
+msgid "Number of images"
+msgstr "Poèet obrázkù"
+
+#: ../admin_func.php:506 ../functions.php:555
+msgid "View this gallery"
+msgstr "Zobrazit tuto galerii"
+
+#: ../admin_func.php:507 ../functions.php:556
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../admin_func.php:508 ../functions.php:557 ../modify_phid.php:110 ../view_func.php:34
+msgid "Visits"
+msgstr "Náv¹tìvy"
+
+#: ../admin_func.php:509 ../functions.php:558 ../functions.php:621 ../modify_phid.php:109
+msgid "Comments"
+msgstr "Komentáøe"
+
+#: ../admin_func.php:530
+msgid "Select deletion options:"
+msgstr "Vyber mo¾nosti mazání:"
+
+#: ../admin_func.php:531
+msgid "Do not list gallery in gallery index any more."
+msgstr "Nezobrazuj galerii v indexu galerií."
+
+#: ../admin_func.php:532
+msgid "Clear all image comments."
+msgstr "Smazat v¹echny komentáøe obrázkù."
+
+#: ../admin_func.php:533
+msgid "Clear all image visit counters."
+msgstr "Smazat poèítadlo náv¹tìv obrázkù."
+
+#: ../admin_func.php:534
+msgid "Clear gallery visit counters."
+msgstr "Smazat poèítadlo náv¹tìv galerie."
+
+#: ../admin_func.php:535
+msgid "Delete gallery thumbnails."
+msgstr "Smazat náhledy galerie."
+
+#: ../admin_func.php:536
+msgid "Delete all files in directory."
+msgstr "Smazat poèítadlo náv¹tìv galerie."
+
+#: ../admin_func.php:537
+msgid "send"
+msgstr "poslat"
+
+#: ../admin.php:37 ../admin.php:77 ../admin.php:88
+msgid "<strong>YaPiG</strong> Admin"
+msgstr "<strong>YaPiG</strong> Admin"
+
+#: ../admin.php:103
+msgid "Not available."
+msgstr "Nepøístupné"
+
+#. _include('admin_add_steps.php');
+#: ../admin.php:109
+msgid "Add a new gallery"
+msgstr "Pøidat novou galerii"
+
+#: ../delete_gallery.php:33 ../modify_gallery.php:102 ../modify_phid.php:206
+msgid "Gallery does not exist or gid argument not set"
+msgstr "Galerie neexistuje nebo není nastaven gid"
+
+#: ../delete_gallery.php:49
+msgid "Gallery stats do not exist or could not be deleted"
+msgstr "Statistiky galerie neexistují nebo nemohou být smazány"
+
+#: ../delete_gallery.php:51
+msgid "Gallery stats deleted."
+msgstr "Statistiky galerie smazány."
+
+#: ../delete_gallery.php:56
+msgid "Image stats of this gallery do not exist or could not be deleted."
+msgstr "Statistiky obrázkù této galerie neexistují nebo nemohou být smazány"
+
+#: ../delete_gallery.php:58
+msgid "Image stats of this gallery deleted."
+msgstr "Statistiky obrázkù této galerii smazány."
+
+#: ../delete_gallery.php:64
+msgid "Comments counter of this gallery does not exist or could not be deleted"
+msgstr "Poèítadlo galerie neexistuje nebo nemù¾e být smazáno"
+
+#: ../delete_gallery.php:66
+msgid "Comments counter of this gallery deleted"
+msgstr "Poèítadlo komentáøù této galerie smazáno"
+
+#: ../delete_gallery.php:69
+msgid "Could not be loaded this file: "
+msgstr "Nelze naèíst tento soubor: "
+
+#: ../delete_gallery.php:76 ../delete_gallery.php:105 ../delete_gallery.php:120
+msgid "Could not delete: "
+msgstr "Nelze smazat: "
+
+#: ../delete_gallery.php:77
+msgid "Deleted: "
+msgstr "Smazáno: "
+
+#: ../delete_gallery.php:87
+msgid "Could not get image list from file: "
+msgstr "Nelze naèíst seznam souborù ze souboru: "
+
+#: ../delete_gallery.php:92
+msgid "Could not delete thumbnail image: "
+msgstr "Nelze smazat náhled obrázku: "
+
+#: ../delete_gallery.php:93
+msgid "Deleted thumbnail: "
+msgstr "Smazán náhled: "
+
+#: ../delete_gallery.php:101
+msgid "Gallery could not be removed from index"
+msgstr "Nelze odebrat galerii z indexu"
+
+#: ../delete_gallery.php:103
+msgid "Gallery will not be shown anymore in the index of galeries"
+msgstr "Galerie nebude zobrazována v indexu galerii"
+
+#: ../delete_gallery.php:112
+msgid " is not a valid directory"
+msgstr " není platný adresáø"
+
+#: ../delete_gallery.php:115
+msgid " could not be opened"
+msgstr " nemohl být otevøen"
+
+#: ../delete_gallery.php:122
+msgid "Deleted file: "
+msgstr "Smazán soubor: "
+
+#. end while
+#. end if d_all
+#: ../delete_gallery.php:127
+msgid "Gallery successfully deleted."
+msgstr "Galerie úspì¹nì smazána."
+
+#. Show some useful links
+#: ../delete_gallery.php:130
+msgid "Admin index"
+msgstr "Admin index"
+
+#: ../delete_gallery.php:131
+msgid "Delete more galleries"
+msgstr "Smazat více galerií"
+
+#: ../functions.php:113
+msgid "Error"
+msgstr "Chyba"
+
+#: ../functions.php:131
+msgid "Warning"
+msgstr "Varování"
+
+#: ../functions.php:175
+msgid "main menu"
+msgstr "hlavní menu"
+
+#: ../functions.php:176
+msgid "Gallery index"
+msgstr "Index galerie"
+
+#: ../functions.php:177
+msgid "Home page"
+msgstr "Domovská stránka"
+
+#: ../functions.php:179
+msgid "Admin"
+msgstr "Admin"
+
+#. Logout links
+#: ../functions.php:182
+msgid "Admin logout"
+msgstr "Odhlá¹ení admina"
+
+#: ../functions.php:183
+msgid "Gallery logout"
+msgstr "Odhlá¹ení z galerie"
+
+#: ../functions.php:532
+msgid "Gallery does not exist: "
+msgstr "Odhlá¹ení z galerie"
+
+#: ../functions.php:570
+msgid "This Gallery requires password. Please fill the password field and press the validate button. Thank you."
+msgstr "Tato galerie vy¾aduje heslo. Vyplò, prosím, pole heslo a stiskni tlaèítko pro ovìøení. Díky."
+
+#: ../functions.php:572
+msgid "Validate"
+msgstr "Ovìø"
+
+#: ../functions.php:573
+msgid "Gallery password"
+msgstr "Heslo galerie"
+
+#. I18n -
+#: ../functions.php:618
+msgid "View image bigger"
+msgstr "Zobraz obrázek vìt¹í"
+
+#: ../functions.php:619
+msgid "Image"
+msgstr "Obrázek"
+
+#: ../functions.php:620
+msgid "Hits"
+msgstr "Kliknutí"
+
+#: ../gallery.php:39 ../install.php:114
+msgid "Congratulations YAPIG is working!"
+msgstr "Gratulace YAPIG pracuje!"
+
+#. welcome message
+#: ../gallery.php:42 ../install.php:117
+msgid ""
+"\n"
+"   <p>Welcome to <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>There are <strong>NO</strong> galleries.<p>\n"
+"   <p>If this is the first time you run YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edit the <i>config.php</i> file.</li>\n"
+"   <li><a href=\"admin.php\">Login as admin</a> and add a new gallery.</li>\n"
+"   </ol>\n"
+"    "
+msgstr ""
+"\n"
+"   <p>Vítej v <a href=\"http://yapig.sf.net\">YaPig.</a></p>\n"
+"   <p>Neexistuje <strong>¾ádná</strong> galerie.<p>\n"
+"   <p>Pokud poprvé spou¹tí¹ YaPiG:</p>\n"
+"   <ol>\n"
+"   <li>Edituj <i>config.php</i> soubor.</li>\n"
+"   <li><a href=\"admin.php\">Pøihlas se jako admin</a> a pøidej novou galerii.</li>\n"
+"   </ol>\n"
+"    "
+
+#: ../gallery.php:62
+msgid "There are no galleries. Login as admin to create new galleries"
+msgstr "Nejsou ¾ádné galerie. Pøihlas se jako admin a vytvoø nové galerie"
+
+#: ../install.php:30
+msgid "YaPiG Installation"
+msgstr "YaPiG instalace"
+
+#: ../install.php:42
+msgid "Could not be loaded GD library witch is required by YapiG or your GD version is too old. Please read doc/install.html documentation for more information."
+msgstr "Nelze naèíst GD knohovnu, která je nutná pro YapiG nebo je jeho verze pøíli¹ stará. Prosím pøeèti doc/install.html dokumentaci pro více informací."
+
+#: ../install.php:45
+msgid "Nice! Your server has GD library. You can run YaPiG!"
+msgstr "Skvìlé! Tvùj server má GD verze 2 nebo vy¹¹í. Mù¾e¹ spustit YaPiG!"
+
+#: ../install.php:53
+msgid "Could not create SECURE_DIR. Change your BASE_DIR (view config.php) permissions to 777."
+msgstr "Nelze vytvoøit SECURE_DIR. Zmìn práva svého BASE_DIR (více config.php) na 777."
+
+#: ../install.php:57
+msgid "Could not create index.html in SECURE_DIR"
+msgstr "Nelze vytvoøit index.html in SECURE_DIR"
+
+#: ../install.php:59
+msgid "Could not create index.html in BASE_DIR"
+msgstr "Nelze vytvoøit index.html in BASE_DIR"
+
+#: ../install.php:63
+msgid "Change YaPiG's root directory permissions to allow creating new files."
+msgstr "Zmìò práva koøenového adresáøe YaPiG-u, aby mohl vytváøet nové soubory."
+
+#: ../install.php:64
+msgid "Installation aborted. Could not create config file."
+msgstr "Instalace stornována. Nelze vytvoøit konfiguraèní soubor."
+
+#: ../install.php:111
+msgid "YaPiG successfully installed."
+msgstr "YaPiG úspì¹né nainstalován."
+
+#: ../modify_gallery.php:24
+msgid "Update gallery Image list"
+msgstr "Úprava seznamu obrázkù galerie"
+
+#: ../modify_gallery.php:25
+msgid "Overwrite existing thumbnails"
+msgstr "Pøepsat existující náhledy"
+
+#: ../modify_gallery.php:26
+msgid "Only create new thumbnails"
+msgstr "Pouze vytvoøit nové náhledy"
+
+#: ../modify_gallery.php:27
+msgid "view/edit"
+msgstr "zobrazit/editovat"
+
+#: ../modify_gallery.php:30
+msgid "Could not get image list. Gallery might have not images"
+msgstr "Nelze pøeèíst seznam souborù. Gallerie mo¾ná nemá ¾ádné obrázky"
+
+#: ../modify_gallery.php:34
+msgid "Current images at gallery are:"
+msgstr "Souèasné obrázky v galerii jsou:"
+
+#: ../modify_gallery.php:40
+msgid "<span class=\"red\">Image caption not set</span>"
+msgstr "<span class=\"red\">Nadpis obrázku nenastaven</span>"
+
+#: ../modify_gallery.php:55
+msgid "Could not read gallery directory filenames"
+msgstr "Nelze èíst jméno adresáøe galerie"
+
+#: ../modify_gallery.php:57
+msgid "<p>Images that are in directory but not in gallery:</p><ul>"
+msgstr "<p>Obrázky které jsou v adresáøi ale nejsou v galerii:</p><ul>"
+
+#: ../modify_gallery.php:108 ../modify_phid.php:212
+msgid "Modify gallery: "
+msgstr "Zmìnit galerii"
+
+#. If we want to view a gallery - Gallery Info Modify.
+#: ../modify_gallery.php:118
+msgid "Modify gallery information:"
+msgstr "Zmìnit informace o galerii"
+
+#: ../modify_gallery.php:134
+msgid "Directory location with images required!"
+msgstr "Adresáø s obrázky je nutný!"
+
+#: ../modify_gallery.php:160
+msgid "Creating gallery information file."
+msgstr "Vytváøím informaèní soubor galerie."
+
+#: ../modify_gallery.php:161
+msgid "Gallery info successfully updated."
+msgstr "Informaèní soubor galerie úspì¹nì aktualizován."
+
+#: ../modify_gallery.php:174
+msgid "Could not update thumbnail"
+msgstr "Nelze upravit náhledy"
+
+#: ../modify_gallery.php:175
+msgid "Thumbnail updated. (Do not worry if the upper thumb is the old one)"
+msgstr "Náhled upraven. (Nemìj strach, pokud náhled nahoøe je ten starý)"
+
+#. List all phids.
+#: ../modify_gallery.php:180
+msgid "Select thumbnail: "
+msgstr "Vyber náhled: "
+
+#: ../modify_gallery.php:182
+msgid "Could not get all image list."
+msgstr "Nelze naèíst celý seznam obrázkù."
+
+#. Construct Form.
+#: ../modify_gallery.php:185
+msgid "Update gallery thumbnail"
+msgstr "Upravit náhled galerie"
+
+#: ../modify_gallery.php:186
+msgid "default password protected galleries thumbnail"
+msgstr "defaultní obrázek galerií chránìných heslem"
+
+#: ../modify_gallery.php:187
+msgid "view info"
+msgstr "zobrazit informace"
+
+#: ../modify_gallery.php:224
+msgid "Creating thumbs for images that do not have it."
+msgstr "Vytváøím náhledy pro obrázky, které je nemají."
+
+#: ../modify_gallery.php:229
+msgid "Creating all thumbs"
+msgstr "Vytváøím v¹echny náhledy"
+
+#: ../modify_gallery.php:234
+msgid "Could not update gallery image list"
+msgstr "Nelze aktualizovat seznam obrázkù galerie"
+
+#: ../modify_gallery.php:235
+msgid "Image list successfully updated"
+msgstr "Seznam obrázkù galerie úspì¹nì aktualizován"
+
+#: ../modify_gallery.php:238
+msgid "Number of images not updated"
+msgstr "Poèet obrázkù nezmìnìn."
+
+#: ../modify_gallery.php:240
+msgid "Number of images updated"
+msgstr "Poèet obrázkù zmìnìn."
+
+#. Default action is view galleries.
+#: ../modify_gallery.php:248
+msgid "<p>Please, select a gallery:</p>"
+msgstr "<p>Prosím, vyber galerii:</p>"
+
+#: ../modify_gallery.php:251
+msgid "There are no galleries."
+msgstr "Nejsou ¾ádné galerie."
+
+#: ../modify_gallery.php:262
+msgid "View this Gallery"
+msgstr "Zobrazit tuto galerii"
+
+#: ../modify_gallery.php:263
+msgid "Modify Gallery Index"
+msgstr "Upravit index galerie"
+
+#: ../modify_phid.php:47 ../modify_phid.php:51 ../modify_phid.php:265
+msgid "Image has no comments"
+msgstr "Obrázek nemá komentáøe"
+
+#: ../modify_phid.php:54
+msgid "Modify"
+msgstr "Upravit"
+
+#: ../modify_phid.php:55
+msgid "Delete"
+msgstr "Smazat"
+
+#: ../modify_phid.php:56
+msgid "Image Comments"
+msgstr "Komentáøe obrázku"
+
+#: ../modify_phid.php:86
+msgid "Image identificator (phid) not found."
+msgstr "Identifikátor obrázku (phid) nenalezen."
+
+#. I18n
+#: ../modify_phid.php:108
+msgid "Image name"
+msgstr "Jméno obrázku"
+
+#: ../modify_phid.php:111
+msgid "Remove from gallery"
+msgstr "Odebrat z galerie"
+
+#: ../modify_phid.php:112
+msgid "Clear"
+msgstr "Vyèistit"
+
+#: ../modify_phid.php:113
+msgid "Delete All"
+msgstr "Smazat v¹e"
+
+#: ../modify_phid.php:114
+msgid "Image id"
+msgstr "id obrázku"
+
+#: ../modify_phid.php:115
+msgid "Modify Image"
+msgstr "Upravit obrázek"
+
+#: ../modify_phid.php:116
+msgid "Set as gallery thumbnail"
+msgstr "Natavit jako náhled galerie"
+
+#: ../modify_phid.php:117
+msgid "Image caption"
+msgstr "Nadpis obrázku"
+
+#: ../modify_phid.php:118
+msgid "Change caption"
+msgstr "Zmìnit nadpis"
+
+#: ../modify_phid.php:134
+msgid "Could not remove image from gallery image list"
+msgstr "Nelze odstranit obrázek z seznamu obrázkù galerie"
+
+#: ../modify_phid.php:135
+msgid "Image will not be shown in list."
+msgstr "Obrázek nebude zobrazován v seznamu"
+
+#: ../modify_phid.php:158
+msgid "Could not delete image comments file: "
+msgstr "Nelze smazat soubor komentáøù k obrázku: "
+
+#: ../modify_phid.php:159
+msgid "Image comments deleted"
+msgstr "Komentáøe obrázku smazány"
+
+#: ../modify_phid.php:167
+msgid "Could not delete image comments counter: "
+msgstr "Nelze smazat poèítadlo komentáøù obrázku: "
+
+#: ../modify_phid.php:168
+msgid "Image comments counter deleted"
+msgstr "Poèítadlo komentáøù k obrázku smazáno"
+
+#: ../modify_phid.php:176
+msgid "Image visits counter not found or could not be removed."
+msgstr "Poèítadlo náv¹tìv obrázku nenalezeno nebo nelze smazat."
+
+#: ../modify_phid.php:177
+msgid "Image visits counter deleted"
+msgstr "Poèítadlo náv¹tìv obrázku smazáno"
+
+#: ../modify_phid.php:250
+msgid "Set new caption to: "
+msgstr "Nastavit nový nadpis pro: "
+
+#: ../modify_phid.php:252
+msgid "Could not update caption."
+msgstr "Nelze upravit nadpis."
+
+#: ../modify_phid.php:261
+msgid "Comment not selected"
+msgstr "Komentáø nevybrán"
+
+#: ../modify_phid.php:267
+msgid "Coul not open comments file"
+msgstr "Nelze otevøít soubor komentáøe"
+
+#: ../modify_phid.php:275
+msgid "Comment successfully deleted"
+msgstr "Komentáø úspì¹nì smazán"
+
+#: ../modify_phid.php:288
+msgid "Could not read comments file"
+msgstr "Nelze èíst soubor komentáøe"
+
+#: ../modify_phid.php:292
+msgid "Opening comments file."
+msgstr "Otevírám soubor komentáøe"
+
+#: ../modify_phid.php:301
+msgid "Comment successfully updated"
+msgstr "Komentáø úspì¹nì aktualizován"
+
+#: ../upload.php:48 ../upload.php:121
+msgid "Upload Files"
+msgstr "Nahrát soubory"
+
+#: ../upload.php:69
+msgid "Created directory: "
+msgstr "Adresáø vytvoøen"
+
+#: ../upload.php:71
+msgid "Could not create directory: "
+msgstr "Nelze vytvoøit adresáø"
+
+#: ../upload.php:76
+msgid "Successfully removed directory: "
+msgstr "Adresáø úspì¹nì odstranìn"
+
+#: ../upload.php:78
+msgid "Could not remove directory (not empty or failed permissions)"
+msgstr "Nelze odstranit adresáø (není prázdný nebo ¹patná práva)"
+
+#: ../upload.php:88
+msgid "Files will be uploaded in this directory: "
+msgstr "Soubory budou nahrány do tohoto adresáøe: "
+
+#: ../upload.php:90
+msgid "Create directory"
+msgstr "Vytvoø adresáø"
+
+#. i18n
+#: ../upload.php:119
+msgid "Select <b>ONE</b> directory"
+msgstr "Vyber <b>JEDEN</b> adresáø"
+
+#: ../upload.php:120
+msgid "Files to upload"
+msgstr "Soubory pro nahrání"
+
+#: ../upload.php:156
+msgid "Successfully uploaded file: "
+msgstr "Úspì¹nì nahraný soubor: "
+
+#: ../upload.php:159
+msgid "Could not copy to file: "
+msgstr "Nelze kopírovat do souboru: "
+
+#: ../view_func.php:31
+msgid "Filename"
+msgstr "Jméno souboru"
+
+#: ../view_func.php:32
+msgid "File size"
+msgstr "Velikost souboru"
+
+#: ../view_func.php:33
+msgid "Image size"
+msgstr "Velikost obrázku"
+
+#: ../view_func.php:88
+msgid "Add your comment!"
+msgstr "Pøidej svùj komentáø!"
+
+#: ../view_func.php:89
+msgid "Comment title"
+msgstr "Nadpis komentáøe"
+
+#: ../view_func.php:91
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../view_func.php:94
+msgid "Fields with * are required"
+msgstr "Pole oznaèená * jsou povinná"
+
+#: ../view_func.php:129
+msgid "Image comments"
+msgstr "Komentáø obrázku"
+
+#: ../view_func.php:131
+msgid "There are no messages! Give us your opinion!"
+msgstr "®ádné zprávy. Vyjádøi svùj názor!"
+
+#: ../view_func.php:136
+msgid "Opening comments file"
+msgstr "Otevírám soubor komentáøe"
+
+#: ../view_func.php:162
+msgid "Previous Gallery"
+msgstr "Pøedchozí galerie"
+
+#: ../view_func.php:163
+msgid "Next Gallery"
+msgstr "Následující galerie"
+
+#: ../view_func.php:164
+msgid "Index of Galleries"
+msgstr "Index galerií"
+
+#: ../view_func.php:167 ../view_func.php:202
+msgid "could not show gallery navigation bar"
+msgstr "nelze zobrazit navigaèní li¹tu galerie"
+
+#: ../view_func.php:196
+msgid "Previous Image"
+msgstr "Pøedcházející obrázek"
+
+#: ../view_func.php:197
+msgid "Next Image"
+msgstr "Následující obrázek"
+
+#: ../view_func.php:198
+msgid "Up"
+msgstr "Nahoru"
+
+#: ../view_func.php:231
+msgid "Previous page"
+msgstr "Pøedchozí stránka"
+
+#: ../view_func.php:232
+msgid "Next page"
+msgstr "Následující stránka"
+
+#: ../view_func.php:259
+msgid "Zoom in"
+msgstr "Zvìt¹it"
+
+#: ../view_func.php:260
+msgid "Zoom Out"
+msgstr "Zmen¹it"
+
+#: ../view_func.php:261
+msgid "Real size"
+msgstr "Pùvodní velikost"
+
+#. 0 -> View gallery identified with "gid"
+#: ../view.php:38
+msgid "GID not set"
+msgstr "GID nenastaven"
+
+#: ../view.php:46
+msgid "Getting gallery directory"
+msgstr "Získávám adresáø galerie"
+
+#: ../view.php:61
+msgid "Password incorrect."
+msgstr "©patné heslo"
+
+#: ../view.php:82
+msgid "Gallery data not found. Please create again this gallery"
+msgstr "Data galerie nenalezena. Vytvoø prosím tuto galerii znovu"

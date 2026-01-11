@@ -1,0 +1,1 @@
+plugin|RecentComments|enabled|1|count|5|dateFormat|%x
