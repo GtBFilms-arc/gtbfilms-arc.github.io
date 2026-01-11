@@ -1,0 +1,2 @@
+font impact 36
+increase to 16 million colour to get antialiasing then back to GIF
