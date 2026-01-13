@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "55945da844560fae61ba74cb4fab4fa9"
+        "md5": "7801f943eef7a2c53caa3e7bcce8d109"
     },
     {
         "path": "assets",
@@ -27,7 +27,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "b09e72b2ca1a38c969d44da51bb22509"
+        "md5": "5fb0d68ad285b6de2409ca4cc4d2cf5b"
     },
     {
         "path": "assets/dynamic",
@@ -82,22 +82,22 @@
     {
         "path": "/authors/gtb/index.html",
         "type": "file",
-        "md5": "d8cc96a8e47e0179ec84f03c1fdd959f"
+        "md5": "c61ed8948da4866456c1506c2621b91a"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "9288179c41942280d1c8fa02bd5a1e12"
+        "md5": "1142e4063c46b1ff0e8e8e520e5b473e"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "1cbbdbc579b4e0f2a78636818e0f947d"
+        "md5": "c2bc42196a6ef785c581849154da39be"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "abe2edc6bfa55fd90a4f82cacfa71873"
+        "md5": "bafa16024185a81bdda97ab9a0d56d47"
     },
     {
         "path": "media",
@@ -175,6 +175,16 @@
         "md5": "7747e613e5432064e7337e28245d5426"
     },
     {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/globe-2.gif",
+        "type": "file",
+        "md5": "729b0fec44c671575a255a14813cf142"
+    },
+    {
         "path": "robots.txt",
         "type": "file",
         "md5": "aab471239573007f7854f04b87e697f5"
@@ -182,7 +192,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "9b4505fd0346420f89f0101e77f9d580"
+        "md5": "ee771e955348dd4155e0ce90f8871fac"
     },
     {
         "path": "sitemap.xsl",
@@ -197,16 +207,21 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "dc0fd1048e16b91f9d968ffebf96673b"
+        "md5": "a57e9ba35ce16553c027820d9dba0218"
+    },
+    {
+        "path": "the-duel-2.html",
+        "type": "file",
+        "md5": "ac93a43a1349ca36c946e999c68f0be2"
     },
     {
         "path": "the-duel.html",
         "type": "file",
-        "md5": "09db45a3b3a0613ea2f5cce8e5b026ac"
+        "md5": "859a5f9b00f2e2b9a5bfdff4be99201b"
     },
     {
         "path": "wwwgtbfilmscouk-2.html",
         "type": "file",
-        "md5": "49a1efc26dd31e832ed5839849963d92"
+        "md5": "dcb9800149d2bb87415f2d8128a22372"
     }
 ]

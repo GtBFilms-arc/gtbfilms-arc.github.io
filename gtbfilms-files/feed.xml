@@ -3,10 +3,75 @@
     <title>GtBFilms</title>
     <link href="https://www.GtBFilms.co.uk/feed.xml" rel="self" />
     <link href="https://www.GtBFilms.co.uk" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2026-01-13T00:36:37+00:00</updated>
     <author>
         <name>GtB</name>
     </author>
     <id>https://www.GtBFilms.co.uk</id>
 
+    <entry>
+        <title>The Duel</title>
+        <author>
+            <name>GtB</name>
+        </author>
+        <link href="https://www.GtBFilms.co.uk/the-duel-2.html"/>
+        <id>https://www.GtBFilms.co.uk/the-duel-2.html</id>
+
+        <updated>2026-01-13T00:36:22+00:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    This film was animated using Stop Motion Pro 4, and a Sony Digital 8 camcorder. The characters were made from Plasticene, and scale props were obtained from Ebay. Cast: Production: Interesting Facts: Originally conceived many years ago, the original intention was to animate this piece&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image post__image--center"><a href="https://youtu.be/Yu0uIv4kczY"  target="_blank" rel="noopener noreferrer"><img loading="lazy" class="post__image post__image--center" src="file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/thumb_The_Duel-2.png" alt="" width="673" height="400" sizes="(max-width: 1920px) 100vw, 1920px" srcset="file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-xs.png 640w ,file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-sm.png 768w ,file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-md.png 1024w ,file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-lg.png 1366w ,file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-xl.png 1600w ,file:///C:/Users/admin/Documents/Publii/sites/gtbfilms/input/media/posts/3/responsive/thumb_The_Duel-2-2xl.png 1920w"></figure></a></p>
+<table style="height: 5px; width: 84.0456%;" border="0" width="660" align="center">
+<tbody>
+<tr>
+<td style="width: 47.876%;"><em>"What a brilliant little film!"</em><br clear="all">Judging Panel, Edinburgh Cine and Video Society</td>
+<td style="width: 5.39001%;"> </td>
+<td style="width: 46.6772%;" colspan="2" align="left">Duration: 4 mins 00 secs<br clear="all">Filming: January and February 2011 in 4:3 format</td>
+</tr>
+</tbody>
+</table>
+<div class="vspace align-center"> </div>
+<table style="width: 100%;" border="0" width="80%" align="center">
+<tbody>
+<tr>
+<td style="width: 100%;" align="left">The Duel is a short story of musical rivalry between classical musician <a class="wikilink" href="http://localhost/pmwiki/pmwiki.php?n=Characters.ClaymanRufus">Rufus Clayman</a>, and his sometimes friend <a class="wikilink" href="http://localhost/pmwiki/pmwiki.php?n=Characters.PlatztiseenClyde">Clyde Platztiseen</a>.<br clear="all"><br clear="all">At first the characters are in competition with each other, but they both soon realise that they can have much more fun co-operating with each other rather than competing.</td>
+</tr>
+</tbody>
+</table>
+<p class="align-center">This film was animated using Stop Motion Pro 4, and a Sony Digital 8 camcorder. The characters were made from Plasticene, and scale props were obtained from Ebay.</p>
+<p class="vspace"><strong>Cast:</strong></p>
+<table border="1" width="60%" align="left">
+<tbody>
+<tr>
+<td align="center"><strong>Character</strong></td>
+<td align="center"><strong>Actor</strong></td>
+</tr>
+<tr>
+<td align="left">Clyde Platztiseen</td>
+<td align="left"><a class="wikilink" href="http://localhost/pmwiki/pmwiki.php?n=Characters.PlatztiseenClyde">Himself</a></td>
+</tr>
+<tr>
+<td>Rufus Clayman</td>
+<td colspan="2" align="left"><a class="wikilink" href="http://localhost/pmwiki/pmwiki.php?n=Characters.ClaymanRufus">Himself</a></td>
+</tr>
+</tbody>
+</table>
+<p class="vspace"><br clear="all"><br clear="all"><strong>Production:</strong></p>
+<table border="1" width="60%" align="left">
+<tbody>
+<tr>
+<td align="left">Animator</td>
+<td colspan="2" align="left"><a class="wikilink" href="http://localhost/pmwiki/pmwiki.php?n=Actors.BrownAlan">Alan Brown</a></td>
+</tr>
+</tbody>
+</table>
+<p class="vspace"><br clear="all"><br clear="all"><strong>Interesting Facts:</strong><br clear="all">Originally conceived many years ago, the original intention was to animate this piece of music using computer generated characters, probably animated ants. One would play a classical string instrument, and the other a modern electronic keyboard.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
