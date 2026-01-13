@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "GtBFilms",
+    "description": "",
+    "home_page_url": "https://www.GtBFilms.co.uk",
+    "feed_url": "https://www.GtBFilms.co.uk/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "GtB"
+    },
+    "items": [
+    ]
+}

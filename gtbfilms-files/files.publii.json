@@ -1,0 +1,212 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "55945da844560fae61ba74cb4fab4fa9"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "56cf2129ad0bc0b59df51905ec6e2d75"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "b09e72b2ca1a38c969d44da51bb22509"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "700105c316933a8202041b6415abb233"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/gtb",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/gtb/index.html",
+        "type": "file",
+        "md5": "d8cc96a8e47e0179ec84f03c1fdd959f"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "9288179c41942280d1c8fa02bd5a1e12"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "1cbbdbc579b4e0f2a78636818e0f947d"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "abe2edc6bfa55fd90a4f82cacfa71873"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/files",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/files/The_Duel_large.wmv",
+        "type": "file",
+        "md5": "1d74944c317faec7f17d30952c6ae323"
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/2/globe.gif",
+        "type": "file",
+        "md5": "729b0fec44c671575a255a14813cf142"
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-2xl.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-lg.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-md.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-sm.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-xl.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/responsive/thumb_The_Duel-2-xs.png",
+        "type": "file",
+        "md5": "816c0431aa1857f918f4a3273adcb75e"
+    },
+    {
+        "path": "/media/posts/3/thumb_The_Duel-2.png",
+        "type": "file",
+        "md5": "7747e613e5432064e7337e28245d5426"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "aab471239573007f7854f04b87e697f5"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "9b4505fd0346420f89f0101e77f9d580"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "dc0fd1048e16b91f9d968ffebf96673b"
+    },
+    {
+        "path": "the-duel.html",
+        "type": "file",
+        "md5": "09db45a3b3a0613ea2f5cce8e5b026ac"
+    },
+    {
+        "path": "wwwgtbfilmscouk-2.html",
+        "type": "file",
+        "md5": "49a1efc26dd31e832ed5839849963d92"
+    }
+]
