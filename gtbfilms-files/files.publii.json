@@ -82,22 +82,22 @@
     {
         "path": "/authors/gtb/index.html",
         "type": "file",
-        "md5": "c61ed8948da4866456c1506c2621b91a"
+        "md5": "5c9c5b1d42659aef0033348ee550b5ba"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "1142e4063c46b1ff0e8e8e520e5b473e"
+        "md5": "ee74362978b58955246ce0e622a5387c"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "c2bc42196a6ef785c581849154da39be"
+        "md5": "f7cd686996625067c3e4544c3ed678aa"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "bafa16024185a81bdda97ab9a0d56d47"
+        "md5": "bc4d3a8a018e14d545c2f94ce1bc5570"
     },
     {
         "path": "media",
@@ -212,16 +212,16 @@
     {
         "path": "the-duel-2.html",
         "type": "file",
-        "md5": "ac93a43a1349ca36c946e999c68f0be2"
+        "md5": "b2551fdcceeb1a7a920cf8aaad7dc45f"
     },
     {
         "path": "the-duel.html",
         "type": "file",
-        "md5": "859a5f9b00f2e2b9a5bfdff4be99201b"
+        "md5": "1f9a68085417555eea18fe8e98e87eab"
     },
     {
         "path": "wwwgtbfilmscouk-2.html",
         "type": "file",
-        "md5": "dcb9800149d2bb87415f2d8128a22372"
+        "md5": "3694414e68ad9b077992c9ea1fc1fb62"
     }
 ]
